@@ -1,0 +1,424 @@
+{
+ "slug": "telecommunications-wireless",
+ "title": "Telecommunications & Wireless",
+ "description": "",
+ "css": "[data-page=\"telecommunications-wireless\"] .dv-section.dv-section-0{background-image:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(0,0,0,0.6) 100%),url(/uploads/2025-09-Telecommunications-Wireless-scaled.webp)!important}\n[data-page=\"telecommunications-wireless\"] .dv-section-0.dv-section{padding-top:170px;padding-bottom:170px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"telecommunications-wireless\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"telecommunications-wireless\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n@media only screen and (max-width:980px){[data-page=\"telecommunications-wireless\"] .dv-text-0 h1{font-size:64px}}\n@media only screen and (max-width:767px){[data-page=\"telecommunications-wireless\"] .dv-text-0 h1{font-size:50px}}\n[data-page=\"telecommunications-wireless\"] .dv-section.dv-section-1{background-size:initial;background-position:left -40px bottom -140px;background-image:url(/uploads/2025-07-it-services-5-nyt-24-png.webp)!important}\n[data-page=\"telecommunications-wireless\"] .dv-section-1.dv-section{padding-top:30px;padding-bottom:4px;margin-top:0px;margin-bottom:0px}\n[data-page=\"telecommunications-wireless\"] .dv-row-1.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:36px!important;margin-bottom:0px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"telecommunications-wireless\"] .dv-row-1{width:90%;max-width:1290px}\n[data-page=\"telecommunications-wireless\"] .dv-text-1.dv-text{color:#737373!important}\n[data-page=\"telecommunications-wireless\"] .dv-text-1{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important}\n[data-page=\"telecommunications-wireless\"] .dv-section-2.dv-section{padding-top:80px;padding-bottom:80px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"telecommunications-wireless\"] .dv-row-2.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-3.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-4.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-5.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-6.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-7.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-8.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"telecommunications-wireless\"] .dv-row-2,[data-page=\"telecommunications-wireless\"] .dv-row-3,[data-page=\"telecommunications-wireless\"] .dv-row-4,[data-page=\"telecommunications-wireless\"] .dv-row-5,[data-page=\"telecommunications-wireless\"] .dv-row-6,[data-page=\"telecommunications-wireless\"] .dv-row-7,[data-page=\"telecommunications-wireless\"] .dv-row-8{width:90%}\n[data-page=\"telecommunications-wireless\"] .dv-image-0 .dv-image-wrap,[data-page=\"telecommunications-wireless\"] .dv-image-1 .dv-image-wrap,[data-page=\"telecommunications-wireless\"] .dv-image-2 .dv-image-wrap,[data-page=\"telecommunications-wireless\"] .dv-image-3 .dv-image-wrap,[data-page=\"telecommunications-wireless\"] .dv-image-4 .dv-image-wrap,[data-page=\"telecommunications-wireless\"] .dv-image-5 .dv-image-wrap,[data-page=\"telecommunications-wireless\"] .dv-image-6 .dv-image-wrap,[data-page=\"telecommunications-wireless\"] .dv-image-7 .dv-image-wrap{border-radius:5px 5px 5px 5px;overflow:hidden}\n[data-page=\"telecommunications-wireless\"] .dv-image-0,[data-page=\"telecommunications-wireless\"] .dv-image-1,[data-page=\"telecommunications-wireless\"] .dv-image-2,[data-page=\"telecommunications-wireless\"] .dv-image-3,[data-page=\"telecommunications-wireless\"] .dv-image-4,[data-page=\"telecommunications-wireless\"] .dv-image-5,[data-page=\"telecommunications-wireless\"] .dv-image-6,[data-page=\"telecommunications-wireless\"] .dv-image-7{padding-top:0px;padding-bottom:0px;margin-top:0px!important;margin-bottom:30px!important;text-align:left;margin-left:0}\n[data-page=\"telecommunications-wireless\"] .dv-text-2 h3,[data-page=\"telecommunications-wireless\"] .dv-text-4 h3,[data-page=\"telecommunications-wireless\"] .dv-text-6 h3,[data-page=\"telecommunications-wireless\"] .dv-text-8 h3,[data-page=\"telecommunications-wireless\"] .dv-text-10 h3,[data-page=\"telecommunications-wireless\"] .dv-text-12 h3,[data-page=\"telecommunications-wireless\"] .dv-text-14 h3,[data-page=\"telecommunications-wireless\"] .dv-text-16 h3,[data-page=\"telecommunications-wireless\"] .dv-text-18 h3,[data-page=\"telecommunications-wireless\"] .dv-text-20 h3,[data-page=\"telecommunications-wireless\"] .dv-text-22 h3,[data-page=\"telecommunications-wireless\"] .dv-text-24 h3,[data-page=\"telecommunications-wireless\"] .dv-text-26 h3,[data-page=\"telecommunications-wireless\"] .dv-text-28 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"telecommunications-wireless\"] .dv-text-2,[data-page=\"telecommunications-wireless\"] .dv-text-4,[data-page=\"telecommunications-wireless\"] .dv-text-6,[data-page=\"telecommunications-wireless\"] .dv-text-8,[data-page=\"telecommunications-wireless\"] .dv-text-10,[data-page=\"telecommunications-wireless\"] .dv-text-12,[data-page=\"telecommunications-wireless\"] .dv-text-14,[data-page=\"telecommunications-wireless\"] .dv-text-16,[data-page=\"telecommunications-wireless\"] .dv-text-18,[data-page=\"telecommunications-wireless\"] .dv-text-20,[data-page=\"telecommunications-wireless\"] .dv-text-22,[data-page=\"telecommunications-wireless\"] .dv-text-24,[data-page=\"telecommunications-wireless\"] .dv-text-26,[data-page=\"telecommunications-wireless\"] .dv-text-28{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:8px!important}\n[data-page=\"telecommunications-wireless\"] .dv-text-3.dv-text,[data-page=\"telecommunications-wireless\"] .dv-text-5.dv-text,[data-page=\"telecommunications-wireless\"] .dv-text-7.dv-text,[data-page=\"telecommunications-wireless\"] .dv-text-9.dv-text,[data-page=\"telecommunications-wireless\"] .dv-text-11.dv-text,[data-page=\"telecommunications-wireless\"] .dv-text-13.dv-text,[data-page=\"telecommunications-wireless\"] .dv-text-15.dv-text,[data-page=\"telecommunications-wireless\"] .dv-text-17.dv-text,[data-page=\"telecommunications-wireless\"] .dv-text-19.dv-text,[data-page=\"telecommunications-wireless\"] .dv-text-21.dv-text,[data-page=\"telecommunications-wireless\"] .dv-text-23.dv-text,[data-page=\"telecommunications-wireless\"] .dv-text-25.dv-text,[data-page=\"telecommunications-wireless\"] .dv-text-27.dv-text,[data-page=\"telecommunications-wireless\"] .dv-text-29.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"telecommunications-wireless\"] .dv-text-3,[data-page=\"telecommunications-wireless\"] .dv-text-5,[data-page=\"telecommunications-wireless\"] .dv-text-7,[data-page=\"telecommunications-wireless\"] .dv-text-9,[data-page=\"telecommunications-wireless\"] .dv-text-11,[data-page=\"telecommunications-wireless\"] .dv-text-13,[data-page=\"telecommunications-wireless\"] .dv-text-15,[data-page=\"telecommunications-wireless\"] .dv-text-17,[data-page=\"telecommunications-wireless\"] .dv-text-19,[data-page=\"telecommunications-wireless\"] .dv-text-21,[data-page=\"telecommunications-wireless\"] .dv-text-23,[data-page=\"telecommunications-wireless\"] .dv-text-25,[data-page=\"telecommunications-wireless\"] .dv-text-27,[data-page=\"telecommunications-wireless\"] .dv-text-29{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"telecommunications-wireless\"] .dv-column-1{padding-left:35px;margin:auto}\n[data-page=\"telecommunications-wireless\"] .dv-column-2,[data-page=\"telecommunications-wireless\"] .dv-column-3,[data-page=\"telecommunications-wireless\"] .dv-column-4,[data-page=\"telecommunications-wireless\"] .dv-column-5,[data-page=\"telecommunications-wireless\"] .dv-column-6,[data-page=\"telecommunications-wireless\"] .dv-column-7,[data-page=\"telecommunications-wireless\"] .dv-column-8,[data-page=\"telecommunications-wireless\"] .dv-column-9,[data-page=\"telecommunications-wireless\"] .dv-column-10,[data-page=\"telecommunications-wireless\"] .dv-column-11,[data-page=\"telecommunications-wireless\"] .dv-column-12,[data-page=\"telecommunications-wireless\"] .dv-column-13,[data-page=\"telecommunications-wireless\"] .dv-column-14,[data-page=\"telecommunications-wireless\"] .dv-column-15{background-color:#111536;border-radius:5px 5px 5px 5px;overflow:hidden;padding-top:37px;padding-right:40px;padding-bottom:40px;padding-left:40px}\n@media only screen and (min-width:981px){[data-page=\"telecommunications-wireless\"] .dv-row-2,[data-page=\"telecommunications-wireless\"] .dv-row-3,[data-page=\"telecommunications-wireless\"] .dv-row-4,[data-page=\"telecommunications-wireless\"] .dv-row-5,[data-page=\"telecommunications-wireless\"] .dv-row-6,[data-page=\"telecommunications-wireless\"] .dv-row-7,[data-page=\"telecommunications-wireless\"] .dv-row-8{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"telecommunications-wireless\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"telecommunications-wireless\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:120px}[data-page=\"telecommunications-wireless\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"telecommunications-wireless\"] .dv-row-2.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-3.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-4.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-5.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-6.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-7.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-8.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"telecommunications-wireless\"] .dv-row-2,[data-page=\"telecommunications-wireless\"] .dv-row-3,[data-page=\"telecommunications-wireless\"] .dv-row-4,[data-page=\"telecommunications-wireless\"] .dv-row-5,[data-page=\"telecommunications-wireless\"] .dv-row-6,[data-page=\"telecommunications-wireless\"] .dv-row-7,[data-page=\"telecommunications-wireless\"] .dv-row-8{max-width:410px}[data-page=\"telecommunications-wireless\"] .dv-image-0 .dv-image-wrap img,[data-page=\"telecommunications-wireless\"] .dv-image-1 .dv-image-wrap img,[data-page=\"telecommunications-wireless\"] .dv-image-2 .dv-image-wrap img,[data-page=\"telecommunications-wireless\"] .dv-image-3 .dv-image-wrap img,[data-page=\"telecommunications-wireless\"] .dv-image-4 .dv-image-wrap img,[data-page=\"telecommunications-wireless\"] .dv-image-5 .dv-image-wrap img,[data-page=\"telecommunications-wireless\"] .dv-image-6 .dv-image-wrap img,[data-page=\"telecommunications-wireless\"] .dv-image-7 .dv-image-wrap img{width:auto}[data-page=\"telecommunications-wireless\"] .dv-column-1{padding-top:90px;padding-left:0px}}\n@media only screen and (max-width:767px){[data-page=\"telecommunications-wireless\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"telecommunications-wireless\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:90px}[data-page=\"telecommunications-wireless\"] .dv-section-2.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"telecommunications-wireless\"] .dv-row-2.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-3.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-4.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-5.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-6.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-7.dv-row,[data-page=\"telecommunications-wireless\"] .dv-row-8.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"telecommunications-wireless\"] .dv-image-0 .dv-image-wrap img,[data-page=\"telecommunications-wireless\"] .dv-image-1 .dv-image-wrap img,[data-page=\"telecommunications-wireless\"] .dv-image-2 .dv-image-wrap img,[data-page=\"telecommunications-wireless\"] .dv-image-3 .dv-image-wrap img,[data-page=\"telecommunications-wireless\"] .dv-image-4 .dv-image-wrap img,[data-page=\"telecommunications-wireless\"] .dv-image-5 .dv-image-wrap img,[data-page=\"telecommunications-wireless\"] .dv-image-6 .dv-image-wrap img,[data-page=\"telecommunications-wireless\"] .dv-image-7 .dv-image-wrap img{width:auto}[data-page=\"telecommunications-wireless\"] .dv-column-1{padding-top:55px}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Telecommunications &amp; Wireless</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 1,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<div>\n<p style=\"text-align:center\">In the Telecommunications &amp; Wireless Networking sector, professionals drive global connectivity through cutting-edge technology. Engineers design and optimize wireless networks, ensuring seamless communication across vast distances. Technicians install and maintain infrastructure, guaranteeing reliable service for users worldwide. Additionally, cybersecurity experts protect networks from evolving threats, safeguarding sensitive data and privacy. Sales and marketing professionals promote new technologies, fostering innovation and market expansion. Careers in this dynamic field offer opportunities to shape the future of communication and connectivity, making a profound impact on how people connect and interact in the digital age.</p>\n</div>\n<div>\n<div>\n<div></div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 2,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 2,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 0,
+         "src": "/uploads/2025-09-1--Telecommunications-Engineer.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<h3>Telecommunications Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree or higher in Electrical Engineering, Telecommunications Engineering, or related field. Knowledge of telecommunications systems, protocols, and technologies. Proficiency in network design, implementation, and troubleshooting. Experience with telecommunication equipment and software. Strong analytical and problem-solving skills. Roles and Responsibilities</p>\n<ul>\n<li>Design, deploy, and maintain telecommunications networks and systems.</li>\n<li>Conduct site surveys and assess network requirements.</li>\n<li>Configure and optimize network infrastructure for performance and reliability.</li>\n<li>Troubleshoot network issues and implement solutions.</li>\n<li>Collaborate with cross-functional teams to integrate new technologies and services.</li>\n</ul>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 3,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 1,
+         "src": "/uploads/2025-09-2--VoIP-Engineer.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<h3>VoIP Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree or higher in Computer Science, Telecommunications, or related field. Experience with Voice over Internet Protocol (VoIP) technologies and protocols. Proficiency in VoIP system design, configuration, and troubleshooting. Knowledge of network protocols such as SIP, RTP, and H.323. Strong communication and teamwork skills. Roles and Responsibilities</p>\n<ul>\n<li>Design, implement, and support VoIP systems and services.</li>\n<li>Configure VoIP gateways, PBX systems, and SIP trunks.</li>\n<li>Monitor and optimize system performance and call quality.</li>\n<li>Troubleshoot VoIP-related issues and implement solutions.</li>\n<li>Collaborate with network engineers to ensure VoIP traffic is prioritized and optimized.</li>\n<li>Provide training and support to end-users.</li>\n</ul>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 4,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 2,
+         "src": "/uploads/2025-09-3-Telecommunications-Sales-Representative.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<h3>Telecommunications Sales Representative (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree or equivalent experience in Sales, Marketing, or related field. Proven track record in telecommunications or technology sales. Excellent communication and negotiation skills. Ability to understand and articulate technical concepts. Strong customer service orientation. Roles and Responsibilities</p>\n<ul>\n<li>Identify and prospect new business opportunities in the telecommunications sector.</li>\n<li>Build and maintain relationships with existing and potential customers.</li>\n<li>Understand customer needs and recommend appropriate telecommunications solutions.</li>\n<li>Prepare and present proposals, quotes, and contracts.</li>\n<li>Negotiate terms and close sales.</li>\n<li>Collaborate with internal teams to ensure customer satisfaction and successful implementation.</li>\n</ul>\n</div>\n</div>\n<div>\n<ul></ul>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 5,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 3,
+         "src": "/uploads/2025-09-4--Telecommunications-Analyst.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 8,
+         "dark": false,
+         "html": "<h3>Telecommunications Analyst (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 9,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree or higher in Information Technology, Telecommunications, or related field. Experience with telecommunications systems and technologies. Proficiency in data analysis and reporting tools. Strong problem-solving and analytical skills. Attention to detail. Roles and Responsibilities</p>\n<ul>\n<li>Analyze telecommunications data and metrics to identify trends and patterns.</li>\n<li>Generate reports and dashboards to communicate findings to stakeholders.</li>\n<li>Monitor network performance and identify areas for improvement.</li>\n<li>Evaluate new technologies and services for potential implementation.</li>\n<li>Provide recommendations for optimizing telecommunications systems and services.</li>\n</ul>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 4,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 6,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 4,
+         "src": "/uploads/2025-09-5--Telecommunications-Technician.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 10,
+         "dark": false,
+         "html": "<h3>Telecommunications Technician (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 11,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Associate’s degree or equivalent experience in Telecommunications, Electronics, or related field. Experience with installation, maintenance, and repair of telecommunications equipment. Knowledge of telecommunications protocols and standards. Strong technical and troubleshooting skills. Ability to work independently and as part of a team. Roles and Responsibilities</p>\n<ul>\n<li>Install, configure, and test telecommunications equipment and systems.</li>\n<li>Perform routine maintenance and repairs on telecommunication infrastructure.</li>\n<li>Troubleshoot and resolve network issues and outages.</li>\n<li>Document work performed and maintain accurate records.</li>\n<li>Provide technical support to end-users and customers. Stay updated on industry trends and best practices.</li>\n</ul>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 7,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 5,
+         "src": "/uploads/2025-09-6--Wireless-Engineer.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 12,
+         "dark": false,
+         "html": "<h3>Wireless Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 13,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree or higher in Electrical Engineering, Telecommunications, or related field. Experience with wireless communication technologies such as LTE, Wi-Fi, and Bluetooth. Proficiency in radio frequency (RF) design, optimization, and troubleshooting. Knowledge of wireless network protocols and standards. Strong problem-solving and analytical skills. Roles and Responsibilities</p>\n<ul>\n<li>Design, deploy, and optimize wireless communication networks.</li>\n<li>Conduct RF surveys and site assessments to determine network coverage and capacity requirements.</li>\n<li>Perform radio planning and optimization to maximize network performance.</li>\n<li>Troubleshoot RF interference and coverage issues.</li>\n</ul>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 5,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 8,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 6,
+         "src": "/uploads/2025-09-7--Network-Operations-Center-NOC-Technician.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 14,
+         "dark": false,
+         "html": "<h3>Network Operations Center (NOC) Technician (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 15,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Associate’s degree or equivalent experience in Information Technology, Telecommunications, or related field. Experience with network monitoring and troubleshooting tools. Knowledge of network protocols and technologies. Strong analytical and problem-solving skills. Ability to work under pressure in a fast-paced environment. Roles and Responsibilities</p>\n<ul>\n<li>Monitor network performance and health using network management tools.</li>\n<li>Identify and troubleshoot network issues and outages.</li>\n<li>Coordinate with other technical teams to resolve escalated issues.</li>\n<li>Document incidents and resolutions in a ticketing system.</li>\n<li>Perform routine maintenance and updates on network devices and systems.</li>\n<li>Follow standard operating procedures and best practices for network operations.</li>\n</ul>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 9,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 7,
+         "src": "/uploads/2025-09-8--Telecommunications-Consultant.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 16,
+         "dark": false,
+         "html": "<h3>Telecommunications Consultant (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 17,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree or higher in Telecommunications Engineering, Electrical Engineering, or related field. Extensive experience in the telecommunications industry with a focus on consulting. Strong knowledge of telecommunications technologies, protocols, and standards. Excellent communication and interpersonal skills. Ability to analyze complex problems and provide strategic recommendations. Roles and Responsibilities</p>\n<ul>\n<li>Provide expert advice and guidance to clients on telecommunications strategies, technologies, and solutions.</li>\n<li>Assess client needs and develop customized telecommunications solutions to meet their requirements.</li>\n<li>Conduct feasibility studies, cost-benefit analyses, and risk assessments for proposed projects.</li>\n<li>Collaborate with internal and external stakeholders to implement and optimize telecommunications solutions.</li>\n<li>Stay updated on industry trends, emerging technologies, and regulatory changes.</li>\n</ul>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 6,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 10,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 18,
+         "dark": false,
+         "html": "<h3>Telecommunications Project Manager (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 19,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree or higher in Telecommunications Engineering, Project Management, or related field. Proven experience in project management, preferably in the telecommunications industry. Strong leadership, organizational, and communication skills. Proficiency in project management tools and methodologies. Ability to manage multiple projects simultaneously and deliver on time and within budget. Roles and Responsibilities</p>\n<ul>\n<li>Plan, execute, and manage telecommunications projects from initiation to closure.</li>\n<li>Define project scope, objectives, and deliverables in collaboration with stakeholders.</li>\n<li>Develop project plans, schedules, and budgets, and track progress against milestones.</li>\n<li>Allocate resources, manage project teams, and coordinate activities across functional areas.</li>\n<li>Identify and mitigate project risks, and escalate issues as needed.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 11,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 20,
+         "dark": false,
+         "html": "<h3>Wireless Network Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 21,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree or higher in Electrical Engineering, Telecommunications Engineering, or related field. Strong knowledge of wireless networking technologies and protocols (e.g., Wi-Fi, LTE, 5G). Experience in designing, implementing, and troubleshooting wireless networks. Proficiency in network simulation and optimization tools. Excellent analytical and problem-solving skills. Roles and Responsibilities</p>\n<ul>\n<li>Design, deploy, and optimize wireless networks to meet performance, capacity, and coverage requirements.</li>\n<li>Conduct site surveys and RF propagation analysis to assess network deployment scenarios.</li>\n<li>Configure and integrate wireless networking equipment, including access points, controllers, and antennas.</li>\n<li>Perform network performance monitoring, analysis, and optimization to ensure reliability and quality of service.</li>\n<li>Troubleshoot network issues and implement corrective actions to minimize downtime.</li>\n<li>Stay updated on emerging wireless technologies and industry trends.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 7,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 12,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 22,
+         "dark": false,
+         "html": "<h3>RF Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 23,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree or higher in Electrical Engineering, Telecommunications Engineering, or related field. Specialization or coursework in radio frequency (RF) engineering. Experience in RF design, analysis, and optimization. Proficiency in RF simulation and measurement tools. Strong analytical and problem-solving skills. Roles and Responsibilities<br>· Design and optimize RF systems and components for telecommunications applications.<br>· Conduct RF link budget analysis and coverage prediction to ensure adequate signal strength and coverage.<br>·&nbsp; Perform RF interference analysis and mitigation to minimize signal degradation. <br>· Develop and execute test plans for RF equipment and systems. <br>· Collaborate with other engineers and stakeholders to integrate RF solutions into larger systems. Stay updated on RF technologies, standards, and regulatory requirements.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 13,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 24,
+         "dark": false,
+         "html": "<h3>Wireless Systems Architect (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 25,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree or higher in Electrical Engineering, Telecommunications Engineering, or related field. Extensive experience in wireless systems design and architecture. Strong knowledge of wireless communication technologies and protocols. Experience with system-level modeling, simulation, and optimization. Excellent communication and teamwork skills. Roles and Responsibilities</p>\n<ul>\n<li>Design end-to-end wireless communication systems, including radio access networks, core networks, and backhaul links.</li>\n<li>Define system architecture, protocols, interfaces, and standards.</li>\n<li>Conduct system-level performance analysis and optimization to meet key performance indicators (KPIs).</li>\n<li>Collaborate with cross-functional teams to integrate wireless systems into larger networks and platforms.</li>\n<li>Evaluate and recommend emerging technologies and solutions to meet evolving requirements.</li>\n<li>Provide technical leadership and mentorship to junior engineers.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 8,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 14,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 26,
+         "dark": false,
+         "html": "<h3>Wireless Field Technician (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 27,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Associate’s degree or higher in Electronics, Telecommunications, or related field. Certification or training in wireless networking or telecommunications. Experience in field installation, testing, and troubleshooting of wireless equipment. Familiarity with common tools and equipment used in telecommunications fieldwork. Strong problem-solving and communication skills. Roles and Responsibilities</p>\n<ul>\n<li>Install, configure, and commission wireless networking equipment, including access points, antennas, and cabling.</li>\n<li>Conduct site surveys and assessments to determine optimal equipment placement and coverage patterns.</li>\n<li>Perform acceptance testing and commissioning of wireless networks according to design specifications.</li>\n<li>Troubleshoot network issues and perform corrective actions to restore service.</li>\n<li>Document installation and testing procedures, as-built configurations, and equipment inventory.</li>\n<li>Provide training and support to end-users and customers as needed.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 15,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 28,
+         "dark": false,
+         "html": "<h3>Wireless Security Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 29,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree or higher in Computer Science, Information Security, or related field. Specialization or certification in wireless security (e.g., CWSP, CCNP Security). Experience in designing, implementing, and managing wireless security solutions. Knowledge of wireless networking protocols, encryption algorithms, and authentication methods. Strong understanding of network security principles and best practices. Roles and Responsibilities</p>\n<ul>\n<li>Design and implement security measures to protect wireless networks from unauthorized access, intrusion, and exploitation.</li>\n<li>Conduct security assessments and audits of wireless networks to identify vulnerabilities and risks.</li>\n<li>Develop and enforce security policies, procedures, and controls for wireless network infrastructure.</li>\n<li>Configure and manage security appliances, such as firewalls, intrusion detection/prevention systems (IDS/IPS), and authentication servers.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

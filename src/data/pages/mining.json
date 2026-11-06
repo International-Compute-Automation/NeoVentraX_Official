@@ -1,0 +1,352 @@
+{
+ "slug": "mining",
+ "title": "Mining",
+ "description": "",
+ "css": "[data-page=\"mining\"] .dv-section.dv-section-0{background-image:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(0,0,0,0.6) 100%),url(/uploads/2025-09-Mining-min-scaled.webp)!important}\n[data-page=\"mining\"] .dv-section-0.dv-section{padding-top:170px;padding-bottom:170px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"mining\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"mining\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n[data-page=\"mining\"] .dv-section.dv-section-1{background-size:initial;background-position:left -40px bottom -140px;background-image:url(/uploads/2025-07-it-services-5-nyt-24-png.webp)!important}\n[data-page=\"mining\"] .dv-section-1.dv-section{padding-top:50px;padding-bottom:50px;margin-top:0px;margin-bottom:0px}\n[data-page=\"mining\"] .dv-row-1.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:13px!important;margin-right:auto!important;margin-bottom:0px!important;margin-left:auto!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"mining\"] .dv-row-1{width:90%;max-width:1290px}\n[data-page=\"mining\"] .dv-text-1.dv-text{color:#737373!important}\n[data-page=\"mining\"] .dv-text-1{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"mining\"] .dv-section-2.dv-section{padding-top:80px;padding-bottom:80px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"mining\"] .dv-row-2.dv-row,[data-page=\"mining\"] .dv-row-3.dv-row,[data-page=\"mining\"] .dv-row-4.dv-row,[data-page=\"mining\"] .dv-row-5.dv-row,[data-page=\"mining\"] .dv-row-6.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"mining\"] .dv-row-2,[data-page=\"mining\"] .dv-row-3,[data-page=\"mining\"] .dv-row-4,[data-page=\"mining\"] .dv-row-5,[data-page=\"mining\"] .dv-row-6{width:90%}\n[data-page=\"mining\"] .dv-image-0 .dv-image-wrap,[data-page=\"mining\"] .dv-image-1 .dv-image-wrap,[data-page=\"mining\"] .dv-image-2 .dv-image-wrap,[data-page=\"mining\"] .dv-image-3 .dv-image-wrap,[data-page=\"mining\"] .dv-image-4 .dv-image-wrap,[data-page=\"mining\"] .dv-image-5 .dv-image-wrap,[data-page=\"mining\"] .dv-image-6 .dv-image-wrap,[data-page=\"mining\"] .dv-image-7 .dv-image-wrap,[data-page=\"mining\"] .dv-image-8 .dv-image-wrap,[data-page=\"mining\"] .dv-image-9 .dv-image-wrap{border-radius:5px 5px 5px 5px;overflow:hidden}\n[data-page=\"mining\"] .dv-image-0,[data-page=\"mining\"] .dv-image-1,[data-page=\"mining\"] .dv-image-2,[data-page=\"mining\"] .dv-image-3,[data-page=\"mining\"] .dv-image-4,[data-page=\"mining\"] .dv-image-5,[data-page=\"mining\"] .dv-image-6,[data-page=\"mining\"] .dv-image-7,[data-page=\"mining\"] .dv-image-8,[data-page=\"mining\"] .dv-image-9{padding-top:0px;padding-bottom:0px;margin-top:0px!important;margin-bottom:30px!important;text-align:left;margin-left:0}\n[data-page=\"mining\"] .dv-text-2 h3,[data-page=\"mining\"] .dv-text-4 h3,[data-page=\"mining\"] .dv-text-6 h3,[data-page=\"mining\"] .dv-text-8 h3,[data-page=\"mining\"] .dv-text-10 h3,[data-page=\"mining\"] .dv-text-12 h3,[data-page=\"mining\"] .dv-text-14 h3,[data-page=\"mining\"] .dv-text-16 h3,[data-page=\"mining\"] .dv-text-18 h3,[data-page=\"mining\"] .dv-text-20 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"mining\"] .dv-text-2,[data-page=\"mining\"] .dv-text-4,[data-page=\"mining\"] .dv-text-6,[data-page=\"mining\"] .dv-text-8,[data-page=\"mining\"] .dv-text-10,[data-page=\"mining\"] .dv-text-12,[data-page=\"mining\"] .dv-text-14,[data-page=\"mining\"] .dv-text-16,[data-page=\"mining\"] .dv-text-18,[data-page=\"mining\"] .dv-text-20{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:8px!important}\n[data-page=\"mining\"] .dv-text-3.dv-text,[data-page=\"mining\"] .dv-text-5.dv-text,[data-page=\"mining\"] .dv-text-7.dv-text,[data-page=\"mining\"] .dv-text-9.dv-text,[data-page=\"mining\"] .dv-text-11.dv-text,[data-page=\"mining\"] .dv-text-13.dv-text,[data-page=\"mining\"] .dv-text-15.dv-text,[data-page=\"mining\"] .dv-text-17.dv-text,[data-page=\"mining\"] .dv-text-19.dv-text,[data-page=\"mining\"] .dv-text-21.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"mining\"] .dv-text-3,[data-page=\"mining\"] .dv-text-5,[data-page=\"mining\"] .dv-text-7,[data-page=\"mining\"] .dv-text-9,[data-page=\"mining\"] .dv-text-11,[data-page=\"mining\"] .dv-text-13,[data-page=\"mining\"] .dv-text-15,[data-page=\"mining\"] .dv-text-17,[data-page=\"mining\"] .dv-text-19,[data-page=\"mining\"] .dv-text-21{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"mining\"] .dv-column-1{padding-left:35px;margin:auto}\n[data-page=\"mining\"] .dv-column-2,[data-page=\"mining\"] .dv-column-3,[data-page=\"mining\"] .dv-column-4,[data-page=\"mining\"] .dv-column-5,[data-page=\"mining\"] .dv-column-6,[data-page=\"mining\"] .dv-column-7,[data-page=\"mining\"] .dv-column-8,[data-page=\"mining\"] .dv-column-9,[data-page=\"mining\"] .dv-column-10,[data-page=\"mining\"] .dv-column-11{background-color:#111536;border-radius:5px 5px 5px 5px;overflow:hidden;padding-top:37px;padding-right:40px;padding-bottom:40px;padding-left:40px}\n@media only screen and (min-width:981px){[data-page=\"mining\"] .dv-row-2,[data-page=\"mining\"] .dv-row-3,[data-page=\"mining\"] .dv-row-4,[data-page=\"mining\"] .dv-row-5,[data-page=\"mining\"] .dv-row-6{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"mining\"] .dv-text-0 h1{font-size:64px}[data-page=\"mining\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"mining\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:120px}[data-page=\"mining\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"mining\"] .dv-row-2.dv-row,[data-page=\"mining\"] .dv-row-3.dv-row,[data-page=\"mining\"] .dv-row-4.dv-row,[data-page=\"mining\"] .dv-row-5.dv-row,[data-page=\"mining\"] .dv-row-6.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"mining\"] .dv-row-2,[data-page=\"mining\"] .dv-row-3,[data-page=\"mining\"] .dv-row-4,[data-page=\"mining\"] .dv-row-5,[data-page=\"mining\"] .dv-row-6{max-width:410px}[data-page=\"mining\"] .dv-image-0 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-1 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-2 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-3 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-4 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-5 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-6 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-7 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-8 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-9 .dv-image-wrap img{width:auto}[data-page=\"mining\"] .dv-column-1{padding-top:90px;padding-left:0px}}\n@media only screen and (max-width:767px){[data-page=\"mining\"] .dv-text-0 h1{font-size:50px}[data-page=\"mining\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"mining\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:90px}[data-page=\"mining\"] .dv-section-2.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"mining\"] .dv-row-2.dv-row,[data-page=\"mining\"] .dv-row-3.dv-row,[data-page=\"mining\"] .dv-row-4.dv-row,[data-page=\"mining\"] .dv-row-5.dv-row,[data-page=\"mining\"] .dv-row-6.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"mining\"] .dv-image-0 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-1 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-2 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-3 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-4 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-5 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-6 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-7 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-8 .dv-image-wrap img,[data-page=\"mining\"] .dv-image-9 .dv-image-wrap img{width:auto}[data-page=\"mining\"] .dv-column-1{padding-top:55px}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Mining</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 1,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<div>\n<p style=\"text-align:center\">The mining industry involves extracting valuable minerals and resources from the earth’s surface or underground. It encompasses diverse roles, including miners who operate heavy machinery to extract minerals, geologists who study the earth’s composition to locate deposits, and engineers who design and oversee mining operations. Additionally, there are environmental scientists who ensure compliance with regulations, safety officers who enforce safety protocols, and managers who oversee the overall operations. From exploration to extraction and processing, the mining industry offers a range of career opportunities suited to individuals with various skill sets, interests, and educational backgrounds.</p>\n</div>\n<div>\n<div>\n<div></div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 2,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 2,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 0,
+         "src": "/uploads/2025-09-1-Blaster.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<h3>Blaster (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications: High school diploma or equivalent. Certification in blasting techniques may be required. Physical fitness and manual dexterity. Roles and Responsibilities: – Prepare and set up explosives for blasting operations. – Follow safety protocols and regulations to ensure safe blasting practices. – Monitor blast site conditions and weather conditions. – Coordinate with drilling and mining teams to plan blasting schedules. – Inspect blast areas for safety hazards and conduct post-blast evaluations.</p>\n</div>\n<p></p>"
+        }
+       ]
+      },
+      {
+       "i": 3,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 1,
+         "src": "/uploads/2025-09-2-Underground-Miner.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<h3>Underground Miner (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications: High school diploma or equivalent. Training in mining operations and safety procedures. Roles and Responsibilities: – Operate mining equipment and machinery underground. – Perform drilling, blasting, and excavation activities. – Transport materials, ore, and waste to the surface. – Install and maintain ground support systems. – Follow safety protocols and regulations to ensure a safe working environment.</p>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 4,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 2,
+         "src": "/uploads/2025-09-3-Heavy-Equipment-Operator.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<h3>Heavy Equipment Operator (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications: High school diploma or equivalent. Certification or training in heavy equipment operation. Roles and Responsibilities: – Operate heavy equipment such as bulldozers, excavators, and loaders. – Transport materials, ore, and waste within the mine site. – Perform routine maintenance and inspections on equipment. – Follow safety protocols and regulations to prevent accidents and injuries. – Coordinate with other workers and supervisors to complete tasks efficiently.</p>\n</div>\n<h4></h4>"
+        }
+       ]
+      },
+      {
+       "i": 5,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 3,
+         "src": "/uploads/2025-09-4-Driller.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 8,
+         "dark": false,
+         "html": "<h3>Driller (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 9,
+         "dark": false,
+         "html": "<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications: High school diploma or equivalent. Training in drilling techniques and equipment operation. Roles and Responsibilities: – Operate drilling equipment to extract core samples or prepare blast holes. – Follow drilling plans and specifications provided by engineers or supervisors. – Monitor drilling operations and adjust equipment as needed. – Inspect and maintain drilling equipment and tools. – Ensure compliance with safety regulations and procedures.</p>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 4,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 6,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 4,
+         "src": "/uploads/2025-09-5-Electrician.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 10,
+         "dark": false,
+         "html": "<h3>Electrician (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 11,
+         "dark": false,
+         "html": "<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications: Certification or diploma in electrical technology or a related field. Experience in industrial or mining electrical systems. Roles and Responsibilities: – Install, maintain, and repair electrical systems and equipment in mining facilities. – Troubleshoot electrical issues and perform repairs as needed. – Conduct preventive maintenance to ensure the reliability of electrical systems. – Follow safety protocols and regulations to prevent electrical hazards. – Coordinate with other maintenance and operations teams to minimize downtime.</p>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 7,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 5,
+         "src": "/uploads/2025-09-6-Material-Planner.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 12,
+         "dark": false,
+         "html": "<h3>Material Planner (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 13,
+         "dark": false,
+         "html": "<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications: Bachelor’s degree in Supply Chain Management, Logistics, or a related field. Experience in materials planning or inventory management. Roles and Responsibilities: – Plan and coordinate the procurement and delivery of materials needed for mining operations. – Monitor inventory levels and track material usage. – Analyze demand forecasts and develop material procurement strategies. – Collaborate with suppliers to ensure timely delivery of materials. – Maintain accurate records and documentation related to materials planning.</p>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 5,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 8,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 6,
+         "src": "/uploads/2025-09-7-Health-and-Safety-Specialist.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 14,
+         "dark": false,
+         "html": "<h3>Health and Safety Specialist (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 15,
+         "dark": false,
+         "html": "<div>\n<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications: Bachelor’s degree in Occupational Health and Safety, Environmental Science, or related field. Certification in health and safety may be required. Roles and Responsibilities: – Develop and implement health and safety programs and policies for mining operations. – Conduct risk assessments and hazard analyses. – Provide training and education to employees on health and safety practices. – Investigate accidents and incidents to determine causes and recommend preventive measures. – Ensure compliance with health and safety regulations and standards.</p>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 9,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 7,
+         "src": "/uploads/2025-09-8-Mine-Manager.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 16,
+         "dark": false,
+         "html": "<h3>Mine Manager (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 17,
+         "dark": false,
+         "html": "<div>\n<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications: Bachelor’s degree in Mining Engineering, Geology, or related field. Several years of experience in mining operations and management roles. Roles and Responsibilities:</p>\n<ul>\n<li>Oversee all aspects of mining operations, including production, safety, and environmental compliance.</li>\n<li>Develop and implement operational plans and strategies to achieve production targets.</li>\n<li>Manage budget and resources to optimize efficiency and profitability.</li>\n<li>Lead and mentor mining staff, including supervisors and workers.</li>\n<li>Ensure compliance with regulatory requirements and industry standards.</li>\n</ul>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 6,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 10,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 8,
+         "src": "/uploads/2025-09-9-Site-Surveyor.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 18,
+         "dark": false,
+         "html": "<h3>Site Surveyor (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 19,
+         "dark": false,
+         "html": "<div>\n<div>\n<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications: Bachelor’s degree in Mining Engineering or related field. Strong analytical and problem-solving skills. Roles and Responsibilities:</p>\n<ul>\n<li>Plan and design mining operations, including surface and underground mines.</li>\n<li>Conduct feasibility studies and economic analyses of mining projects.</li>\n<li>Develop mining methods and strategies to optimize ore recovery and minimize environmental impact.</li>\n<li>Monitor and analyze mining processes and equipment performance.</li>\n<li>Ensure compliance with safety regulations and environmental standards.</li>\n</ul>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 11,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 9,
+         "src": "/uploads/2025-09-10-Mining-Engineer.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 20,
+         "dark": false,
+         "html": "<h3>Mining Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 21,
+         "dark": false,
+         "html": "<div>\n<div>\n<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications: Bachelor’s degree in Mining Engineering or related field. Strong analytical and problem-solving skills. Roles and Responsibilities:</p>\n<ul>\n<li>Plan and design mining operations, including surface and underground mines.</li>\n<li>Conduct feasibility studies and economic analyses of mining projects.</li>\n<li>Develop mining methods and strategies to optimize ore recovery and minimize environmental impact.</li>\n<li>Monitor and analyze mining processes and equipment performance.</li>\n<li>Ensure compliance with safety regulations and environmental standards.</li>\n</ul>\n</div>\n</div>\n<div>\n<ul></ul>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

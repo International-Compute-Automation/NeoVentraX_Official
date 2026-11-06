@@ -1,0 +1,143 @@
+{
+ "slug": "careers",
+ "title": "Careers",
+ "description": "",
+ "css": "[data-page=\"careers\"] .dv-section.dv-section-0{background-image:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(0,0,0,0.6) 100%),url(/uploads/2025-09-Careers-min-scaled.webp)!important}\n[data-page=\"careers\"] .dv-section-0.dv-section{padding-top:170px;padding-bottom:170px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"careers\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"careers\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n@media only screen and (max-width:980px){[data-page=\"careers\"] .dv-text-0 h1{font-size:64px}}\n@media only screen and (max-width:767px){[data-page=\"careers\"] .dv-text-0 h1{font-size:50px}}\n[data-page=\"careers\"] .dv-section.dv-section-1{background-size:initial;background-position:left -40px bottom -140px;background-image:url(/uploads/2025-07-it-services-5-nyt-24-png.webp)!important}\n[data-page=\"careers\"] .dv-section-1.dv-section{padding-top:30px;padding-bottom:4px;margin-top:0px;margin-bottom:0px}\n[data-page=\"careers\"] .dv-row-1.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:36px!important;margin-right:auto!important;margin-bottom:36px!important;margin-left:auto!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"careers\"] .dv-row-1{width:90%;max-width:1290px}\n[data-page=\"careers\"] .dv-text-1.dv-text{color:#737373!important}\n[data-page=\"careers\"] .dv-text-1{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important}\n[data-page=\"careers\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:17px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"careers\"] .dv-row-2.dv-row,[data-page=\"careers\"] .dv-row-3.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"careers\"] .dv-row-2,[data-page=\"careers\"] .dv-row-3{width:90%}\n[data-page=\"careers\"] .dv-text-2 h3,[data-page=\"careers\"] .dv-text-5 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"careers\"] .dv-text-2,[data-page=\"careers\"] .dv-text-3,[data-page=\"careers\"] .dv-text-5,[data-page=\"careers\"] .dv-text-6{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:8px!important}\n[data-page=\"careers\"] .dv-text-3 h3,[data-page=\"careers\"] .dv-text-6 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:20px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"careers\"] .dv-text-4.dv-text,[data-page=\"careers\"] .dv-text-7.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"careers\"] .dv-text-4,[data-page=\"careers\"] .dv-text-7{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"careers\"] .dv-button-0:hover,[data-page=\"careers\"] .dv-button-1:hover{filter:brightness(120%);backface-visibility:hidden}\n[data-page=\"careers\"] .dv-button-0-wrapper .dv-button-0,[data-page=\"careers\"] .dv-button-0-wrapper .dv-button-0:hover,[data-page=\"careers\"] .dv-button-1-wrapper .dv-button-1,[data-page=\"careers\"] .dv-button-1-wrapper .dv-button-1:hover{padding-top:13px!important;padding-right:50px!important;padding-bottom:13px!important;padding-left:29px!important}\n[data-page=\"careers\"] .dv-button-0-wrapper{margin-top:21px!important;margin-bottom:0px!important}\n[data-page=\"careers\"] .dv-section .dv-button-0,[data-page=\"careers\"] .dv-section .dv-button-1{color:#FFFFFF!important;border-radius:5px;font-size:18px;font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif!important;background-image:linear-gradient(90deg,#351ee0 0%,#3f74ef 100%)}\n[data-page=\"careers\"] .dv-section .dv-button-0:hover,[data-page=\"careers\"] .dv-section .dv-button-1:hover{letter-spacing:0px!important}\n[data-page=\"careers\"] .dv-section .dv-button-0:hover:after,[data-page=\"careers\"] .dv-section .dv-button-1:hover:after{margin-left:.3em;left:auto;margin-left:.3em}\n[data-page=\"careers\"] .dv-section .dv-button-0:after,[data-page=\"careers\"] .dv-section .dv-button-1:after{line-height:inherit;font-size:inherit!important;opacity:1;margin-left:.3em;left:auto;font-weight:400!important}\n[data-page=\"careers\"] .dv-button-0,[data-page=\"careers\"] .dv-button-1{transition:letter-spacing 300ms ease 0ms,filter 300ms ease 0ms}\n[data-page=\"careers\"] .dv-button-0,[data-page=\"careers\"] .dv-button-0:after,[data-page=\"careers\"] .dv-button-1,[data-page=\"careers\"] .dv-button-1:after{transition:all 300ms ease 0ms}\n[data-page=\"careers\"] .dv-button-1-wrapper{margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"careers\"] .dv-column-1{padding-left:35px;margin:auto}\n[data-page=\"careers\"] .dv-column-2,[data-page=\"careers\"] .dv-column-3{background-color:#111536;border-radius:5px 5px 5px 5px;overflow:hidden;padding-top:37px;padding-right:40px;padding-bottom:40px;padding-left:40px}\n@media only screen and (min-width:981px){[data-page=\"careers\"] .dv-row-2,[data-page=\"careers\"] .dv-row-3{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"careers\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"careers\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:120px}[data-page=\"careers\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"careers\"] .dv-row-2.dv-row,[data-page=\"careers\"] .dv-row-3.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"careers\"] .dv-row-2,[data-page=\"careers\"] .dv-row-3{max-width:410px}[data-page=\"careers\"] .dv-section .dv-button-0:after,[data-page=\"careers\"] .dv-section .dv-button-1:after{line-height:inherit;font-size:inherit!important;margin-left:.3em;left:auto;display:inline-block;opacity:1;font-weight:400!important}[data-page=\"careers\"] .dv-section .dv-button-0:before,[data-page=\"careers\"] .dv-section .dv-button-1:before{display:none}[data-page=\"careers\"] .dv-section .dv-button-0:hover:after,[data-page=\"careers\"] .dv-section .dv-button-1:hover:after{margin-left:.3em;left:auto;margin-left:.3em}[data-page=\"careers\"] .dv-column-1{padding-top:90px;padding-left:0px}}\n@media only screen and (max-width:767px){[data-page=\"careers\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"careers\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:90px}[data-page=\"careers\"] .dv-section-2.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"careers\"] .dv-row-2.dv-row,[data-page=\"careers\"] .dv-row-3.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"careers\"] .dv-section .dv-button-0:after,[data-page=\"careers\"] .dv-section .dv-button-1:after{line-height:inherit;font-size:inherit!important;margin-left:.3em;left:auto;display:inline-block;opacity:1;font-weight:400!important}[data-page=\"careers\"] .dv-section .dv-button-0:before,[data-page=\"careers\"] .dv-section .dv-button-1:before{display:none}[data-page=\"careers\"] .dv-section .dv-button-0:hover:after,[data-page=\"careers\"] .dv-section .dv-button-1:hover:after{margin-left:.3em;left:auto;margin-left:.3em}[data-page=\"careers\"] .dv-column-1{padding-top:55px}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Careers</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 1,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<div style=\"text-align:center\">\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Welcome to the careers page of NeoVentraX, where a world of professional opportunities awaits you. Our company thrives on diversity, offering a wide array of career paths across various departments and specializations.</p>\n<p>Each career avenue is designed to cater to different skills and aspirations. Whether you’re an experienced professional or a fresh graduate, we have opportunities that will challenge you and help you grow.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div style=\"text-align:center\">\n<div>\n<div></div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 2,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 2,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<h3>Job Openings</h3>"
+        },
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<h3>ReactJS (Hyderabad, India)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Join our team as a <strong>React JS Developer</strong> and help create dynamic, high-performing web applications. You will use your skills in <strong>JavaScript, React, and modern front-end technologies</strong> to develop responsive and interactive user interfaces. Collaborate with designers and back-end developers to translate designs and requirements into functional components.</p>\n<p><strong>Key Responsibilities:</strong></p>\n<ul>\n<li>\n<p>Build and maintain <strong>responsive web applications</strong> using React JS.</p>\n</li>\n<li>\n<p>Develop interactive features that enhance <strong>user experience and performance</strong>.</p>\n</li>\n<li>\n<p>Work closely with UI/UX designers to implement <strong>designs and wireframes</strong>.</p>\n</li>\n<li>\n<p>Write clean, maintainable, and <strong>well-documented code</strong>.</p>\n</li>\n<li>\n<p>Integrate front-end components with back-end APIs.</p>\n</li>\n<li>\n<p>Optimize applications for <strong>speed, scalability, and efficiency</strong>.</p>\n</li>\n<li>\n<p>Participate in <strong>code reviews and team discussions</strong>.</p>\n</li>\n</ul>\n<p><strong>Requirements:</strong></p>\n<ul>\n<li>\n<p>Strong proficiency in <strong>JavaScript (ES6+) and React JS</strong>.</p>\n</li>\n<li>\n<p>Familiarity with <strong>HTML, CSS, and responsive design principles</strong>.</p>\n</li>\n<li>\n<p>Experience with state management tools such as <strong>Redux</strong>.</p>\n</li>\n<li>\n<p>Problem-solving skills, attention to detail, and ability to work in a <strong>team-oriented environment</strong>.</p>\n</li>\n</ul>\n<p>If you are passionate about <strong>creating amazing web experiences</strong> and enjoy working in a collaborative environment, we would love to hear from you!</p>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        },
+        {
+         "type": "button",
+         "i": 0,
+         "text": "Apply Now",
+         "href": "/submit-your-resume/",
+         "align": "left"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 3,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<h3>Job Openings</h3>"
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<h3>Non IT Recruiter (Hyderabad, India)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Key Responsibilities:</p>\n<ol>\n<li>Candidate Sourcing: Identify potential candidates through various channels such as job boards, social media, networking events, and employee referrals. Screen resumes and applications to match candidates with the appropriate non-IT roles.</li>\n<li>Interview Coordination: Schedule and conduct initial interviews to assess candidates’ qualifications, cultural fit, and overall suitability for the role. This may include phone, video, or in-person interviews.</li>\n<li>Candidate Management: Maintain positive relationships with candidates throughout the recruitment process, providing timely updates, feedback, and guidance.</li>\n<li>Offer Negotiation and Closing: Extend job offers to selected candidates and negotiate salary and other employment terms. Ensure a smooth onboarding process for new hires.</li>\n<li>Recruitment Strategy Development: Contribute to the development and implementation of recruitment strategies to attract top talent. This may include employer branding initiatives, participation in job fairs, and developing new sourcing channels.</li>\n<li>Compliance and Record-Keeping: Ensure all recruitment activities are compliant with relevant laws, regulations, and company policies. Maintain accurate records of all recruitment activities.</li>\n<li>Continuous Improvement: Stay informed about trends and best practices in recruitment. Suggest improvements to the recruitment process to enhance efficiency and effectiveness.</li>\n</ol>\n<p>Required Skills and Qualifications:</p>\n<ul>\n<li>Proven experience as a recruiter, with a focus on non-IT roles.</li>\n<li>Strong understanding of recruitment processes and candidate selection methods.</li>\n<li>Excellent communication and interpersonal skills.</li>\n<li>NeoVentraX in using recruitment software and candidate management systems.</li>\n<li>Ability to work independently and manage multiple tasks simultaneously.</li>\n<li>Strong decision-making and problem-solving skills.</li>\n</ul>\n<p>Preferred Skills:</p>\n<ul>\n<li>Experience in specific industries relevant to the company (e.g., manufacturing, healthcare, retail, etc.).</li>\n<li>Knowledge of employment law and HR best practices.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        },
+        {
+         "type": "button",
+         "i": 1,
+         "text": "Apply Now",
+         "href": "/submit-your-resume/",
+         "align": "left"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

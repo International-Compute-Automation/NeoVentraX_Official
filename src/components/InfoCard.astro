@@ -1,0 +1,51 @@
+---
+import type { Card } from '../lib/content';
+import Img from './Img.astro';
+import Icon from './Icon.astro';
+interface Props { card: Card; index: number; wide?: boolean }
+const { card, index, wide = false } = Astro.props;
+---
+{card.avatar ? (
+  <figure class="tcard card">
+    <Icon name="quote" class="q" />
+    <div class="prose quote" set:html={card.html} />
+    <figcaption>
+      <img src={card.avatar} alt="" width="56" height="56" loading="lazy" />
+      <span><strong>{card.title}</strong>{card.subtitle}</span>
+    </figcaption>
+  </figure>
+) : (
+  <article class:list={['icard card card-hover', { wide, noimg: !card.image }]}>
+    {card.image && <div class="icard-img"><Img src={card.image} alt="" sizes="(max-width: 680px) 92vw, 45vw" /></div>}
+    <div class="icard-body">
+      {!card.image && <span class="num">{String(index + 1).padStart(2, '0')}</span>}
+      {card.subtitle && <span class="eyebrow">{card.subtitle}</span>}
+      <h3>{card.title}{card.location && <span class="chip loc"><Icon name="pin" />{card.location}</span>}</h3>
+      <div class="prose" set:html={card.html} />
+      {card.button && (
+        <a href={card.button.href.startsWith('/submit-your-resume') ? `/submit-your-resume/?position=${encodeURIComponent(card.title)}` : card.button.href} class="btn btn-primary btn-sm">
+          {card.button.text} <Icon name="arrow" />
+        </a>
+      )}
+    </div>
+  </article>
+)}
+
+<style>
+  .icard { overflow: hidden; display: flex; flex-direction: column; }
+  .icard-img { aspect-ratio: 16 / 9; overflow: hidden; background: var(--soft); }
+  .icard-img :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  .icard-body { padding: clamp(22px, 2.6vw, 32px); display: grid; gap: 12px; align-content: start; justify-items: start; }
+  .icard h3 { font-size: 22px; line-height: 1.25; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+  .icard .prose { font-size: 16px; }
+  .num { font-family: var(--font-head); font-weight: 700; font-size: 15px; color: #fff; background: var(--grad); border-radius: 10px; padding: 6px 10px; line-height: 1; }
+  .chip.loc { background: #e7f8fd; color: #0b7fa3; font-family: var(--font-body); letter-spacing: 0; }
+  .wide { grid-column: 1 / -1; }
+  .tcard { padding: clamp(28px, 3.5vw, 40px); display: grid; gap: 20px; }
+  .tcard .q { width: 40px; height: 40px; color: #c9d3fb; }
+  .tcard .quote { font-size: 18px; color: var(--text); }
+  .tcard figcaption { display: flex; align-items: center; gap: 14px; padding-top: 20px; border-top: 1px solid var(--line); }
+  .tcard figcaption img { width: 52px; height: 52px; border-radius: 50%; object-fit: cover; }
+  .tcard figcaption span { display: grid; font-size: 14px; color: var(--muted); line-height: 1.4; }
+  .tcard figcaption strong { color: var(--ink); font-size: 16px; font-family: var(--font-head); }
+</style>

@@ -1,0 +1,19 @@
+---
+import manifest from '../data/images.json';
+
+interface Props { src: string; alt?: string; eager?: boolean; class?: string; sizes?: string; [attr: string]: unknown }
+const { src, alt = '', eager = false, class: cls, sizes = '(max-width: 980px) 90vw, 50vw', ...rest } = Astro.props;
+const meta = (manifest as Record<string, { src: string; w: number; h: number; srcset?: string }>)[src];
+---
+<img {...rest}
+  src={src}
+  alt={alt}
+  width={meta?.w}
+  height={meta?.h}
+  srcset={meta?.srcset}
+  sizes={meta?.srcset ? sizes : undefined}
+  loading={eager ? 'eager' : 'lazy'}
+  decoding="async"
+  fetchpriority={eager ? 'high' : undefined}
+  class={cls}
+/>

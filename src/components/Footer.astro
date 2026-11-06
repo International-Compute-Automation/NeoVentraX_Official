@@ -1,0 +1,78 @@
+---
+import { contact, socials } from '../data/nav';
+import Icon from './Icon.astro';
+const year = new Date().getFullYear();
+const cols = [
+  { title: 'Company', links: [['About Company', '/about-company/'], ['Careers', '/careers/'], ['People', '/people/'], ['Contact', '/contact-us/']] },
+  { title: 'For Employers', links: [['Services', '/services/'], ['Why NeoVentraX', '/why-neoventrax/'], ['Request Assistance', '/posting-clients-jobs-or-request-for-assistance/'], ['Satisfied Clients', '/satisfied-clients/'], ['Success Stories', '/success-stories/']] },
+  { title: 'For Job Seekers', links: [['Submit Your Resume', '/submit-your-resume/'], ['Resume Tips', '/tips-on-submitting-resumes/'], ['Effective Job Search', '/effective-job-search/'], ['Interview Preparation', '/preparing-interview/'], ['Career Advice', '/career-advice/']] },
+  { title: 'Services', links: [['Recruitment', '/recruitment-services/'], ['Product Support', '/product-support/'], ['Payroll', '/payroll-services/'], ['Product Development', '/product-development/'], ['Accounting & Bookkeeping', '/accounting-and-bookkeeping/']] },
+];
+---
+<footer class="footer bg-dark">
+  <div class="container top">
+    <div class="brand">
+      <a href="/" class="flogo" aria-label="NeoVentraX — home">
+        <img src="/uploads/2025-09-Neo-Ventrax-2-2.webp" alt="NeoVentraX" width="150" height="130" loading="lazy" />
+      </a>
+      <p class="tag">Source. Match. Deliver.</p>
+      <p class="blurb">Strategic recruitment partnerships for smarter hiring and career growth across 20+ industries.</p>
+      <ul class="social">
+        {socials.map((s) => (
+          <li><a href={s.href} target="_blank" rel="noopener" aria-label={s.label}><Icon name={s.name} /></a></li>
+        ))}
+      </ul>
+    </div>
+    {cols.map((c) => (
+      <nav class="col" aria-label={c.title}>
+        <h3>{c.title}</h3>
+        <ul>{c.links.map(([label, href]) => <li><a href={href}>{label}</a></li>)}</ul>
+      </nav>
+    ))}
+  </div>
+  <div class="container contact-row">
+    <a href={contact.phoneHref}><Icon name="phone" /><span>{contact.phone}</span></a>
+    <a href={`mailto:${contact.email}`}><Icon name="mail" /><span>{contact.email}</span></a>
+    <a href="https://maps.google.com/?q=2501+Chatham+Rd+Springfield+IL+62704" target="_blank" rel="noopener"><Icon name="pin" /><span>{contact.address.join(', ')}</span></a>
+  </div>
+  <div class="container bottom">
+    <p>© {year} NeoVentraX. All rights reserved.</p>
+    <a href="#top" class="totop">Back to top ↑</a>
+  </div>
+</footer>
+
+<style>
+  .footer { padding-top: clamp(64px, 8vw, 96px); position: relative; overflow: hidden; }
+  .footer::before {
+    content: ''; position: absolute; inset: 0 0 auto; height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(143, 168, 255, .5), transparent);
+  }
+  .top { display: grid; grid-template-columns: 1.4fr repeat(4, 1fr); gap: 40px; }
+  .flogo img { width: 92px; height: auto; }
+  .tag { margin-top: 18px; font-family: var(--font-head); font-size: 20px; font-weight: 600; color: #fff; }
+  .blurb { margin-top: 8px; font-size: 15px; max-width: 300px; }
+  .social { display: flex; gap: 10px; margin-top: 22px; }
+  .social a {
+    width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; color: #fff;
+    background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .1); transition: background .2s, transform .2s;
+  }
+  .social a:hover { background: var(--grad); transform: translateY(-2px); }
+  .social svg { width: 18px; height: 18px; }
+  .col h3 { font-size: 15px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #fff; margin-bottom: 18px; }
+  .col ul { display: grid; gap: 0; }
+  .col a { display: inline-block; padding: 9px 0; font-size: 15px; transition: color .2s; }
+  .col a:hover { color: #fff; }
+  .contact-row {
+    margin-top: 56px; padding: 22px 0; border-block: 1px solid rgba(255, 255, 255, .09);
+    display: flex; flex-wrap: wrap; gap: 14px 40px;
+  }
+  .contact-row a { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; font-size: 15px; transition: color .2s; }
+  .contact-row a:hover { color: #fff; }
+  .contact-row svg { width: 18px; height: 18px; color: #8fa8ff; flex: none; }
+  .bottom { display: flex; justify-content: space-between; gap: 16px; padding: 22px 0 28px; font-size: 14px; }
+  .totop { display: inline-flex; align-items: center; min-height: 44px; }
+  .totop:hover { color: #fff; }
+  @media (max-width: 1024px) { .top { grid-template-columns: repeat(2, 1fr); } .brand { grid-column: 1 / -1; } }
+  @media (max-width: 520px) { .top { grid-template-columns: 1fr 1fr; gap: 32px 20px; } .bottom { flex-direction: column; gap: 0; padding-bottom: calc(20px + env(safe-area-inset-bottom)); } .contact-row { flex-direction: column; gap: 0; margin-top: 40px; } }
+  @media (max-width: 360px) { .top { grid-template-columns: 1fr; } }
+</style>

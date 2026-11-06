@@ -1,0 +1,381 @@
+{
+ "slug": "retail",
+ "title": "Retail",
+ "description": "",
+ "css": "[data-page=\"retail\"] .dv-section.dv-section-0{background-position:center top;background-image:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(0,0,0,0.6) 100%),url(/uploads/2025-09-Retail-min-scaled.webp)!important}\n[data-page=\"retail\"] .dv-section-0.dv-section{padding-top:170px;padding-bottom:170px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"retail\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"retail\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n[data-page=\"retail\"] .dv-section.dv-section-1{background-size:initial;background-position:left -40px bottom -140px;background-image:url(/uploads/2025-07-it-services-5-nyt-24-png.webp)!important}\n[data-page=\"retail\"] .dv-section-1.dv-section{padding-top:30px;padding-bottom:4px;margin-top:0px;margin-bottom:0px}\n[data-page=\"retail\"] .dv-row-1.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:36px!important;margin-right:auto!important;margin-bottom:36px!important;margin-left:auto!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"retail\"] .dv-row-1{width:90%;max-width:1290px}\n[data-page=\"retail\"] .dv-text-1.dv-text{color:#737373!important}\n[data-page=\"retail\"] .dv-text-1{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important}\n[data-page=\"retail\"] .dv-section-2.dv-section{padding-top:80px;padding-bottom:80px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"retail\"] .dv-row-2.dv-row,[data-page=\"retail\"] .dv-row-3.dv-row,[data-page=\"retail\"] .dv-row-4.dv-row,[data-page=\"retail\"] .dv-row-5.dv-row,[data-page=\"retail\"] .dv-row-6.dv-row,[data-page=\"retail\"] .dv-row-7.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"retail\"] .dv-row-2,[data-page=\"retail\"] .dv-row-3,[data-page=\"retail\"] .dv-row-4,[data-page=\"retail\"] .dv-row-5,[data-page=\"retail\"] .dv-row-6,[data-page=\"retail\"] .dv-row-7{width:90%}\n[data-page=\"retail\"] .dv-image-0 .dv-image-wrap,[data-page=\"retail\"] .dv-image-1 .dv-image-wrap,[data-page=\"retail\"] .dv-image-2 .dv-image-wrap,[data-page=\"retail\"] .dv-image-3 .dv-image-wrap,[data-page=\"retail\"] .dv-image-4 .dv-image-wrap,[data-page=\"retail\"] .dv-image-5 .dv-image-wrap,[data-page=\"retail\"] .dv-image-6 .dv-image-wrap,[data-page=\"retail\"] .dv-image-7 .dv-image-wrap{border-radius:5px 5px 5px 5px;overflow:hidden}\n[data-page=\"retail\"] .dv-image-0,[data-page=\"retail\"] .dv-image-1,[data-page=\"retail\"] .dv-image-2,[data-page=\"retail\"] .dv-image-3,[data-page=\"retail\"] .dv-image-4,[data-page=\"retail\"] .dv-image-5,[data-page=\"retail\"] .dv-image-6,[data-page=\"retail\"] .dv-image-7{padding-top:0px;padding-bottom:0px;margin-top:0px!important;margin-bottom:30px!important;text-align:left;margin-left:0}\n[data-page=\"retail\"] .dv-text-2 h3,[data-page=\"retail\"] .dv-text-4 h3,[data-page=\"retail\"] .dv-text-6 h3,[data-page=\"retail\"] .dv-text-8 h3,[data-page=\"retail\"] .dv-text-10 h3,[data-page=\"retail\"] .dv-text-12 h3,[data-page=\"retail\"] .dv-text-14 h3,[data-page=\"retail\"] .dv-text-16 h3,[data-page=\"retail\"] .dv-text-18 h3,[data-page=\"retail\"] .dv-text-20 h3,[data-page=\"retail\"] .dv-text-22 h3,[data-page=\"retail\"] .dv-text-24 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"retail\"] .dv-text-2,[data-page=\"retail\"] .dv-text-4,[data-page=\"retail\"] .dv-text-6,[data-page=\"retail\"] .dv-text-8,[data-page=\"retail\"] .dv-text-10,[data-page=\"retail\"] .dv-text-12,[data-page=\"retail\"] .dv-text-14,[data-page=\"retail\"] .dv-text-16,[data-page=\"retail\"] .dv-text-18,[data-page=\"retail\"] .dv-text-20,[data-page=\"retail\"] .dv-text-22,[data-page=\"retail\"] .dv-text-24{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:8px!important}\n[data-page=\"retail\"] .dv-text-3.dv-text,[data-page=\"retail\"] .dv-text-5.dv-text,[data-page=\"retail\"] .dv-text-7.dv-text,[data-page=\"retail\"] .dv-text-9.dv-text,[data-page=\"retail\"] .dv-text-11.dv-text,[data-page=\"retail\"] .dv-text-13.dv-text,[data-page=\"retail\"] .dv-text-15.dv-text,[data-page=\"retail\"] .dv-text-17.dv-text,[data-page=\"retail\"] .dv-text-19.dv-text,[data-page=\"retail\"] .dv-text-21.dv-text,[data-page=\"retail\"] .dv-text-23.dv-text,[data-page=\"retail\"] .dv-text-25.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"retail\"] .dv-text-3,[data-page=\"retail\"] .dv-text-5,[data-page=\"retail\"] .dv-text-7,[data-page=\"retail\"] .dv-text-9,[data-page=\"retail\"] .dv-text-11,[data-page=\"retail\"] .dv-text-13,[data-page=\"retail\"] .dv-text-15,[data-page=\"retail\"] .dv-text-17,[data-page=\"retail\"] .dv-text-19,[data-page=\"retail\"] .dv-text-21,[data-page=\"retail\"] .dv-text-23,[data-page=\"retail\"] .dv-text-25{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"retail\"] .dv-column-1{padding-left:35px;margin:auto}\n[data-page=\"retail\"] .dv-column-2,[data-page=\"retail\"] .dv-column-3,[data-page=\"retail\"] .dv-column-4,[data-page=\"retail\"] .dv-column-5,[data-page=\"retail\"] .dv-column-6,[data-page=\"retail\"] .dv-column-7,[data-page=\"retail\"] .dv-column-8,[data-page=\"retail\"] .dv-column-9,[data-page=\"retail\"] .dv-column-10,[data-page=\"retail\"] .dv-column-11,[data-page=\"retail\"] .dv-column-12,[data-page=\"retail\"] .dv-column-13{background-color:#111536;border-radius:5px 5px 5px 5px;overflow:hidden;padding-top:37px;padding-right:40px;padding-bottom:40px;padding-left:40px}\n@media only screen and (min-width:981px){[data-page=\"retail\"] .dv-row-2,[data-page=\"retail\"] .dv-row-3,[data-page=\"retail\"] .dv-row-4,[data-page=\"retail\"] .dv-row-5,[data-page=\"retail\"] .dv-row-6,[data-page=\"retail\"] .dv-row-7{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"retail\"] .dv-text-0 h1{font-size:64px}[data-page=\"retail\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"retail\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:120px}[data-page=\"retail\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"retail\"] .dv-row-2.dv-row,[data-page=\"retail\"] .dv-row-3.dv-row,[data-page=\"retail\"] .dv-row-4.dv-row,[data-page=\"retail\"] .dv-row-5.dv-row,[data-page=\"retail\"] .dv-row-6.dv-row,[data-page=\"retail\"] .dv-row-7.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"retail\"] .dv-row-2,[data-page=\"retail\"] .dv-row-3,[data-page=\"retail\"] .dv-row-4,[data-page=\"retail\"] .dv-row-5,[data-page=\"retail\"] .dv-row-6,[data-page=\"retail\"] .dv-row-7{max-width:410px}[data-page=\"retail\"] .dv-image-0 .dv-image-wrap img,[data-page=\"retail\"] .dv-image-1 .dv-image-wrap img,[data-page=\"retail\"] .dv-image-2 .dv-image-wrap img,[data-page=\"retail\"] .dv-image-3 .dv-image-wrap img,[data-page=\"retail\"] .dv-image-4 .dv-image-wrap img,[data-page=\"retail\"] .dv-image-5 .dv-image-wrap img,[data-page=\"retail\"] .dv-image-6 .dv-image-wrap img,[data-page=\"retail\"] .dv-image-7 .dv-image-wrap img{width:auto}[data-page=\"retail\"] .dv-column-1{padding-top:90px;padding-left:0px}}\n@media only screen and (max-width:767px){[data-page=\"retail\"] .dv-text-0 h1{font-size:50px}[data-page=\"retail\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"retail\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:90px}[data-page=\"retail\"] .dv-section-2.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"retail\"] .dv-row-2.dv-row,[data-page=\"retail\"] .dv-row-3.dv-row,[data-page=\"retail\"] .dv-row-4.dv-row,[data-page=\"retail\"] .dv-row-5.dv-row,[data-page=\"retail\"] .dv-row-6.dv-row,[data-page=\"retail\"] .dv-row-7.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"retail\"] .dv-image-0 .dv-image-wrap img,[data-page=\"retail\"] .dv-image-1 .dv-image-wrap img,[data-page=\"retail\"] .dv-image-2 .dv-image-wrap img,[data-page=\"retail\"] .dv-image-3 .dv-image-wrap img,[data-page=\"retail\"] .dv-image-4 .dv-image-wrap img,[data-page=\"retail\"] .dv-image-5 .dv-image-wrap img,[data-page=\"retail\"] .dv-image-6 .dv-image-wrap img,[data-page=\"retail\"] .dv-image-7 .dv-image-wrap img{width:auto}[data-page=\"retail\"] .dv-column-1{padding-top:55px}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Retail</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 1,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<div>\n<div>\n<p style=\"text-align:center\">The retail industry comprises businesses selling goods and services, both in physical stores and online platforms. It offers diverse job roles, from customer-facing positions like sales associates to behind-the-scenes roles such as inventory managers and buyers. Additionally, opportunities extend to marketing, logistics, finance, human resources, and IT domains. Marketing professionals attract customers, logistics specialists manage supply chains, finance teams handle budgets, HR oversees staffing, and IT maintains digital infrastructure. With roles catering to various skill sets, the retail sector provides a dynamic environment for career growth and development.</p>\n</div>\n</div>\n<div style=\"text-align:center\">\n<div>\n<div></div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 2,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 2,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 0,
+         "src": "/uploads/2025-09-1-Buyer_.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<h3>Buyer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Qualifications: Bachelor’s degree in Business Administration, Marketing, Merchandising, or a related field. Strong negotiation and analytical skills.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Source and purchase merchandise for the retail store.</li>\n<li>Analyze market trends and consumer preferences.</li>\n<li>Negotiate pricing and terms with suppliers.</li>\n<li>Maintain relationships with vendors and ensure timely delivery of products.</li>\n<li>Monitor inventory levels and adjust purchasing decisions accordingly.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 3,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 1,
+         "src": "/uploads/2025-09-2-Floor-Manager.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<h3>Floor Manager (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Qualifications: High school diploma or equivalent. Previous retail experience and demonstrated leadership skills.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Supervise and coordinate activities of retail staff on the sales floor.</li>\n<li>Ensure excellent customer service and satisfaction.</li>\n<li>Monitor and manage inventory levels and product displays.</li>\n<li>Train and coach sales associates on product knowledge and sales techniques.</li>\n<li>Handle customer inquiries, complaints, and escalations.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 4,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 2,
+         "src": "/uploads/2025-09-3--Store-Manager.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<h3>Store Manager (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s degree in Business Administration, Retail Management, or a related field. Several years of retail management experience.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Oversee all aspects of store operations, including sales, staffing, inventory management, and customer service.</li>\n<li>Develop and implement strategies to achieve sales targets and profitability goals.</li>\n<li>Hire, train, and evaluate store staff.</li>\n<li>Ensure compliance with company policies and procedures.</li>\n<li>Handle administrative tasks such as scheduling, budgeting, and reporting.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 5,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 3,
+         "src": "/uploads/2025-09-4-Inventory-Control-Specialist.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 8,
+         "dark": false,
+         "html": "<h3>Inventory Control Specialist (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 9,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Qualifications: High school diploma or equivalent. Experience in inventory management and proficiency in inventory tracking software.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Maintain accurate records of inventory levels and transactions.</li>\n<li>Perform regular inventory audits to identify discrepancies and prevent stockouts.</li>\n<li>Coordinate with suppliers to replenish inventory in a timely manner.</li>\n<li>Monitor and analyze inventory data to optimize stock levels and minimize carrying costs.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 4,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 6,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 4,
+         "src": "/uploads/2025-09-5-Visual-Merchandiser.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 10,
+         "dark": false,
+         "html": "<h3>Visual Merchandiser (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 11,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Qualifications: Bachelor’s degree in Visual Merchandising, Fashion Design, or a related field. Strong creative and artistic skills.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Design and create visually appealing displays to showcase merchandise and attract customers.</li>\n<li>Plan and execute store layout and product placement strategies.</li>\n<li>Coordinate with buyers and store managers to ensure alignment with marketing and promotional campaigns.</li>\n<li>Maintain visual standards and ensure compliance with brand guidelines.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 7,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 5,
+         "src": "/uploads/2025-09-6-Assistant-Store-Manager.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 12,
+         "dark": false,
+         "html": "<h3>Assistant Store Manager (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 13,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Qualifications: High school diploma or equivalent. Previous retail experience and demonstrated leadership abilities.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Support the store manager in overseeing daily operations and achieving sales targets.</li>\n<li>Assist in hiring, training, and supervising store staff.</li>\n<li>Manage inventory levels and merchandise presentation on the sales floor.</li>\n<li>Provide excellent customer service and resolve customer issues.</li>\n<li>Handle administrative tasks as assigned by the store manager.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 5,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 8,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 6,
+         "src": "/uploads/2025-09-7-Department-Manager.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 14,
+         "dark": false,
+         "html": "<h3>Department Manager (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 15,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Qualifications: High school diploma or equivalent. Previous retail experience, with supervisory or leadership experience preferred. &nbsp; Roles and Responsibilities: – Manage a specific department within the store, such as apparel, electronics, or cosmetics. – Oversee merchandise selection, pricing, and promotions within the department. – Train and supervise department staff, including sales associates and specialists. – Monitor department performance and implement strategies to drive sales and profitability.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 9,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 7,
+         "src": "/uploads/2025-09-8-Warehouse-Clerk.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 16,
+         "dark": false,
+         "html": "<h3>Warehouse Clerk (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 17,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Qualifications: High school diploma or equivalent. Previous experience in warehouse operations preferred. Roles and Responsibilities: – Receive, store, and organize incoming merchandise in the warehouse. – Pick and pack orders for shipment to stores or customers. – Maintain accurate inventory records using computerized systems. – Assist with loading and unloading of trucks. – Keep the warehouse clean, organized, and safe.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 6,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 10,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 18,
+         "dark": false,
+         "html": "<h3>Customer Service Representative (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 19,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Qualifications: High school diploma or equivalent. Strong communication and interpersonal skills. Roles and Responsibilities: – Greet and assist customers in a friendly and professional manner. – Answer inquiries about products, services, and store policies. – Process transactions accurately and efficiently using cash registers or point-of-sale systems. – Handle returns, exchanges, and refunds according to company policies. – Resolve customer complaints and issues in a timely and satisfactory manner.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 11,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 20,
+         "dark": false,
+         "html": "<h3>Inventory Associate (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 21,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Qualifications: High school diploma or equivalent. Previous experience in inventory management or retail preferred. Roles and Responsibilities: – Assist in receiving and unpacking shipments of merchandise. – Stock shelves and displays with new inventory. – Perform regular inventory counts and reconcile discrepancies. – Assist in maintaining organized and clean storage areas. – Collaborate with other staff members to ensure efficient inventory management.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 7,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 12,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 22,
+         "dark": false,
+         "html": "<h3>Sales Associate (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 23,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Qualifications: High school diploma or equivalent. Previous retail sales experience and excellent communication skills. Roles and Responsibilities: – Welcome and assist customers in finding products and making purchasing decisions. – Provide product information, recommendations, and demonstrations as needed. – Process sales transactions accurately and efficiently. – Maintain a clean and organized sales floor. – Meet or exceed sales targets and contribute to the overall success of the store.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 13,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 24,
+         "dark": false,
+         "html": "<h3>Cashier (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 25,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Qualifications: High school diploma or equivalent. Strong numerical and customer service skills. Roles and Responsibilities: – Operate cash registers and process sales transactions. – Scan and bag merchandise for customers. – Handle cash, credit card, and other forms of payment accurately. – Maintain a clean and organized checkout area. Provide friendly and efficient service to customers throughout their shopping experience.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

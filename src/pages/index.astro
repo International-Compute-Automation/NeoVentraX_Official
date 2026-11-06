@@ -1,0 +1,490 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import Img from '../components/Img.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { pagesIn } from '../lib/content';
+
+const pillars = [
+  { title: 'Talent Acquisition Solutions', icon: '/uploads/2025-09-Talent-Acquisition-Solutions.webp' },
+  { title: 'Employer Branding Support', icon: '/uploads/2025-09-Employer-Branding-Support.webp' },
+  { title: 'Job Search & Career Guidance', icon: '/uploads/2025-09-Job-Search-Career-Guidance.webp' },
+  { title: 'HR Tech & Workflow Automation', icon: '/uploads/2025-09-HR-Tech-Workflow-Automation.webp' },
+];
+const expertise = [
+  { title: 'Industry-Specific Recruitment', icon: 'Industry-Specific-Recruitment', text: 'Tailored hiring solutions across sectors like Healthcare, Oil & Gas, Legal, and IT — ensuring the right talent fits the right role.' },
+  { title: 'Employer Solutions', icon: 'Employer-Solutions', text: 'Streamline your hiring process with our tools for candidate sourcing, screening, onboarding, and workforce management.' },
+  { title: 'Job Seeker Services', icon: 'Job-Seeker-Services', text: 'Empowering professionals with personalized job matches, resume tools, and application tracking across industries.' },
+  { title: 'Workforce Analytics & Reporting', icon: 'Workforce-Analytics-Reporting', text: 'Leverage data to make smarter hiring decisions — from talent trends to performance and retention insights.' },
+  { title: 'Compliance & Onboarding Support', icon: 'Compliance-Onboarding-Support', text: 'Ensure smooth onboarding and compliance with local employment laws, certifications, and background checks.' },
+  { title: 'End-to-End Hiring Platform', icon: 'End-to-End-Hiring-Platform', text: 'From job posting to placement, manage the full recruitment lifecycle on one unified, easy-to-use platform.' },
+];
+const stats = [
+  { value: '85+', label: 'Trusted Clients', icon: 'Trusted-Clients' },
+  { value: '120+', label: 'Industry Experts', icon: 'Industry-Experts' },
+  { value: '500+', label: 'Successful Hires', icon: 'Successful-Hires' },
+  { value: '950+', label: 'Career Journeys Completed', icon: 'Career-Journeys-Completed' },
+];
+const steps = [
+  { n: '01', title: 'Source', text: 'We tap our network across 20+ industries to find qualified candidates — and the opportunities that suit them.' },
+  { n: '02', title: 'Match', text: 'Skills, culture and career goals are assessed so every introduction is a genuine fit for both sides.' },
+  { n: '03', title: 'Deliver', text: 'From interviews to onboarding and compliance, we support the hire through to a successful start.' },
+];
+const testimonials = [
+  { name: 'James Miller', role: 'HR Manager, Hospitality Group', avatar: '/uploads/2025-07-it-services-5-nyt-8-png.webp',
+    quote: 'Finding the right talent in hospitality was always a challenge for us. NeoVentraX simplified the process with their reliable staffing solutions. Within weeks, we had skilled professionals onboard, perfectly matching our requirements. Their commitment to quality hiring has been a game-changer for our operations.' },
+  { name: 'David Chen', role: 'Operations Director, Construction Firm', avatar: '/uploads/2025-07-it-services-5-nyt-7-png.webp',
+    quote: 'We struggled to recruit experienced professionals for our large-scale projects. NeoVentraX provided us with highly qualified candidates in record time. Their streamlined process saved us hours of effort and ensured we had the right people in place to keep our projects on track. Truly professional and efficient service!' },
+];
+const faqs = [
+  { q: 'What types of businesses do you work with?', a: 'We collaborate with businesses across diverse sectors including Accounting, Oil & Gas, Restaurants, Healthcare & Pharmaceuticals, Environmental, Telecommunications, Legal, Construction, Manufacturing, Retail, Hospitality, Public Safety, and more. Our recruitment solutions are customized to address the unique hiring needs of each industry.' },
+  { q: 'How can NeoVentraX help employers?', a: 'We streamline the hiring process by connecting you with qualified professionals faster, reducing recruitment costs, and ensuring long-term employee retention.' },
+  { q: 'How long does it take to fill a position?', a: 'Timelines depend on the role and industry, but most positions are successfully filled within a few days to a few weeks through our optimized hiring process.' },
+  { q: 'Do you assist job seekers as well?', a: 'Yes, we help candidates find the right opportunities based on their skills and career goals, offering guidance and support throughout their job search journey.' },
+];
+const industries = pagesIn('jobs').map((p) => ({
+  title: p.title, href: `/${p.slug}/`, image: p.heroImage, roles: p.groups.reduce((n, g) => n + g.cards.length, 0),
+}));
+const totalRoles = industries.reduce((n, i) => n + i.roles, 0);
+---
+<Base title="Home" heroImage="/uploads/2025-09-2-min.webp">
+  <!-- HERO -->
+  <section class="hero bg-dark bg-dark-glow">
+    <div class="grid-pattern"></div>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="pill"><span class="dot"></span>Recruitment across 20+ industries</span>
+        <h1 class="h1">Smarter hiring.<br /><span class="grad-text">Stronger careers.</span></h1>
+        <p class="lead">
+          NeoVentraX optimizes hiring for employers and efficiently connects top talent with career opportunities that
+          match their aspirations. Unlock your full potential — together.
+        </p>
+        <div class="hero-cta">
+          <a href="/posting-clients-jobs-or-request-for-assistance/" class="btn btn-primary">Hire Talent <Icon name="arrow" /></a>
+          <a href="#industries" class="btn btn-ghost">Find a Job</a>
+        </div>
+        <ul class="hero-proof">
+          <li><strong>85+</strong> trusted clients</li>
+          <li><strong>500+</strong> successful hires</li>
+          <li><strong>{totalRoles}+</strong> open role types</li>
+        </ul>
+      </div>
+      <div class="hero-media">
+        <div class="frame">
+          <img src="/uploads/2025-09-2-min.webp" srcset="/uploads/2025-09-2-min-768.webp 768w, /uploads/2025-09-2-min.webp 1920w"
+               sizes="(max-width: 980px) 92vw, 46vw" alt="NeoVentraX recruiters working with candidates" width="1920" height="1280" fetchpriority="high" />
+        </div>
+        <div class="float f1">
+          <span class="icon-tile sm"><Icon name="check" /></span>
+          <div><strong>500+</strong><span>Successful hires</span></div>
+        </div>
+        <div class="float f2">
+          <span class="icon-tile sm alt"><Icon name="clock" /></span>
+          <div><strong>Days, not months</strong><span>Typical time to fill</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PILLARS -->
+  <section class="pillars">
+    <div class="container">
+      <ul class="pillar-row">
+        {pillars.map((p) => (
+          <li class="pillar">
+            <span class="icon-tile"><img src={p.icon} alt="" width="32" height="32" /></span>
+            <span>{p.title}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section">
+    <div class="container split">
+      <div class="collage">
+        <Img src="/uploads/2025-07-it-services-5-nyt-1.webp" alt="Recruitment consultants reviewing candidates" class="c1" />
+        <Img src="/uploads/2025-07-AI-scaled.webp" alt="AI-assisted talent matching" class="c2" />
+        <div class="badge-years"><strong>20+</strong><span>industries served</span></div>
+      </div>
+      <div class="split-copy">
+        <span class="eyebrow">About us</span>
+        <h2 class="h2">Strategic partnerships for smarter hiring &amp; career growth</h2>
+        <p class="lead">
+          Empower your workforce with NeoVentraX! We collaborate with employers to streamline hiring, optimize recruitment
+          strategies, and connect top talent with the right opportunities. For professionals, we open doors to career paths
+          that align with their aspirations.
+        </p>
+        <ul class="checks">
+          <li><Icon name="check" />Permanent, contract &amp; temp-to-hire staffing</li>
+          <li><Icon name="check" />Screening, onboarding &amp; compliance handled</li>
+          <li><Icon name="check" />Payroll, product support &amp; development services</li>
+          <li><Icon name="check" />Career guidance for every candidate</li>
+        </ul>
+        <a href="/about-company/" class="btn btn-primary">More about NeoVentraX <Icon name="arrow" /></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUDIENCES -->
+  <section class="section-sm">
+    <div class="container grid grid-2">
+      <article class="aud card card-hover">
+        <div class="aud-head">
+          <span class="icon-tile"><Icon name="building" /></span>
+          <div><span class="eyebrow">For employers</span><h3 class="h3">Build teams that last</h3></div>
+        </div>
+        <p>Qualified professionals, faster — with lower recruitment costs and better long-term retention.</p>
+        <ul class="aud-links">
+          <li><a href="/services/">Staffing services <Icon name="arrow" /></a></li>
+          <li><a href="/why-neoventrax/">Why NeoVentraX <Icon name="arrow" /></a></li>
+          <li><a href="/success-stories/">Success stories <Icon name="arrow" /></a></li>
+        </ul>
+        <a href="/posting-clients-jobs-or-request-for-assistance/" class="btn btn-primary">Post a job or request help <Icon name="arrow" /></a>
+      </article>
+      <article class="aud card card-hover dark">
+        <div class="aud-head">
+          <span class="icon-tile alt"><Icon name="briefcase" /></span>
+          <div><span class="eyebrow">For job seekers</span><h3 class="h3">Find your next role</h3></div>
+        </div>
+        <p>Personalized job matches and guidance at every step — from your resume to your first day.</p>
+        <ul class="aud-links">
+          <li><a href="/tips-on-submitting-resumes/">Resume tips <Icon name="arrow" /></a></li>
+          <li><a href="/preparing-interview/">Interview preparation <Icon name="arrow" /></a></li>
+          <li><a href="/career-advice/">Career advice <Icon name="arrow" /></a></li>
+        </ul>
+        <a href="/submit-your-resume/" class="btn btn-white">Submit your resume <Icon name="arrow" /></a>
+      </article>
+    </div>
+  </section>
+
+  <!-- EXPERTISE -->
+  <section class="section bg-dark bg-dark-glow">
+    <div class="container">
+      <div class="section-head split">
+        <div class="section-head" style="margin:0">
+          <span class="eyebrow">Our expertise</span>
+          <h2 class="h2">Connecting talent with opportunity across 20+ industries</h2>
+        </div>
+        <a href="/contact-us/" class="btn btn-ghost">Talk to us <Icon name="arrow" /></a>
+      </div>
+      <div class="grid grid-3">
+        {expertise.map((e, i) => (
+          <article class="xp">
+            <div class="xp-top">
+              <img src={`/uploads/2025-09-${e.icon}.webp`} alt="" width="52" height="52" loading="lazy" />
+              <span class="xp-n">{String(i + 1).padStart(2, '0')}</span>
+            </div>
+            <h3>{e.title}</h3>
+            <p>{e.text}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- INDUSTRIES -->
+  <section class="section bg-soft" id="industries">
+    <div class="container">
+      <div class="section-head split">
+        <div class="section-head" style="margin:0">
+          <span class="eyebrow">Find a job</span>
+          <h2 class="h2">Explore roles by industry</h2>
+          <p class="lead">{industries.length} industries, {totalRoles}+ role types across the USA. Pick your field to see qualifications and responsibilities.</p>
+        </div>
+        <a href="/submit-your-resume/" class="btn btn-primary">Submit your resume <Icon name="arrow" /></a>
+      </div>
+      <ul class="ind-grid">
+        {industries.map((ind) => (
+          <li>
+            <a href={ind.href} class="ind">
+              {ind.image && <Img src={ind.image} alt="" sizes="(max-width: 680px) 50vw, 25vw" />}
+              <span class="ind-body">
+                <strong>{ind.title}</strong>
+                <span>{ind.roles} roles <Icon name="arrow" /></span>
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- APPROACH + PROCESS -->
+  <section class="section">
+    <div class="container split reverse">
+      <div class="split-copy">
+        <span class="eyebrow">Our approach</span>
+        <h2 class="h2">Tailored hiring solutions for every industry</h2>
+        <p class="lead">
+          From Healthcare, Oil &amp; Gas and IT to Hospitality, Manufacturing and more — our integrated approach ensures
+          employers find the right candidates quickly, while employees gain access to career paths that match their skills
+          and aspirations.
+        </p>
+        <a href="/recruitment-services/" class="link-arrow">See our recruitment services <Icon name="arrow" /></a>
+      </div>
+      <div class="mosaic">
+        <Img src="/uploads/2025-07-it-services-5-nyt-5.webp" alt="" sizes="(max-width: 980px) 45vw, 25vw" />
+        <Img src="/uploads/2025-07-it-services-5-nyt-7.webp" alt="" sizes="(max-width: 980px) 45vw, 25vw" />
+        <Img src="/uploads/2025-07-it-services-5-nyt-6.webp" alt="" sizes="(max-width: 980px) 45vw, 25vw" />
+        <Img src="/uploads/2025-07-it-services-5-nyt-8.webp" alt="" sizes="(max-width: 980px) 45vw, 25vw" />
+      </div>
+    </div>
+    <div class="container steps">
+      {steps.map((s) => (
+        <div class="step">
+          <span class="step-n">{s.n}</span>
+          <h3 class="h3">{s.title}</h3>
+          <p>{s.text}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="section-sm">
+    <div class="container">
+      <ul class="stats">
+        {stats.map((s) => (
+          <li>
+            <img src={`/uploads/2025-09-${s.icon}.webp`} alt="" width="44" height="44" loading="lazy" />
+            <strong>{s.value}</strong>
+            <span>{s.label}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section bg-soft">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Client testimonials</span>
+        <h2 class="h2">How we help businesses build stronger teams</h2>
+      </div>
+      <div class="grid grid-2">
+        {testimonials.map((t) => (
+          <figure class="quote card">
+            <div class="stars" aria-label="5 out of 5 stars">{[1, 2, 3, 4, 5].map(() => <Icon name="star" />)}</div>
+            <blockquote>“{t.quote}”</blockquote>
+            <figcaption>
+              <img src={t.avatar} alt="" width="56" height="56" loading="lazy" />
+              <span><strong>{t.name}</strong>{t.role}</span>
+              <Icon name="quote" class="qmark" />
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container faq-grid">
+      <div class="faq-intro">
+        <span class="eyebrow">Common queries</span>
+        <h2 class="h2">Frequently asked questions</h2>
+        <p class="lead">Can’t find what you’re looking for? Our team is happy to help.</p>
+        <a href="/contact-us/" class="btn btn-ghost">Contact us <Icon name="arrow" /></a>
+      </div>
+      <div class="faq">
+        {faqs.map((f, i) => (
+          <details open={i === 0}>
+            <summary>{f.q}<span class="pm"><Icon name="plus" /></span></summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CtaBand />
+</Base>
+
+<style>
+  /* hero */
+  .hero { padding: clamp(56px, 7vw, 96px) 0 clamp(120px, 12vw, 160px); overflow: hidden; }
+  .hero-grid { position: relative; display: grid; grid-template-columns: 1.05fr 1fr; gap: clamp(32px, 5vw, 72px); align-items: center; }
+  .pill {
+    display: inline-flex; align-items: center; gap: 10px; padding: 8px 16px 8px 12px; border-radius: 999px;
+    background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .12); color: #dfe4ff; font-size: 14px; font-weight: 600;
+  }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: #4ade80; box-shadow: 0 0 0 4px rgba(74, 222, 128, .2); }
+  .hero h1 { margin: 22px 0 22px; }
+  .hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+  .hero-proof { display: flex; flex-wrap: wrap; gap: 10px 28px; margin-top: 36px; font-size: 15px; }
+  .hero-proof strong { color: #fff; font-family: var(--font-head); font-size: 18px; margin-right: 4px; }
+  .hero-media { position: relative; }
+  .frame { border-radius: 28px; overflow: hidden; aspect-ratio: 5 / 4; box-shadow: var(--shadow-lg); border: 1px solid rgba(255, 255, 255, .12); }
+  .frame img { width: 100%; height: 100%; object-fit: cover; object-position: 70% center; }
+  .float {
+    position: absolute; display: flex; align-items: center; gap: 12px; padding: 14px 18px 14px 14px;
+    background: rgba(255, 255, 255, .96); border-radius: 18px; box-shadow: var(--shadow-lg); color: var(--muted); font-size: 13px;
+  }
+  .float strong { display: block; color: var(--ink); font-family: var(--font-head); font-size: 18px; line-height: 1.2; }
+  .float .icon-tile.sm { width: 42px; height: 42px; border-radius: 12px; color: #fff; }
+  .float .icon-tile svg { width: 20px; height: 20px; }
+  .icon-tile.alt { background: linear-gradient(135deg, #12b0d8, #3f74ef); }
+  .f1 { left: -28px; bottom: 36px; }
+  .f2 { right: -20px; top: 28px; }
+
+  /* pillars */
+  .pillars { margin-top: clamp(-96px, -8vw, -72px); position: relative; z-index: 2; }
+  .pillar-row { display: grid; grid-template-columns: repeat(4, 1fr); background: #fff; border-radius: 24px; box-shadow: var(--shadow); border: 1px solid var(--line); }
+  .pillar { display: flex; align-items: center; gap: 16px; padding: 26px 24px; font-family: var(--font-head); font-weight: 600; font-size: 17px; color: var(--ink); line-height: 1.25; }
+  .pillar + .pillar { border-left: 1px solid var(--line); }
+  .pillar .icon-tile { width: 52px; height: 52px; border-radius: 14px; }
+
+  /* split blocks */
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(40px, 6vw, 88px); align-items: center; }
+  .split.reverse .split-copy { order: 0; }
+  .split-copy { display: grid; gap: 20px; justify-items: start; }
+  .collage { position: relative; padding: 0 12% 18% 0; }
+  .collage :global(.c1) { border-radius: 24px; width: 100%; aspect-ratio: 4 / 3.2; object-fit: cover; box-shadow: var(--shadow); }
+  .collage :global(.c2) { position: absolute; right: 0; bottom: 0; width: 52%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 20px; border: 6px solid #fff; box-shadow: var(--shadow-lg); }
+  .badge-years {
+    position: absolute; left: -16px; bottom: 6%; background: var(--grad); color: #fff; border-radius: 18px; padding: 16px 20px;
+    box-shadow: 0 16px 30px -12px rgba(53, 30, 224, .7); display: grid; line-height: 1.2;
+  }
+  .badge-years strong { font-family: var(--font-head); font-size: 30px; }
+  .badge-years span { font-size: 13px; opacity: .9; }
+  .checks { display: grid; gap: 12px; margin: 4px 0 8px; }
+  .checks li { display: flex; align-items: center; gap: 12px; font-weight: 600; color: var(--ink); }
+  .checks svg { width: 22px; height: 22px; padding: 4px; border-radius: 50%; background: #e8edff; color: var(--brand); flex: none; }
+
+  /* audiences */
+  .aud { padding: clamp(28px, 3.5vw, 44px); display: grid; gap: 18px; align-content: start; justify-items: start; }
+  .aud p { color: var(--muted); }
+  .aud-head { display: flex; gap: 18px; align-items: center; }
+  .aud-head .icon-tile { color: #fff; }
+  .aud-head .icon-tile svg { width: 26px; height: 26px; }
+  .aud-head h3 { margin-top: 6px; }
+  .aud-links { display: grid; width: 100%; border-top: 1px solid var(--line); }
+  .aud-links a { display: flex; justify-content: space-between; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--line); font-weight: 600; color: var(--ink); transition: color .2s, padding .2s; }
+  .aud-links a:hover { color: var(--brand); padding-left: 6px; }
+  .aud-links svg { width: 18px; height: 18px; }
+  .aud.dark { background: var(--ink); border-color: var(--ink); background-image: radial-gradient(80% 80% at 100% 0%, rgba(63, 116, 239, .35), transparent 60%); }
+  .aud.dark h3, .aud.dark .aud-links a { color: #fff; }
+  .aud.dark p { color: var(--muted-on-dark); }
+  .aud.dark .eyebrow { color: #8fa8ff; }
+  .aud.dark .aud-links, .aud.dark .aud-links a { border-color: rgba(255, 255, 255, .12); }
+
+  /* expertise */
+  .xp {
+    padding: 30px; border-radius: var(--radius); background: rgba(255, 255, 255, .04); border: 1px solid rgba(255, 255, 255, .09);
+    transition: background .3s, border-color .3s, transform .3s var(--ease);
+  }
+  .xp:hover { background: rgba(255, 255, 255, .07); border-color: rgba(143, 168, 255, .4); transform: translateY(-4px); }
+  .xp-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 28px; }
+  .xp-top img { width: 52px; height: 52px; }
+  .xp-n { font-family: var(--font-head); font-size: 15px; font-weight: 600; color: #8fa8ff; padding: 6px 12px; border-radius: 999px; border: 1px solid rgba(143, 168, 255, .35); }
+  .xp h3 { font-size: 21px; margin-bottom: 10px; }
+  .xp p { font-size: 16px; }
+
+  /* industries */
+  .ind-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+  .ind { position: relative; display: block; aspect-ratio: 4 / 3; border-radius: 18px; overflow: hidden; background: var(--navy); isolation: isolate; }
+  .ind :global(img) { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--ease); z-index: -1; }
+  .ind::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(6, 10, 43, .05) 20%, rgba(6, 10, 43, .88)); z-index: -1; transition: background .3s; }
+  .ind:hover :global(img) { transform: scale(1.06); }
+  .ind:hover::after { background: linear-gradient(180deg, rgba(53, 30, 224, .25) 0%, rgba(6, 10, 43, .92)); }
+  .ind-body { position: absolute; inset: auto 0 0; padding: 18px; display: grid; gap: 4px; color: #fff; }
+  .ind-body strong { font-family: var(--font-head); font-size: 19px; font-weight: 600; line-height: 1.2; }
+  .ind-body span { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; color: #c9d2ff; }
+  .ind-body svg { width: 16px; height: 16px; transition: transform .25s var(--ease); }
+  .ind:hover .ind-body svg { transform: translateX(4px); }
+
+  /* approach */
+  .mosaic { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .mosaic :global(img) { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 20px; }
+  .mosaic :global(img:nth-child(2)), .mosaic :global(img:nth-child(4)) { transform: translateY(28px); }
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: clamp(64px, 8vw, 100px); counter-reset: s; }
+  .step { position: relative; padding: 30px; border-radius: var(--radius); border: 1px solid var(--line); background: linear-gradient(180deg, #fff, var(--soft)); }
+  .step-n { font-family: var(--font-head); font-size: 48px; font-weight: 700; line-height: 1; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .step h3 { margin: 14px 0 8px; }
+  .step p { color: var(--muted); font-size: 16px; }
+
+  /* stats */
+  .stats {
+    display: grid; grid-template-columns: repeat(4, 1fr); border-radius: 28px; overflow: hidden;
+    background: url(/uploads/2025-07-it-services-5-nyt-21-png.webp) center / cover, var(--grad); box-shadow: 0 30px 60px -30px rgba(53, 30, 224, .7);
+  }
+  .stats li { display: grid; justify-items: center; text-align: center; gap: 6px; padding: 40px 20px; color: rgba(255, 255, 255, .85); }
+  .stats li + li { border-left: 1px solid rgba(255, 255, 255, .18); }
+  .stats img { width: 44px; height: 44px; margin-bottom: 6px; }
+  .stats strong { font-family: var(--font-head); font-size: clamp(40px, 4.5vw, 56px); font-weight: 600; line-height: 1; color: #fff; }
+
+  /* testimonials */
+  .quote { padding: clamp(28px, 3.5vw, 40px); display: grid; gap: 22px; }
+  .stars { display: flex; gap: 3px; color: #f5b014; }
+  .stars svg { width: 18px; height: 18px; }
+  .quote blockquote { font-size: 18px; line-height: 1.7; color: var(--text); }
+  .quote figcaption { display: flex; align-items: center; gap: 14px; padding-top: 22px; border-top: 1px solid var(--line); }
+  .quote figcaption img { width: 52px; height: 52px; border-radius: 50%; object-fit: cover; }
+  .quote figcaption span { display: grid; font-size: 14px; color: var(--muted); line-height: 1.4; }
+  .quote figcaption strong { color: var(--ink); font-size: 16px; font-family: var(--font-head); }
+  .qmark { width: 40px; height: 40px; margin-left: auto; color: #dde3fb; }
+
+  /* faq */
+  .faq-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(32px, 6vw, 80px); align-items: start; }
+  .faq-intro { display: grid; gap: 18px; justify-items: start; position: sticky; top: calc(var(--header-h) + 24px); }
+  .faq { display: grid; gap: 12px; }
+  .faq details { border: 1px solid var(--line); border-radius: 16px; background: #fff; transition: border-color .2s, box-shadow .2s; }
+  .faq details[open] { border-color: #cdd5f5; box-shadow: var(--shadow-sm); }
+  .faq summary {
+    list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 16px;
+    padding: 22px 24px; font-family: var(--font-head); font-size: 19px; font-weight: 600; color: var(--ink);
+  }
+  .faq summary::-webkit-details-marker { display: none; }
+  .pm { width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; background: var(--soft); color: var(--brand); flex: none; transition: transform .3s var(--ease), background .2s, color .2s; }
+  .pm svg { width: 18px; height: 18px; }
+  details[open] .pm { transform: rotate(45deg); background: var(--grad); color: #fff; }
+  .faq details p { padding: 0 24px 24px; color: var(--muted); }
+
+  @media (max-width: 1024px) {
+    .pillar-row { grid-template-columns: 1fr 1fr; }
+    .pillar:nth-child(3) { border-left: 0; }
+    .pillar:nth-child(n+3) { border-top: 1px solid var(--line); }
+    .stats { grid-template-columns: 1fr 1fr; }
+    .stats li:nth-child(3) { border-left: 0; }
+    .stats li:nth-child(n+3) { border-top: 1px solid rgba(255, 255, 255, .18); }
+  }
+  @media (max-width: 980px) {
+    .hero-grid, .split, .faq-grid { grid-template-columns: 1fr; }
+    .split.reverse .mosaic { order: 2; }
+    .faq-intro { position: static; }
+    .f1 { left: 12px; } .f2 { right: 12px; }
+    .steps { grid-template-columns: 1fr; }
+    .frame { aspect-ratio: 16 / 10; }
+    .collage, .mosaic { width: 100%; max-width: 600px; margin-inline: auto; }
+    .hero-media { max-width: 680px; }
+  }
+  @media (max-width: 400px) { .aud-head { flex-direction: column; align-items: flex-start; gap: 12px; } }
+  @media (max-width: 600px) {
+    .hero { padding: 40px 0 112px; }
+    .hero h1 { margin: 18px 0 16px; }
+    .hero-cta .btn { flex: 1 1 140px; }
+    .hero-proof { gap: 6px 20px; margin-top: 26px; }
+    .float { padding: 10px 14px 10px 10px; } .float strong { font-size: 16px; }
+    .f1 { left: 10px; bottom: 14px; }
+    .pillar { padding: 18px 20px; font-size: 16px; }
+    .collage { padding: 0 8% 16% 0; }
+    .badge-years { left: -6px; padding: 12px 16px; } .badge-years strong { font-size: 24px; }
+    .aud { padding: 24px 20px; }
+    .aud-head { gap: 14px; } .aud-head .icon-tile { width: 48px; height: 48px; }
+    .xp { padding: 24px; } .xp-top { margin-bottom: 18px; }
+    .mosaic { gap: 10px; } .mosaic :global(img:nth-child(2)), .mosaic :global(img:nth-child(4)) { transform: translateY(16px); }
+    .step { padding: 24px; } .step-n { font-size: 40px; }
+    .stats strong { font-size: 36px; }
+    .quote blockquote { font-size: 16px; }
+    .faq summary { padding: 18px; font-size: 17px; } .faq details p { padding: 0 18px 18px; }
+    .pillar-row { grid-template-columns: 1fr; }
+    .pillar + .pillar { border-left: 0; border-top: 1px solid var(--line); }
+    .stats li { padding: 28px 12px; }
+    .f2 { display: none; }
+    .ind-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+    .ind-body { padding: 12px; } .ind-body strong { font-size: 16px; }
+  }
+</style>

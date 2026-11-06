@@ -1,0 +1,626 @@
+{
+ "slug": "environmental",
+ "title": "Environmental",
+ "description": "",
+ "css": "[data-page=\"environmental\"] .dv-section.dv-section-0{background-image:linear-gradient(180deg,rgba(0,0,0,0.53) 2%,rgba(0,0,0,0.74) 100%),url(/uploads/2025-09-1--Environmental-scaled.webp)!important}\n[data-page=\"environmental\"] .dv-section-0.dv-section{padding-top:150px;padding-bottom:150px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"environmental\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"environmental\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n[data-page=\"environmental\"] .dv-section.dv-section-1{background-size:initial;background-position:left -40px bottom -140px;background-image:url(/uploads/2025-07-it-services-5-nyt-24-png.webp)!important}\n[data-page=\"environmental\"] .dv-section-1.dv-section{padding-top:60px;padding-bottom:60px;margin-top:0px;margin-bottom:0px}\n[data-page=\"environmental\"] .dv-row-1.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-right:auto!important;margin-bottom:0px!important;margin-left:auto!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"environmental\"] .dv-row-1{width:90%;max-width:1290px}\n[data-page=\"environmental\"] .dv-text-1.dv-text{color:#737373!important}\n[data-page=\"environmental\"] .dv-text-1{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:-2px!important}\n[data-page=\"environmental\"] .dv-column-1{padding-left:35px;margin:auto}\n@media only screen and (max-width:980px){[data-page=\"environmental\"] .dv-text-0 h1{font-size:64px}[data-page=\"environmental\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"environmental\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:120px}[data-page=\"environmental\"] .dv-column-1{padding-top:90px;padding-left:0px}}\n@media only screen and (max-width:767px){[data-page=\"environmental\"] .dv-text-0 h1{font-size:50px}[data-page=\"environmental\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"environmental\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:90px}[data-page=\"environmental\"] .dv-column-1{padding-top:55px}}\n[data-page=\"environmental\"] .dv-section-2.dv-section{padding-top:80px;padding-bottom:80px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"environmental\"] .dv-row-2.dv-row,[data-page=\"environmental\"] .dv-row-3.dv-row,[data-page=\"environmental\"] .dv-row-4.dv-row,[data-page=\"environmental\"] .dv-row-5.dv-row,[data-page=\"environmental\"] .dv-row-6.dv-row,[data-page=\"environmental\"] .dv-row-7.dv-row,[data-page=\"environmental\"] .dv-row-8.dv-row,[data-page=\"environmental\"] .dv-row-9.dv-row,[data-page=\"environmental\"] .dv-row-10.dv-row,[data-page=\"environmental\"] .dv-row-11.dv-row,[data-page=\"environmental\"] .dv-row-12.dv-row,[data-page=\"environmental\"] .dv-row-13.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"environmental\"] .dv-row-2,[data-page=\"environmental\"] .dv-row-3,[data-page=\"environmental\"] .dv-row-4,[data-page=\"environmental\"] .dv-row-5,[data-page=\"environmental\"] .dv-row-6,[data-page=\"environmental\"] .dv-row-7,[data-page=\"environmental\"] .dv-row-8,[data-page=\"environmental\"] .dv-row-9,[data-page=\"environmental\"] .dv-row-10,[data-page=\"environmental\"] .dv-row-11,[data-page=\"environmental\"] .dv-row-12,[data-page=\"environmental\"] .dv-row-13{width:90%}\n[data-page=\"environmental\"] .dv-image-0 .dv-image-wrap,[data-page=\"environmental\"] .dv-image-1 .dv-image-wrap,[data-page=\"environmental\"] .dv-image-2 .dv-image-wrap,[data-page=\"environmental\"] .dv-image-3 .dv-image-wrap,[data-page=\"environmental\"] .dv-image-4 .dv-image-wrap,[data-page=\"environmental\"] .dv-image-5 .dv-image-wrap,[data-page=\"environmental\"] .dv-image-6 .dv-image-wrap,[data-page=\"environmental\"] .dv-image-7 .dv-image-wrap{border-radius:5px 5px 5px 5px;overflow:hidden}\n[data-page=\"environmental\"] .dv-image-0,[data-page=\"environmental\"] .dv-image-1,[data-page=\"environmental\"] .dv-image-2,[data-page=\"environmental\"] .dv-image-3,[data-page=\"environmental\"] .dv-image-4,[data-page=\"environmental\"] .dv-image-5,[data-page=\"environmental\"] .dv-image-6,[data-page=\"environmental\"] .dv-image-7{padding-top:0px;padding-bottom:0px;margin-top:0px!important;margin-bottom:30px!important;text-align:left;margin-left:0}\n[data-page=\"environmental\"] .dv-text-2 h3,[data-page=\"environmental\"] .dv-text-4 h3,[data-page=\"environmental\"] .dv-text-6 h3,[data-page=\"environmental\"] .dv-text-8 h3,[data-page=\"environmental\"] .dv-text-10 h3,[data-page=\"environmental\"] .dv-text-12 h3,[data-page=\"environmental\"] .dv-text-14 h3,[data-page=\"environmental\"] .dv-text-16 h3,[data-page=\"environmental\"] .dv-text-18 h3,[data-page=\"environmental\"] .dv-text-20 h3,[data-page=\"environmental\"] .dv-text-22 h3,[data-page=\"environmental\"] .dv-text-24 h3,[data-page=\"environmental\"] .dv-text-26 h3,[data-page=\"environmental\"] .dv-text-28 h3,[data-page=\"environmental\"] .dv-text-30 h3,[data-page=\"environmental\"] .dv-text-32 h3,[data-page=\"environmental\"] .dv-text-34 h3,[data-page=\"environmental\"] .dv-text-36 h3,[data-page=\"environmental\"] .dv-text-38 h3,[data-page=\"environmental\"] .dv-text-40 h3,[data-page=\"environmental\"] .dv-text-42 h3,[data-page=\"environmental\"] .dv-text-44 h3,[data-page=\"environmental\"] .dv-text-46 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"environmental\"] .dv-text-2,[data-page=\"environmental\"] .dv-text-4,[data-page=\"environmental\"] .dv-text-6,[data-page=\"environmental\"] .dv-text-8,[data-page=\"environmental\"] .dv-text-10,[data-page=\"environmental\"] .dv-text-12,[data-page=\"environmental\"] .dv-text-14,[data-page=\"environmental\"] .dv-text-16,[data-page=\"environmental\"] .dv-text-18,[data-page=\"environmental\"] .dv-text-20,[data-page=\"environmental\"] .dv-text-22,[data-page=\"environmental\"] .dv-text-24,[data-page=\"environmental\"] .dv-text-26,[data-page=\"environmental\"] .dv-text-28,[data-page=\"environmental\"] .dv-text-30,[data-page=\"environmental\"] .dv-text-32,[data-page=\"environmental\"] .dv-text-34,[data-page=\"environmental\"] .dv-text-36,[data-page=\"environmental\"] .dv-text-38,[data-page=\"environmental\"] .dv-text-40,[data-page=\"environmental\"] .dv-text-42,[data-page=\"environmental\"] .dv-text-44,[data-page=\"environmental\"] .dv-text-46{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:8px!important}\n[data-page=\"environmental\"] .dv-text-3.dv-text,[data-page=\"environmental\"] .dv-text-5.dv-text,[data-page=\"environmental\"] .dv-text-7.dv-text,[data-page=\"environmental\"] .dv-text-9.dv-text,[data-page=\"environmental\"] .dv-text-11.dv-text,[data-page=\"environmental\"] .dv-text-13.dv-text,[data-page=\"environmental\"] .dv-text-15.dv-text,[data-page=\"environmental\"] .dv-text-17.dv-text,[data-page=\"environmental\"] .dv-text-19.dv-text,[data-page=\"environmental\"] .dv-text-21.dv-text,[data-page=\"environmental\"] .dv-text-23.dv-text,[data-page=\"environmental\"] .dv-text-25.dv-text,[data-page=\"environmental\"] .dv-text-27.dv-text,[data-page=\"environmental\"] .dv-text-29.dv-text,[data-page=\"environmental\"] .dv-text-31.dv-text,[data-page=\"environmental\"] .dv-text-33.dv-text,[data-page=\"environmental\"] .dv-text-35.dv-text,[data-page=\"environmental\"] .dv-text-37.dv-text,[data-page=\"environmental\"] .dv-text-39.dv-text,[data-page=\"environmental\"] .dv-text-41.dv-text,[data-page=\"environmental\"] .dv-text-43.dv-text,[data-page=\"environmental\"] .dv-text-45.dv-text,[data-page=\"environmental\"] .dv-text-47.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"environmental\"] .dv-text-3,[data-page=\"environmental\"] .dv-text-5,[data-page=\"environmental\"] .dv-text-7,[data-page=\"environmental\"] .dv-text-9,[data-page=\"environmental\"] .dv-text-11,[data-page=\"environmental\"] .dv-text-13,[data-page=\"environmental\"] .dv-text-15,[data-page=\"environmental\"] .dv-text-17,[data-page=\"environmental\"] .dv-text-19,[data-page=\"environmental\"] .dv-text-21,[data-page=\"environmental\"] .dv-text-23,[data-page=\"environmental\"] .dv-text-25,[data-page=\"environmental\"] .dv-text-27,[data-page=\"environmental\"] .dv-text-29,[data-page=\"environmental\"] .dv-text-31,[data-page=\"environmental\"] .dv-text-33,[data-page=\"environmental\"] .dv-text-35,[data-page=\"environmental\"] .dv-text-37,[data-page=\"environmental\"] .dv-text-39,[data-page=\"environmental\"] .dv-text-41,[data-page=\"environmental\"] .dv-text-43,[data-page=\"environmental\"] .dv-text-45,[data-page=\"environmental\"] .dv-text-47{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"environmental\"] .dv-column-2,[data-page=\"environmental\"] .dv-column-3,[data-page=\"environmental\"] .dv-column-4,[data-page=\"environmental\"] .dv-column-5,[data-page=\"environmental\"] .dv-column-6,[data-page=\"environmental\"] .dv-column-7,[data-page=\"environmental\"] .dv-column-8,[data-page=\"environmental\"] .dv-column-9,[data-page=\"environmental\"] .dv-column-10,[data-page=\"environmental\"] .dv-column-11,[data-page=\"environmental\"] .dv-column-12,[data-page=\"environmental\"] .dv-column-13,[data-page=\"environmental\"] .dv-column-14,[data-page=\"environmental\"] .dv-column-15,[data-page=\"environmental\"] .dv-column-16,[data-page=\"environmental\"] .dv-column-17,[data-page=\"environmental\"] .dv-column-18,[data-page=\"environmental\"] .dv-column-19,[data-page=\"environmental\"] .dv-column-20,[data-page=\"environmental\"] .dv-column-21,[data-page=\"environmental\"] .dv-column-22,[data-page=\"environmental\"] .dv-column-23,[data-page=\"environmental\"] .dv-column-24{background-color:#111536;border-radius:5px 5px 5px 5px;overflow:hidden;padding-top:37px;padding-right:40px;padding-bottom:40px;padding-left:40px}\n@media only screen and (min-width:981px){[data-page=\"environmental\"] .dv-row-2,[data-page=\"environmental\"] .dv-row-3,[data-page=\"environmental\"] .dv-row-4,[data-page=\"environmental\"] .dv-row-5,[data-page=\"environmental\"] .dv-row-6,[data-page=\"environmental\"] .dv-row-7,[data-page=\"environmental\"] .dv-row-8,[data-page=\"environmental\"] .dv-row-9,[data-page=\"environmental\"] .dv-row-10,[data-page=\"environmental\"] .dv-row-11,[data-page=\"environmental\"] .dv-row-12,[data-page=\"environmental\"] .dv-row-13{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"environmental\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"environmental\"] .dv-row-2.dv-row,[data-page=\"environmental\"] .dv-row-3.dv-row,[data-page=\"environmental\"] .dv-row-4.dv-row,[data-page=\"environmental\"] .dv-row-5.dv-row,[data-page=\"environmental\"] .dv-row-6.dv-row,[data-page=\"environmental\"] .dv-row-7.dv-row,[data-page=\"environmental\"] .dv-row-8.dv-row,[data-page=\"environmental\"] .dv-row-9.dv-row,[data-page=\"environmental\"] .dv-row-10.dv-row,[data-page=\"environmental\"] .dv-row-11.dv-row,[data-page=\"environmental\"] .dv-row-12.dv-row,[data-page=\"environmental\"] .dv-row-13.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"environmental\"] .dv-row-2,[data-page=\"environmental\"] .dv-row-3,[data-page=\"environmental\"] .dv-row-4,[data-page=\"environmental\"] .dv-row-5,[data-page=\"environmental\"] .dv-row-6,[data-page=\"environmental\"] .dv-row-7,[data-page=\"environmental\"] .dv-row-8,[data-page=\"environmental\"] .dv-row-9,[data-page=\"environmental\"] .dv-row-10,[data-page=\"environmental\"] .dv-row-11,[data-page=\"environmental\"] .dv-row-12,[data-page=\"environmental\"] .dv-row-13{max-width:410px}[data-page=\"environmental\"] .dv-image-0 .dv-image-wrap img,[data-page=\"environmental\"] .dv-image-1 .dv-image-wrap img,[data-page=\"environmental\"] .dv-image-2 .dv-image-wrap img,[data-page=\"environmental\"] .dv-image-3 .dv-image-wrap img,[data-page=\"environmental\"] .dv-image-4 .dv-image-wrap img,[data-page=\"environmental\"] .dv-image-5 .dv-image-wrap img,[data-page=\"environmental\"] .dv-image-6 .dv-image-wrap img,[data-page=\"environmental\"] .dv-image-7 .dv-image-wrap img{width:auto}}\n@media only screen and (max-width:767px){[data-page=\"environmental\"] .dv-section-2.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"environmental\"] .dv-row-2.dv-row,[data-page=\"environmental\"] .dv-row-3.dv-row,[data-page=\"environmental\"] .dv-row-4.dv-row,[data-page=\"environmental\"] .dv-row-5.dv-row,[data-page=\"environmental\"] .dv-row-6.dv-row,[data-page=\"environmental\"] .dv-row-7.dv-row,[data-page=\"environmental\"] .dv-row-8.dv-row,[data-page=\"environmental\"] .dv-row-9.dv-row,[data-page=\"environmental\"] .dv-row-10.dv-row,[data-page=\"environmental\"] .dv-row-11.dv-row,[data-page=\"environmental\"] .dv-row-12.dv-row,[data-page=\"environmental\"] .dv-row-13.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"environmental\"] .dv-image-0 .dv-image-wrap img,[data-page=\"environmental\"] .dv-image-1 .dv-image-wrap img,[data-page=\"environmental\"] .dv-image-2 .dv-image-wrap img,[data-page=\"environmental\"] .dv-image-3 .dv-image-wrap img,[data-page=\"environmental\"] .dv-image-4 .dv-image-wrap img,[data-page=\"environmental\"] .dv-image-5 .dv-image-wrap img,[data-page=\"environmental\"] .dv-image-6 .dv-image-wrap img,[data-page=\"environmental\"] .dv-image-7 .dv-image-wrap img{width:auto}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Environmental</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 1,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<p style=\"text-align:center\">The environmental work industry is dedicated to safeguarding ecosystems and addressing pressing environmental issues such as climate change, pollution, and habitat degradation. Professionals in this field, including environmental scientists and conservation biologists, play pivotal roles in research, conservation efforts, and policy advocacy. There’s a notable shift towards sustainable practices, renewable energy adoption, and the promotion of green technologies. Concurrently, the sector fosters public awareness, community education, and collaboration with stakeholders to ensure a sustainable future for generations to come.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 2,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 2,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 0,
+         "src": "/uploads/2025-09-1--Park-Ranger.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<h3>Park Ranger (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<p>Qualifications: Bachelor’s degree in Parks and Recreation, Environmental Science, Biology, or a related field. CPR and first aid certification may be required. Strong communication and interpersonal skills.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Patrol park areas to ensure visitor safety and compliance with regulations.</li>\n<li>Provide information and assistance to park visitors.</li>\n<li>Conduct educational programs and guided tours.</li>\n<li>Perform resource management tasks such as trail maintenance and habitat restoration.</li>\n<li>Monitor wildlife and enforce wildlife protection regulations.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div></div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 3,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 1,
+         "src": "/uploads/2025-09-2--Natural-Resource-Technician.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<h3>Natural Resource Technician (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Associate’s or bachelor’s degree in Natural Resources Management, Environmental Science, Biology, or a related field. Fieldwork experience and familiarity with data collection techniques.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Conduct field surveys to collect data on natural resources such as wildlife, vegetation, and water quality.</li>\n<li>Assist in habitat restoration projects and invasive species management.</li>\n<li>Monitor and maintain environmental monitoring equipment.</li>\n</ul>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 4,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 2,
+         "src": "/uploads/2025-09-3--Marine-Biologist.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<h3>Marine Biologist (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s degree in Marine Biology, Biology, Ecology, or a related field. Advanced degree may be required for research positions. Strong swimming and diving skills may be necessary.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Study marine organisms, ecosystems, and habitats.</li>\n<li>Conduct field research and collect samples.</li>\n<li>Analyze data and prepare research reports.</li>\n<li>Monitor marine biodiversity and assess environmental impacts.</li>\n<li>Collaborate with other scientists and stakeholders in conservation efforts.</li>\n</ul>\n</div>\n<h4></h4>"
+        }
+       ]
+      },
+      {
+       "i": 5,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 3,
+         "src": "/uploads/2025-09-4--Environmental-Technician.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 8,
+         "dark": false,
+         "html": "<h3>Environmental Technician (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 9,
+         "dark": false,
+         "html": "<div>Job description</div>\n<div>\n<p>Qualifications: Associate’s or bachelor’s degree in Environmental Science, Biology, Chemistry, or a related field. Experience with fieldwork and environmental monitoring techniques.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Conduct environmental sampling and monitoring activities, such as air quality, water quality, and soil sampling.</li>\n<li>Perform laboratory analyses on collected samples.</li>\n<li>Assist in environmental impact assessments and compliance monitoring.</li>\n<li>Collect and manage data for environmental reports and permits.</li>\n</ul>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 4,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 6,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 4,
+         "src": "/uploads/2025-09-5--Wildlife-Specialist.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 10,
+         "dark": false,
+         "html": "<h3>Wildlife Specialist (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 11,
+         "dark": false,
+         "html": "<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s degree in Wildlife Biology, Ecology, Environmental Science, or a related field. Strong knowledge of wildlife ecology and behavior.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Conduct surveys to monitor wildlife populations and habitats.</li>\n<li>Implement wildlife management and conservation strategies.</li>\n<li>Assist in endangered species recovery efforts.</li>\n<li>Provide technical assistance and training to landowners and stakeholders on wildlife management practices.</li>\n</ul>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 7,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 5,
+         "src": "/uploads/2025-09-6--Wildlife-Biologist.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 12,
+         "dark": false,
+         "html": "<h3>Wildlife Biologist (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 13,
+         "dark": false,
+         "html": "<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s or master’s degree in Wildlife Biology, Ecology, Environmental Science, or a related field. Strong analytical and research skills</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Study wildlife populations, behavior, and habitat use.</li>\n<li>Conduct field research and data collection.</li>\n<li>Analyze data and prepare research reports.</li>\n<li>Assist in wildlife management and conservation planning.</li>\n<li>Collaborate with other scientists and stakeholders in conservation efforts.</li>\n</ul>\n</div>\n</div>\n<div>\n<ul></ul>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 5,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 8,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 6,
+         "src": "/uploads/2025-09-7--Meteorologist.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 14,
+         "dark": false,
+         "html": "<h3>Meteorologist (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 15,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s degree in Meteorology, Atmospheric Science, or a related field. Strong mathematical and computer skills. Experience with weather forecasting models and data analysis.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Analyze weather data and atmospheric conditions.</li>\n<li>Develop weather forecasts and warnings.</li>\n<li>Monitor weather patterns and climate trends.</li>\n<li>Conduct research on weather phenomena and climate change.</li>\n<li>Communicate weather information to the public and stakeholders.</li>\n</ul>\n</div>\n</div>\n<div>\n<ul></ul>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 9,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 7,
+         "src": "/uploads/2025-09-8--Wind-Turbine-Technician.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 16,
+         "dark": false,
+         "html": "<h3>Wind Turbine Technician (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 17,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Associate’s degree in Wind Energy Technology, Electrical Engineering Technology, or a related field. Certification from a wind turbine technician program may be required. Experience with electrical systems and mechanical components.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Install, inspect, and maintain wind turbine systems.</li>\n<li>Troubleshoot electrical and mechanical issues.</li>\n<li>Perform routine maintenance and repairs.</li>\n<li>Ensure compliance with safety regulations and manufacturer guidelines.</li>\n<li>Monitor turbine performance and generate reports.</li>\n</ul>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 6,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 10,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 18,
+         "dark": false,
+         "html": "<h3>Geographic Information Systems (GIS) Specialist (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 19,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s degree in Geography, Geographic Information Systems (GIS), Environmental Science, or a related field. Proficiency in GIS software and spatial analysis techniques.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Create and maintain GIS databases and maps.</li>\n<li>Collect, organize, and analyze geographic data.</li>\n<li>Develop spatial models and perform spatial analysis.</li>\n<li>Provide GIS support to research projects and fieldwork.</li>\n<li>Communicate GIS findings to stakeholders through maps and reports.</li>\n</ul>\n</div>\n</div>\n</div>\n<div></div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 11,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 20,
+         "dark": false,
+         "html": "<h3>Environmental Scientist (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 21,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s or master’s degree in Environmental Science, Ecology, Biology, or a related field. Strong analytical, communication, and problem-solving skills.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Conduct environmental assessments and impact studies.</li>\n<li>Collect and analyze environmental data.</li>\n<li>Develop and implement environmental monitoring programs.</li>\n<li>Assist in environmental permitting and regulatory compliance.</li>\n<li>Collaborate with interdisciplinary teams on environmental projects and research.</li>\n</ul>\n</div>\n</div>\n<div>\n<ul></ul>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 7,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 12,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 22,
+         "dark": false,
+         "html": "<h3>Geographer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 23,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s degree in Geography, Geographic Information Systems (GIS), Environmental Science, or a related field. Strong analytical and spatial reasoning skills.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Study the Earth’s surface and its features, including landforms, climate, and vegetation.</li>\n<li>Analyze spatial data using GIS and other tools.</li>\n<li>Conduct research on human-environment interactions and geographic patterns.</li>\n<li>Create maps and visualizations to represent geographic information.</li>\n</ul>\n</div>\n</div>\n<div>\n<ul></ul>\n</div>\n</div>\n</div>\n<div></div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 13,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 24,
+         "dark": false,
+         "html": "<h3>Geologist (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 25,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s degree in Geology, Earth Sciences, or a related field. Strong fieldwork and analytical skills.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Study the Earth’s structure, composition, and processes.</li>\n<li>Conduct geological surveys and field investigations.</li>\n<li>Analyze rock and soil samples to understand geological formations.</li>\n<li>Interpret geological data to assess natural resource potential and environmental risks.</li>\n<li>Provide expertise on geological hazards and environmental conservation.</li>\n</ul>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 8,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 14,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 26,
+         "dark": false,
+         "html": "<h3>Ecologist&nbsp;(Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 27,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s or master’s degree in Ecology, Biology, Environmental Science, or a related field. Strong knowledge of ecosystems and ecological principles.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Study the relationships between organisms and their environments.</li>\n<li>Conduct field research to assess ecological conditions and biodiversity.</li>\n<li>Analyze ecological data and identify patterns and trends.</li>\n<li>Develop conservation and restoration plans for ecosystems.</li>\n<li>Provide expertise on ecological impacts of development projects and land management practices.</li>\n</ul>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 15,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 28,
+         "dark": false,
+         "html": "<h3>Landscape Architect (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 29,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s or master’s degree in Ecology, Biology, Environmental Science, or a related field. Strong knowledge of ecosystems and ecological principles.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Study the relationships between organisms and their environments.</li>\n<li>Conduct field research to assess ecological conditions and biodiversity.</li>\n<li>Analyze ecological data and identify patterns and trends.</li>\n<li>Develop conservation and restoration plans for ecosystems.</li>\n<li>Provide expertise on ecological impacts of development projects and land management practices.</li>\n</ul>\n</div>\n</div>\n<div>\n<ul></ul>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 9,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 16,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 30,
+         "dark": false,
+         "html": "<h3>Environmental Compliance Specialist&nbsp;(Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 31,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s degree in Environmental Science, Environmental Engineering, or a related field. Strong understanding of environmental regulations and compliance requirements.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Monitor and assess environmental regulations at the local, state, and federal levels.</li>\n<li>Develop and implement compliance programs and procedures.</li>\n<li>Conduct audits and inspections to ensure adherence to environmental laws and regulations.</li>\n<li>Provide training and guidance to employees on environmental compliance.</li>\n<li>Prepare and submit reports to regulatory agencies.</li>\n</ul>\n</div>\n</div>\n<div>\n<ul></ul>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 17,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 32,
+         "dark": false,
+         "html": "<h3>Environmental Consultant (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 33,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s or master’s degree in Environmental Science, Environmental Engineering, or a related field. Professional certification or licensure may be required. Strong analytical and communication skills.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Provide expertise and advice on environmental issues to clients in various industries.</li>\n<li>Conduct environmental assessments, impact studies, and risk assessments.</li>\n<li>Develop strategies and recommendations for environmental management and sustainability.</li>\n<li>Assist clients in obtaining permits and complying with environmental regulations.</li>\n<li>Communicate findings and recommendations to clients and stakeholders.</li>\n</ul>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 10,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 18,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 34,
+         "dark": false,
+         "html": "<h3>Microbiologist&nbsp;(Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 35,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s or master’s degree in Microbiology, Biology, Environmental Science, or a related field. Strong laboratory skills and knowledge of microbiological techniques.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Study microorganisms and their interactions with the environment.</li>\n<li>Conduct laboratory experiments and research on microbial processes.</li>\n<li>Assess the role of microorganisms in environmental pollution and degradation.</li>\n</ul>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 19,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 36,
+         "dark": false,
+         "html": "<h3>Environmental Specialist (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 37,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s degree in Environmental Science, Ecology, or a related field. Strong knowledge of environmental regulations and management practices.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Conduct environmental assessments and evaluations.</li>\n<li>Monitor environmental conditions and trends.</li>\n<li>Develop and implement environmental management plans.</li>\n<li>Assist in environmental permitting and compliance activities.</li>\n<li>Provide technical expertise and support on environmental issues.</li>\n</ul>\n</div>\n</div>\n<div>\n<ul></ul>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 11,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 20,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 38,
+         "dark": false,
+         "html": "<h3>Environmental Planner&nbsp;(Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 39,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s or master’s degree in Urban Planning, Environmental Planning, or a related field. Strong analytical and communication skills.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Develop land use plans and policies that promote sustainable development and environmental conservation.</li>\n<li>Assess theenvironmental impacts of proposed development projects.</li>\n<li>Conduct environmental reviews and evaluations.</li>\n<li>Engage stakeholders and communities in the planning process.</li>\n<li>Ensure compliance with environmental regulations and planning guidelines.</li>\n</ul>\n</div>\n</div>\n<div>\n<ul></ul>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 21,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 40,
+         "dark": false,
+         "html": "<h3>Environment, Health, and Safety (EHS) Specialist (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 41,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s degree in Environmental Health and Safety, Occupational Health and Safety, or a related field. Professional certification or licensure may be required. Strong knowledge of safety regulations and practices.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Develop and implement health and safety programs and policies.</li>\n<li>Conduct risk assessments and hazard analyses.</li>\n<li>Provide training and guidance to employees on safety procedures.</li>\n<li>Investigate accidents and incidents to determine causes and prevent recurrence.</li>\n</ul>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 12,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 22,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 42,
+         "dark": false,
+         "html": "<h3>Environmental Engineer&nbsp;(Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 43,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s or master’s degree in Environmental Engineering, Civil Engineering, or a related field. Professional engineering licensure may be required. Strong analytical and problem-solving skills.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Design and implement systems and processes to prevent or mitigate environmental pollution and degradation.</li>\n<li>Conduct environmental assessments and impact studies.</li>\n<li>Develop and implement pollution control and remediation strategies.</li>\n<li>Ensure compliance with environmental regulations and permits.</li>\n<li>Collaborate with other engineers, scientists, and stakeholders on environmental projects.</li>\n</ul>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 23,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 44,
+         "dark": false,
+         "html": "<h3>Sustainability Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 45,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s or master’s degree in Environmental Engineering, Sustainable Engineering, or a related field. Strong understanding of sustainability principles and practices.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Develop and implement sustainability initiatives and strategies.</li>\n<li>Conduct life cycle assessments and environmental impact analyses.</li>\n<li>Identify opportunities for energy efficiency and renewable energy generation.</li>\n<li>Design and implement sustainable building and infrastructure projects.</li>\n<li>Monitor and report on sustainability performance metrics.</li>\n</ul>\n</div>\n</div>\n<div>\n<ul></ul>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 13,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 24,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 46,
+         "dark": false,
+         "html": "<h3>Environmental Health and Safety Officer&nbsp;(Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 47,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications: Bachelor’s degree in Environmental Health and Safety, Occupational Health and Safety, or a related field. Professional certification or licensure may be required. Strong knowledge of health, safety, and environmental regulations.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Develop and implement health, safety, and environmental policies and procedures.</li>\n<li>Conduct risk assessments and hazard analyses.</li>\n<li>Provide training and guidance to employees on health and safety practices.</li>\n<li>Investigate accidents and incidents to determine causes and prevent recurrence.</li>\n<li>Ensure compliance with health, safety, and environmental regulations and standards.</li>\n</ul>\n</div>\n</div>\n<div>\n<ul></ul>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 25,
+       "w": "1_2",
+       "mods": []
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

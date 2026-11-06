@@ -1,0 +1,192 @@
+---
+import { nav } from '../data/nav';
+import Icon from './Icon.astro';
+const path = Astro.url.pathname;
+const active = (href: string, children?: { href: string }[]) => href === path || !!children?.some((c) => c.href === path);
+---
+<header class="site-header" id="site-header">
+  <div class="container bar">
+    <a href="/" class="logo" aria-label="NeoVentraX — home">
+      <img src="/uploads/2025-08-Neo-Ventrax-Logo.webp" alt="NeoVentraX" width="196" height="40" fetchpriority="high" />
+    </a>
+
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <ul class="menu">
+        {nav.filter((i) => i.label !== 'Contact Us').map((item) => (
+          <li class:list={['item', { 'has-sub': item.children, mega: item.label === 'Find a Job', active: active(item.href, item.children) }]}>
+            {item.children ? (
+              <>
+                <button type="button" class="top" aria-expanded="false">
+                  {item.label}<Icon name="chevron" class="chev" />
+                </button>
+                <div class="panel">
+                  {item.label === 'Find a Job' && (
+                    <div class="panel-head">
+                      <strong>Browse roles by industry</strong>
+                      <a href="/submit-your-resume/" class="link-arrow">Submit your resume <Icon name="arrow" /></a>
+                    </div>
+                  )}
+                  <ul class="sub">
+                    {item.children.map((c) => (
+                      <li><a href={c.href} aria-current={c.href === path ? 'page' : undefined}>{c.label}</a></li>
+                    ))}
+                  </ul>
+                </div>
+              </>
+            ) : (
+              <a class="top" href={item.href} aria-current={item.href === path ? 'page' : undefined}>{item.label}</a>
+            )}
+          </li>
+        ))}
+        <li class="item"><a class="top" href="/contact-us/" aria-current={path === '/contact-us/' ? 'page' : undefined}>Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="/submit-your-resume/" class="btn btn-ghost btn-sm">Submit Resume</a>
+        <a href="/posting-clients-jobs-or-request-for-assistance/" class="btn btn-primary btn-sm">Hire Talent</a>
+      </div>
+    </nav>
+
+    <button class="burger" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+      <Icon name="menu" class="i-open" /><Icon name="close" class="i-close" />
+    </button>
+  </div>
+</header>
+
+<script>
+  const header = document.getElementById('site-header')!;
+  const burger = header.querySelector<HTMLButtonElement>('.burger')!;
+  const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 8);
+  onScroll();
+  addEventListener('scroll', onScroll, { passive: true });
+  const setOpen = (open: boolean) => {
+    header.classList.toggle('open', open);
+    burger.setAttribute('aria-expanded', String(open));
+    burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    document.documentElement.classList.toggle('no-scroll', open);
+  };
+  burger.addEventListener('click', () => setOpen(!header.classList.contains('open')));
+  header.querySelectorAll('#primary-nav a').forEach((a) => a.addEventListener('click', () => setOpen(false)));
+  matchMedia('(min-width: 1101px)').addEventListener('change', (e) => { if (e.matches) setOpen(false); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && header.classList.contains('open')) { setOpen(false); burger.focus(); } });
+  // ---- dropdowns: hover (mouse) + click/tap/keyboard, kept in sync so neither "sticks" ----
+  const subs = [...header.querySelectorAll<HTMLLIElement>('.has-sub')];
+  const isDesktop = matchMedia('(min-width: 1101px)');
+  const closeSub = (li: HTMLLIElement, suppressHover = false) => {
+    li.classList.remove('show');
+    li.querySelector('.top')?.setAttribute('aria-expanded', 'false');
+    // on desktop, a click-to-close while the mouse is still over the item must win over :hover
+    if (suppressHover && isDesktop.matches) li.classList.add('suppress');
+  };
+  const closeAll = (except?: HTMLLIElement) => subs.forEach((o) => o !== except && closeSub(o));
+  subs.forEach((li) => {
+    const btn = li.querySelector<HTMLButtonElement>('.top')!;
+    btn.addEventListener('click', () => {
+      const wasOpen = li.classList.contains('show') || (isDesktop.matches && li.matches(':hover') && !li.classList.contains('suppress'));
+      closeAll(li);
+      if (wasOpen) closeSub(li, true);
+      else { li.classList.remove('suppress'); li.classList.add('show'); btn.setAttribute('aria-expanded', 'true'); }
+    });
+    li.addEventListener('mouseenter', () => { if (isDesktop.matches) { closeAll(li); btn.setAttribute('aria-expanded', 'true'); } });
+    li.addEventListener('mouseleave', () => {
+      if (!isDesktop.matches) return;
+      li.classList.remove('suppress');
+      closeSub(li);
+    });
+    // keyboard: close when focus leaves the item entirely
+    li.addEventListener('focusout', (e) => { if (isDesktop.matches && !li.contains(e.relatedTarget as Node)) closeSub(li); });
+  });
+  document.addEventListener('click', (e) => { if (!header.contains(e.target as Node)) closeAll(); });
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    const open = subs.find((o) => o.classList.contains('show'));
+    if (open) { closeSub(open, true); open.querySelector<HTMLButtonElement>('.top')?.focus(); }
+  });
+  isDesktop.addEventListener('change', () => { closeAll(); subs.forEach((o) => o.classList.remove('suppress')); });
+</script>
+
+<style>
+  .site-header {
+    position: sticky; top: 0; z-index: 100; height: var(--header-h);
+    border-bottom: 1px solid transparent; transition: border-color .3s, box-shadow .3s;
+  }
+  /* The frosted-glass blur lives on a pseudo-element: a backdrop-filter on the header itself would
+     become the containing block for the position:fixed mobile menu and squash it to the header's height. */
+  .site-header::before {
+    content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+    background: rgba(255, 255, 255, .82); backdrop-filter: saturate(180%) blur(14px); -webkit-backdrop-filter: saturate(180%) blur(14px);
+    transition: background .3s;
+  }
+  .site-header.scrolled { border-color: var(--line); box-shadow: 0 6px 24px -12px rgba(10, 16, 64, .18); }
+  .site-header.scrolled::before, .site-header.open::before { background: rgba(255, 255, 255, .96); }
+  .bar { width: min(100% - 48px, 1280px); height: 100%; display: flex; align-items: center; gap: 20px; position: relative; }
+  .logo { flex: none; display: flex; }
+  .logo img { height: 40px; width: auto; }
+  .nav { flex: 1; min-width: 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .menu { display: flex; align-items: center; gap: 2px; margin-inline: auto; }
+  .item { position: relative; }
+  .item.mega { position: static; } /* mega panel centres on the header bar, never off-screen */
+  .top {
+    display: inline-flex; align-items: center; gap: 4px; padding: 10px 12px; border-radius: 999px; border: 0; background: none; cursor: pointer; white-space: nowrap;
+    font-family: var(--font-head); font-size: 16px; font-weight: 500; color: var(--text); transition: background .2s, color .2s;
+  }
+  .top:hover, .show > .top { background: var(--soft); color: var(--brand); }
+  .top:focus-visible { outline-offset: 0; }
+  .active > .top, .top[aria-current] { color: var(--brand); }
+  .chev { width: 16px; height: 16px; flex: none; transition: transform .25s var(--ease); }
+  .show > .top .chev { transform: rotate(180deg); }
+  .panel {
+    position: absolute; top: calc(100% + 12px); left: 50%; translate: -50% 0; min-width: 270px; padding: 10px;
+    background: #fff; border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow-lg);
+    opacity: 0; visibility: hidden; transform: translateY(6px); transition: opacity .2s, transform .2s var(--ease), visibility .2s;
+  }
+  .panel::before { content: ''; position: absolute; inset: -22px 0 auto; height: 22px; } /* hover bridge across the gap */
+  .has-sub.show > .panel { opacity: 1; visibility: visible; transform: none; }
+  @media (hover: hover) and (min-width: 1101px) {
+    .has-sub:hover > .panel { opacity: 1; visibility: visible; transform: none; }
+    .has-sub:hover > .top { background: var(--soft); color: var(--brand); }
+    .has-sub:hover > .top .chev { transform: rotate(180deg); }
+  }
+  .has-sub.suppress > .panel { opacity: 0 !important; visibility: hidden !important; }
+  .has-sub.suppress > .top .chev { transform: none !important; }
+  .sub a { display: block; padding: 10px 14px; border-radius: 10px; font-size: 15px; font-weight: 500; color: var(--text); transition: background .15s, color .15s; }
+  .sub a:hover, .sub a[aria-current] { background: var(--soft); color: var(--brand); }
+  .mega .panel { width: min(760px, 100%); padding: 18px; top: calc(100% - 6px); }
+  .mega .sub { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+  .panel-head { display: flex; justify-content: space-between; align-items: center; padding: 4px 14px 14px; margin-bottom: 8px; border-bottom: 1px solid var(--line); }
+  .panel-head strong { font-family: var(--font-head); color: var(--ink); font-weight: 600; }
+  .panel-head .link-arrow { font-size: 14px; }
+  .nav-cta { display: flex; gap: 10px; }
+  .burger { display: none; margin-left: auto; width: 46px; height: 46px; border-radius: 12px; border: 1px solid var(--line); background: #fff; cursor: pointer; place-items: center; color: var(--ink); }
+  .burger svg { width: 22px; height: 22px; }
+  .burger .i-close, .open .burger .i-open { display: none; }
+  .open .burger .i-close { display: block; }
+
+  @media (max-width: 1340px) {
+    .nav-cta .btn-ghost { display: none; }
+    .top { padding: 10px 10px; font-size: 15px; }
+  }
+  @media (max-width: 1100px) {
+    .burger { display: grid; }
+    .nav {
+      position: fixed; inset: var(--header-h) 0 0; background: #fff; flex-direction: column; align-items: stretch; justify-content: flex-start;
+      padding: 8px max(24px, env(safe-area-inset-right)) calc(32px + env(safe-area-inset-bottom)) max(24px, env(safe-area-inset-left));
+      overflow-y: auto; overscroll-behavior: contain; display: none;
+    }
+    .item.mega { position: relative; }
+    .open .nav { display: flex; }
+    .menu { flex-direction: column; align-items: stretch; margin: 0; gap: 0; }
+    .item { border-bottom: 1px solid var(--line); }
+    .top { width: 100%; justify-content: space-between; padding: 16px 4px; font-size: 18px; border-radius: 0; }
+    .top:hover, .show > .top { background: none; }
+    .panel, .mega .panel { position: static; translate: none; width: auto; min-width: 0; box-shadow: none; border: 0; padding: 0 0 12px; opacity: 1; visibility: visible; transform: none; display: none; }
+    .has-sub.show > .panel { display: block; }
+    .panel-head { display: none; }
+    .mega .sub { grid-template-columns: 1fr 1fr; }
+    .sub a { padding: 12px 14px; font-size: 16px; }
+    .nav-cta { flex-direction: column; margin-top: 24px; }
+    .nav-cta .btn-ghost { display: inline-flex; }
+    .nav-cta .btn { padding: 16px; font-size: 16px; }
+  }
+  @media (max-width: 480px) { .mega .sub { grid-template-columns: 1fr; } .logo img { height: 34px; } }
+  :global(html.no-scroll) { overflow: hidden; }
+</style>

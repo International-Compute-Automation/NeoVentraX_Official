@@ -1,0 +1,238 @@
+{
+ "slug": "recruitment-services",
+ "title": "Recruitment Services",
+ "description": "",
+ "css": "[data-page=\"recruitment-services\"] .dv-section.dv-section-0{background-image:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(0,0,0,0.6) 100%),url(/uploads/2025-09-Services-min-scaled.webp)!important}\n[data-page=\"recruitment-services\"] .dv-section-0.dv-section{padding-top:170px;padding-bottom:170px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"recruitment-services\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"recruitment-services\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n@media only screen and (max-width:980px){[data-page=\"recruitment-services\"] .dv-text-0 h1{font-size:64px}}\n@media only screen and (max-width:767px){[data-page=\"recruitment-services\"] .dv-text-0 h1{font-size:50px}}\n[data-page=\"recruitment-services\"] .dv-section.dv-section-1{background-size:initial;background-position:left -40px bottom -140px;background-image:url(/uploads/2025-07-it-services-5-nyt-24-png.webp)!important}\n[data-page=\"recruitment-services\"] .dv-section-1.dv-section{padding-top:30px;padding-bottom:4px;margin-top:0px;margin-bottom:0px}\n[data-page=\"recruitment-services\"] .dv-row-1.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:36px!important;margin-right:auto!important;margin-bottom:36px!important;margin-left:auto!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"recruitment-services\"] .dv-row-1{width:90%;max-width:1290px}\n[data-page=\"recruitment-services\"] .dv-text-1.dv-text{color:#737373!important}\n[data-page=\"recruitment-services\"] .dv-text-1{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important}\n[data-page=\"recruitment-services\"] .dv-section-2.dv-section{padding-top:80px;padding-bottom:17px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"recruitment-services\"] .dv-row-2.dv-row,[data-page=\"recruitment-services\"] .dv-row-3.dv-row,[data-page=\"recruitment-services\"] .dv-row-4.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"recruitment-services\"] .dv-row-2,[data-page=\"recruitment-services\"] .dv-row-3,[data-page=\"recruitment-services\"] .dv-row-4{width:90%}\n[data-page=\"recruitment-services\"] .dv-image-0 .dv-image-wrap,[data-page=\"recruitment-services\"] .dv-image-1 .dv-image-wrap,[data-page=\"recruitment-services\"] .dv-image-2 .dv-image-wrap,[data-page=\"recruitment-services\"] .dv-image-3 .dv-image-wrap,[data-page=\"recruitment-services\"] .dv-image-4 .dv-image-wrap,[data-page=\"recruitment-services\"] .dv-image-5 .dv-image-wrap{border-radius:5px 5px 5px 5px;overflow:hidden}\n[data-page=\"recruitment-services\"] .dv-image-0,[data-page=\"recruitment-services\"] .dv-image-1,[data-page=\"recruitment-services\"] .dv-image-2,[data-page=\"recruitment-services\"] .dv-image-3,[data-page=\"recruitment-services\"] .dv-image-4,[data-page=\"recruitment-services\"] .dv-image-5{padding-top:0px;padding-bottom:0px;margin-top:0px!important;margin-bottom:30px!important;text-align:left;margin-left:0}\n[data-page=\"recruitment-services\"] .dv-text-2 h3,[data-page=\"recruitment-services\"] .dv-text-4 h3,[data-page=\"recruitment-services\"] .dv-text-6 h3,[data-page=\"recruitment-services\"] .dv-text-8 h3,[data-page=\"recruitment-services\"] .dv-text-10 h3,[data-page=\"recruitment-services\"] .dv-text-12 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"recruitment-services\"] .dv-text-2,[data-page=\"recruitment-services\"] .dv-text-4,[data-page=\"recruitment-services\"] .dv-text-6,[data-page=\"recruitment-services\"] .dv-text-8,[data-page=\"recruitment-services\"] .dv-text-10,[data-page=\"recruitment-services\"] .dv-text-12{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:8px!important}\n[data-page=\"recruitment-services\"] .dv-text-3.dv-text,[data-page=\"recruitment-services\"] .dv-text-5.dv-text,[data-page=\"recruitment-services\"] .dv-text-7.dv-text,[data-page=\"recruitment-services\"] .dv-text-9.dv-text,[data-page=\"recruitment-services\"] .dv-text-11.dv-text,[data-page=\"recruitment-services\"] .dv-text-13.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"recruitment-services\"] .dv-text-3,[data-page=\"recruitment-services\"] .dv-text-5,[data-page=\"recruitment-services\"] .dv-text-7,[data-page=\"recruitment-services\"] .dv-text-9,[data-page=\"recruitment-services\"] .dv-text-11,[data-page=\"recruitment-services\"] .dv-text-13{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"recruitment-services\"] .dv-column-1{padding-left:35px;margin:auto}\n[data-page=\"recruitment-services\"] .dv-column-2,[data-page=\"recruitment-services\"] .dv-column-3,[data-page=\"recruitment-services\"] .dv-column-4,[data-page=\"recruitment-services\"] .dv-column-5,[data-page=\"recruitment-services\"] .dv-column-6,[data-page=\"recruitment-services\"] .dv-column-7{background-color:#111536;border-radius:5px 5px 5px 5px;overflow:hidden;padding-top:37px;padding-right:40px;padding-bottom:40px;padding-left:40px}\n@media only screen and (min-width:981px){[data-page=\"recruitment-services\"] .dv-row-2,[data-page=\"recruitment-services\"] .dv-row-3,[data-page=\"recruitment-services\"] .dv-row-4{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"recruitment-services\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"recruitment-services\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:120px}[data-page=\"recruitment-services\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"recruitment-services\"] .dv-row-2.dv-row,[data-page=\"recruitment-services\"] .dv-row-3.dv-row,[data-page=\"recruitment-services\"] .dv-row-4.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"recruitment-services\"] .dv-row-2,[data-page=\"recruitment-services\"] .dv-row-3,[data-page=\"recruitment-services\"] .dv-row-4{max-width:410px}[data-page=\"recruitment-services\"] .dv-image-0 .dv-image-wrap img,[data-page=\"recruitment-services\"] .dv-image-1 .dv-image-wrap img,[data-page=\"recruitment-services\"] .dv-image-2 .dv-image-wrap img,[data-page=\"recruitment-services\"] .dv-image-3 .dv-image-wrap img,[data-page=\"recruitment-services\"] .dv-image-4 .dv-image-wrap img,[data-page=\"recruitment-services\"] .dv-image-5 .dv-image-wrap img{width:auto}[data-page=\"recruitment-services\"] .dv-column-1{padding-top:90px;padding-left:0px}}\n@media only screen and (max-width:767px){[data-page=\"recruitment-services\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"recruitment-services\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:90px}[data-page=\"recruitment-services\"] .dv-section-2.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"recruitment-services\"] .dv-row-2.dv-row,[data-page=\"recruitment-services\"] .dv-row-3.dv-row,[data-page=\"recruitment-services\"] .dv-row-4.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"recruitment-services\"] .dv-image-0 .dv-image-wrap img,[data-page=\"recruitment-services\"] .dv-image-1 .dv-image-wrap img,[data-page=\"recruitment-services\"] .dv-image-2 .dv-image-wrap img,[data-page=\"recruitment-services\"] .dv-image-3 .dv-image-wrap img,[data-page=\"recruitment-services\"] .dv-image-4 .dv-image-wrap img,[data-page=\"recruitment-services\"] .dv-image-5 .dv-image-wrap img{width:auto}[data-page=\"recruitment-services\"] .dv-column-1{padding-top:55px}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Recruitment Services</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 1,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<div style=\"text-align:center\">\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>NeoVentraX extends its services to employers in various areas, including permanent hires, contract employees, freelancers, temporary employees, remotely working employees, and executive and professional talent search.</p>\n<p>Additionally, we offer workforce management services through recruitment process outsourcing (RPO) methods, facilitating talent onboarding with minimal operational interference.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div style=\"text-align:center\">\n<div>\n<div></div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 2,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 2,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 0,
+         "src": "/uploads/2025-09-1-Permanent-Employees.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<h3>Permanent Employees</h3>"
+        },
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Permanent employees are those who work directly for an employer and receive regular payment from them. They can work either part-time or full-time, typically classified as those working 35 or more hours per week by the Bureau of Labor Statistics. Permanent employees often enjoy benefits packages provided by their employers, including paid time off for personal reasons such as vacations, illness, or parental leave.&nbsp;</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 3,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 1,
+         "src": "/uploads/2025-09-2-Contractual-Freelancers.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<h3>Contractual / Freelancers</h3>"
+        },
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Contractual employees, also known as independent contractors, freelancers, or work-for-hire staffers, receive a fixed fee for working on a specified timeframe or project. Unlike regular company employees, they are not eligible for benefits. As self-employed individuals, they are responsible for obtaining their insurance and managing retirement savings. Additionally, contract employees pay self-employment taxes.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 4,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 2,
+         "src": "/uploads/2025-09-3-Remotely-Working-Employees.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<h3>Remotely Working Employees</h3>"
+        },
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>A managed service provider (MSP) oversees business areas to ensure day-to-day operations, serving as strategic partners to enhance efficiency for businesses of all sizes. With a pool of experts, MSPs handle complex processes, providing access to top talent and cutting-edge technology without rapid cost escalation. For instance, amid diverse employee categories and hybrid work models, businesses outsource HR activities to professional employer organizations (PEOs). MSPs commonly manage:</p>\n<p>1.Payroll</p>\n<p>2.IT services</p>\n<p>3.Workforce management</p>\n<p>4.Recruitment</p>\n<p>5.Vendor and contract management</p>\n<p>6.Human resources</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 5,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 3,
+         "src": "/uploads/2025-09-4-managed-service-provider.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 8,
+         "dark": false,
+         "html": "<h3>MSP</h3>"
+        },
+        {
+         "type": "text",
+         "i": 9,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>A service provider that manages one or more of your business areas to maintain business continuity on a day-to-day basis is a managed service provider. MSPs are used as strategic partners to improve operational efficiency of businesses of all types and sizes from small to medium-sized (SMBs) to government agencies and nonprofit organizations.</p>\n<p>Managed service providers have a pool of experts that can handle the most complex business processes. Thus, through MSPs, you get access to the best talent and latest technology available in the market without costs increasing quickly.</p>\n<p>For instance, with hybrid work models and multiple categories of employees―full-time, part-time, freelance, contractual and more―in every organization, human resources has become a complex process. So, many businesses choose to outsource their different human resources (HR) activities to professional employer organizations (PEOs).</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 4,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 6,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 4,
+         "src": "/uploads/2025-09-5-Executive-Talent-Pool.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 10,
+         "dark": false,
+         "html": "<h3>Executive Talent Pool</h3>"
+        },
+        {
+         "type": "text",
+         "i": 11,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Our executive recruiters possess extensive functional expertise, enabling them to accurately identify and source the most qualified candidates for your CXO, SVP, and VP executive roles. Our focus extends across the C-suite, encompassing roles such as Chief Executive Officer, Chief Operating Officer, Chief Marketing Officer, Chief People Officer, Chief Revenue Officer, Diversity Officer, Chief Customer Officer, Chief Financial Officer, Chief Technical Officer, Chief Product Officer, and more.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 7,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 5,
+         "src": "/uploads/2025-09-6-Professional-Talent-Pool.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 12,
+         "dark": false,
+         "html": "<h3>Professional Talent Pool</h3>"
+        },
+        {
+         "type": "text",
+         "i": 13,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Our team and network specialize in connecting your organization with top management talent, including directors, senior managers, and individual contributors. We cover a range of director roles such as Growth, Revenue, HR/People, Sales, Marketing, Operations, and Product. Additionally, we excel in sourcing candidates for senior manager positions in Marketing, Sales, Business Development, Product, Operations, and HR/People.</p>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

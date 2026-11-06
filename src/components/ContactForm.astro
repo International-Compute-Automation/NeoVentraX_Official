@@ -1,0 +1,22 @@
+---
+import { contact, formEndpoint } from '../data/nav';
+import Icon from './Icon.astro';
+const action = formEndpoint ?? `mailto:${contact.email}`;
+---
+<form class="form" method="post" action={action} enctype={formEndpoint ? 'multipart/form-data' : 'text/plain'} data-nvx-form>
+  <input type="hidden" name="form" value="Contact Form" />
+  <div class="row">
+    <div class="field"><label for="cf-first">First name</label><input id="cf-first" name="first_name" placeholder="Jane" required autocomplete="given-name" /></div>
+    <div class="field"><label for="cf-last">Last name</label><input id="cf-last" name="last_name" placeholder="Doe" required autocomplete="family-name" /></div>
+  </div>
+  <div class="field"><label for="cf-email">Email address</label><input id="cf-email" type="email" name="email" placeholder="jane@company.com" required autocomplete="email" /></div>
+  <div class="field"><label for="cf-subject">Subject</label><input id="cf-subject" name="subject" placeholder="How can we help?" required /></div>
+  <div class="field"><label for="cf-message">Your message</label><textarea id="cf-message" name="message" placeholder="Tell us about the roles you’re hiring for, or what you’re looking for…" required></textarea></div>
+  <p class="status" role="status" aria-live="polite"></p>
+  <button type="submit" class="btn btn-primary">Send message <Icon name="arrow" /></button>
+</form>
+
+<script>
+  import { enhanceForms } from '../scripts/forms';
+  enhanceForms();
+</script>

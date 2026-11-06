@@ -1,0 +1,295 @@
+{
+ "slug": "accounting-and-bookkeeping",
+ "title": "Accounting and Bookkeeping",
+ "description": "",
+ "css": "[data-page=\"accounting-and-bookkeeping\"] .dv-section.dv-section-0{background-image:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(0,0,0,0.6) 100%),url(/uploads/2025-09-Accounting-and-Bookkeeping-1-scaled.webp)!important}\n[data-page=\"accounting-and-bookkeeping\"] .dv-section-0.dv-section{padding-top:170px;padding-bottom:170px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"accounting-and-bookkeeping\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"accounting-and-bookkeeping\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n@media only screen and (max-width:980px){[data-page=\"accounting-and-bookkeeping\"] .dv-text-0 h1{font-size:64px}}\n@media only screen and (max-width:767px){[data-page=\"accounting-and-bookkeeping\"] .dv-text-0 h1{font-size:50px}}\n[data-page=\"accounting-and-bookkeeping\"] .dv-section.dv-section-1{background-size:initial;background-position:left -40px bottom -140px;background-image:url(/uploads/2025-07-it-services-5-nyt-24-png.webp)!important}\n[data-page=\"accounting-and-bookkeeping\"] .dv-section-1.dv-section{padding-top:30px;padding-bottom:4px;margin-top:0px;margin-bottom:0px}\n[data-page=\"accounting-and-bookkeeping\"] .dv-row-1.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:36px!important;margin-right:auto!important;margin-bottom:36px!important;margin-left:auto!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"accounting-and-bookkeeping\"] .dv-row-1{width:90%;max-width:1290px}\n[data-page=\"accounting-and-bookkeeping\"] .dv-text-1.dv-text{color:#737373!important}\n[data-page=\"accounting-and-bookkeeping\"] .dv-text-1{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important}\n[data-page=\"accounting-and-bookkeeping\"] .dv-section-2.dv-section{padding-top:80px;padding-bottom:80px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"accounting-and-bookkeeping\"] .dv-row-2.dv-row,[data-page=\"accounting-and-bookkeeping\"] .dv-row-3.dv-row,[data-page=\"accounting-and-bookkeeping\"] .dv-row-4.dv-row,[data-page=\"accounting-and-bookkeeping\"] .dv-row-5.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"accounting-and-bookkeeping\"] .dv-row-2,[data-page=\"accounting-and-bookkeeping\"] .dv-row-3,[data-page=\"accounting-and-bookkeeping\"] .dv-row-4,[data-page=\"accounting-and-bookkeeping\"] .dv-row-5{width:90%}\n[data-page=\"accounting-and-bookkeeping\"] .dv-image-0 .dv-image-wrap,[data-page=\"accounting-and-bookkeeping\"] .dv-image-1 .dv-image-wrap,[data-page=\"accounting-and-bookkeeping\"] .dv-image-2 .dv-image-wrap,[data-page=\"accounting-and-bookkeeping\"] .dv-image-3 .dv-image-wrap,[data-page=\"accounting-and-bookkeeping\"] .dv-image-4 .dv-image-wrap,[data-page=\"accounting-and-bookkeeping\"] .dv-image-5 .dv-image-wrap,[data-page=\"accounting-and-bookkeeping\"] .dv-image-6 .dv-image-wrap,[data-page=\"accounting-and-bookkeeping\"] .dv-image-7 .dv-image-wrap{border-radius:5px 5px 5px 5px;overflow:hidden}\n[data-page=\"accounting-and-bookkeeping\"] .dv-image-0,[data-page=\"accounting-and-bookkeeping\"] .dv-image-1,[data-page=\"accounting-and-bookkeeping\"] .dv-image-2,[data-page=\"accounting-and-bookkeeping\"] .dv-image-3,[data-page=\"accounting-and-bookkeeping\"] .dv-image-4,[data-page=\"accounting-and-bookkeeping\"] .dv-image-5,[data-page=\"accounting-and-bookkeeping\"] .dv-image-6,[data-page=\"accounting-and-bookkeeping\"] .dv-image-7{padding-top:0px;padding-bottom:0px;margin-top:0px!important;margin-bottom:30px!important;text-align:left;margin-left:0}\n[data-page=\"accounting-and-bookkeeping\"] .dv-text-2 h3,[data-page=\"accounting-and-bookkeeping\"] .dv-text-4 h3,[data-page=\"accounting-and-bookkeeping\"] .dv-text-6 h3,[data-page=\"accounting-and-bookkeeping\"] .dv-text-8 h3,[data-page=\"accounting-and-bookkeeping\"] .dv-text-10 h3,[data-page=\"accounting-and-bookkeeping\"] .dv-text-12 h3,[data-page=\"accounting-and-bookkeeping\"] .dv-text-14 h3,[data-page=\"accounting-and-bookkeeping\"] .dv-text-16 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"accounting-and-bookkeeping\"] .dv-text-2,[data-page=\"accounting-and-bookkeeping\"] .dv-text-4,[data-page=\"accounting-and-bookkeeping\"] .dv-text-6,[data-page=\"accounting-and-bookkeeping\"] .dv-text-8,[data-page=\"accounting-and-bookkeeping\"] .dv-text-10,[data-page=\"accounting-and-bookkeeping\"] .dv-text-12,[data-page=\"accounting-and-bookkeeping\"] .dv-text-14,[data-page=\"accounting-and-bookkeeping\"] .dv-text-16{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:8px!important}\n[data-page=\"accounting-and-bookkeeping\"] .dv-text-3.dv-text,[data-page=\"accounting-and-bookkeeping\"] .dv-text-5.dv-text,[data-page=\"accounting-and-bookkeeping\"] .dv-text-7.dv-text,[data-page=\"accounting-and-bookkeeping\"] .dv-text-9.dv-text,[data-page=\"accounting-and-bookkeeping\"] .dv-text-11.dv-text,[data-page=\"accounting-and-bookkeeping\"] .dv-text-13.dv-text,[data-page=\"accounting-and-bookkeeping\"] .dv-text-15.dv-text,[data-page=\"accounting-and-bookkeeping\"] .dv-text-17.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"accounting-and-bookkeeping\"] .dv-text-3,[data-page=\"accounting-and-bookkeeping\"] .dv-text-5,[data-page=\"accounting-and-bookkeeping\"] .dv-text-7,[data-page=\"accounting-and-bookkeeping\"] .dv-text-9,[data-page=\"accounting-and-bookkeeping\"] .dv-text-11,[data-page=\"accounting-and-bookkeeping\"] .dv-text-13,[data-page=\"accounting-and-bookkeeping\"] .dv-text-15,[data-page=\"accounting-and-bookkeeping\"] .dv-text-17{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"accounting-and-bookkeeping\"] .dv-column-1{padding-left:35px;margin:auto}\n[data-page=\"accounting-and-bookkeeping\"] .dv-column-2,[data-page=\"accounting-and-bookkeeping\"] .dv-column-3,[data-page=\"accounting-and-bookkeeping\"] .dv-column-4,[data-page=\"accounting-and-bookkeeping\"] .dv-column-5,[data-page=\"accounting-and-bookkeeping\"] .dv-column-6,[data-page=\"accounting-and-bookkeeping\"] .dv-column-7,[data-page=\"accounting-and-bookkeeping\"] .dv-column-8,[data-page=\"accounting-and-bookkeeping\"] .dv-column-9{background-color:#111536;border-radius:5px 5px 5px 5px;overflow:hidden;padding-top:37px;padding-right:40px;padding-bottom:40px;padding-left:40px}\n@media only screen and (min-width:981px){[data-page=\"accounting-and-bookkeeping\"] .dv-row-2,[data-page=\"accounting-and-bookkeeping\"] .dv-row-3,[data-page=\"accounting-and-bookkeeping\"] .dv-row-4,[data-page=\"accounting-and-bookkeeping\"] .dv-row-5{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"accounting-and-bookkeeping\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"accounting-and-bookkeeping\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:120px}[data-page=\"accounting-and-bookkeeping\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"accounting-and-bookkeeping\"] .dv-row-2.dv-row,[data-page=\"accounting-and-bookkeeping\"] .dv-row-3.dv-row,[data-page=\"accounting-and-bookkeeping\"] .dv-row-4.dv-row,[data-page=\"accounting-and-bookkeeping\"] .dv-row-5.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"accounting-and-bookkeeping\"] .dv-row-2,[data-page=\"accounting-and-bookkeeping\"] .dv-row-3,[data-page=\"accounting-and-bookkeeping\"] .dv-row-4,[data-page=\"accounting-and-bookkeeping\"] .dv-row-5{max-width:410px}[data-page=\"accounting-and-bookkeeping\"] .dv-image-0 .dv-image-wrap img,[data-page=\"accounting-and-bookkeeping\"] .dv-image-1 .dv-image-wrap img,[data-page=\"accounting-and-bookkeeping\"] .dv-image-2 .dv-image-wrap img,[data-page=\"accounting-and-bookkeeping\"] .dv-image-3 .dv-image-wrap img,[data-page=\"accounting-and-bookkeeping\"] .dv-image-4 .dv-image-wrap img,[data-page=\"accounting-and-bookkeeping\"] .dv-image-5 .dv-image-wrap img,[data-page=\"accounting-and-bookkeeping\"] .dv-image-6 .dv-image-wrap img,[data-page=\"accounting-and-bookkeeping\"] .dv-image-7 .dv-image-wrap img{width:auto}[data-page=\"accounting-and-bookkeeping\"] .dv-column-1{padding-top:90px;padding-left:0px}}\n@media only screen and (max-width:767px){[data-page=\"accounting-and-bookkeeping\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"accounting-and-bookkeeping\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:90px}[data-page=\"accounting-and-bookkeeping\"] .dv-section-2.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"accounting-and-bookkeeping\"] .dv-row-2.dv-row,[data-page=\"accounting-and-bookkeeping\"] .dv-row-3.dv-row,[data-page=\"accounting-and-bookkeeping\"] .dv-row-4.dv-row,[data-page=\"accounting-and-bookkeeping\"] .dv-row-5.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"accounting-and-bookkeeping\"] .dv-image-0 .dv-image-wrap img,[data-page=\"accounting-and-bookkeeping\"] .dv-image-1 .dv-image-wrap img,[data-page=\"accounting-and-bookkeeping\"] .dv-image-2 .dv-image-wrap img,[data-page=\"accounting-and-bookkeeping\"] .dv-image-3 .dv-image-wrap img,[data-page=\"accounting-and-bookkeeping\"] .dv-image-4 .dv-image-wrap img,[data-page=\"accounting-and-bookkeeping\"] .dv-image-5 .dv-image-wrap img,[data-page=\"accounting-and-bookkeeping\"] .dv-image-6 .dv-image-wrap img,[data-page=\"accounting-and-bookkeeping\"] .dv-image-7 .dv-image-wrap img{width:auto}[data-page=\"accounting-and-bookkeeping\"] .dv-column-1{padding-top:55px}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Accounting and Bookkeeping</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 1,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<div style=\"text-align:center\">\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>NeoVentraX Finance &amp; Accounting division assumes full responsibility for third-party financial services, providing a comprehensive solution for accounting needs.</p>\n<p>Small businesses, startups, and entrepreneurs often face the challenge of finding the right accountant with the necessary skills to handle financial preparation, analysis, bank account management, and invoicing, all at an affordable rate.</p>\n<p>Consequently, many of these businesses opt to outsource their accounting and bookkeeping services. While some believe these tasks should be handled internally, it’s essential to consider whether the organization truly has the expertise required.</p>\n<p>A staggering 62% of small business owners believe they overpay their taxes, prompting many to outsource accounting and bookkeeping services to third-party providers.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div style=\"text-align:center\">\n<div>\n<div></div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 2,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 2,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 0,
+         "src": "/uploads/2025-09-1-Accounting.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<h3>Accounting</h3>"
+        },
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Accounting’s critical role makes it a cornerstone for various business needs, and our support aligns seamlessly with this significance. Beyond resolving financial challenges, our support includes proactive assessments to identify opportunities for process enhancement, compliance optimization, and strategic alignment with your organizational goals. Our collaborative approach empowers your team with the knowledge and tools necessary to navigate the dynamic landscape of accounting effectively.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 3,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 1,
+         "src": "/uploads/2025-09-2-Bookkeeping.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<h3>Bookkeeping</h3>"
+        },
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>The importance of bookkeeping cannot be overstated, as it serves as a fundamental aspect of various financial requirements. Our assistance seamlessly integrates with this critical function, going beyond mere data resolution. We conduct proactive assessments to pinpoint opportunities for process improvement, compliance enhancement, and strategic alignment with your organizational objectives. Through our collaborative approach, we equip your team with the insights and resources needed to navigate the ever-changing landscape of bookkeeping proficiently.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 4,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 2,
+         "src": "/uploads/2025-09-3-Budget.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<h3>Budget</h3>"
+        },
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Given its strategic significance, budgeting plays a pivotal role in meeting various business requirements, and NeoVentraX seamlessly aligns with this crucial function. In addition to addressing budgetary challenges, our support entails proactive assessments aimed at enhancing processes, improving forecasting accuracy, and strategically aligning with your organizational objectives. Through our collaborative approach, we provide your team with the expertise and resources needed to effectively navigate the dynamic landscape of budgeting, ensuring optimal results for your business.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 5,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 3,
+         "src": "/uploads/2025-09-4-Account-Receivable.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 8,
+         "dark": false,
+         "html": "<h3>Account Receivable</h3>"
+        },
+        {
+         "type": "text",
+         "i": 9,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Recognizing the pivotal financial role of accounts receivable in addressing diverse business needs, NeoVentraX seamlessly integrates its support with this vital function. In addition to resolving receivables challenges, our assistance encompasses proactive assessments aimed at enhancing processes, optimizing cash flow, and strategically aligning with your organizational objectives. Through our collaborative approach, we equip your team with the expertise and resources required to effectively navigate the dynamic landscape of accounts receivable, ensuring sustained success for your business.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 4,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 6,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 4,
+         "src": "/uploads/2025-09-5-Account-Payables.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 10,
+         "dark": false,
+         "html": "<h3>Account Payables</h3>"
+        },
+        {
+         "type": "text",
+         "i": 11,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Acknowledging the fundamental financial significance of accounts payable in meeting various business requirements, NeoVentraX seamlessly aligns its support with this crucial aspect. In addition to addressing payables challenges, our assistance encompasses proactive assessments aimed at enhancing processes, implementing cost-saving strategies, and strategically aligning with your organizational goals. Through our collaborative approach, we empower your team with the expertise and resources required to effectively navigate the dynamic landscape of accounts payable, ensuring sustained success for your business.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 7,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 5,
+         "src": "/uploads/2025-09-6-Financial-Services.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 12,
+         "dark": false,
+         "html": "<h3>Financial Services</h3>"
+        },
+        {
+         "type": "text",
+         "i": 13,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Amidst the pivotal role financial services play in both business and personal domains, NeoVentraX stands ready to provide seamless support tailored to this vital function. Beyond simply addressing financial challenges, our comprehensive assistance includes proactive assessments geared towards nurturing wealth growth, mitigating risks, and strategically aligning with your financial goals. Through our collaborative approach, we equip you with the expertise and tools necessary to navigate the dynamic landscape of financial services effectively, empowering you to achieve your financial objectives with confidence.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 5,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 8,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 6,
+         "src": "/uploads/2025-09-7-Tax-Filing.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 14,
+         "dark": false,
+         "html": "<h3>Tax Filing</h3>"
+        },
+        {
+         "type": "text",
+         "i": 15,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Our support at NeoVentraX seamlessly integrates with the critical role of tax filing in meeting various financial and business requirements. Apart from addressing tax-related challenges, we conduct proactive assessments to optimize deductions, enhance compliance, and strategically align with your financial objectives. Through our collaborative approach, we provide you with the expertise and tools required to effectively navigate the ever-evolving landscape of tax filing, empowering you to achieve your financial goals with confidence.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 9,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 7,
+         "src": "/uploads/2025-09-Accounting-and-Bookkeeping-1-scaled.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 16,
+         "dark": false,
+         "html": "<h3>Financial Statements</h3>"
+        },
+        {
+         "type": "text",
+         "i": 17,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Understanding the pivotal role of financial statements in meeting diverse business needs, NeoVentraX provides comprehensive support perfectly attuned to their significance. Going beyond addressing reporting challenges, our services include proactive assessments focused on enhancing clarity, optimizing compliance, and strategically aligning with your organizational goals.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

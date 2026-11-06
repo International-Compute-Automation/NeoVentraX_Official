@@ -1,0 +1,897 @@
+{
+ "slug": "mechanical",
+ "title": "Mechanical",
+ "description": "",
+ "css": "[data-page=\"mechanical\"] .dv-section.dv-section-0{background-image:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(0,0,0,0.6) 100%),url(/uploads/2025-09-Mechanical-min-scaled.webp)!important}\n[data-page=\"mechanical\"] .dv-section-0.dv-section{padding-top:170px;padding-bottom:170px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"mechanical\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"mechanical\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n@media only screen and (max-width:980px){[data-page=\"mechanical\"] .dv-text-0 h1{font-size:64px}}\n@media only screen and (max-width:767px){[data-page=\"mechanical\"] .dv-text-0 h1{font-size:50px}}\n[data-page=\"mechanical\"] .dv-section.dv-section-1{background-size:initial;background-position:left -40px bottom -140px;background-image:url(/uploads/2025-07-it-services-5-nyt-24-png.webp)!important}\n[data-page=\"mechanical\"] .dv-section-1.dv-section{padding-top:30px;padding-bottom:4px;margin-top:0px;margin-bottom:0px}\n[data-page=\"mechanical\"] .dv-row-1.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:36px!important;margin-right:auto!important;margin-bottom:36px!important;margin-left:auto!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"mechanical\"] .dv-row-1{width:90%;max-width:1290px}\n[data-page=\"mechanical\"] .dv-text-1.dv-text{color:#737373!important}\n[data-page=\"mechanical\"] .dv-text-1{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important}\n[data-page=\"mechanical\"] .dv-section-2.dv-section{padding-top:80px;padding-bottom:80px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"mechanical\"] .dv-row-2.dv-row,[data-page=\"mechanical\"] .dv-row-3.dv-row,[data-page=\"mechanical\"] .dv-row-4.dv-row,[data-page=\"mechanical\"] .dv-row-5.dv-row,[data-page=\"mechanical\"] .dv-row-6.dv-row,[data-page=\"mechanical\"] .dv-row-7.dv-row,[data-page=\"mechanical\"] .dv-row-8.dv-row,[data-page=\"mechanical\"] .dv-row-9.dv-row,[data-page=\"mechanical\"] .dv-row-10.dv-row,[data-page=\"mechanical\"] .dv-row-11.dv-row,[data-page=\"mechanical\"] .dv-row-12.dv-row,[data-page=\"mechanical\"] .dv-row-13.dv-row,[data-page=\"mechanical\"] .dv-row-14.dv-row,[data-page=\"mechanical\"] .dv-row-15.dv-row,[data-page=\"mechanical\"] .dv-row-16.dv-row,[data-page=\"mechanical\"] .dv-row-17.dv-row,[data-page=\"mechanical\"] .dv-row-18.dv-row,[data-page=\"mechanical\"] .dv-row-19.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"mechanical\"] .dv-row-2,[data-page=\"mechanical\"] .dv-row-3,[data-page=\"mechanical\"] .dv-row-4,[data-page=\"mechanical\"] .dv-row-5,[data-page=\"mechanical\"] .dv-row-6,[data-page=\"mechanical\"] .dv-row-7,[data-page=\"mechanical\"] .dv-row-8,[data-page=\"mechanical\"] .dv-row-9,[data-page=\"mechanical\"] .dv-row-10,[data-page=\"mechanical\"] .dv-row-11,[data-page=\"mechanical\"] .dv-row-12,[data-page=\"mechanical\"] .dv-row-13,[data-page=\"mechanical\"] .dv-row-14,[data-page=\"mechanical\"] .dv-row-15,[data-page=\"mechanical\"] .dv-row-16,[data-page=\"mechanical\"] .dv-row-17,[data-page=\"mechanical\"] .dv-row-18,[data-page=\"mechanical\"] .dv-row-19{width:90%}\n[data-page=\"mechanical\"] .dv-image-0 .dv-image-wrap,[data-page=\"mechanical\"] .dv-image-1 .dv-image-wrap,[data-page=\"mechanical\"] .dv-image-2 .dv-image-wrap,[data-page=\"mechanical\"] .dv-image-3 .dv-image-wrap,[data-page=\"mechanical\"] .dv-image-4 .dv-image-wrap,[data-page=\"mechanical\"] .dv-image-5 .dv-image-wrap,[data-page=\"mechanical\"] .dv-image-6 .dv-image-wrap,[data-page=\"mechanical\"] .dv-image-7 .dv-image-wrap{border-radius:5px 5px 5px 5px;overflow:hidden}\n[data-page=\"mechanical\"] .dv-image-0,[data-page=\"mechanical\"] .dv-image-1,[data-page=\"mechanical\"] .dv-image-2,[data-page=\"mechanical\"] .dv-image-3,[data-page=\"mechanical\"] .dv-image-4,[data-page=\"mechanical\"] .dv-image-5,[data-page=\"mechanical\"] .dv-image-6,[data-page=\"mechanical\"] .dv-image-7{padding-top:0px;padding-bottom:0px;margin-top:0px!important;margin-bottom:30px!important;text-align:left;margin-left:0}\n[data-page=\"mechanical\"] .dv-text-2 h3,[data-page=\"mechanical\"] .dv-text-4 h3,[data-page=\"mechanical\"] .dv-text-6 h3,[data-page=\"mechanical\"] .dv-text-8 h3,[data-page=\"mechanical\"] .dv-text-10 h3,[data-page=\"mechanical\"] .dv-text-12 h3,[data-page=\"mechanical\"] .dv-text-14 h3,[data-page=\"mechanical\"] .dv-text-16 h3,[data-page=\"mechanical\"] .dv-text-18 h3,[data-page=\"mechanical\"] .dv-text-20 h3,[data-page=\"mechanical\"] .dv-text-22 h3,[data-page=\"mechanical\"] .dv-text-24 h3,[data-page=\"mechanical\"] .dv-text-26 h3,[data-page=\"mechanical\"] .dv-text-28 h3,[data-page=\"mechanical\"] .dv-text-30 h3,[data-page=\"mechanical\"] .dv-text-32 h3,[data-page=\"mechanical\"] .dv-text-34 h3,[data-page=\"mechanical\"] .dv-text-36 h3,[data-page=\"mechanical\"] .dv-text-38 h3,[data-page=\"mechanical\"] .dv-text-40 h3,[data-page=\"mechanical\"] .dv-text-42 h3,[data-page=\"mechanical\"] .dv-text-44 h3,[data-page=\"mechanical\"] .dv-text-46 h3,[data-page=\"mechanical\"] .dv-text-48 h3,[data-page=\"mechanical\"] .dv-text-50 h3,[data-page=\"mechanical\"] .dv-text-52 h3,[data-page=\"mechanical\"] .dv-text-54 h3,[data-page=\"mechanical\"] .dv-text-56 h3,[data-page=\"mechanical\"] .dv-text-58 h3,[data-page=\"mechanical\"] .dv-text-60 h3,[data-page=\"mechanical\"] .dv-text-62 h3,[data-page=\"mechanical\"] .dv-text-64 h3,[data-page=\"mechanical\"] .dv-text-66 h3,[data-page=\"mechanical\"] .dv-text-68 h3,[data-page=\"mechanical\"] .dv-text-70 h3,[data-page=\"mechanical\"] .dv-text-72 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"mechanical\"] .dv-text-2,[data-page=\"mechanical\"] .dv-text-4,[data-page=\"mechanical\"] .dv-text-6,[data-page=\"mechanical\"] .dv-text-8,[data-page=\"mechanical\"] .dv-text-10,[data-page=\"mechanical\"] .dv-text-12,[data-page=\"mechanical\"] .dv-text-14,[data-page=\"mechanical\"] .dv-text-16,[data-page=\"mechanical\"] .dv-text-18,[data-page=\"mechanical\"] .dv-text-20,[data-page=\"mechanical\"] .dv-text-22,[data-page=\"mechanical\"] .dv-text-24,[data-page=\"mechanical\"] .dv-text-26,[data-page=\"mechanical\"] .dv-text-28,[data-page=\"mechanical\"] .dv-text-30,[data-page=\"mechanical\"] .dv-text-32,[data-page=\"mechanical\"] .dv-text-34,[data-page=\"mechanical\"] .dv-text-36,[data-page=\"mechanical\"] .dv-text-38,[data-page=\"mechanical\"] .dv-text-40,[data-page=\"mechanical\"] .dv-text-42,[data-page=\"mechanical\"] .dv-text-44,[data-page=\"mechanical\"] .dv-text-46,[data-page=\"mechanical\"] .dv-text-48,[data-page=\"mechanical\"] .dv-text-50,[data-page=\"mechanical\"] .dv-text-52,[data-page=\"mechanical\"] .dv-text-54,[data-page=\"mechanical\"] .dv-text-56,[data-page=\"mechanical\"] .dv-text-58,[data-page=\"mechanical\"] .dv-text-60,[data-page=\"mechanical\"] .dv-text-62,[data-page=\"mechanical\"] .dv-text-64,[data-page=\"mechanical\"] .dv-text-66,[data-page=\"mechanical\"] .dv-text-68,[data-page=\"mechanical\"] .dv-text-70,[data-page=\"mechanical\"] .dv-text-72{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:8px!important}\n[data-page=\"mechanical\"] .dv-text-3.dv-text,[data-page=\"mechanical\"] .dv-text-5.dv-text,[data-page=\"mechanical\"] .dv-text-7.dv-text,[data-page=\"mechanical\"] .dv-text-9.dv-text,[data-page=\"mechanical\"] .dv-text-11.dv-text,[data-page=\"mechanical\"] .dv-text-13.dv-text,[data-page=\"mechanical\"] .dv-text-15.dv-text,[data-page=\"mechanical\"] .dv-text-17.dv-text,[data-page=\"mechanical\"] .dv-text-19.dv-text,[data-page=\"mechanical\"] .dv-text-21.dv-text,[data-page=\"mechanical\"] .dv-text-23.dv-text,[data-page=\"mechanical\"] .dv-text-25.dv-text,[data-page=\"mechanical\"] .dv-text-27.dv-text,[data-page=\"mechanical\"] .dv-text-29.dv-text,[data-page=\"mechanical\"] .dv-text-31.dv-text,[data-page=\"mechanical\"] .dv-text-33.dv-text,[data-page=\"mechanical\"] .dv-text-35.dv-text,[data-page=\"mechanical\"] .dv-text-37.dv-text,[data-page=\"mechanical\"] .dv-text-39.dv-text,[data-page=\"mechanical\"] .dv-text-41.dv-text,[data-page=\"mechanical\"] .dv-text-43.dv-text,[data-page=\"mechanical\"] .dv-text-45.dv-text,[data-page=\"mechanical\"] .dv-text-47.dv-text,[data-page=\"mechanical\"] .dv-text-49.dv-text,[data-page=\"mechanical\"] .dv-text-51.dv-text,[data-page=\"mechanical\"] .dv-text-53.dv-text,[data-page=\"mechanical\"] .dv-text-55.dv-text,[data-page=\"mechanical\"] .dv-text-57.dv-text,[data-page=\"mechanical\"] .dv-text-59.dv-text,[data-page=\"mechanical\"] .dv-text-61.dv-text,[data-page=\"mechanical\"] .dv-text-63.dv-text,[data-page=\"mechanical\"] .dv-text-65.dv-text,[data-page=\"mechanical\"] .dv-text-67.dv-text,[data-page=\"mechanical\"] .dv-text-69.dv-text,[data-page=\"mechanical\"] .dv-text-71.dv-text,[data-page=\"mechanical\"] .dv-text-73.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"mechanical\"] .dv-text-3,[data-page=\"mechanical\"] .dv-text-5,[data-page=\"mechanical\"] .dv-text-7,[data-page=\"mechanical\"] .dv-text-9,[data-page=\"mechanical\"] .dv-text-11,[data-page=\"mechanical\"] .dv-text-13,[data-page=\"mechanical\"] .dv-text-15,[data-page=\"mechanical\"] .dv-text-17,[data-page=\"mechanical\"] .dv-text-19,[data-page=\"mechanical\"] .dv-text-21,[data-page=\"mechanical\"] .dv-text-23,[data-page=\"mechanical\"] .dv-text-25,[data-page=\"mechanical\"] .dv-text-27,[data-page=\"mechanical\"] .dv-text-29,[data-page=\"mechanical\"] .dv-text-31,[data-page=\"mechanical\"] .dv-text-33,[data-page=\"mechanical\"] .dv-text-35,[data-page=\"mechanical\"] .dv-text-37,[data-page=\"mechanical\"] .dv-text-39,[data-page=\"mechanical\"] .dv-text-41,[data-page=\"mechanical\"] .dv-text-43,[data-page=\"mechanical\"] .dv-text-45,[data-page=\"mechanical\"] .dv-text-47,[data-page=\"mechanical\"] .dv-text-49,[data-page=\"mechanical\"] .dv-text-51,[data-page=\"mechanical\"] .dv-text-53,[data-page=\"mechanical\"] .dv-text-55,[data-page=\"mechanical\"] .dv-text-57,[data-page=\"mechanical\"] .dv-text-59,[data-page=\"mechanical\"] .dv-text-61,[data-page=\"mechanical\"] .dv-text-63,[data-page=\"mechanical\"] .dv-text-65,[data-page=\"mechanical\"] .dv-text-67,[data-page=\"mechanical\"] .dv-text-69,[data-page=\"mechanical\"] .dv-text-71,[data-page=\"mechanical\"] .dv-text-73{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"mechanical\"] .dv-column-1{padding-left:35px;margin:auto}\n[data-page=\"mechanical\"] .dv-column-2,[data-page=\"mechanical\"] .dv-column-3,[data-page=\"mechanical\"] .dv-column-4,[data-page=\"mechanical\"] .dv-column-5,[data-page=\"mechanical\"] .dv-column-6,[data-page=\"mechanical\"] .dv-column-7,[data-page=\"mechanical\"] .dv-column-8,[data-page=\"mechanical\"] .dv-column-9,[data-page=\"mechanical\"] .dv-column-10,[data-page=\"mechanical\"] .dv-column-11,[data-page=\"mechanical\"] .dv-column-12,[data-page=\"mechanical\"] .dv-column-13,[data-page=\"mechanical\"] .dv-column-14,[data-page=\"mechanical\"] .dv-column-15,[data-page=\"mechanical\"] .dv-column-16,[data-page=\"mechanical\"] .dv-column-17,[data-page=\"mechanical\"] .dv-column-18,[data-page=\"mechanical\"] .dv-column-19,[data-page=\"mechanical\"] .dv-column-20,[data-page=\"mechanical\"] .dv-column-21,[data-page=\"mechanical\"] .dv-column-22,[data-page=\"mechanical\"] .dv-column-23,[data-page=\"mechanical\"] .dv-column-24,[data-page=\"mechanical\"] .dv-column-25,[data-page=\"mechanical\"] .dv-column-26,[data-page=\"mechanical\"] .dv-column-27,[data-page=\"mechanical\"] .dv-column-28,[data-page=\"mechanical\"] .dv-column-29,[data-page=\"mechanical\"] .dv-column-30,[data-page=\"mechanical\"] .dv-column-31,[data-page=\"mechanical\"] .dv-column-32,[data-page=\"mechanical\"] .dv-column-33,[data-page=\"mechanical\"] .dv-column-34,[data-page=\"mechanical\"] .dv-column-35,[data-page=\"mechanical\"] .dv-column-36,[data-page=\"mechanical\"] .dv-column-37{background-color:#111536;border-radius:5px 5px 5px 5px;overflow:hidden;padding-top:37px;padding-right:40px;padding-bottom:40px;padding-left:40px}\n@media only screen and (min-width:981px){[data-page=\"mechanical\"] .dv-row-2,[data-page=\"mechanical\"] .dv-row-3,[data-page=\"mechanical\"] .dv-row-4,[data-page=\"mechanical\"] .dv-row-5,[data-page=\"mechanical\"] .dv-row-6,[data-page=\"mechanical\"] .dv-row-7,[data-page=\"mechanical\"] .dv-row-8,[data-page=\"mechanical\"] .dv-row-9,[data-page=\"mechanical\"] .dv-row-10,[data-page=\"mechanical\"] .dv-row-11,[data-page=\"mechanical\"] .dv-row-12,[data-page=\"mechanical\"] .dv-row-13,[data-page=\"mechanical\"] .dv-row-14,[data-page=\"mechanical\"] .dv-row-15,[data-page=\"mechanical\"] .dv-row-16,[data-page=\"mechanical\"] .dv-row-17,[data-page=\"mechanical\"] .dv-row-18,[data-page=\"mechanical\"] .dv-row-19{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"mechanical\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"mechanical\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:120px}[data-page=\"mechanical\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"mechanical\"] .dv-row-2.dv-row,[data-page=\"mechanical\"] .dv-row-3.dv-row,[data-page=\"mechanical\"] .dv-row-4.dv-row,[data-page=\"mechanical\"] .dv-row-5.dv-row,[data-page=\"mechanical\"] .dv-row-6.dv-row,[data-page=\"mechanical\"] .dv-row-7.dv-row,[data-page=\"mechanical\"] .dv-row-8.dv-row,[data-page=\"mechanical\"] .dv-row-9.dv-row,[data-page=\"mechanical\"] .dv-row-10.dv-row,[data-page=\"mechanical\"] .dv-row-11.dv-row,[data-page=\"mechanical\"] .dv-row-12.dv-row,[data-page=\"mechanical\"] .dv-row-13.dv-row,[data-page=\"mechanical\"] .dv-row-14.dv-row,[data-page=\"mechanical\"] .dv-row-15.dv-row,[data-page=\"mechanical\"] .dv-row-16.dv-row,[data-page=\"mechanical\"] .dv-row-17.dv-row,[data-page=\"mechanical\"] .dv-row-18.dv-row,[data-page=\"mechanical\"] .dv-row-19.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"mechanical\"] .dv-row-2,[data-page=\"mechanical\"] .dv-row-3,[data-page=\"mechanical\"] .dv-row-4,[data-page=\"mechanical\"] .dv-row-5,[data-page=\"mechanical\"] .dv-row-6,[data-page=\"mechanical\"] .dv-row-7,[data-page=\"mechanical\"] .dv-row-8,[data-page=\"mechanical\"] .dv-row-9,[data-page=\"mechanical\"] .dv-row-10,[data-page=\"mechanical\"] .dv-row-11,[data-page=\"mechanical\"] .dv-row-12,[data-page=\"mechanical\"] .dv-row-13,[data-page=\"mechanical\"] .dv-row-14,[data-page=\"mechanical\"] .dv-row-15,[data-page=\"mechanical\"] .dv-row-16,[data-page=\"mechanical\"] .dv-row-17,[data-page=\"mechanical\"] .dv-row-18,[data-page=\"mechanical\"] .dv-row-19{max-width:410px}[data-page=\"mechanical\"] .dv-image-0 .dv-image-wrap img,[data-page=\"mechanical\"] .dv-image-1 .dv-image-wrap img,[data-page=\"mechanical\"] .dv-image-2 .dv-image-wrap img,[data-page=\"mechanical\"] .dv-image-3 .dv-image-wrap img,[data-page=\"mechanical\"] .dv-image-4 .dv-image-wrap img,[data-page=\"mechanical\"] .dv-image-5 .dv-image-wrap img,[data-page=\"mechanical\"] .dv-image-6 .dv-image-wrap img,[data-page=\"mechanical\"] .dv-image-7 .dv-image-wrap img{width:auto}[data-page=\"mechanical\"] .dv-column-1{padding-top:90px;padding-left:0px}}\n@media only screen and (max-width:767px){[data-page=\"mechanical\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"mechanical\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:90px}[data-page=\"mechanical\"] .dv-section-2.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"mechanical\"] .dv-row-2.dv-row,[data-page=\"mechanical\"] .dv-row-3.dv-row,[data-page=\"mechanical\"] .dv-row-4.dv-row,[data-page=\"mechanical\"] .dv-row-5.dv-row,[data-page=\"mechanical\"] .dv-row-6.dv-row,[data-page=\"mechanical\"] .dv-row-7.dv-row,[data-page=\"mechanical\"] .dv-row-8.dv-row,[data-page=\"mechanical\"] .dv-row-9.dv-row,[data-page=\"mechanical\"] .dv-row-10.dv-row,[data-page=\"mechanical\"] .dv-row-11.dv-row,[data-page=\"mechanical\"] .dv-row-12.dv-row,[data-page=\"mechanical\"] .dv-row-13.dv-row,[data-page=\"mechanical\"] .dv-row-14.dv-row,[data-page=\"mechanical\"] .dv-row-15.dv-row,[data-page=\"mechanical\"] .dv-row-16.dv-row,[data-page=\"mechanical\"] .dv-row-17.dv-row,[data-page=\"mechanical\"] .dv-row-18.dv-row,[data-page=\"mechanical\"] .dv-row-19.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"mechanical\"] .dv-image-0 .dv-image-wrap img,[data-page=\"mechanical\"] .dv-image-1 .dv-image-wrap img,[data-page=\"mechanical\"] .dv-image-2 .dv-image-wrap img,[data-page=\"mechanical\"] .dv-image-3 .dv-image-wrap img,[data-page=\"mechanical\"] .dv-image-4 .dv-image-wrap img,[data-page=\"mechanical\"] .dv-image-5 .dv-image-wrap img,[data-page=\"mechanical\"] .dv-image-6 .dv-image-wrap img,[data-page=\"mechanical\"] .dv-image-7 .dv-image-wrap img{width:auto}[data-page=\"mechanical\"] .dv-column-1{padding-top:55px}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Mechanical</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 1,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<p style=\"text-align:center\">The mechanical industry is pivotal in the modern world, driving innovation and development across various sectors. It encompasses the design, analysis, and manufacturing of mechanical systems, playing a crucial role in industries like automotive, aerospace, and energy.</p>\n<p style=\"text-align:center\">Mechanical engineers in this industry tackle challenges in mechanics, thermodynamics, and materials science to create efficient and sustainable solutions. They work on a broad range of projects, from developing sophisticated machinery to improving manufacturing processes, constantly pushing the boundaries of technology and design.</p>\n</div>\n</div>\n</div>\n</div>\n<div style=\"text-align:center\">\n<div>\n<div></div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 2,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 2,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 0,
+         "src": "/uploads/2025-09-1-Mechanical-Engineer.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<h3>Mechanical Engineer (All sorts of designs) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Responsible for conceptualizing, designing, and developing a variety of mechanical systems and products. Involves research, prototyping, analysis, and optimization, using CAD tools and engineering principles.</p>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 3,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 1,
+         "src": "/uploads/2025-09-2-Mechanical-Engineer-HVAC.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<h3>Mechanical Engineer (with HVAC Design experience) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Specializes in HVAC system design, including analysis, planning, and implementation of heating, ventilation, and air conditioning systems. Requires knowledge of thermal dynamics, fluid mechanics, and environmental control.</p>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 4,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 2,
+         "src": "/uploads/2025-09-3-Mechanical-Engineer-Fire-Sprinkler-design-experience.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<h3>Mechanical Engineer (Fire Sprinkler design experience) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree in Electrical Engineering, Computer Engineering, or related field. Strong knowledge of digital and analog circuits, microprocessors, and semiconductor devices.</p>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 5,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 3,
+         "src": "/uploads/2025-09-4-Mechanical-Engineer-Building-Automation-experience.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 8,
+         "dark": false,
+         "html": "<h3>Mechanical Engineer (Building Automation experience) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 9,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Involves designing and managing building automation systems, integrating HVAC, lighting, security, and other systems to optimize energy efficiency and functionality.</p>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 4,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 6,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 4,
+         "src": "/uploads/2025-09-5-Mechanical-Engineer-Manufacturing-industry-experience.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 10,
+         "dark": false,
+         "html": "<h3>Mechanical Engineer (Manufacturing industry experience) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 11,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Works in the manufacturing sector, designing machinery, production processes, and equipment. Requires knowledge of manufacturing techniques, materials science, and quality control.</p>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 7,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 5,
+         "src": "/uploads/2025-09-6-Mechanical-Engineer-Aerospace-industry-experience.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 12,
+         "dark": false,
+         "html": "<h3>Mechanical Engineer (Aerospace industry experience) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 13,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Engages in the design and development of aerospace components and systems, including aircraft and spacecraft. Requires understanding of aerodynamics, materials science, and propulsion systems.</p>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 5,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 8,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 6,
+         "src": "/uploads/2025-09-7-Mechanical-Engineer-High-rise-buildings-experience.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 14,
+         "dark": false,
+         "html": "<h3>Mechanical Engineer (High rise buildings experience) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 15,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Specializes in engineering for high-rise buildings, focusing on structural integrity, HVAC systems, and utility planning. Involves collaboration with architects and construction teams.</p>\n</div>\n</div>\n<div>\n<ul></ul>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 9,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 7,
+         "src": "/uploads/2025-09-8-Mechanical-Engineer-MEP-firm-experience.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 16,
+         "dark": false,
+         "html": "<h3>Mechanical Engineer (MEP firm experience) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 17,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Works within a Mechanical, Electrical, and Plumbing (MEP) firm, providing integrated solutions for building systems. Involves design, coordination, and project management.</p>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 6,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 10,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 18,
+         "dark": false,
+         "html": "<h3>Mechanical Design Engineer (Revit/AutoCAD) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 19,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Focuses on creating detailed mechanical designs using Revit and AutoCAD. Involves drafting, 3D modeling, and collaborating with engineering teams.</p>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 11,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 20,
+         "dark": false,
+         "html": "<h3>Mechanical Design Engineer (SolidWorks/MATLAB) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 21,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Utilizes SolidWorks and MATLAB for mechanical design and analysis. Involves developing models, simulations, and prototypes for various mechanical systems.</p>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 7,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 12,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 22,
+         "dark": false,
+         "html": "<h3>Senior Mechanical Engineer (All sorts of mechanical engineering designs) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 23,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Senior role involving oversight of mechanical engineering projects, mentorship of junior engineers, and involvement in complex design and problem-solving tasks.</p>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 13,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 24,
+         "dark": false,
+         "html": "<h3>Mechanical Engineer (Chiller Systems) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 25,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Specializes in designing and maintaining chiller systems for commercial and industrial use. Requires knowledge of refrigeration, thermodynamics, and fluid mechanics.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 8,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 14,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 26,
+         "dark": false,
+         "html": "<h3>Mechanical Engineer (Oil and Gas) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 27,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Works in the oil and gas industry, focusing on designing and maintaining equipment used in exploration and extraction processes.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 15,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 28,
+         "dark": false,
+         "html": "<h3>Mechanical Engineer (Conveyor systems) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 29,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Designs conveyor systems for various industries, involving calculations for load, throughput, and material handling requirements.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 9,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 16,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 30,
+         "dark": false,
+         "html": "<h3>Mechanical Engineer (Overhead cranes) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 31,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Involves designing overhead cranes, considering factors like load capacity, range of motion, and safety standards.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 17,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 32,
+         "dark": false,
+         "html": "<h3>Mechanical Engineer (Automobile Engineering) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 33,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Engages in the design and development of automobiles, including components like engines, transmissions, and body structures.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 10,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 18,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 34,
+         "dark": false,
+         "html": "<h3>Reliability Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 35,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Focuses on ensuring the reliability and safety of engineering systems and components, through testing, analysis, and maintenance planning.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 19,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 36,
+         "dark": false,
+         "html": "<h3>Thermal Systems Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 37,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Specializes in the design and analysis of thermal systems, including heat exchangers, refrigeration systems, and HVAC.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 11,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 20,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 38,
+         "dark": false,
+         "html": "<h3>HVAC Engineer (Heating, Ventilation, and Air Conditioning) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 39,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Involves designing, implementing, and maintaining HVAC systems, focusing on thermal comfort and air quality in buildings.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 21,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 40,
+         "dark": false,
+         "html": "<h3>Fluid Dynamics Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 41,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Deals with the analysis and application of fluid dynamics in various systems, including aerodynamics, hydrodynamics, and pneumatics.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 12,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 22,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 42,
+         "dark": false,
+         "html": "<h3>Structural Engineer (with a focus on mechanical systems) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 43,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Combines structural engineering with mechanical principles, focusing on the design and analysis of mechanical structures and systems.</p>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 23,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 44,
+         "dark": false,
+         "html": "<h3>Aerospace Engineer (for those specializing in aircraft and spacecraft) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 45,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Involves designing and developing aircraft and spacecraft, focusing on aerodynamics, propulsion systems, and materials science.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 13,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 24,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 46,
+         "dark": false,
+         "html": "<h3>Automotive Engineer (for those working in the automotive industry) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 47,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Specializes in the automotive industry, focusing on vehicle design, performance, and safety systems.</p>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 25,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 48,
+         "dark": false,
+         "html": "<h3>Robotics Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 49,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Involves designing and developing robotic systems, including automation, control systems, and artificial intelligence applications.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 14,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 26,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 50,
+         "dark": false,
+         "html": "<h3>Manufacturing Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 51,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Works in the manufacturing sector, focusing on process design, equipment layout, and optimization of production systems.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 27,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 52,
+         "dark": false,
+         "html": "<h3>Quality Assurance Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 53,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Responsible for ensuring the quality and safety of engineering products and processes, through testing, inspection, and compliance with standards.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 15,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 28,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 54,
+         "dark": false,
+         "html": "<h3>Energy Systems Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 55,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Focuses on designing and analyzing energy systems, including renewable energy sources and energy efficiency technologies.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 29,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 56,
+         "dark": false,
+         "html": "<h3>Control Systems Engineer (for those focusing on automation and control systems) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 57,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Specializes in automation and control systems, involving the design and implementation of control algorithms and systems integration.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 16,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 30,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 58,
+         "dark": false,
+         "html": "<h3>Materials Engineer (for those specializing in materials science) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 59,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Focuses on materials science, involving the selection, testing, and development of materials for various engineering applications.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 31,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 60,
+         "dark": false,
+         "html": "<h3>Acoustic Engineer (specializing in sound and vibration) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 61,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Specializes in sound and vibration engineering, focusing on noise control, acoustics, and vibration analysis in various systems.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 17,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 32,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 62,
+         "dark": false,
+         "html": "<h3>Biomechanical Engineer (working in the field of biology and human movement) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 63,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Combines principles of biology and engineering, focusing on the analysis and design of systems related to human movement.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 33,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 64,
+         "dark": false,
+         "html": "<h3>Renewable Energy Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 65,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Focuses on renewable energy technologies, including the design, implementation, and analysis of systems like solar, wind, and hydro power.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 18,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 34,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 66,
+         "dark": false,
+         "html": "<h3>Process Engineer (often found in manufacturing and chemical industries) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 67,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Involves designing and optimizing manufacturing and chemical processes, focusing on efficiency, safety, and environmental impact.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 35,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 68,
+         "dark": false,
+         "html": "<h3>Product Development Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 69,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Focuses on the development of new products, from concept to market launch, involving design, prototyping, and testing.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 19,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 36,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 70,
+         "dark": false,
+         "html": "<h3>Project Engineer (overseeing engineering projects) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 71,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Responsible for overseeing engineering projects, including planning, execution, and coordination with multidisciplinary teams.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 37,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 72,
+         "dark": false,
+         "html": "<h3>Research and Development Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 73,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Involves research and development of new engineering technologies and solutions, often in a specialized field of engineering.</p>\n</div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

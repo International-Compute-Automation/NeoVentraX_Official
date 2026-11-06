@@ -1,0 +1,352 @@
+{
+ "slug": "construction",
+ "title": "Construction",
+ "description": "",
+ "css": "[data-page=\"construction\"] .dv-section.dv-section-0{background-image:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(0,0,0,0.6) 100%),url(/uploads/2025-09-Construction-min-scaled.webp)!important}\n[data-page=\"construction\"] .dv-section-0.dv-section{padding-top:170px;padding-bottom:170px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"construction\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"construction\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n[data-page=\"construction\"] .dv-section.dv-section-1{background-size:initial;background-position:left -40px bottom -140px;background-image:url(/uploads/2025-07-it-services-5-nyt-24-png.webp)!important}\n[data-page=\"construction\"] .dv-section-1.dv-section{padding-top:30px;padding-bottom:4px;margin-top:0px;margin-bottom:0px}\n[data-page=\"construction\"] .dv-row-1.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:36px!important;margin-right:auto!important;margin-bottom:36px!important;margin-left:auto!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"construction\"] .dv-row-1{width:90%;max-width:1290px}\n[data-page=\"construction\"] .dv-text-1.dv-text{color:#737373!important}\n[data-page=\"construction\"] .dv-text-1{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important}\n[data-page=\"construction\"] .dv-section-2.dv-section{padding-top:80px;padding-bottom:80px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"construction\"] .dv-row-2.dv-row,[data-page=\"construction\"] .dv-row-3.dv-row,[data-page=\"construction\"] .dv-row-4.dv-row,[data-page=\"construction\"] .dv-row-5.dv-row,[data-page=\"construction\"] .dv-row-6.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"construction\"] .dv-row-2,[data-page=\"construction\"] .dv-row-3,[data-page=\"construction\"] .dv-row-4,[data-page=\"construction\"] .dv-row-5,[data-page=\"construction\"] .dv-row-6{width:90%}\n[data-page=\"construction\"] .dv-image-0 .dv-image-wrap,[data-page=\"construction\"] .dv-image-1 .dv-image-wrap,[data-page=\"construction\"] .dv-image-2 .dv-image-wrap,[data-page=\"construction\"] .dv-image-3 .dv-image-wrap,[data-page=\"construction\"] .dv-image-4 .dv-image-wrap,[data-page=\"construction\"] .dv-image-5 .dv-image-wrap,[data-page=\"construction\"] .dv-image-6 .dv-image-wrap,[data-page=\"construction\"] .dv-image-7 .dv-image-wrap,[data-page=\"construction\"] .dv-image-8 .dv-image-wrap,[data-page=\"construction\"] .dv-image-9 .dv-image-wrap{border-radius:5px 5px 5px 5px;overflow:hidden}\n[data-page=\"construction\"] .dv-image-0,[data-page=\"construction\"] .dv-image-1,[data-page=\"construction\"] .dv-image-2,[data-page=\"construction\"] .dv-image-3,[data-page=\"construction\"] .dv-image-4,[data-page=\"construction\"] .dv-image-5,[data-page=\"construction\"] .dv-image-6,[data-page=\"construction\"] .dv-image-7,[data-page=\"construction\"] .dv-image-8,[data-page=\"construction\"] .dv-image-9{padding-top:0px;padding-bottom:0px;margin-top:0px!important;margin-bottom:30px!important;text-align:left;margin-left:0}\n[data-page=\"construction\"] .dv-text-2 h3,[data-page=\"construction\"] .dv-text-4 h3,[data-page=\"construction\"] .dv-text-6 h3,[data-page=\"construction\"] .dv-text-8 h3,[data-page=\"construction\"] .dv-text-10 h3,[data-page=\"construction\"] .dv-text-12 h3,[data-page=\"construction\"] .dv-text-14 h3,[data-page=\"construction\"] .dv-text-16 h3,[data-page=\"construction\"] .dv-text-18 h3,[data-page=\"construction\"] .dv-text-20 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"construction\"] .dv-text-2,[data-page=\"construction\"] .dv-text-4,[data-page=\"construction\"] .dv-text-6,[data-page=\"construction\"] .dv-text-8,[data-page=\"construction\"] .dv-text-10,[data-page=\"construction\"] .dv-text-12,[data-page=\"construction\"] .dv-text-14,[data-page=\"construction\"] .dv-text-16,[data-page=\"construction\"] .dv-text-18,[data-page=\"construction\"] .dv-text-20{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:8px!important}\n[data-page=\"construction\"] .dv-text-3.dv-text,[data-page=\"construction\"] .dv-text-5.dv-text,[data-page=\"construction\"] .dv-text-7.dv-text,[data-page=\"construction\"] .dv-text-9.dv-text,[data-page=\"construction\"] .dv-text-11.dv-text,[data-page=\"construction\"] .dv-text-13.dv-text,[data-page=\"construction\"] .dv-text-15.dv-text,[data-page=\"construction\"] .dv-text-17.dv-text,[data-page=\"construction\"] .dv-text-19.dv-text,[data-page=\"construction\"] .dv-text-21.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"construction\"] .dv-text-3,[data-page=\"construction\"] .dv-text-5,[data-page=\"construction\"] .dv-text-7,[data-page=\"construction\"] .dv-text-9,[data-page=\"construction\"] .dv-text-11,[data-page=\"construction\"] .dv-text-13,[data-page=\"construction\"] .dv-text-15,[data-page=\"construction\"] .dv-text-17,[data-page=\"construction\"] .dv-text-19,[data-page=\"construction\"] .dv-text-21{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"construction\"] .dv-column-1{padding-left:35px;margin:auto}\n[data-page=\"construction\"] .dv-column-2,[data-page=\"construction\"] .dv-column-3,[data-page=\"construction\"] .dv-column-4,[data-page=\"construction\"] .dv-column-5,[data-page=\"construction\"] .dv-column-6,[data-page=\"construction\"] .dv-column-7,[data-page=\"construction\"] .dv-column-8,[data-page=\"construction\"] .dv-column-9,[data-page=\"construction\"] .dv-column-10,[data-page=\"construction\"] .dv-column-11{background-color:#111536;border-radius:5px 5px 5px 5px;overflow:hidden;padding-top:37px;padding-right:40px;padding-bottom:40px;padding-left:40px}\n@media only screen and (min-width:981px){[data-page=\"construction\"] .dv-row-2,[data-page=\"construction\"] .dv-row-3,[data-page=\"construction\"] .dv-row-4,[data-page=\"construction\"] .dv-row-5,[data-page=\"construction\"] .dv-row-6{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"construction\"] .dv-text-0 h1{font-size:64px}[data-page=\"construction\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"construction\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:120px}[data-page=\"construction\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"construction\"] .dv-row-2.dv-row,[data-page=\"construction\"] .dv-row-3.dv-row,[data-page=\"construction\"] .dv-row-4.dv-row,[data-page=\"construction\"] .dv-row-5.dv-row,[data-page=\"construction\"] .dv-row-6.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"construction\"] .dv-row-2,[data-page=\"construction\"] .dv-row-3,[data-page=\"construction\"] .dv-row-4,[data-page=\"construction\"] .dv-row-5,[data-page=\"construction\"] .dv-row-6{max-width:410px}[data-page=\"construction\"] .dv-image-0 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-1 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-2 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-3 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-4 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-5 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-6 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-7 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-8 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-9 .dv-image-wrap img{width:auto}[data-page=\"construction\"] .dv-column-1{padding-top:90px;padding-left:0px}}\n@media only screen and (max-width:767px){[data-page=\"construction\"] .dv-text-0 h1{font-size:50px}[data-page=\"construction\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"construction\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:90px}[data-page=\"construction\"] .dv-section-2.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"construction\"] .dv-row-2.dv-row,[data-page=\"construction\"] .dv-row-3.dv-row,[data-page=\"construction\"] .dv-row-4.dv-row,[data-page=\"construction\"] .dv-row-5.dv-row,[data-page=\"construction\"] .dv-row-6.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"construction\"] .dv-image-0 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-1 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-2 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-3 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-4 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-5 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-6 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-7 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-8 .dv-image-wrap img,[data-page=\"construction\"] .dv-image-9 .dv-image-wrap img{width:auto}[data-page=\"construction\"] .dv-column-1{padding-top:55px}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Construction</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 1,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<div>\n<div>\n<p style=\"text-align:center\">Construction logistics is the process of planning, coordinating and executing the transportation, storage and distribution of materials and equipment needed for construction projects. It involves ensuring that all the necessary resources are available when and where they are needed, and that they are used efficiently throughout the project.</p>\n<p style=\"text-align:center\">Construction logistics is a complex and challenging field, but it is an essential part of any successful construction project. By carefully planning and coordinating the transportation, storage and distribution of materials and equipment, construction logistics can help to ensure that a project runs smoothly and efficiently from start to finish.</p>\n</div>\n</div>\n<div style=\"text-align:center\">\n<div>\n<div></div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 2,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 2,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 0,
+         "src": "/uploads/2025-09-1-Commercial-Residential-Superintendent.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<h3>Commercial / Residential Superintendent (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Responsible for overseeing the daily operations of commercial or residential construction projects, ensuring they are completed on time, within budget, and according to quality standards. Duties include coordinating with subcontractors, managing construction schedules, enforcing safety regulations, and communicating project progress to stakeholders.</p>\n</div>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 3,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 1,
+         "src": "/uploads/2025-09-2--Commercial-Residential-Project-Manager.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<h3>Commercial / Residential Project Manager (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Manages commercial or residential construction projects from inception to completion. Responsibilities include budgeting, scheduling, coordinating with various stakeholders, ensuring compliance with legal requirements, and resolving any issues that arise during the construction process.</p>\n</div>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 4,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 2,
+         "src": "/uploads/2025-09-3-Heavy-Civil-Engineer.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<h3>Heavy Civil Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Focuses on the design, construction, and maintenance of infrastructure projects such as bridges, highways, and dams. Requires strong analytical skills to develop solutions for complex engineering challenges, ensuring safety and efficiency in construction and operation.</p>\n</div>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n<div></div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 5,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 3,
+         "src": "/uploads/2025-09-4-Construction-Estimator.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 8,
+         "dark": false,
+         "html": "<h3>Construction Estimator (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 9,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Responsible for estimating the costs associated with construction projects. This involves analyzing project plans, computing costs, determining timeframes, and considering various factors like labor, materials, and equipment needed for the project.</p>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 4,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 6,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 4,
+         "src": "/uploads/2025-09-5-Structural-Engineer.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 10,
+         "dark": false,
+         "html": "<h3>Structural Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 11,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Specializes in designing and analyzing the structural components of buildings, bridges, and other structures. Ensures that structures are safe, stable, and capable of withstanding environmental stresses and loads.</p>\n</div>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 7,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 5,
+         "src": "/uploads/2025-09-6-Environmental-Engineer.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 12,
+         "dark": false,
+         "html": "<h3>Environmental Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 13,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Works on projects that improve environmental quality. Involves assessing and managing the environmental impact of construction projects, developing pollution control technologies, and advising on sustainable construction practices.</p>\n</div>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 5,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 8,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 6,
+         "src": "/uploads/2025-09-7-Travelling-Superintendent-Project-Manager.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 14,
+         "dark": false,
+         "html": "<h3>Travelling Superintendent / Project Manager (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 15,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Oversees construction projects at different locations, often traveling to various sites. Manages project timelines, budgets, and teams, ensuring that construction standards are met and projects are completed efficiently and effectively.</p>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 9,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 7,
+         "src": "/uploads/2025-09-8-Roadway-Engineers.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 16,
+         "dark": false,
+         "html": "<h3>Roadway Engineers (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 17,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Specializes in designing and overseeing the construction and maintenance of roads and highways. Ensures that roadway projects meet safety, environmental, and budgetary requirements, and coordinates with other engineers and government agencies.</p>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 6,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 10,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 8,
+         "src": "/uploads/2025-09-9-Infrastructure-Engineer.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 18,
+         "dark": false,
+         "html": "<h3>Infrastructure Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 19,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Involved in planning, designing, and overseeing the construction and maintenance of infrastructure facilities like water supply systems, sewage systems, and public transportation networks. Ensures that these systems are efficient, sustainable, and meet community needs.</p>\n</div>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 11,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 9,
+         "src": "/uploads/2025-09-10-Geo-Technical-Surveyors-Engineers.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 20,
+         "dark": false,
+         "html": "<h3>Geo Technical Surveyors/Engineers (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 21,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Focuses on analyzing the earth materials and their behavior in construction projects. Involves conducting soil and rock testing, assessing site conditions, and providing recommendations for foundation design and other construction-related decisions.</p>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

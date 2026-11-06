@@ -1,0 +1,295 @@
+{
+ "slug": "hardware-networking",
+ "title": "Hardware & Networking",
+ "description": "",
+ "css": "[data-page=\"hardware-networking\"] .dv-section.dv-section-0{background-image:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(0,0,0,0.6) 100%),url(/uploads/2025-09-Hardware-Networking-min-scaled.webp)!important}\n[data-page=\"hardware-networking\"] .dv-section-0.dv-section{padding-top:170px;padding-bottom:170px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"hardware-networking\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"hardware-networking\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n@media only screen and (max-width:980px){[data-page=\"hardware-networking\"] .dv-text-0 h1{font-size:64px}}\n@media only screen and (max-width:767px){[data-page=\"hardware-networking\"] .dv-text-0 h1{font-size:50px}}\n[data-page=\"hardware-networking\"] .dv-section.dv-section-1{background-size:initial;background-position:left -40px bottom -140px;background-image:url(/uploads/2025-07-it-services-5-nyt-24-png.webp)!important}\n[data-page=\"hardware-networking\"] .dv-section-1.dv-section{padding-top:30px;padding-bottom:4px;margin-top:0px;margin-bottom:0px}\n[data-page=\"hardware-networking\"] .dv-row-1.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:36px!important;margin-right:auto!important;margin-bottom:36px!important;margin-left:auto!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"hardware-networking\"] .dv-row-1{width:90%;max-width:1290px}\n[data-page=\"hardware-networking\"] .dv-text-1.dv-text{color:#737373!important}\n[data-page=\"hardware-networking\"] .dv-text-1{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important}\n[data-page=\"hardware-networking\"] .dv-section-2.dv-section{padding-top:80px;padding-bottom:80px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"hardware-networking\"] .dv-row-2.dv-row,[data-page=\"hardware-networking\"] .dv-row-3.dv-row,[data-page=\"hardware-networking\"] .dv-row-4.dv-row,[data-page=\"hardware-networking\"] .dv-row-5.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"hardware-networking\"] .dv-row-2,[data-page=\"hardware-networking\"] .dv-row-3,[data-page=\"hardware-networking\"] .dv-row-4,[data-page=\"hardware-networking\"] .dv-row-5{width:90%}\n[data-page=\"hardware-networking\"] .dv-image-0 .dv-image-wrap,[data-page=\"hardware-networking\"] .dv-image-1 .dv-image-wrap,[data-page=\"hardware-networking\"] .dv-image-2 .dv-image-wrap,[data-page=\"hardware-networking\"] .dv-image-3 .dv-image-wrap,[data-page=\"hardware-networking\"] .dv-image-4 .dv-image-wrap,[data-page=\"hardware-networking\"] .dv-image-5 .dv-image-wrap,[data-page=\"hardware-networking\"] .dv-image-6 .dv-image-wrap,[data-page=\"hardware-networking\"] .dv-image-7 .dv-image-wrap{border-radius:5px 5px 5px 5px;overflow:hidden}\n[data-page=\"hardware-networking\"] .dv-image-0,[data-page=\"hardware-networking\"] .dv-image-1,[data-page=\"hardware-networking\"] .dv-image-2,[data-page=\"hardware-networking\"] .dv-image-3,[data-page=\"hardware-networking\"] .dv-image-4,[data-page=\"hardware-networking\"] .dv-image-5,[data-page=\"hardware-networking\"] .dv-image-6,[data-page=\"hardware-networking\"] .dv-image-7{padding-top:0px;padding-bottom:0px;margin-top:0px!important;margin-bottom:30px!important;text-align:left;margin-left:0}\n[data-page=\"hardware-networking\"] .dv-text-2 h3,[data-page=\"hardware-networking\"] .dv-text-4 h3,[data-page=\"hardware-networking\"] .dv-text-6 h3,[data-page=\"hardware-networking\"] .dv-text-8 h3,[data-page=\"hardware-networking\"] .dv-text-10 h3,[data-page=\"hardware-networking\"] .dv-text-12 h3,[data-page=\"hardware-networking\"] .dv-text-14 h3,[data-page=\"hardware-networking\"] .dv-text-16 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"hardware-networking\"] .dv-text-2,[data-page=\"hardware-networking\"] .dv-text-4,[data-page=\"hardware-networking\"] .dv-text-6,[data-page=\"hardware-networking\"] .dv-text-8,[data-page=\"hardware-networking\"] .dv-text-10,[data-page=\"hardware-networking\"] .dv-text-12,[data-page=\"hardware-networking\"] .dv-text-14,[data-page=\"hardware-networking\"] .dv-text-16{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:8px!important}\n[data-page=\"hardware-networking\"] .dv-text-3.dv-text,[data-page=\"hardware-networking\"] .dv-text-5.dv-text,[data-page=\"hardware-networking\"] .dv-text-7.dv-text,[data-page=\"hardware-networking\"] .dv-text-9.dv-text,[data-page=\"hardware-networking\"] .dv-text-11.dv-text,[data-page=\"hardware-networking\"] .dv-text-13.dv-text,[data-page=\"hardware-networking\"] .dv-text-15.dv-text,[data-page=\"hardware-networking\"] .dv-text-17.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"hardware-networking\"] .dv-text-3,[data-page=\"hardware-networking\"] .dv-text-5,[data-page=\"hardware-networking\"] .dv-text-7,[data-page=\"hardware-networking\"] .dv-text-9,[data-page=\"hardware-networking\"] .dv-text-11,[data-page=\"hardware-networking\"] .dv-text-13,[data-page=\"hardware-networking\"] .dv-text-15,[data-page=\"hardware-networking\"] .dv-text-17{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"hardware-networking\"] .dv-column-1{padding-left:35px;margin:auto}\n[data-page=\"hardware-networking\"] .dv-column-2,[data-page=\"hardware-networking\"] .dv-column-3,[data-page=\"hardware-networking\"] .dv-column-4,[data-page=\"hardware-networking\"] .dv-column-5,[data-page=\"hardware-networking\"] .dv-column-6,[data-page=\"hardware-networking\"] .dv-column-7,[data-page=\"hardware-networking\"] .dv-column-8,[data-page=\"hardware-networking\"] .dv-column-9{background-color:#111536;border-radius:5px 5px 5px 5px;overflow:hidden;padding-top:37px;padding-right:40px;padding-bottom:40px;padding-left:40px}\n@media only screen and (min-width:981px){[data-page=\"hardware-networking\"] .dv-row-2,[data-page=\"hardware-networking\"] .dv-row-3,[data-page=\"hardware-networking\"] .dv-row-4,[data-page=\"hardware-networking\"] .dv-row-5{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"hardware-networking\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"hardware-networking\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:120px}[data-page=\"hardware-networking\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"hardware-networking\"] .dv-row-2.dv-row,[data-page=\"hardware-networking\"] .dv-row-3.dv-row,[data-page=\"hardware-networking\"] .dv-row-4.dv-row,[data-page=\"hardware-networking\"] .dv-row-5.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"hardware-networking\"] .dv-row-2,[data-page=\"hardware-networking\"] .dv-row-3,[data-page=\"hardware-networking\"] .dv-row-4,[data-page=\"hardware-networking\"] .dv-row-5{max-width:410px}[data-page=\"hardware-networking\"] .dv-image-0 .dv-image-wrap img,[data-page=\"hardware-networking\"] .dv-image-1 .dv-image-wrap img,[data-page=\"hardware-networking\"] .dv-image-2 .dv-image-wrap img,[data-page=\"hardware-networking\"] .dv-image-3 .dv-image-wrap img,[data-page=\"hardware-networking\"] .dv-image-4 .dv-image-wrap img,[data-page=\"hardware-networking\"] .dv-image-5 .dv-image-wrap img,[data-page=\"hardware-networking\"] .dv-image-6 .dv-image-wrap img,[data-page=\"hardware-networking\"] .dv-image-7 .dv-image-wrap img{width:auto}[data-page=\"hardware-networking\"] .dv-column-1{padding-top:90px;padding-left:0px}}\n@media only screen and (max-width:767px){[data-page=\"hardware-networking\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"hardware-networking\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:90px}[data-page=\"hardware-networking\"] .dv-section-2.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"hardware-networking\"] .dv-row-2.dv-row,[data-page=\"hardware-networking\"] .dv-row-3.dv-row,[data-page=\"hardware-networking\"] .dv-row-4.dv-row,[data-page=\"hardware-networking\"] .dv-row-5.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"hardware-networking\"] .dv-image-0 .dv-image-wrap img,[data-page=\"hardware-networking\"] .dv-image-1 .dv-image-wrap img,[data-page=\"hardware-networking\"] .dv-image-2 .dv-image-wrap img,[data-page=\"hardware-networking\"] .dv-image-3 .dv-image-wrap img,[data-page=\"hardware-networking\"] .dv-image-4 .dv-image-wrap img,[data-page=\"hardware-networking\"] .dv-image-5 .dv-image-wrap img,[data-page=\"hardware-networking\"] .dv-image-6 .dv-image-wrap img,[data-page=\"hardware-networking\"] .dv-image-7 .dv-image-wrap img{width:auto}[data-page=\"hardware-networking\"] .dv-column-1{padding-top:55px}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Hardware &amp; Networking</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 1,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<p style=\"text-align:center\">In the hardware and networking industry, professionals play pivotal roles in building and maintaining the digital infrastructure that powers modern society. Skilled technicians install and troubleshoot hardware components, ensuring smooth operation of computer systems and networks. Meanwhile, network engineers design and optimize complex networks to support data transmission and communication. Cybersecurity experts protect these systems from cyber threats, safeguarding sensitive information. Additionally, sales and marketing teams promote hardware and networking solutions, driving innovation and growth in the industry. Careers in this dynamic field offer opportunities to contribute to technological advancement and address evolving connectivity needs.</p>\n</div>\n</div>\n</div>\n</div>\n<div style=\"text-align:center\">\n<div>\n<div></div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 2,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 2,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 0,
+         "src": "/uploads/2025-09-1-Network-Security-Specialist.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<h3>Network Security Specialist (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree in Computer Science, Information Technology, or related field. Relevant certifications such as CISSP, CompTIA Security+, or Certified Ethical Hacker (CEH). Strong understanding of network protocols, firewalls, intrusion detection systems, and encryption technologies. Experience with security assessment tools and techniques. Excellent analytical and problem-solving skills. Roles and Responsibilities</p>\n<ul>\n<li>Implement and maintain network security measures to protect against unauthorized access, data breaches, and cyber threats.</li>\n<li>Monitor network traffic for suspicious activity and security incidents.</li>\n<li>Conduct security assessments and penetration testing to identify vulnerabilities and weaknesses in network infrastructure.</li>\n<li>Develop and enforce security policies, procedures, and best practices.</li>\n<li>Respond to security incidents and breaches, including incident investigation and remediation.</li>\n</ul>\n</div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 3,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 1,
+         "src": "/uploads/2025-09-2-Network-Administrator.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<h3>Network Administrator (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree in Computer Science, Information Technology, or related field. Certification such as Cisco Certified Network Associate (CCNA) or CompTIA Network+. Proficiency in network protocols, routing, switching, and network security principles. Experience with network monitoring and troubleshooting tools. Strong problem-solving and communication skills. Roles and Responsibilities</p>\n<ul>\n<li>Install, configure, and maintain network hardware, software, and infrastructure components.</li>\n<li>Monitor network performance, availability, and security.</li>\n<li>Troubleshoot network issues and perform root cause analysis.</li>\n<li>Implement network upgrades, patches, and security updates.</li>\n<li>Manage user accounts, permissions, and access controls.</li>\n<li>Provide technical support and assistance to end-users and IT teams.</li>\n<li>Document network configurations, procedures, and troubleshooting steps.</li>\n</ul>\n</div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 4,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 2,
+         "src": "/uploads/2025-09-3-Hardware-Engineer.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<h3>Hardware Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree in Electrical Engineering, Computer Engineering, or related field. Strong knowledge of digital and analog circuits, microprocessors, and semiconductor devices. Proficiency in computer-aided design (CAD) software for hardware design and simulation. Experience with hardware prototyping, testing, and debugging. Excellent problem-solving and analytical skills. Roles and Responsibilities</p>\n<ul>\n<li>Design and develop hardware components and systems, including circuit boards, processors, and peripherals.</li>\n<li>Perform schematic design, PCB layout, and simulation using CAD tools.</li>\n<li>Prototype, test, and validate hardware designs to ensure functionality and performance.</li>\n<li>Collaborate with cross-functional teams, including software engineers, to integrate hardware and software components.</li>\n<li>Conduct design reviews and provide technical expertise and support throughout the product development lifecycle.</li>\n</ul>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 5,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 3,
+         "src": "/uploads/2025-09-4-Systems-Administrator.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 8,
+         "dark": false,
+         "html": "<h3>Systems Administrator (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 9,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree in Computer Science, Information Technology, or related field. Certification such as Microsoft Certified Systems Administrator (MCSA) or Linux Professional Institute Certification (LPIC). Proficiency in operating systems such as Windows Server, Linux, and Unix. Experience with system administration tools and technologies. Strong troubleshooting and problem-solving skills. Roles and Responsibilities</p>\n<ul>\n<li>Install, configure, and maintain server hardware, operating systems, and software applications.</li>\n<li>Monitor system performance, availability, and security.</li>\n<li>Troubleshoot system issues and perform root cause analysis.</li>\n<li>Implement system upgrades, patches, and security updates.</li>\n<li>Manage user accounts, permissions, and access controls.</li>\n<li>Backup and restore data, and implement disaster recovery plans.</li>\n<li>Document system configurations, procedures, and troubleshooting steps.</li>\n</ul>\n</div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 4,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 6,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 4,
+         "src": "/uploads/2025-09-5-IT-Support-Specialist.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 10,
+         "dark": false,
+         "html": "<h3>IT Support Specialist (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 11,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Associate’s degree or certification in Information Technology, Computer Science, or related field. Experience in technical support or help desk role. Knowledge of computer hardware, software, and operating systems. Strong customer service and communication skills. Ability to troubleshoot and resolve technical issues. Roles and Responsibilities</p>\n<ul>\n<li>Provide technical support and assistance to end-users via phone, email, or in-person.</li>\n<li>Diagnose and resolve hardware, software, and network problems.</li>\n<li>Install, configure, and upgrade computer systems and software.</li>\n<li>Assist with user account management, permissions, and access controls.</li>\n<li>Escalate complex issues to higher-level support teams or vendors.</li>\n<li>Document support requests, resolutions, and troubleshooting steps.</li>\n<li>Provide training and guidance to end-users on IT systems and applications.</li>\n</ul>\n</div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 7,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 5,
+         "src": "/uploads/2025-09-6-Network-Engineer.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 12,
+         "dark": false,
+         "html": "<h3>Network Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 13,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree in Computer Science, Information Technology, or related field. Certification such as Cisco Certified Network Professional (CCNP) or Juniper Networks Certified Internet Specialist (JNCIS). Strong knowledge of network protocols, routing, switching, and security. Experience with network design, implementation, and optimization. Excellent problem-solving and analytical skills. Roles and Responsibilities</p>\n<ul>\n<li>Design, implement, and manage enterprise network infrastructure, including routers, switches, firewalls, and VPNs.</li>\n<li>Configure and optimize network performance, availability, and security.</li>\n<li>Monitor network traffic, bandwidth utilization, and performance metrics.</li>\n<li>Troubleshoot network issues and perform root cause analysis.</li>\n<li>Implement network upgrades, patches, and security updates.</li>\n</ul>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 5,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 8,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 6,
+         "src": "/uploads/2025-09-7-Systems-Engineer.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 14,
+         "dark": false,
+         "html": "<h3>Systems Engineer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 15,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree in Computer Science, Information Technology, or related field. Certification such as Microsoft Certified Systems Engineer (MCSE) or Red Hat Certified Engineer (RHCE). Proficiency in operating systems, server hardware, virtualization, and storage technologies. Experience with system design, implementation, and optimization. Strong problem-solving and analytical skills. Roles and Responsibilities</p>\n<ul>\n<li>Design, deploy, and maintain enterprise-level systems infrastructure, including servers, storage, and virtualization platforms.</li>\n<li>Configure and optimize system performance, availability, and security.</li>\n<li>Implement system upgrades, patches, and security updates.</li>\n<li>Troubleshoot system issues and perform root cause analysis.</li>\n<li>Develop and maintain system documentation, procedures, and best practices.</li>\n<li>Collaborate with cross-functional teams to integrate systems with other IT infrastructure components.</li>\n<li>Stay current with industry trends, emerging technologies, and best practices in systems engineering.</li>\n</ul>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 9,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 7,
+         "src": "/uploads/2025-09-8-IT-Manager.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 16,
+         "dark": false,
+         "html": "<h3>IT Manager (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 17,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree in Computer Science, Information Technology, or related field. Several years of experience in IT management or leadership roles. Strong technical background in hardware, networking, and systems administration. Excellent leadership, communication, and project management skills. Knowledge of ITIL, COBIT, or other IT governance frameworks. Roles and Responsibilities</p>\n<ul>\n<li>Plan, coordinate, and oversee IT operations, including infrastructure, systems, and support services.</li>\n<li>Develop and implement IT strategies, policies, and procedures to align with business objectives.</li>\n<li>Manage IT budgets, resources, and vendor relationships.</li>\n<li>Lead IT projects and initiatives, from planning and execution to monitoring and evaluation.</li>\n<li>Ensure compliance with regulatory requirements and industry standards.</li>\n<li>Provide leadership and mentorship to IT staff, fostering a culture of innovation, collaboration, and continuous improvement.</li>\n<li>Stay updated on emerging technologies, trends, and best practices in IT management.</li>\n</ul>\n</div>\n</div>\n<div></div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

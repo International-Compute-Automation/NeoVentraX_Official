@@ -1,0 +1,57 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import ResumeForm from '../components/ResumeForm.astro';
+import Icon from '../components/Icon.astro';
+import { getPage, textOf } from '../lib/content';
+
+const page = getPage('submit-your-resume');
+const tips = [
+  { href: '/tips-on-submitting-resumes/', label: 'Tips on submitting resumes' },
+  { href: '/preparing-interview/', label: 'Preparing for interview' },
+  { href: '/effective-job-search/', label: 'Effective job search' },
+];
+---
+<Base quickActions={false} title="Submit Your Resume" description={textOf(page.intro).slice(0, 155)} heroImage={page.heroImage}>
+  <PageHero title="Submit your resume" eyebrow="For job seekers" image={page.heroImage} crumbs={[{ label: 'Employees' }]}
+    lead="Share your CV and we’ll match you with roles across 20+ industries that fit your skills and goals." />
+
+  <section class="section">
+    <div class="container rgrid">
+      <div class="side">
+        <div class="prose" set:html={page.intro} />
+        <ol class="how">
+          <li><span>1</span><div><strong>Upload your CV</strong>Tell us the position you’re interested in.</div></li>
+          <li><span>2</span><div><strong>We review &amp; match</strong>Our recruiters match your profile to open roles.</div></li>
+          <li><span>3</span><div><strong>Get introduced</strong>We prepare you for interviews and support you to offer.</div></li>
+        </ol>
+        <div class="tips card">
+          <strong>Before you apply</strong>
+          <ul>{tips.map((t) => <li><a href={t.href} class="link-arrow">{t.label} <Icon name="arrow" /></a></li>)}</ul>
+        </div>
+      </div>
+      <div class="form-card card">
+        <h2 class="h3">Your application</h2>
+        <p class="sub">Only your email is required — the more you share, the better we can match you.</p>
+        <ResumeForm />
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .rgrid { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(36px, 6vw, 80px); align-items: start; }
+  .side { display: grid; gap: 28px; }
+  .side .prose { font-size: 18px; }
+  .how { display: grid; gap: 16px; }
+  .how li { display: flex; gap: 16px; align-items: flex-start; color: var(--muted); }
+  .how span { width: 36px; height: 36px; flex: none; border-radius: 12px; background: var(--grad); color: #fff; display: grid; place-items: center; font-family: var(--font-head); font-weight: 700; }
+  .how strong { display: block; color: var(--ink); font-family: var(--font-head); font-size: 18px; }
+  .tips { padding: 24px; display: grid; gap: 12px; background: var(--soft); }
+  .tips strong { font-family: var(--font-head); color: var(--ink); font-size: 18px; }
+  .tips ul { display: grid; gap: 8px; }
+  .form-card { padding: clamp(28px, 4vw, 44px); box-shadow: var(--shadow); }
+  .form-card .sub { color: var(--muted); margin: 6px 0 24px; }
+  @media (max-width: 980px) { .rgrid { grid-template-columns: 1fr; } .form-card { order: -1; } }
+  @media (max-width: 600px) { .form-card { padding: 24px 18px; } .side .prose { font-size: 16px; } }
+</style>

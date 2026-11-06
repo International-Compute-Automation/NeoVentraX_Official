@@ -1,0 +1,102 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import JobCard from '../components/JobCard.astro';
+import InfoCard from '../components/InfoCard.astro';
+import Related from '../components/Related.astro';
+import CtaBand from '../components/CtaBand.astro';
+import Icon from '../components/Icon.astro';
+import { pages, textOf, type Page } from '../lib/content';
+
+export function getStaticPaths() {
+  const DEDICATED = ['contact-us', 'submit-your-resume'];
+  return pages.filter((p) => !DEDICATED.includes(p.slug)).map((page) => ({ params: { slug: page.slug }, props: { page } }));
+}
+const { page } = Astro.props as { page: Page };
+const isJobs = page.category === 'jobs';
+const roleCount = page.groups.reduce((n, g) => n + g.cards.length, 0);
+const eyebrow = isJobs ? `${roleCount} roles · Across USA` : page.categoryLabel;
+const description = page.description || textOf(page.intro).slice(0, 155) || undefined;
+const cols = (n: number) => (n === 1 ? 'grid-1' : n % 3 === 0 && !isJobs ? 'grid-3' : isJobs ? 'grid-3' : 'grid-2');
+---
+<Base title={page.title} description={description} heroImage={page.heroImage}>
+  <PageHero title={page.title} eyebrow={eyebrow} image={page.heroImage} crumbs={[{ label: page.categoryLabel }]}>
+    {isJobs && (
+      <div class="hero-actions">
+        <a href="#roles" class="btn btn-primary">View roles <Icon name="arrow" /></a>
+        <a href="/submit-your-resume/" class="btn btn-ghost">Submit your resume</a>
+      </div>
+    )}
+  </PageHero>
+
+  {page.intro && (
+    <section class="section-sm intro-sec">
+      <div class="container intro">
+        <span class="eyebrow">{isJobs ? 'About the industry' : 'Overview'}</span>
+        <div class="intro-body">
+          <div class="prose lead-prose" data-clamp set:html={page.intro} />
+          <button type="button" class="more-btn" hidden aria-expanded="false">Read more</button>
+        </div>
+      </div>
+    </section>
+  )}
+
+  {page.groups.map((g, gi) => (
+    <section class:list={['section-sm', { 'bg-soft': isJobs || gi % 2 === 1 }]} id={gi === 0 ? 'roles' : undefined}>
+      <div class="container">
+        {(g.heading || g.lead || (isJobs && gi === 0)) && (
+          <div class="section-head">
+            {isJobs && gi === 0 && !g.heading && <span class="eyebrow">Open role types</span>}
+            {g.heading && <h2 class="h2">{g.heading}</h2>}
+            {isJobs && gi === 0 && !g.heading && <h2 class="h2">Roles we recruit for in {page.title}</h2>}
+            {g.lead && <div class="prose lead-prose" set:html={g.lead} />}
+          </div>
+        )}
+        {g.cards.length > 0 && (
+          <div class:list={['grid', cols(g.cards.length)]}>
+            {g.cards.map((c, i) => isJobs ? <JobCard card={c} industry={page.title} /> : <InfoCard card={c} index={i} wide={g.cards.length === 1} />)}
+          </div>
+        )}
+      </div>
+    </section>
+  ))}
+
+  <Related page={page} />
+  <CtaBand
+    title={isJobs ? `Looking for a role in ${page.title}?` : undefined}
+    text={isJobs ? 'Send us your resume and we’ll match you with opportunities that fit your skills and goals.' : undefined}
+  />
+</Base>
+
+<script>
+  // On phones, collapse long intros behind "Read more" (full text stays in the HTML for SEO)
+  const mq = matchMedia('(max-width: 680px)');
+  document.querySelectorAll<HTMLElement>('[data-clamp]').forEach((el) => {
+    const btn = el.nextElementSibling as HTMLButtonElement;
+    const apply = () => {
+      el.classList.remove('clamped');
+      const long = mq.matches && el.scrollHeight > 300;
+      btn.hidden = !long;
+      if (long && btn.getAttribute('aria-expanded') !== 'true') el.classList.add('clamped');
+    };
+    btn.addEventListener('click', () => {
+      const open = btn.getAttribute('aria-expanded') !== 'true';
+      btn.setAttribute('aria-expanded', String(open));
+      btn.textContent = open ? 'Show less' : 'Read more';
+      el.classList.toggle('clamped', !open);
+    });
+    mq.addEventListener('change', apply);
+    apply();
+  });
+</script>
+
+<style>
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 10px; }
+  .intro-sec { padding-bottom: 0; }
+  .intro { display: grid; grid-template-columns: 220px 1fr; gap: 32px; padding-bottom: clamp(48px, 6vw, 80px); }
+  .lead-prose { font-size: clamp(17px, 1.4vw, 19px); line-height: 1.75; max-width: 860px; }
+  .grid-1 { grid-template-columns: 1fr; }
+  .lead-prose.clamped { max-height: 13.2em; overflow: hidden; -webkit-mask-image: linear-gradient(#000 60%, transparent); mask-image: linear-gradient(#000 60%, transparent); }
+  .more-btn { margin-top: 10px; min-height: 44px; padding: 0 2px; border: 0; background: none; cursor: pointer; font-family: var(--font-head); font-weight: 600; font-size: 16px; color: var(--brand); }
+  @media (max-width: 860px) { .intro { grid-template-columns: 1fr; gap: 14px; } }
+</style>

@@ -1,0 +1,238 @@
+{
+ "slug": "services",
+ "title": "Services",
+ "description": "",
+ "css": "[data-page=\"services\"] .dv-section.dv-section-0{background-image:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(0,0,0,0.6) 100%),url(/uploads/2025-09-Services-min-scaled.webp)!important}\n[data-page=\"services\"] .dv-section-0.dv-section{padding-top:170px;padding-bottom:170px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"services\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"services\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n@media only screen and (max-width:980px){[data-page=\"services\"] .dv-text-0 h1{font-size:64px}}\n@media only screen and (max-width:767px){[data-page=\"services\"] .dv-text-0 h1{font-size:50px}}\n[data-page=\"services\"] .dv-section.dv-section-1{background-size:initial;background-position:left -40px bottom -140px;background-image:url(/uploads/2025-07-it-services-5-nyt-24-png.webp)!important}\n[data-page=\"services\"] .dv-section-1.dv-section{padding-top:30px;padding-bottom:4px;margin-top:0px;margin-bottom:0px}\n[data-page=\"services\"] .dv-row-1.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:36px!important;margin-right:auto!important;margin-bottom:36px!important;margin-left:auto!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"services\"] .dv-row-1{width:90%;max-width:1290px}\n[data-page=\"services\"] .dv-text-1.dv-text{color:#737373!important}\n[data-page=\"services\"] .dv-text-1{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important}\n[data-page=\"services\"] .dv-section-2.dv-section{padding-top:80px;padding-bottom:80px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"services\"] .dv-row-2.dv-row,[data-page=\"services\"] .dv-row-3.dv-row,[data-page=\"services\"] .dv-row-4.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"services\"] .dv-row-2,[data-page=\"services\"] .dv-row-3,[data-page=\"services\"] .dv-row-4{width:90%}\n[data-page=\"services\"] .dv-image-0,[data-page=\"services\"] .dv-image-1,[data-page=\"services\"] .dv-image-2,[data-page=\"services\"] .dv-image-3,[data-page=\"services\"] .dv-image-4,[data-page=\"services\"] .dv-image-5{text-align:left;margin-left:0}\n[data-page=\"services\"] .dv-text-2 h3,[data-page=\"services\"] .dv-text-4 h3,[data-page=\"services\"] .dv-text-6 h3,[data-page=\"services\"] .dv-text-8 h3,[data-page=\"services\"] .dv-text-10 h3,[data-page=\"services\"] .dv-text-12 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"services\"] .dv-text-2,[data-page=\"services\"] .dv-text-4,[data-page=\"services\"] .dv-text-6,[data-page=\"services\"] .dv-text-8,[data-page=\"services\"] .dv-text-10,[data-page=\"services\"] .dv-text-12{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:8px!important}\n[data-page=\"services\"] .dv-text-3.dv-text,[data-page=\"services\"] .dv-text-5.dv-text,[data-page=\"services\"] .dv-text-7.dv-text,[data-page=\"services\"] .dv-text-9.dv-text,[data-page=\"services\"] .dv-text-11.dv-text,[data-page=\"services\"] .dv-text-13.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"services\"] .dv-text-3,[data-page=\"services\"] .dv-text-5,[data-page=\"services\"] .dv-text-7,[data-page=\"services\"] .dv-text-9,[data-page=\"services\"] .dv-text-11,[data-page=\"services\"] .dv-text-13{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"services\"] .dv-column-1{padding-left:35px;margin:auto}\n[data-page=\"services\"] .dv-column-2,[data-page=\"services\"] .dv-column-3,[data-page=\"services\"] .dv-column-4,[data-page=\"services\"] .dv-column-5,[data-page=\"services\"] .dv-column-6,[data-page=\"services\"] .dv-column-7{background-color:#111536;border-radius:5px 5px 5px 5px;overflow:hidden;padding-top:37px;padding-right:40px;padding-bottom:40px;padding-left:40px}\n@media only screen and (min-width:981px){[data-page=\"services\"] .dv-row-2,[data-page=\"services\"] .dv-row-3,[data-page=\"services\"] .dv-row-4{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"services\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"services\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:120px}[data-page=\"services\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"services\"] .dv-row-2.dv-row,[data-page=\"services\"] .dv-row-3.dv-row,[data-page=\"services\"] .dv-row-4.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"services\"] .dv-row-2,[data-page=\"services\"] .dv-row-3,[data-page=\"services\"] .dv-row-4{max-width:410px}[data-page=\"services\"] .dv-image-0 .dv-image-wrap img,[data-page=\"services\"] .dv-image-1 .dv-image-wrap img,[data-page=\"services\"] .dv-image-2 .dv-image-wrap img,[data-page=\"services\"] .dv-image-3 .dv-image-wrap img,[data-page=\"services\"] .dv-image-4 .dv-image-wrap img,[data-page=\"services\"] .dv-image-5 .dv-image-wrap img{width:auto}[data-page=\"services\"] .dv-column-1{padding-top:90px;padding-left:0px}}\n@media only screen and (max-width:767px){[data-page=\"services\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"services\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:90px}[data-page=\"services\"] .dv-section-2.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"services\"] .dv-row-2.dv-row,[data-page=\"services\"] .dv-row-3.dv-row,[data-page=\"services\"] .dv-row-4.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"services\"] .dv-image-0 .dv-image-wrap img,[data-page=\"services\"] .dv-image-1 .dv-image-wrap img,[data-page=\"services\"] .dv-image-2 .dv-image-wrap img,[data-page=\"services\"] .dv-image-3 .dv-image-wrap img,[data-page=\"services\"] .dv-image-4 .dv-image-wrap img,[data-page=\"services\"] .dv-image-5 .dv-image-wrap img{width:auto}[data-page=\"services\"] .dv-column-1{padding-top:55px}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Services</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 1,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<p style=\"text-align:center\">NeoVentraX specializes in sourcing outstanding talent pools for various industries and businesses, placing them in the right positions. Whether you require permanent hires, contract employees, freelancers, temporary staff, remote workers, or executive talent searches, we’re your preferred partner.</p>\n<p style=\"text-align:center\">Additionally, NeoVentraX provides workforce management services through recruitment process outsourcing (RPO) methods, ensuring seamless talent onboarding with minimal operational interference.</p>\n</div>\n</div>\n</div>\n</div>\n<div style=\"text-align:center\">\n<div>\n<div></div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 2,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 2,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 0,
+         "src": "/uploads/2025-09-1-Permanent-Employees.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<h3>Permanent Employees</h3>"
+        },
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>It is an employment relationship where the employee works for an employer and receives payment directly from them. A permanent employee may work on a part-time or full-time basis, which the Bureau of Labor Statistics classifies as employees who work 35 or more hours per week. Permanent employees often receive benefits packages through their employers. The Permanent employees are eligible to the following benefits the ability to take off from work for personal reasons, such as vacations, illness or parental leave. The amount of time off you receive may depend on different factors, such as your position at the company or how long you have worked there. Employers also often offer paid time off for holidays, such as Independence Day or Thanksgiving.</div>\n</div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 3,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 1,
+         "src": "/uploads/2025-09-2-Contractual-Freelancers.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<h3>Contractual / Freelancers</h3>"
+        },
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Contractual employees receive a fixed fee to work for a specified timeframe or on a certain project. Companies may also refer to these types of employees as independent contractors, contract workers, freelancers or work-for-hire staffers. As contractual employees aren’t company employees, they aren’t eligible to receive benefits. These self-employed individuals are responsible for obtaining their insurance and coordinating retirement savings. Since contractual employees aren’t company employees, they aren’t eligible to receive benefits. These self-employed individuals are responsible for obtaining their insurance and coordinating retirement savings. Since contractual employees aren’t company employees, they aren’t eligible to receive benefits.&nbsp;</div>\n</div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 4,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 2,
+         "src": "/uploads/2025-09-3-Remotely-Working-Employees.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<h3>Remotely Working Employees</h3>"
+        },
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>More Organizations are allowing / encouraging their teams to work remotely. As you progress through your career, you might have the opportunity to complete your work outside of a traditional office setting<br>1. Improved productivity.<br>2. Healthier lifestyles can lead to Better nutrition, fitness, emotional wellbeing and improved work-life balance.<br>3. More take-home pay.<br>4. Enhanced savings.<br>5. Greater team diversity.<br>6. Improved record keeping.<br>7. More sustainable lifestyle .<br>Disadvantages working remotely:<br>1. Less human interaction.<br>2. Increased travel.<br>3. Increased health effects.<br></div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 5,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 3,
+         "src": "/uploads/2025-09-4-managed-service-provider.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 8,
+         "dark": false,
+         "html": "<h3>MSP</h3>"
+        },
+        {
+         "type": "text",
+         "i": 9,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>A managed service provider (MSP) oversees business areas to ensure day-to-day operations, serving as strategic partners to enhance efficiency for businesses of all sizes. With a pool of experts, MSPs handle complex processes, providing access to top talent and cutting-edge technology without rapid cost escalation. For instance, amid diverse employee categories and hybrid work models, businesses outsource HR activities to professional employer organizations (PEOs).</p>\n<p>MSPs commonly manage:<br>1.Payroll.<br>2.IT services.<br>3.Workforce management.<br>4.Recruitment.<br>5.Vendor and contract management.<br>6.Human resources.</p>\n</div>\n<div></div>\n</div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 4,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 6,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 4,
+         "src": "/uploads/2025-09-5-Executive-Talent-Pool.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 10,
+         "dark": false,
+         "html": "<h3>Executive Talent Pool</h3>"
+        },
+        {
+         "type": "text",
+         "i": 11,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Our executive recruiters have functional expertise so they can identify and source the most qualified candidates for your CXO, SVP, and VP executive roles. C-Suite <br>1.Chief Executive Officer.<br>2. Chief Operating Officer.<br>3. Chief Marketing Officer.<br>4. Chief People Officer.<br>5. Chief Revenue Officer Diversity Officer.<br>6. Chief Customer Officer.<br>7. Chief Financial Officer.<br>8.Chief Technical Officer.<br>9. Chief Product Officer and many more.</div>\n<div>Vice President<br>1. VP of Sales.<br>2. VP of Marketing.<br>3. VP of Branding.<br>4. VP of Business Development.<br>5. VP of Product.<br>6. VP of Finance.<br>7. VP of People.<br>8. VP of Engineering.<br>9. VP of Operations.<br>10. VP of Growth.<br>11. VP of Customer Success and many more.</div>\n<div></div>\n</div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 7,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 5,
+         "src": "/uploads/2025-09-6-Professional-Talent-Pool.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 12,
+         "dark": false,
+         "html": "<h3>Professional Talent Pool</h3>"
+        },
+        {
+         "type": "text",
+         "i": 13,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Our team and network pool technology connected with top management personals and highly influential people to provide the talent your esteemed organization. This varies from directors, Senior Managers, and individual contributor positions. </div>\n<div>Director </div>\n<div>1. Director of Growth.</div>\n<div>2. Director of Revenue.</div>\n<div>3. Director of HR/People.</div>\n<div>4. Director of Sales.</div>\n<div>5. Director of Marketing.</div>\n<div>6. Director of Operations.</div>\n<div>7. Director of Product and many more.</div>\n<div>Senior Manager</div>\n<div>1. Sr. Marketing Manager.</div>\n<div>2. Sr. Sales Manager.</div>\n<div>3. Sr. Business Development Manager.</div>\n<div>4. Sr. Product Manager.</div>\n<div>5. Sr. Operations Manager.</div>\n<div>6. Sr. HR/People Manager.</div>\n<div>Manager</div>\n<div>1. Marketing Manager.</div>\n<div>2. Sales Manager.</div>\n<div>3. Business Development Manager.</div>\n<div></div>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

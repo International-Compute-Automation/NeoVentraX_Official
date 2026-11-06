@@ -1,0 +1,32 @@
+---
+import type { Page } from '../lib/content';
+import { pagesIn } from '../lib/content';
+import Icon from './Icon.astro';
+interface Props { page: Page }
+const { page } = Astro.props;
+const others = page.category === 'contact' || page.category === 'home' ? [] : pagesIn(page.category).filter((p) => p.slug !== page.slug);
+const title = page.category === 'jobs' ? 'Explore other industries' : `More from ${page.categoryLabel}`;
+---
+{others.length > 0 && (
+  <section class="section-sm bg-soft">
+    <div class="container">
+      <h2 class="h3 rt">{title}</h2>
+      <ul class="rel">
+        {others.map((p) => (
+          <li><a href={`/${p.slug}/`}>{p.title}<Icon name="arrow" /></a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+)}
+
+<style>
+  .rt { margin-bottom: 24px; }
+  .rel { display: flex; flex-wrap: wrap; gap: 10px; }
+  .rel a {
+    display: inline-flex; align-items: center; gap: 8px; padding: 12px 18px; border-radius: 999px; background: #fff;
+    border: 1px solid var(--line); font-weight: 600; font-size: 15px; color: var(--ink); transition: border-color .2s, color .2s, transform .2s;
+  }
+  .rel a:hover { border-color: var(--brand); color: var(--brand); transform: translateY(-2px); }
+  .rel svg { width: 16px; height: 16px; }
+</style>

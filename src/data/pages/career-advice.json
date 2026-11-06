@@ -1,0 +1,454 @@
+{
+ "slug": "career-advice",
+ "title": "Career Advice",
+ "description": "",
+ "css": "[data-page=\"career-advice\"] .dv-section.dv-section-0{background-image:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(0,0,0,0.6) 100%),url(/uploads/2025-09-Career-Advice-min-scaled.webp)!important}\n[data-page=\"career-advice\"] .dv-section-0.dv-section{padding-top:170px;padding-bottom:170px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"career-advice\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"career-advice\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n[data-page=\"career-advice\"] .dv-section.dv-section-1{background-size:initial;background-position:left -40px bottom -140px;background-image:url(/uploads/2025-07-it-services-5-nyt-24-png.webp)!important}\n[data-page=\"career-advice\"] .dv-section-1.dv-section{padding-top:30px;padding-bottom:4px;margin-top:0px;margin-bottom:0px}\n[data-page=\"career-advice\"] .dv-row-1.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:36px!important;margin-right:auto!important;margin-bottom:36px!important;margin-left:auto!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"career-advice\"] .dv-row-1{width:90%;max-width:1290px}\n[data-page=\"career-advice\"] .dv-text-1.dv-text{color:#737373!important}\n[data-page=\"career-advice\"] .dv-text-1{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important}\n[data-page=\"career-advice\"] .dv-section-2.dv-section{padding-top:80px;padding-bottom:80px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"career-advice\"] .dv-row-2.dv-row,[data-page=\"career-advice\"] .dv-row-3.dv-row,[data-page=\"career-advice\"] .dv-row-4.dv-row,[data-page=\"career-advice\"] .dv-row-5.dv-row,[data-page=\"career-advice\"] .dv-row-6.dv-row,[data-page=\"career-advice\"] .dv-row-7.dv-row,[data-page=\"career-advice\"] .dv-row-8.dv-row,[data-page=\"career-advice\"] .dv-row-9.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"career-advice\"] .dv-row-2,[data-page=\"career-advice\"] .dv-row-3,[data-page=\"career-advice\"] .dv-row-4,[data-page=\"career-advice\"] .dv-row-5,[data-page=\"career-advice\"] .dv-row-6,[data-page=\"career-advice\"] .dv-row-7,[data-page=\"career-advice\"] .dv-row-8,[data-page=\"career-advice\"] .dv-row-9{width:90%}\n[data-page=\"career-advice\"] .dv-image-0 .dv-image-wrap,[data-page=\"career-advice\"] .dv-image-1 .dv-image-wrap,[data-page=\"career-advice\"] .dv-image-2 .dv-image-wrap,[data-page=\"career-advice\"] .dv-image-3 .dv-image-wrap,[data-page=\"career-advice\"] .dv-image-4 .dv-image-wrap,[data-page=\"career-advice\"] .dv-image-5 .dv-image-wrap,[data-page=\"career-advice\"] .dv-image-6 .dv-image-wrap,[data-page=\"career-advice\"] .dv-image-7 .dv-image-wrap{border-radius:5px 5px 5px 5px;overflow:hidden}\n[data-page=\"career-advice\"] .dv-image-0,[data-page=\"career-advice\"] .dv-image-1,[data-page=\"career-advice\"] .dv-image-2,[data-page=\"career-advice\"] .dv-image-3,[data-page=\"career-advice\"] .dv-image-4,[data-page=\"career-advice\"] .dv-image-5,[data-page=\"career-advice\"] .dv-image-6,[data-page=\"career-advice\"] .dv-image-7{padding-top:0px;padding-bottom:0px;margin-top:0px!important;margin-bottom:30px!important;text-align:left;margin-left:0}\n[data-page=\"career-advice\"] .dv-text-2 h3,[data-page=\"career-advice\"] .dv-text-4 h3,[data-page=\"career-advice\"] .dv-text-6 h3,[data-page=\"career-advice\"] .dv-text-8 h3,[data-page=\"career-advice\"] .dv-text-10 h3,[data-page=\"career-advice\"] .dv-text-12 h3,[data-page=\"career-advice\"] .dv-text-14 h3,[data-page=\"career-advice\"] .dv-text-16 h3,[data-page=\"career-advice\"] .dv-text-18 h3,[data-page=\"career-advice\"] .dv-text-20 h3,[data-page=\"career-advice\"] .dv-text-22 h3,[data-page=\"career-advice\"] .dv-text-24 h3,[data-page=\"career-advice\"] .dv-text-26 h3,[data-page=\"career-advice\"] .dv-text-28 h3,[data-page=\"career-advice\"] .dv-text-30 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"career-advice\"] .dv-text-2,[data-page=\"career-advice\"] .dv-text-4,[data-page=\"career-advice\"] .dv-text-6,[data-page=\"career-advice\"] .dv-text-8,[data-page=\"career-advice\"] .dv-text-10,[data-page=\"career-advice\"] .dv-text-12,[data-page=\"career-advice\"] .dv-text-14,[data-page=\"career-advice\"] .dv-text-16,[data-page=\"career-advice\"] .dv-text-18,[data-page=\"career-advice\"] .dv-text-20,[data-page=\"career-advice\"] .dv-text-22,[data-page=\"career-advice\"] .dv-text-24,[data-page=\"career-advice\"] .dv-text-26,[data-page=\"career-advice\"] .dv-text-28,[data-page=\"career-advice\"] .dv-text-30{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:8px!important}\n[data-page=\"career-advice\"] .dv-text-3.dv-text,[data-page=\"career-advice\"] .dv-text-5.dv-text,[data-page=\"career-advice\"] .dv-text-7.dv-text,[data-page=\"career-advice\"] .dv-text-9.dv-text,[data-page=\"career-advice\"] .dv-text-11.dv-text,[data-page=\"career-advice\"] .dv-text-13.dv-text,[data-page=\"career-advice\"] .dv-text-15.dv-text,[data-page=\"career-advice\"] .dv-text-17.dv-text,[data-page=\"career-advice\"] .dv-text-19.dv-text,[data-page=\"career-advice\"] .dv-text-21.dv-text,[data-page=\"career-advice\"] .dv-text-23.dv-text,[data-page=\"career-advice\"] .dv-text-25.dv-text,[data-page=\"career-advice\"] .dv-text-27.dv-text,[data-page=\"career-advice\"] .dv-text-29.dv-text,[data-page=\"career-advice\"] .dv-text-31.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"career-advice\"] .dv-text-3,[data-page=\"career-advice\"] .dv-text-5,[data-page=\"career-advice\"] .dv-text-7,[data-page=\"career-advice\"] .dv-text-9,[data-page=\"career-advice\"] .dv-text-11,[data-page=\"career-advice\"] .dv-text-13,[data-page=\"career-advice\"] .dv-text-15,[data-page=\"career-advice\"] .dv-text-17,[data-page=\"career-advice\"] .dv-text-19,[data-page=\"career-advice\"] .dv-text-21,[data-page=\"career-advice\"] .dv-text-23,[data-page=\"career-advice\"] .dv-text-25,[data-page=\"career-advice\"] .dv-text-27,[data-page=\"career-advice\"] .dv-text-29,[data-page=\"career-advice\"] .dv-text-31{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"career-advice\"] .dv-column-1{padding-left:35px;margin:auto}\n[data-page=\"career-advice\"] .dv-column-2,[data-page=\"career-advice\"] .dv-column-3,[data-page=\"career-advice\"] .dv-column-4,[data-page=\"career-advice\"] .dv-column-5,[data-page=\"career-advice\"] .dv-column-6,[data-page=\"career-advice\"] .dv-column-7,[data-page=\"career-advice\"] .dv-column-8,[data-page=\"career-advice\"] .dv-column-9,[data-page=\"career-advice\"] .dv-column-10,[data-page=\"career-advice\"] .dv-column-11,[data-page=\"career-advice\"] .dv-column-12,[data-page=\"career-advice\"] .dv-column-13,[data-page=\"career-advice\"] .dv-column-14,[data-page=\"career-advice\"] .dv-column-15,[data-page=\"career-advice\"] .dv-column-16{background-color:#111536;border-radius:5px 5px 5px 5px;overflow:hidden;padding-top:37px;padding-right:40px;padding-bottom:40px;padding-left:40px}\n@media only screen and (min-width:981px){[data-page=\"career-advice\"] .dv-row-2,[data-page=\"career-advice\"] .dv-row-3,[data-page=\"career-advice\"] .dv-row-4,[data-page=\"career-advice\"] .dv-row-5,[data-page=\"career-advice\"] .dv-row-6,[data-page=\"career-advice\"] .dv-row-7,[data-page=\"career-advice\"] .dv-row-8,[data-page=\"career-advice\"] .dv-row-9{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"career-advice\"] .dv-text-0 h1{font-size:64px}[data-page=\"career-advice\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"career-advice\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:120px}[data-page=\"career-advice\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"career-advice\"] .dv-row-2.dv-row,[data-page=\"career-advice\"] .dv-row-3.dv-row,[data-page=\"career-advice\"] .dv-row-4.dv-row,[data-page=\"career-advice\"] .dv-row-5.dv-row,[data-page=\"career-advice\"] .dv-row-6.dv-row,[data-page=\"career-advice\"] .dv-row-7.dv-row,[data-page=\"career-advice\"] .dv-row-8.dv-row,[data-page=\"career-advice\"] .dv-row-9.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"career-advice\"] .dv-row-2,[data-page=\"career-advice\"] .dv-row-3,[data-page=\"career-advice\"] .dv-row-4,[data-page=\"career-advice\"] .dv-row-5,[data-page=\"career-advice\"] .dv-row-6,[data-page=\"career-advice\"] .dv-row-7,[data-page=\"career-advice\"] .dv-row-8,[data-page=\"career-advice\"] .dv-row-9{max-width:410px}[data-page=\"career-advice\"] .dv-image-0 .dv-image-wrap img,[data-page=\"career-advice\"] .dv-image-1 .dv-image-wrap img,[data-page=\"career-advice\"] .dv-image-2 .dv-image-wrap img,[data-page=\"career-advice\"] .dv-image-3 .dv-image-wrap img,[data-page=\"career-advice\"] .dv-image-4 .dv-image-wrap img,[data-page=\"career-advice\"] .dv-image-5 .dv-image-wrap img,[data-page=\"career-advice\"] .dv-image-6 .dv-image-wrap img,[data-page=\"career-advice\"] .dv-image-7 .dv-image-wrap img{width:auto}[data-page=\"career-advice\"] .dv-column-1{padding-top:90px;padding-left:0px}}\n@media only screen and (max-width:767px){[data-page=\"career-advice\"] .dv-text-0 h1{font-size:50px}[data-page=\"career-advice\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"career-advice\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:90px}[data-page=\"career-advice\"] .dv-section-2.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"career-advice\"] .dv-row-2.dv-row,[data-page=\"career-advice\"] .dv-row-3.dv-row,[data-page=\"career-advice\"] .dv-row-4.dv-row,[data-page=\"career-advice\"] .dv-row-5.dv-row,[data-page=\"career-advice\"] .dv-row-6.dv-row,[data-page=\"career-advice\"] .dv-row-7.dv-row,[data-page=\"career-advice\"] .dv-row-8.dv-row,[data-page=\"career-advice\"] .dv-row-9.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"career-advice\"] .dv-image-0 .dv-image-wrap img,[data-page=\"career-advice\"] .dv-image-1 .dv-image-wrap img,[data-page=\"career-advice\"] .dv-image-2 .dv-image-wrap img,[data-page=\"career-advice\"] .dv-image-3 .dv-image-wrap img,[data-page=\"career-advice\"] .dv-image-4 .dv-image-wrap img,[data-page=\"career-advice\"] .dv-image-5 .dv-image-wrap img,[data-page=\"career-advice\"] .dv-image-6 .dv-image-wrap img,[data-page=\"career-advice\"] .dv-image-7 .dv-image-wrap img{width:auto}[data-page=\"career-advice\"] .dv-column-1{padding-top:55px}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Career Advice</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 1,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<div style=\"text-align:center\">\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Throughout your life, you will always receive career advice – some bad and some good. What you do with the advice you receive is up to you, but in some instances, it can prove to be invaluable. A report from CNBC showed that the top women CEOs received valuable career advice from their moms that they still adhere to today.</p>\n<p>Whether you have received advice from a mentor, peer or family member, it can help change the course of how you go about your career and the path you decide to take.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div style=\"text-align:center\">\n<div>\n<div></div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 2,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 2,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 0,
+         "src": "/uploads/2025-09-1-Work-Hard-Play-Harder.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<h3>Work Hard, Play Harder</h3>"
+        },
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>In the creative industry, hours are long. You must work hard to succeed. But to be inspired and keep your finger on the pop culture pulse, you also really need to play hard. You need to get out there and live life. See the play. Hear the music. Go on the trip. A life lived solely behind a computer screen leaves little to the imagination. – Abby Downing, ZinePak</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 3,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 1,
+         "src": "/uploads/2025-09-2-Avoid-Being-Paralyzed-By-Fear.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<h3>Avoid Being Paralyzed By Fear</h3>"
+        },
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>When I graduated from college, I interviewed 300+ people about their best career advice. Not to downgrade their advice, but the best career lesson came from a fainting goat. Adult fainting goats experience temporary paralysis when they face fear. On the other hand, baby fainting goats know nothing about fear and move about the farm freely.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 4,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 2,
+         "src": "/uploads/2025-09-3-Have-A-Path-But-Be-Flexible.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<h3>Have A Path But Be Flexible</h3>"
+        },
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Have a general career path in mind, build relationships along that path, and be willing to accept challenges even if it seems they may lead you down a different path. You never know where those may lead. – Brian Sullivan, Sullivan Branding</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 5,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 3,
+         "src": "/uploads/2025-09-4-Dont-Let-Others-Manage-Your-Career.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 8,
+         "dark": false,
+         "html": "<h3>Don’t Let Others Manage Your Career</h3>"
+        },
+        {
+         "type": "text",
+         "i": 9,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>One of my mentors always said don’t let others manage your career because you will be unhappy with the results. What he meant by management is focusing on what skills and experiences you need to ultimately be in your dream job.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 4,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 6,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 4,
+         "src": "/uploads/2025-09-5-Earn-Their-Trust.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 10,
+         "dark": false,
+         "html": "<h3>Earn Their Trust</h3>"
+        },
+        {
+         "type": "text",
+         "i": 11,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>The best piece of career advice I ever received was “earn their trust.” Whether it’s a client, a coworker, a vendor or a boss, once you have earned someone’s trust, new opportunities, information and cooperation come your way. I’ve found this to be true for the more than three decades of my career. – Drew McLellan, Agency Management Institute</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 7,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 5,
+         "src": "/uploads/2025-09-6-Fight-For-Happiness.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 12,
+         "dark": false,
+         "html": "<h3>Fight For Happiness</h3>"
+        },
+        {
+         "type": "text",
+         "i": 13,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>A fairy tale misconception is that happiness (in work or in life) is presented to you by someone else (like a knight in shining armor). Truth is, your life, happiness, sense of balance and even how people treat you, are completely in your control. But the kicker is you have to fight for these things each day. – Jaymie Scotto Cutaia, Jaymie Scotto &amp; Associates</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 5,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 8,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 6,
+         "src": "/uploads/2025-09-7-Learn-Something-New-Everyday.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 14,
+         "dark": false,
+         "html": "<h3>Learn Something New Everyday</h3>"
+        },
+        {
+         "type": "text",
+         "i": 15,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>The pace of business is grueling and the energy required is exhausting. But, as one of my trusted mentors reminded me, our brain needs exercise each day. He suggested to seek new knowledge and become a student of the industry I serve, of my profession, as well as in parenting and in my faith. Learning something new is a privilege we can ill-afford to sacrifice.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 9,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 7,
+         "src": "/uploads/2025-09-8-Treat-Everyone-How-You-Want-To-Be-Treated.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 16,
+         "dark": false,
+         "html": "<h3>Treat Everyone How You Want To Be Treated</h3>"
+        },
+        {
+         "type": "text",
+         "i": 17,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Anyone who comes in contact with your business or employees deserves to be treated with kindness and respect. I’ve held to this belief when dealing with rude inquiries, tough clients and bullying peers. The result is a company with a reputation for helping others, sticking to their word and producing results while being courteous. – Leila Lewis, Be Inspired PR</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 6,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 10,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 18,
+         "dark": false,
+         "html": "<h3>Don’t Be The Smartest One In The Room</h3>"
+        },
+        {
+         "type": "text",
+         "i": 19,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Oftentimes, leaders feel that they need to be the “smartest guy or gal” in the room, and that couldn’t be further from the truth. Good leaders are the smartest one in the room, great leaders surround themselves with smarter people that will challenge ideas, bring new perspectives to the table and drive innovation.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 11,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 20,
+         "dark": false,
+         "html": "<h3>Improve, Don’t Perfect</h3>"
+        },
+        {
+         "type": "text",
+         "i": 21,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Success doesn’t come overnight. The ascent toward your vision is long and steep, but only you can see it, so don’t be so hard on yourself. Start climbing and you’ll realize you’re on a never-ending hike. Strive for constant improvement, not perfection. – Lindsay Mullen, Prosper Strategies</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 7,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 12,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 22,
+         "dark": false,
+         "html": "<h3>Never Complain When There’s A Lot Of Work</h3>"
+        },
+        {
+         "type": "text",
+         "i": 23,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>I was told by a mentor very early on that I should never complain when there’s a lot of work to do. I agree and tell my team the same thing. Be thankful there’s work to do. When something becomes easy or routine, it’s a clear sign you’re not growing. – Nicole Rodrigues, NRPR Group, LLC</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 13,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 24,
+         "dark": false,
+         "html": "<h3>Don’t Tie Your Sense Of Self-Worth To Your Job</h3>"
+        },
+        {
+         "type": "text",
+         "i": 25,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Regardless of how good/bad your job is going at any time, you’re a valued individual regardless. If you’re finding that your emotions are held hostage to how you’re performing at work, it’s time to rethink your priorities and what truly matters to you. – Jeff Tan, Dentsu Aegis Network</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 8,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 14,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 26,
+         "dark": false,
+         "html": "<h3>Slay The Dragon</h3>"
+        },
+        {
+         "type": "text",
+         "i": 27,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Dragons manifest in various forms: be it the toughest task of the day, a new responsibility, an impending deadline, or handling conflicts. The key is to slay these dragons without overthinking and continue forward. Success requires the confidence to confront challenges directly and persist in moving ahead. – Sarah Mannone, Trekk</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 15,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 28,
+         "dark": false,
+         "html": "<h3>Market Yourself</h3>"
+        },
+        {
+         "type": "text",
+         "i": 29,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>When I started my career, I was told, “Market yourself because no one else will do it for you.” I passed along every “great job!” email to my managers and then filed them away to read again whenever I needed a pick-me-up. I shared the work I had done of which I was proud and others might not be aware. And I counsel everyone I mentor to do the same. If you don’t have your own back, who will? – Starr Million Baker, INK</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 9,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 16,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 30,
+         "dark": false,
+         "html": "<h3>You are the CEO of Your Life</h3>"
+        },
+        {
+         "type": "text",
+         "i": 31,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>As entrepreneurs, we commit to 100-hour weeks with little thanks. Therefore, clarity about our ‘why’ is crucial. If there’s anything else you’d prefer doing, your current path might not be right. When fully committed to your ‘why,’ the grind becomes an integral part of the game. Mine? Breathing life into entrepreneurs’ dreams. I can’t get enough of that. – Randy Shattuck, The Shattuck Group</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 17,
+       "w": "1_2",
+       "mods": []
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

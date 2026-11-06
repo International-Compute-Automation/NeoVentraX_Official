@@ -1,0 +1,338 @@
+{
+ "slug": "accounting",
+ "title": "Accounting",
+ "description": "",
+ "css": "[data-page=\"accounting\"] .dv-section.dv-section-0{background-image:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(0,0,0,0.6) 100%),url(/uploads/2025-09-Accounting-scaled.webp)!important}\n[data-page=\"accounting\"] .dv-section-0.dv-section{padding-top:170px;padding-bottom:170px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"accounting\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"accounting\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n[data-page=\"accounting\"] .dv-section.dv-section-1{background-size:initial;background-position:left -40px bottom -140px;background-image:url(/uploads/2025-07-it-services-5-nyt-24-png.webp)!important}\n[data-page=\"accounting\"] .dv-section-1.dv-section{padding-top:30px;padding-bottom:4px;margin-top:0px;margin-bottom:0px}\n[data-page=\"accounting\"] .dv-row-1.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:36px!important;margin-bottom:0px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"accounting\"] .dv-row-1{width:90%;max-width:1290px}\n[data-page=\"accounting\"] .dv-text-1.dv-text{color:#737373!important}\n[data-page=\"accounting\"] .dv-text-1{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important}\n[data-page=\"accounting\"] .dv-column-1{padding-left:35px;margin:auto}\n@media only screen and (max-width:980px){[data-page=\"accounting\"] .dv-text-0 h1{font-size:64px}[data-page=\"accounting\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"accounting\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:120px}[data-page=\"accounting\"] .dv-column-1{padding-top:90px;padding-left:0px}}\n@media only screen and (max-width:767px){[data-page=\"accounting\"] .dv-text-0 h1{font-size:50px}[data-page=\"accounting\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"accounting\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:90px}[data-page=\"accounting\"] .dv-column-1{padding-top:55px}}\n[data-page=\"accounting\"] .dv-section-2.dv-section{padding-top:80px;padding-bottom:80px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"accounting\"] .dv-row-2.dv-row,[data-page=\"accounting\"] .dv-row-3.dv-row,[data-page=\"accounting\"] .dv-row-4.dv-row,[data-page=\"accounting\"] .dv-row-5.dv-row,[data-page=\"accounting\"] .dv-row-6.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"accounting\"] .dv-row-2,[data-page=\"accounting\"] .dv-row-3,[data-page=\"accounting\"] .dv-row-4,[data-page=\"accounting\"] .dv-row-5,[data-page=\"accounting\"] .dv-row-6{width:90%}\n[data-page=\"accounting\"] .dv-image-0 .dv-image-wrap,[data-page=\"accounting\"] .dv-image-1 .dv-image-wrap,[data-page=\"accounting\"] .dv-image-2 .dv-image-wrap,[data-page=\"accounting\"] .dv-image-3 .dv-image-wrap,[data-page=\"accounting\"] .dv-image-4 .dv-image-wrap,[data-page=\"accounting\"] .dv-image-5 .dv-image-wrap,[data-page=\"accounting\"] .dv-image-6 .dv-image-wrap,[data-page=\"accounting\"] .dv-image-7 .dv-image-wrap{border-radius:5px 5px 5px 5px;overflow:hidden}\n[data-page=\"accounting\"] .dv-image-0,[data-page=\"accounting\"] .dv-image-1,[data-page=\"accounting\"] .dv-image-2,[data-page=\"accounting\"] .dv-image-3,[data-page=\"accounting\"] .dv-image-4,[data-page=\"accounting\"] .dv-image-5,[data-page=\"accounting\"] .dv-image-6,[data-page=\"accounting\"] .dv-image-7{padding-top:0px;padding-bottom:0px;margin-top:0px!important;margin-bottom:30px!important;text-align:left;margin-left:0}\n[data-page=\"accounting\"] .dv-text-2 h3,[data-page=\"accounting\"] .dv-text-4 h3,[data-page=\"accounting\"] .dv-text-6 h3,[data-page=\"accounting\"] .dv-text-8 h3,[data-page=\"accounting\"] .dv-text-10 h3,[data-page=\"accounting\"] .dv-text-12 h3,[data-page=\"accounting\"] .dv-text-14 h3,[data-page=\"accounting\"] .dv-text-16 h3,[data-page=\"accounting\"] .dv-text-18 h3,[data-page=\"accounting\"] .dv-text-20 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"accounting\"] .dv-text-2,[data-page=\"accounting\"] .dv-text-4,[data-page=\"accounting\"] .dv-text-6,[data-page=\"accounting\"] .dv-text-8,[data-page=\"accounting\"] .dv-text-10,[data-page=\"accounting\"] .dv-text-12,[data-page=\"accounting\"] .dv-text-14,[data-page=\"accounting\"] .dv-text-16,[data-page=\"accounting\"] .dv-text-18,[data-page=\"accounting\"] .dv-text-20{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:8px!important}\n[data-page=\"accounting\"] .dv-text-3.dv-text,[data-page=\"accounting\"] .dv-text-5.dv-text,[data-page=\"accounting\"] .dv-text-7.dv-text,[data-page=\"accounting\"] .dv-text-9.dv-text,[data-page=\"accounting\"] .dv-text-11.dv-text,[data-page=\"accounting\"] .dv-text-13.dv-text,[data-page=\"accounting\"] .dv-text-15.dv-text,[data-page=\"accounting\"] .dv-text-17.dv-text,[data-page=\"accounting\"] .dv-text-19.dv-text,[data-page=\"accounting\"] .dv-text-21.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"accounting\"] .dv-text-3,[data-page=\"accounting\"] .dv-text-5,[data-page=\"accounting\"] .dv-text-7,[data-page=\"accounting\"] .dv-text-9,[data-page=\"accounting\"] .dv-text-11,[data-page=\"accounting\"] .dv-text-13,[data-page=\"accounting\"] .dv-text-15,[data-page=\"accounting\"] .dv-text-17,[data-page=\"accounting\"] .dv-text-19,[data-page=\"accounting\"] .dv-text-21{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"accounting\"] .dv-column-2,[data-page=\"accounting\"] .dv-column-3,[data-page=\"accounting\"] .dv-column-4,[data-page=\"accounting\"] .dv-column-5,[data-page=\"accounting\"] .dv-column-6,[data-page=\"accounting\"] .dv-column-7,[data-page=\"accounting\"] .dv-column-8,[data-page=\"accounting\"] .dv-column-9,[data-page=\"accounting\"] .dv-column-10,[data-page=\"accounting\"] .dv-column-11{background-color:#111536;border-radius:5px 5px 5px 5px;overflow:hidden;padding-top:37px;padding-right:40px;padding-bottom:40px;padding-left:40px}\n@media only screen and (min-width:981px){[data-page=\"accounting\"] .dv-row-2,[data-page=\"accounting\"] .dv-row-3,[data-page=\"accounting\"] .dv-row-4,[data-page=\"accounting\"] .dv-row-5,[data-page=\"accounting\"] .dv-row-6{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"accounting\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"accounting\"] .dv-row-2.dv-row,[data-page=\"accounting\"] .dv-row-3.dv-row,[data-page=\"accounting\"] .dv-row-4.dv-row,[data-page=\"accounting\"] .dv-row-5.dv-row,[data-page=\"accounting\"] .dv-row-6.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"accounting\"] .dv-row-2,[data-page=\"accounting\"] .dv-row-3,[data-page=\"accounting\"] .dv-row-4,[data-page=\"accounting\"] .dv-row-5,[data-page=\"accounting\"] .dv-row-6{max-width:410px}[data-page=\"accounting\"] .dv-image-0 .dv-image-wrap img,[data-page=\"accounting\"] .dv-image-1 .dv-image-wrap img,[data-page=\"accounting\"] .dv-image-2 .dv-image-wrap img,[data-page=\"accounting\"] .dv-image-3 .dv-image-wrap img,[data-page=\"accounting\"] .dv-image-4 .dv-image-wrap img,[data-page=\"accounting\"] .dv-image-5 .dv-image-wrap img,[data-page=\"accounting\"] .dv-image-6 .dv-image-wrap img,[data-page=\"accounting\"] .dv-image-7 .dv-image-wrap img{width:auto}}\n@media only screen and (max-width:767px){[data-page=\"accounting\"] .dv-section-2.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"accounting\"] .dv-row-2.dv-row,[data-page=\"accounting\"] .dv-row-3.dv-row,[data-page=\"accounting\"] .dv-row-4.dv-row,[data-page=\"accounting\"] .dv-row-5.dv-row,[data-page=\"accounting\"] .dv-row-6.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"accounting\"] .dv-image-0 .dv-image-wrap img,[data-page=\"accounting\"] .dv-image-1 .dv-image-wrap img,[data-page=\"accounting\"] .dv-image-2 .dv-image-wrap img,[data-page=\"accounting\"] .dv-image-3 .dv-image-wrap img,[data-page=\"accounting\"] .dv-image-4 .dv-image-wrap img,[data-page=\"accounting\"] .dv-image-5 .dv-image-wrap img,[data-page=\"accounting\"] .dv-image-6 .dv-image-wrap img,[data-page=\"accounting\"] .dv-image-7 .dv-image-wrap img{width:auto}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Accounting</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 1,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<p style=\"text-align:center\">The accounting industry sector encompasses a broad range of professional services focused on financial management, reporting, and analysis. Accounting firms and professionals play a vital role in ensuring the accuracy and integrity of financial records for businesses, government agencies, nonprofit organizations, and individuals. Services offered include auditing, tax preparation and planning, financial consulting, budgeting, and forensic accounting. With the advent of digital technology, accounting has evolved to incorporate data analytics, cloud computing, and automation tools, enhancing efficiency and decision-making. Regulatory compliance, financial transparency, and strategic financial management are key drivers shaping the industry’s growth and adaptation to changing economic landscapes.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 2,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 2,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 0,
+         "src": "/uploads/2025-09-Accountant-1.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<h3>Accountant (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<div><span style=\"color:rgba(255, 255, 255, 0.98)\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications: Bachelor’s degree in Accounting or Finance, CPA certification preferred. Proficiency in accounting principles and regulations.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Maintain financial records accurately.</li>\n<li>Analyze financial information for accuracy and compliance.</li>\n<li>Prepare and file tax returns.</li>\n<li>Assist in budgeting and forecasting.</li>\n<li>&nbsp;Handle accounts payable and accounts receivable tasks.</li>\n</ul>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 3,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 1,
+         "src": "/uploads/2025-09-Accounting-Manager-2.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<h3>Accounting Manager (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<div><strong><span style=\"color:#ffffff\">Job description</span></strong></div>\n<div>\n<p>Qualifications: Bachelor’s degree in Accounting or Finance, CPA certification preferred. Proven experience in accounting leadership.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Oversee daily operations of the accounting department.</li>\n<li>Supervise accounting staff, ensuring theaccuracy of financial records.</li>\n<li>Develop and implement accounting policies and procedures.</li>\n</ul>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 4,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 2,
+         "src": "/uploads/2025-09-Financial-Analyst-3.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<h3>Financial Analyst (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<div><strong><span style=\"color:#ffffff\">Job description</span></strong></div>\n<div>\n<p>Qualifications: Bachelor’s degree in Finance, Accounting, Economics, or related field. Strong analytical and communication skills.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Analyze financial data and trends to offer insights and recommendations.</li>\n<li>Prepare financial models and forecasts.</li>\n<li>Conduct variance analysis and identify improvement areas.</li>\n</ul>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 5,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 3,
+         "src": "/uploads/2025-09-Accounting-Clerk-4.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 8,
+         "dark": false,
+         "html": "<h3>Accounting Clerk (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 9,
+         "dark": false,
+         "html": "<div><strong><span style=\"color:#ffffff\">Job description</span></strong></div>\n<div>\n<p>Qualifications: High school diploma or equivalent. Some college coursework in accounting or related field may be preferred</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Assist with accounts payable and accounts receivable tasks.</li>\n<li>Maintain and update financial records in databases.</li>\n<li>Prepare invoices and process payments.</li>\n<li>Assist with basic bookkeeping tasks.</li>\n</ul>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 4,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 6,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 4,
+         "src": "/uploads/2025-09-Accounts-Payable-5.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 10,
+         "dark": false,
+         "html": "<h3>Accounts Payable (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 11,
+         "dark": false,
+         "html": "<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications: High school diploma or equivalent. Experience in accounts payable or general accounting preferred.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Process vendor invoices, ensuring accuracy.</li>\n<li>Reconcile accounts payable transactions.</li>\n<li>Prepare and process payments to vendors.</li>\n<li>Address vendor inquiries and resolve discrepancies.</li>\n<li>Maintain accurate records of accounts payable transactions.</li>\n</ul>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 7,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 5,
+         "src": "/uploads/2025-09-Auditor-6.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 12,
+         "dark": false,
+         "html": "<h3>Auditor (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 13,
+         "dark": false,
+         "html": "<div><strong><span style=\"color:#ffffff\">Job description</span></strong></div>\n<div>\n<p>Qualifications: Bachelor’s degree in Accounting, Finance, or related field. CPA or CIA certification preferred.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Conduct internal audits to assess financial processes and controls.</li>\n<li>Review financial statements and reports for accuracy and compliance.</li>\n<li>Identify areas of risk or inefficiency and provide improvement recommendations.</li>\n</ul>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 5,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 8,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 6,
+         "src": "/uploads/2025-09-CFO-7.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 14,
+         "dark": false,
+         "html": "<h3>CFO (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 15,
+         "dark": false,
+         "html": "<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications: Master’s degree in Finance, Accounting, or Business Administration. CPA or CFA certification preferred. Extensive experience in financial leadership roles.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Develop and implement financial strategies to support company goals.</li>\n<li>Oversee financial planning, budgeting, and forecasting.</li>\n<li>Manage financial risk and ensure compliance with regulations.</li>\n</ul>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 9,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 7,
+         "src": "/uploads/2025-09-Bookkeeper-8.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 16,
+         "dark": false,
+         "html": "<h3>Bookkeeper (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 17,
+         "dark": false,
+         "html": "<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications: High school diploma or equivalent. Associate’s degree in accounting or related field may be preferred.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Record financial transactions in accounting software.</li>\n<li>Reconcile bank statements and prepare financial reports.</li>\n<li>Assist with accounts payable and accounts receivable tasks.</li>\n<li>Maintain accurate financial transaction records.</li>\n<li>Prepare basic financial statements.</li>\n</ul>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 6,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 10,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 18,
+         "dark": false,
+         "html": "<h3>Management Accounting (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 19,
+         "dark": false,
+         "html": "<div>\n<div><strong><span style=\"color:#ffffff\">Job description</span></strong></div>\n<div>\n<p>Qualifications: Bachelor’s degree in Accounting, Finance, or a related field. CPA or CMA certification preferred.</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Analyze financial data to support management decision-making.</li>\n<li>Prepare budgets and forecasts for different departments or projects.</li>\n<li>Monitor and report on financial performance against budgets.</li>\n<li>Provide financial analysis and insights to help improve efficiency and profitability.</li>\n</ul>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 11,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 20,
+         "dark": false,
+         "html": "<h3>Senior Accountant (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 21,
+         "dark": false,
+         "html": "<div>\n<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications: Bachelor’s degree in Accounting or Finance, CPA certification preferred. Several years of experience in accounting roles</p>\n<p>Roles and Responsibilities:</p>\n<ul>\n<li>Prepare and review financial statements and reports.</li>\n<li>Supervise and mentor junior accounting staff.</li>\n<li>Assist with month-end and year-end close processes.</li>\n<li>Conduct financial analysis and provide insights to management.</li>\n</ul>\n</div>\n</div>\n<div>\n<ul></ul>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

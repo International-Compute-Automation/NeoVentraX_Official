@@ -1,0 +1,345 @@
+{
+ "slug": "people",
+ "title": "People",
+ "description": "",
+ "css": "[data-page=\"people\"] .dv-section.dv-section-0{background-image:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(0,0,0,0.6) 100%),url(/uploads/2025-09-Peoples-min-scaled.webp)!important}\n[data-page=\"people\"] .dv-section-0.dv-section{padding-top:170px;padding-bottom:170px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"people\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"people\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n@media only screen and (max-width:980px){[data-page=\"people\"] .dv-text-0 h1{font-size:64px}}\n@media only screen and (max-width:767px){[data-page=\"people\"] .dv-text-0 h1{font-size:50px}}\n[data-page=\"people\"] .dv-section.dv-section-1{background-size:initial;background-position:left -40px bottom -140px;background-image:url(/uploads/2025-07-it-services-5-nyt-24-png.webp)!important}\n[data-page=\"people\"] .dv-section-1.dv-section{padding-top:30px;padding-bottom:4px;margin-top:0px;margin-bottom:0px}\n[data-page=\"people\"] .dv-row-1.dv-row,[data-page=\"people\"] .dv-row-2.dv-row,[data-page=\"people\"] .dv-row-6.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:36px!important;margin-right:auto!important;margin-bottom:36px!important;margin-left:auto!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"people\"] .dv-row-1,[data-page=\"people\"] .dv-row-2,[data-page=\"people\"] .dv-row-6{width:90%;max-width:1290px}\n[data-page=\"people\"] .dv-text-1 h1,[data-page=\"people\"] .dv-text-3 h1,[data-page=\"people\"] .dv-text-17 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:40px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"people\"] .dv-text-1,[data-page=\"people\"] .dv-text-3{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n[data-page=\"people\"] .dv-text-2.dv-text,[data-page=\"people\"] .dv-text-4.dv-text,[data-page=\"people\"] .dv-text-18.dv-text{color:#737373!important}\n[data-page=\"people\"] .dv-text-2,[data-page=\"people\"] .dv-text-4{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important}\n[data-page=\"people\"] .dv-section-2.dv-section{padding-top:80px;padding-bottom:80px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"people\"] .dv-row-3.dv-row,[data-page=\"people\"] .dv-row-4.dv-row,[data-page=\"people\"] .dv-row-5.dv-row,[data-page=\"people\"] .dv-row-8.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"people\"] .dv-row-3,[data-page=\"people\"] .dv-row-4,[data-page=\"people\"] .dv-row-5,[data-page=\"people\"] .dv-row-7,[data-page=\"people\"] .dv-row-8{width:90%}\n[data-page=\"people\"] .dv-text-5 h3,[data-page=\"people\"] .dv-text-7 h3,[data-page=\"people\"] .dv-text-9 h3,[data-page=\"people\"] .dv-text-11 h3,[data-page=\"people\"] .dv-text-13 h3,[data-page=\"people\"] .dv-text-15 h3,[data-page=\"people\"] .dv-text-19 h3,[data-page=\"people\"] .dv-text-21 h3,[data-page=\"people\"] .dv-text-23 h3,[data-page=\"people\"] .dv-text-25 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"people\"] .dv-text-5,[data-page=\"people\"] .dv-text-7,[data-page=\"people\"] .dv-text-9,[data-page=\"people\"] .dv-text-11,[data-page=\"people\"] .dv-text-13,[data-page=\"people\"] .dv-text-15,[data-page=\"people\"] .dv-text-19,[data-page=\"people\"] .dv-text-21,[data-page=\"people\"] .dv-text-23,[data-page=\"people\"] .dv-text-25{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:8px!important}\n[data-page=\"people\"] .dv-text-6.dv-text,[data-page=\"people\"] .dv-text-8.dv-text,[data-page=\"people\"] .dv-text-10.dv-text,[data-page=\"people\"] .dv-text-12.dv-text,[data-page=\"people\"] .dv-text-14.dv-text,[data-page=\"people\"] .dv-text-16.dv-text,[data-page=\"people\"] .dv-text-20.dv-text,[data-page=\"people\"] .dv-text-22.dv-text,[data-page=\"people\"] .dv-text-24.dv-text,[data-page=\"people\"] .dv-text-26.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"people\"] .dv-text-6,[data-page=\"people\"] .dv-text-8,[data-page=\"people\"] .dv-text-10,[data-page=\"people\"] .dv-text-12,[data-page=\"people\"] .dv-text-14,[data-page=\"people\"] .dv-text-16,[data-page=\"people\"] .dv-text-20,[data-page=\"people\"] .dv-text-22,[data-page=\"people\"] .dv-text-24,[data-page=\"people\"] .dv-text-26{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"people\"] .dv-section-3.dv-section{padding-top:27px;padding-bottom:27px;margin-top:0px;margin-bottom:0px}\n[data-page=\"people\"] .dv-text-17{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:1px!important}\n[data-page=\"people\"] .dv-text-18{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:3px!important}\n[data-page=\"people\"] .dv-row-7.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-right:auto!important;margin-bottom:29px!important;margin-left:auto!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"people\"] .dv-column-1,[data-page=\"people\"] .dv-column-2,[data-page=\"people\"] .dv-column-9{padding-left:35px;margin:auto}\n[data-page=\"people\"] .dv-column-3,[data-page=\"people\"] .dv-column-4,[data-page=\"people\"] .dv-column-5,[data-page=\"people\"] .dv-column-6,[data-page=\"people\"] .dv-column-7,[data-page=\"people\"] .dv-column-8,[data-page=\"people\"] .dv-column-10,[data-page=\"people\"] .dv-column-11,[data-page=\"people\"] .dv-column-12,[data-page=\"people\"] .dv-column-13{background-color:#111536;border-radius:5px 5px 5px 5px;overflow:hidden;padding-top:37px;padding-right:40px;padding-bottom:40px;padding-left:40px}\n@media only screen and (min-width:981px){[data-page=\"people\"] .dv-row-3,[data-page=\"people\"] .dv-row-4,[data-page=\"people\"] .dv-row-5,[data-page=\"people\"] .dv-row-7,[data-page=\"people\"] .dv-row-8{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"people\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"people\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:120px}[data-page=\"people\"] .dv-text-1 h1,[data-page=\"people\"] .dv-text-3 h1,[data-page=\"people\"] .dv-text-17 h1{font-size:64px}[data-page=\"people\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"people\"] .dv-row-3.dv-row,[data-page=\"people\"] .dv-row-4.dv-row,[data-page=\"people\"] .dv-row-5.dv-row,[data-page=\"people\"] .dv-row-7.dv-row,[data-page=\"people\"] .dv-row-8.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"people\"] .dv-row-3,[data-page=\"people\"] .dv-row-4,[data-page=\"people\"] .dv-row-5,[data-page=\"people\"] .dv-row-7,[data-page=\"people\"] .dv-row-8{max-width:410px}[data-page=\"people\"] .dv-section-3.dv-section{padding-top:120px;padding-bottom:0px}[data-page=\"people\"] .dv-column-1,[data-page=\"people\"] .dv-column-2,[data-page=\"people\"] .dv-column-9{padding-top:90px;padding-left:0px}}\n@media only screen and (max-width:767px){[data-page=\"people\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"people\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:90px}[data-page=\"people\"] .dv-text-1 h1,[data-page=\"people\"] .dv-text-3 h1,[data-page=\"people\"] .dv-text-17 h1{font-size:50px}[data-page=\"people\"] .dv-section-2.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"people\"] .dv-row-3.dv-row,[data-page=\"people\"] .dv-row-4.dv-row,[data-page=\"people\"] .dv-row-5.dv-row,[data-page=\"people\"] .dv-row-7.dv-row,[data-page=\"people\"] .dv-row-8.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"people\"] .dv-section-3.dv-section{padding-top:90px;padding-bottom:0px}[data-page=\"people\"] .dv-column-1,[data-page=\"people\"] .dv-column-2,[data-page=\"people\"] .dv-column-9{padding-top:55px}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">People</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 1,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\"><span style=\"color:#0d014d\">Our dedicated team at NeoVentraX provides the right direction and goals to our clients and talented pool in creating and shaping the business and career growth landscape.</span></h1>"
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<div style=\"text-align:center\">\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>NeoVentraX believes that our team is our greatest strength. Our team members possess in-depth knowledge and skills across various fields, including digital technology, logistics and warehousing, manufacturing, construction, information technology, engineering, services, law, and more.</p>\n<p>Furthermore, our team excels in recruitment, leveraging our expertise to provide tailored talent solutions to different business partners. We specialize in identifying and collecting specific talents for each sector of the industry, facilitating and boosting the growth of our clients and their employees.</p>\n<p>Through our strategic approach, we have helped our clients transform their businesses within limited time periods by providing talented leadership teams tailored to meet new market demands and enter new territories. We achieve this by conducting thorough assessments of their operations, gaining deep insights, and comprehensively understanding their businesses and talent pools.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div style=\"text-align:center\">\n<div>\n<div></div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 2,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 2,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Solutions Section</h1>"
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<div style=\"text-align:center\">\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>We Provide Complete Wholistic Talented Staffing Solutions to Suit your Business.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div style=\"text-align:center\">\n<div>\n<div></div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 3,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<h3>Staffing Solutions</h3>"
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>NeoVentraX shows staffing solutions to their clients. Submit your requirements on line or call our recruitment specialist and discuss the experience required and Skills that Suits your positions.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 4,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<h3>Project Solutions</h3>"
+        },
+        {
+         "type": "text",
+         "i": 8,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>NeoVentraX shows staffing solutions to their clients. Submit your requirements on line or call our recruitment specialist and discuss the experience required and Skills that Suits your positions.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 4,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 5,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 9,
+         "dark": false,
+         "html": "<h3>Team Solutions</h3>"
+        },
+        {
+         "type": "text",
+         "i": 10,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>NeoVentraX shows staffing solutions to their clients. Submit your requirements on line or call our recruitment specialist and discuss the experience required and Skills that Suits your positions.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 6,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 11,
+         "dark": false,
+         "html": "<h3>Consultations Solutions</h3>"
+        },
+        {
+         "type": "text",
+         "i": 12,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>NeoVentraX shows staffing solutions to their clients. Submit your requirements on line or call our recruitment specialist and discuss the experience required and Skills that Suits your positions.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 5,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 7,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 13,
+         "dark": false,
+         "html": "<h3>Technical Solutions</h3>"
+        },
+        {
+         "type": "text",
+         "i": 14,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>NeoVentraX shows staffing solutions to their clients. Submit your requirements on line or call our recruitment specialist and discuss the experience required and Skills that Suits your positions</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 8,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 15,
+         "dark": false,
+         "html": "<h3>Innovative Solutions</h3>"
+        },
+        {
+         "type": "text",
+         "i": 16,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>NeoVentraX shows staffing solutions to their clients. Submit your requirements on line or call our recruitment specialist and discuss the experience required and Skills that Suits your positions.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 3,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 6,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 9,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 17,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\"><span style=\"color:#0d014d\">Life at NeoVentraX</span></h1>"
+        },
+        {
+         "type": "text",
+         "i": 18,
+         "dark": false,
+         "html": "<div style=\"text-align:center\">\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Gaining profound Insights into the path to Success and unleashing your business’s full potential</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div style=\"text-align:center\">\n<div>\n<div></div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 7,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 10,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 19,
+         "dark": false,
+         "html": "<h3>1. Work life is balanced in NeoVentraX</h3>"
+        },
+        {
+         "type": "text",
+         "i": 20,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Work-life is balanced to the degree to which one can manage their job responsibilities and their personal life in a way that supports their well-being.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 11,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 21,
+         "dark": false,
+         "html": "<h3>2. Vacations are planned as per schedule</h3>"
+        },
+        {
+         "type": "text",
+         "i": 22,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>At NeoVentraX, we prioritize work-life balance. Enjoy worry-free vacations with meticulously planned schedules, ensuring you recharge and return energized to contribute your best.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 8,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 12,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 23,
+         "dark": false,
+         "html": "<h3>3. Employee recognition programs</h3>"
+        },
+        {
+         "type": "text",
+         "i": 24,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Employee recognition programs are planned in NeoVentraX for motivating employees and rewarding them for hard work. At end of the year employees will be verified based on their performance to meet deadlines, reach sales targets and hit other key performance indicators.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 13,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 25,
+         "dark": false,
+         "html": "<h3>4. Training programs</h3>"
+        },
+        {
+         "type": "text",
+         "i": 26,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>NeoVentraX provides Employee training programs which involve both formal learning and on-the-job skill development meant to help the Our Employees to advance in their career. Some businesses create training tracks specifically designed for individuals interested in starting on a new job path.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

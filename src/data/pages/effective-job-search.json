@@ -1,0 +1,381 @@
+{
+ "slug": "effective-job-search",
+ "title": "Effective Job Search",
+ "description": "",
+ "css": "[data-page=\"effective-job-search\"] .dv-section.dv-section-0{background-image:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(0,0,0,0.6) 100%),url(/uploads/2025-09-Effective-Job-Search-min-scaled.webp)!important}\n[data-page=\"effective-job-search\"] .dv-section-0.dv-section{padding-top:170px;padding-bottom:170px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"effective-job-search\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"effective-job-search\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n[data-page=\"effective-job-search\"] .dv-section.dv-section-1{background-size:initial;background-position:left -40px bottom -140px;background-image:url(/uploads/2025-07-it-services-5-nyt-24-png.webp)!important}\n[data-page=\"effective-job-search\"] .dv-section-1.dv-section{padding-top:30px;padding-bottom:4px;margin-top:0px;margin-bottom:0px}\n[data-page=\"effective-job-search\"] .dv-row-1.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:36px!important;margin-right:auto!important;margin-bottom:36px!important;margin-left:auto!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"effective-job-search\"] .dv-row-1{width:90%;max-width:1290px}\n[data-page=\"effective-job-search\"] .dv-text-1.dv-text{color:#737373!important}\n[data-page=\"effective-job-search\"] .dv-text-1{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important}\n[data-page=\"effective-job-search\"] .dv-section-2.dv-section{padding-top:80px;padding-bottom:80px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"effective-job-search\"] .dv-row-2.dv-row,[data-page=\"effective-job-search\"] .dv-row-3.dv-row,[data-page=\"effective-job-search\"] .dv-row-4.dv-row,[data-page=\"effective-job-search\"] .dv-row-5.dv-row,[data-page=\"effective-job-search\"] .dv-row-6.dv-row,[data-page=\"effective-job-search\"] .dv-row-7.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"effective-job-search\"] .dv-row-2,[data-page=\"effective-job-search\"] .dv-row-3,[data-page=\"effective-job-search\"] .dv-row-4,[data-page=\"effective-job-search\"] .dv-row-5,[data-page=\"effective-job-search\"] .dv-row-6,[data-page=\"effective-job-search\"] .dv-row-7{width:90%}\n[data-page=\"effective-job-search\"] .dv-image-0 .dv-image-wrap,[data-page=\"effective-job-search\"] .dv-image-1 .dv-image-wrap,[data-page=\"effective-job-search\"] .dv-image-2 .dv-image-wrap,[data-page=\"effective-job-search\"] .dv-image-3 .dv-image-wrap,[data-page=\"effective-job-search\"] .dv-image-4 .dv-image-wrap,[data-page=\"effective-job-search\"] .dv-image-5 .dv-image-wrap,[data-page=\"effective-job-search\"] .dv-image-6 .dv-image-wrap,[data-page=\"effective-job-search\"] .dv-image-7 .dv-image-wrap{border-radius:5px 5px 5px 5px;overflow:hidden}\n[data-page=\"effective-job-search\"] .dv-image-0,[data-page=\"effective-job-search\"] .dv-image-1,[data-page=\"effective-job-search\"] .dv-image-2,[data-page=\"effective-job-search\"] .dv-image-3,[data-page=\"effective-job-search\"] .dv-image-4,[data-page=\"effective-job-search\"] .dv-image-5,[data-page=\"effective-job-search\"] .dv-image-6,[data-page=\"effective-job-search\"] .dv-image-7{padding-top:0px;padding-bottom:0px;margin-top:0px!important;margin-bottom:30px!important;text-align:left;margin-left:0}\n[data-page=\"effective-job-search\"] .dv-text-2 h3,[data-page=\"effective-job-search\"] .dv-text-4 h3,[data-page=\"effective-job-search\"] .dv-text-6 h3,[data-page=\"effective-job-search\"] .dv-text-8 h3,[data-page=\"effective-job-search\"] .dv-text-10 h3,[data-page=\"effective-job-search\"] .dv-text-12 h3,[data-page=\"effective-job-search\"] .dv-text-14 h3,[data-page=\"effective-job-search\"] .dv-text-16 h3,[data-page=\"effective-job-search\"] .dv-text-18 h3,[data-page=\"effective-job-search\"] .dv-text-20 h3,[data-page=\"effective-job-search\"] .dv-text-22 h3,[data-page=\"effective-job-search\"] .dv-text-24 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"effective-job-search\"] .dv-text-2,[data-page=\"effective-job-search\"] .dv-text-4,[data-page=\"effective-job-search\"] .dv-text-6,[data-page=\"effective-job-search\"] .dv-text-8,[data-page=\"effective-job-search\"] .dv-text-10,[data-page=\"effective-job-search\"] .dv-text-12,[data-page=\"effective-job-search\"] .dv-text-14,[data-page=\"effective-job-search\"] .dv-text-16,[data-page=\"effective-job-search\"] .dv-text-18,[data-page=\"effective-job-search\"] .dv-text-20,[data-page=\"effective-job-search\"] .dv-text-22,[data-page=\"effective-job-search\"] .dv-text-24{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:8px!important}\n[data-page=\"effective-job-search\"] .dv-text-3.dv-text,[data-page=\"effective-job-search\"] .dv-text-5.dv-text,[data-page=\"effective-job-search\"] .dv-text-7.dv-text,[data-page=\"effective-job-search\"] .dv-text-9.dv-text,[data-page=\"effective-job-search\"] .dv-text-11.dv-text,[data-page=\"effective-job-search\"] .dv-text-13.dv-text,[data-page=\"effective-job-search\"] .dv-text-15.dv-text,[data-page=\"effective-job-search\"] .dv-text-17.dv-text,[data-page=\"effective-job-search\"] .dv-text-19.dv-text,[data-page=\"effective-job-search\"] .dv-text-21.dv-text,[data-page=\"effective-job-search\"] .dv-text-23.dv-text,[data-page=\"effective-job-search\"] .dv-text-25.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"effective-job-search\"] .dv-text-3,[data-page=\"effective-job-search\"] .dv-text-5,[data-page=\"effective-job-search\"] .dv-text-7,[data-page=\"effective-job-search\"] .dv-text-9,[data-page=\"effective-job-search\"] .dv-text-11,[data-page=\"effective-job-search\"] .dv-text-13,[data-page=\"effective-job-search\"] .dv-text-15,[data-page=\"effective-job-search\"] .dv-text-17,[data-page=\"effective-job-search\"] .dv-text-19,[data-page=\"effective-job-search\"] .dv-text-21,[data-page=\"effective-job-search\"] .dv-text-23,[data-page=\"effective-job-search\"] .dv-text-25{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"effective-job-search\"] .dv-column-1{padding-left:35px;margin:auto}\n[data-page=\"effective-job-search\"] .dv-column-2,[data-page=\"effective-job-search\"] .dv-column-3,[data-page=\"effective-job-search\"] .dv-column-4,[data-page=\"effective-job-search\"] .dv-column-5,[data-page=\"effective-job-search\"] .dv-column-6,[data-page=\"effective-job-search\"] .dv-column-7,[data-page=\"effective-job-search\"] .dv-column-8,[data-page=\"effective-job-search\"] .dv-column-9,[data-page=\"effective-job-search\"] .dv-column-10,[data-page=\"effective-job-search\"] .dv-column-11,[data-page=\"effective-job-search\"] .dv-column-12,[data-page=\"effective-job-search\"] .dv-column-13{background-color:#111536;border-radius:5px 5px 5px 5px;overflow:hidden;padding-top:37px;padding-right:40px;padding-bottom:40px;padding-left:40px}\n@media only screen and (min-width:981px){[data-page=\"effective-job-search\"] .dv-row-2,[data-page=\"effective-job-search\"] .dv-row-3,[data-page=\"effective-job-search\"] .dv-row-4,[data-page=\"effective-job-search\"] .dv-row-5,[data-page=\"effective-job-search\"] .dv-row-6,[data-page=\"effective-job-search\"] .dv-row-7{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"effective-job-search\"] .dv-text-0 h1{font-size:64px}[data-page=\"effective-job-search\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"effective-job-search\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:120px}[data-page=\"effective-job-search\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"effective-job-search\"] .dv-row-2.dv-row,[data-page=\"effective-job-search\"] .dv-row-3.dv-row,[data-page=\"effective-job-search\"] .dv-row-4.dv-row,[data-page=\"effective-job-search\"] .dv-row-5.dv-row,[data-page=\"effective-job-search\"] .dv-row-6.dv-row,[data-page=\"effective-job-search\"] .dv-row-7.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"effective-job-search\"] .dv-row-2,[data-page=\"effective-job-search\"] .dv-row-3,[data-page=\"effective-job-search\"] .dv-row-4,[data-page=\"effective-job-search\"] .dv-row-5,[data-page=\"effective-job-search\"] .dv-row-6,[data-page=\"effective-job-search\"] .dv-row-7{max-width:410px}[data-page=\"effective-job-search\"] .dv-image-0 .dv-image-wrap img,[data-page=\"effective-job-search\"] .dv-image-1 .dv-image-wrap img,[data-page=\"effective-job-search\"] .dv-image-2 .dv-image-wrap img,[data-page=\"effective-job-search\"] .dv-image-3 .dv-image-wrap img,[data-page=\"effective-job-search\"] .dv-image-4 .dv-image-wrap img,[data-page=\"effective-job-search\"] .dv-image-5 .dv-image-wrap img,[data-page=\"effective-job-search\"] .dv-image-6 .dv-image-wrap img,[data-page=\"effective-job-search\"] .dv-image-7 .dv-image-wrap img{width:auto}[data-page=\"effective-job-search\"] .dv-column-1{padding-top:90px;padding-left:0px}}\n@media only screen and (max-width:767px){[data-page=\"effective-job-search\"] .dv-text-0 h1{font-size:50px}[data-page=\"effective-job-search\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"effective-job-search\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:90px}[data-page=\"effective-job-search\"] .dv-section-2.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"effective-job-search\"] .dv-row-2.dv-row,[data-page=\"effective-job-search\"] .dv-row-3.dv-row,[data-page=\"effective-job-search\"] .dv-row-4.dv-row,[data-page=\"effective-job-search\"] .dv-row-5.dv-row,[data-page=\"effective-job-search\"] .dv-row-6.dv-row,[data-page=\"effective-job-search\"] .dv-row-7.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"effective-job-search\"] .dv-image-0 .dv-image-wrap img,[data-page=\"effective-job-search\"] .dv-image-1 .dv-image-wrap img,[data-page=\"effective-job-search\"] .dv-image-2 .dv-image-wrap img,[data-page=\"effective-job-search\"] .dv-image-3 .dv-image-wrap img,[data-page=\"effective-job-search\"] .dv-image-4 .dv-image-wrap img,[data-page=\"effective-job-search\"] .dv-image-5 .dv-image-wrap img,[data-page=\"effective-job-search\"] .dv-image-6 .dv-image-wrap img,[data-page=\"effective-job-search\"] .dv-image-7 .dv-image-wrap img{width:auto}[data-page=\"effective-job-search\"] .dv-column-1{padding-top:55px}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Effective Job Search</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 1,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<p style=\"text-align:center\">The job searching process can be exciting and challenging, but it is often necessary for finding a new job that meets your needs. You should do anything you can to make yourself positively stand apart from other applicants. This can include increasing your understanding of how to do well in the application process, including during interviews. In this article, we offer some tips for a successful job search.</p>\n<p style=\"text-align:center\">To begin your job search with a well-defined plan. Determine what industry you want to work in, what types of roles you’re looking for, your ideal salary range and what type of company you want to work at. You should consider what is important to you regarding your job at this stage, as it can help you decide as your job search moves forward.</p>\n<p style=\"text-align:center\">It can also be helpful to set yourself goals such as the number of jobs to apply for per week, a goal for hours spent on job research each day or a deadline for improving your resume and cover letter. You might also find it helpful to create a method for tracking what jobs you have applied for, such as an application, document or spreadsheet.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div style=\"text-align:center\">\n<div>\n<div></div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 2,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 2,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 0,
+         "src": "/uploads/2025-09-1-Selective-With-your-Job-Search.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<h3>Selective With your Job Search</h3>"
+        },
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Stay attentive on your job search and the positions being advertised. Focus on companies that genuinely excite you and align with your career goals. This enthusiasm will boost your confidence when speaking to hiring managers and convey your passion for the role during interviews, increasing your chances of securing the position.</p>\n</div>\n</div>\n</div>\n<div>\n<div>\n<div>\n<div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 3,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 1,
+         "src": "/uploads/2025-09-2-Show-a-Strong-Presence-in-the-Digital-World.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<h3>Show a Strong Presence in the Digital World</h3>"
+        },
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Keep updating your resume and skills on digital social media platforms, and strive to expand your network by joining relevant social media groups. Posting your resume in groups with like-minded individuals can help match your skills with specific job requirements, increasing your visibility to various hiring managers.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 4,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 2,
+         "src": "/uploads/2025-09-3-Customized-Applications-1.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<h3>Customized Applications</h3>"
+        },
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Personalize your cover letter and resume for every role you apply for. Evaluate how your skills will fit a role and tailor the resume to highlight your accomplishments and relevant experiences. Include the keywords from the job description for the position you’re applying for.</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 5,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 3,
+         "src": "/uploads/2025-09-4-Keep-Learning-a-New-Skill.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 8,
+         "dark": false,
+         "html": "<h3>Keep Learning a New Skill</h3>"
+        },
+        {
+         "type": "text",
+         "i": 9,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>Learning an exciting new skill related to your profession can improve your confidence and energize you. It helps you to surround yourself with people who are excited about leveraging their talents. By surrounding yourself with other professionals in your industry, you may learn about new opportunities.&nbsp;</p>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 4,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 6,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 4,
+         "src": "/uploads/2025-09-5-Network-Regularly.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 10,
+         "dark": false,
+         "html": "<h3>Network Regularly</h3>"
+        },
+        {
+         "type": "text",
+         "i": 11,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Networking stands as one of the most effective job searching strategies at your disposal. It enables you to uncover job openings that may not be widely advertised. The more individuals you connect with and inform about your job search, the greater the likelihood of discovering open positions. Additionally, you may secure a referral through this process.</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 7,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 5,
+         "src": "/uploads/2025-09-6-Participating-in-Job-Fairs.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 12,
+         "dark": false,
+         "html": "<h3>Participating in Job Fairs</h3>"
+        },
+        {
+         "type": "text",
+         "i": 13,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Job fairs, often held throughout the year, allow you to meet employers who are hiring directly. Do your research in advance and find out which organizations will be attending the job fair. Next, identify the companies you are most interested in working for and research to learn more about them. Your preparation will come across when you speak with the employer directly at the job fair and they will be far more likely to remember you at the end of the day.</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 5,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 8,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 6,
+         "src": "/uploads/2025-09-7-Tour-Company-Websites.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 14,
+         "dark": false,
+         "html": "<h3>Tour Company Websites</h3>"
+        },
+        {
+         "type": "text",
+         "i": 15,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>If you have identified a shortlist of companies you are most interested in working for, begin regularly visiting their websites to check for job openings. Many companies do not advertise their openings on job sites but instead post them directly on their own websites and share them on social media.</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 9,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 7,
+         "src": "/uploads/2025-09-8-Leverage-Your-Current-Relationships.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 16,
+         "dark": false,
+         "html": "<h3>Leverage Your Current Relationships</h3>"
+        },
+        {
+         "type": "text",
+         "i": 17,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>The more relationships you have, the greater the likelihood of a referral for a job. Start using social media and leveraging your personal and professional networks to learn about openings and get a referral.</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 6,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 10,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 18,
+         "dark": false,
+         "html": "<h3>Contact Specialized Headhunters</h3>"
+        },
+        {
+         "type": "text",
+         "i": 19,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>There are various specialized headhunters available in the job market who can guide you to the right industry and position. You need to search for these types of headhunters, submit your resume, and follow up or visit as per your convenience to keep your file active.</p>\n</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 11,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 20,
+         "dark": false,
+         "html": "<h3>Always stay connected with Professional organizations</h3>"
+        },
+        {
+         "type": "text",
+         "i": 21,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Join a professional organization in your field. This will present opportunities for you to learn, expand upon your current skillset and network with those working within the industry. Make sure when you’re meeting new people that you’re mentally present and engaged, as you may connect with someone at an event who can help in your job search.</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 7,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 12,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 22,
+         "dark": false,
+         "html": "<h3>Check the possibility of Bypassing human resources</h3>"
+        },
+        {
+         "type": "text",
+         "i": 23,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<p>If possible, find a way to bypass HR and connect with someone in the department for which you’re applying. Look on job-related social networks and find people who work within the company. Then evaluate whether you have any connections who could get you an introduction. </p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 13,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 24,
+         "dark": false,
+         "html": "<h3>Look Offline</h3>"
+        },
+        {
+         "type": "text",
+         "i": 25,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>\n<div>Visit small companies, particularly family-owned businesses or organizations that rely on word-of-mouth. Identify the decision maker of the company with a cold email. Use social networks to see if you are connected with anyone who works there and periodically check their website to determine whether they are hiring.</div>\n</div>\n<div></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

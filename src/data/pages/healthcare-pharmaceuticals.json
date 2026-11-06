@@ -1,0 +1,295 @@
+{
+ "slug": "healthcare-pharmaceuticals",
+ "title": "Healthcare Pharmaceuticals",
+ "description": "",
+ "css": "[data-page=\"healthcare-pharmaceuticals\"] .dv-section.dv-section-0{background-image:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(0,0,0,0.6) 100%),url(/uploads/2025-09-Healthcare-Pharmaceuticals.webp)!important}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-section-0.dv-section{padding-top:170px;padding-bottom:170px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-section.dv-section-1{background-size:initial;background-position:left -40px bottom -140px;background-image:url(/uploads/2025-07-it-services-5-nyt-24-png.webp)!important}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-section-1.dv-section{padding-top:60px;padding-bottom:60px;margin-top:0px;margin-bottom:0px}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-row-1.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:1px!important;margin-right:auto!important;margin-bottom:0px!important;margin-left:auto!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-row-1{width:90%;max-width:1290px}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-text-1.dv-text{color:#737373!important}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-text-1{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:1px!important}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-column-1{padding-left:35px;margin:auto}\n@media only screen and (max-width:980px){[data-page=\"healthcare-pharmaceuticals\"] .dv-text-0 h1{font-size:64px}[data-page=\"healthcare-pharmaceuticals\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"healthcare-pharmaceuticals\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:120px}[data-page=\"healthcare-pharmaceuticals\"] .dv-column-1{padding-top:90px;padding-left:0px}}\n@media only screen and (max-width:767px){[data-page=\"healthcare-pharmaceuticals\"] .dv-text-0 h1{font-size:50px}[data-page=\"healthcare-pharmaceuticals\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"healthcare-pharmaceuticals\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:90px}[data-page=\"healthcare-pharmaceuticals\"] .dv-column-1{padding-top:55px}}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-section-2.dv-section{padding-top:80px;padding-bottom:80px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-row-2.dv-row,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-3.dv-row,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-4.dv-row,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-5.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-row-2,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-3,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-4,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-5{width:90%}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-image-0 .dv-image-wrap,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-1 .dv-image-wrap,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-2 .dv-image-wrap,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-3 .dv-image-wrap,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-4 .dv-image-wrap,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-5 .dv-image-wrap,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-6 .dv-image-wrap,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-7 .dv-image-wrap{border-radius:5px 5px 5px 5px;overflow:hidden}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-image-0,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-1,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-2,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-3,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-4,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-5,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-6,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-7{padding-top:0px;padding-bottom:0px;margin-top:0px!important;margin-bottom:30px!important;text-align:left;margin-left:0}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-text-2 h3,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-4 h3,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-6 h3,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-8 h3,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-10 h3,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-12 h3,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-14 h3,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-16 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-text-2,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-4,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-6,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-8,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-10,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-12,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-14,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-16{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:8px!important}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-text-3.dv-text,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-5.dv-text,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-7.dv-text,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-9.dv-text,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-11.dv-text,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-13.dv-text,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-15.dv-text,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-17.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-text-3,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-5,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-7,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-9,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-11,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-13,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-15,[data-page=\"healthcare-pharmaceuticals\"] .dv-text-17{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"healthcare-pharmaceuticals\"] .dv-column-2,[data-page=\"healthcare-pharmaceuticals\"] .dv-column-3,[data-page=\"healthcare-pharmaceuticals\"] .dv-column-4,[data-page=\"healthcare-pharmaceuticals\"] .dv-column-5,[data-page=\"healthcare-pharmaceuticals\"] .dv-column-6,[data-page=\"healthcare-pharmaceuticals\"] .dv-column-7,[data-page=\"healthcare-pharmaceuticals\"] .dv-column-8,[data-page=\"healthcare-pharmaceuticals\"] .dv-column-9{background-color:#111536;border-radius:5px 5px 5px 5px;overflow:hidden;padding-top:37px;padding-right:40px;padding-bottom:40px;padding-left:40px}\n@media only screen and (min-width:981px){[data-page=\"healthcare-pharmaceuticals\"] .dv-row-2,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-3,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-4,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-5{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"healthcare-pharmaceuticals\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"healthcare-pharmaceuticals\"] .dv-row-2.dv-row,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-3.dv-row,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-4.dv-row,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-5.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"healthcare-pharmaceuticals\"] .dv-row-2,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-3,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-4,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-5{max-width:410px}[data-page=\"healthcare-pharmaceuticals\"] .dv-image-0 .dv-image-wrap img,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-1 .dv-image-wrap img,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-2 .dv-image-wrap img,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-3 .dv-image-wrap img,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-4 .dv-image-wrap img,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-5 .dv-image-wrap img,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-6 .dv-image-wrap img,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-7 .dv-image-wrap img{width:auto}}\n@media only screen and (max-width:767px){[data-page=\"healthcare-pharmaceuticals\"] .dv-section-2.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"healthcare-pharmaceuticals\"] .dv-row-2.dv-row,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-3.dv-row,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-4.dv-row,[data-page=\"healthcare-pharmaceuticals\"] .dv-row-5.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"healthcare-pharmaceuticals\"] .dv-image-0 .dv-image-wrap img,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-1 .dv-image-wrap img,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-2 .dv-image-wrap img,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-3 .dv-image-wrap img,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-4 .dv-image-wrap img,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-5 .dv-image-wrap img,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-6 .dv-image-wrap img,[data-page=\"healthcare-pharmaceuticals\"] .dv-image-7 .dv-image-wrap img{width:auto}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Healthcare Pharmaceuticals</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 1,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<p style=\"text-align:center\">In the Healthcare and Pharmaceuticals industries, professionals work diligently to provide vital medical services and develop life-saving medications. From doctors and nurses delivering direct patient care to researchers conducting groundbreaking studies, the sector encompasses a broad spectrum of roles. Additionally, pharmaceutical companies employ scientists, regulatory specialists, and marketing professionals to develop, produce, and distribute medications globally. These industries offer rewarding career opportunities for those passionate about improving healthcare outcomes and advancing medical science.</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 2,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 2,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 0,
+         "src": "/uploads/2025-09-1-Laboratory-Analyst.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<h3>Laboratory Analyst (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications Bachelor’s degree in a related field (such as Chemistry or Biology). Proficiency in laboratory techniques and equipment operation. Roles and Responsibilities</p>\n<ul>\n<li>Perform analytical tests on samples using laboratory equipment and instruments.</li>\n<li>Record and analyze data, and prepare reports.</li>\n<li>Ensure compliance with safety protocols and quality standards.</li>\n<li>Maintain laboratory equipment and inventory.</li>\n</ul>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 3,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 1,
+         "src": "/uploads/2025-09-2-Laboratory-Technician.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<h3>Laboratory Technician (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications Associate degree or certification in Medical Laboratory Technology or related field. Proficiency in laboratory procedures and techniques. Roles and Responsibilities</p>\n<ul>\n<li>Prepare specimens and samples for analysis.</li>\n<li>Perform routine laboratory tests and experiments.</li>\n<li>Maintain laboratory equipment and supplies.</li>\n<li>Document and report test results accurately.</li>\n<li>Follow safety protocols and quality control procedures.</li>\n</ul>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 4,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 2,
+         "src": "/uploads/2025-09-3-Medical-Sales-Representative.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<h3>Medical Sales Representative (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications Bachelor’s degree in a relevant field (such as Biology or Marketing). Strong sales and communication skills. Roles and Responsibilities</p>\n<ul>\n<li>Promote pharmaceutical or medical products to healthcare professionals.</li>\n<li>Build and maintain relationships with clients and customers.</li>\n<li>Provide product information and demonstrations.</li>\n<li>Monitor market trends and competitor activities.</li>\n<li>Achieve sales targets and objectives.</li>\n</ul>\n</div>\n<h4></h4>"
+        }
+       ]
+      },
+      {
+       "i": 5,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 3,
+         "src": "/uploads/2025-09-4-Pharmaceutical-Manufacturer-Technician.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 8,
+         "dark": false,
+         "html": "<h3>Pharmaceutical Manufacturer Technician (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 9,
+         "dark": false,
+         "html": "<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications Associate degree or certification in Pharmacy Technology or related field. Experience in pharmaceutical manufacturing. Roles and Responsibilities</p>\n<ul>\n<li>Operate and maintain manufacturing equipment.</li>\n<li>Follow standard operating procedures and safety protocols.</li>\n<li>Prepare and package pharmaceutical products.</li>\n<li>Monitor production processes and troubleshoot issues.</li>\n<li>Ensure compliance with regulatory requirements.</li>\n</ul>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 4,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 6,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 4,
+         "src": "/uploads/2025-09-5-Regulatory-Specialist.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 10,
+         "dark": false,
+         "html": "<h3>Regulatory Specialist (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 11,
+         "dark": false,
+         "html": "<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications Bachelor’s degree in Regulatory Affairs or a related field. Knowledge of healthcare regulations and compliance standards. Roles and Responsibilities</p>\n<ul>\n<li>Prepare and submit regulatory documents for product approvals.</li>\n<li>Monitor changes in regulations and ensure compliance with requirements.</li>\n<li>Review product labeling and advertising materials for compliance.</li>\n</ul>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 7,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 5,
+         "src": "/uploads/2025-09-6-Clinical-Research-Scientist.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 12,
+         "dark": false,
+         "html": "<h3>Clinical Research Scientist (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 13,
+         "dark": false,
+         "html": "<div>\n<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications Advanced degree (Master’s or Ph.D.) in a relevant scientific field. Experience in clinical research. Roles and Responsibilities</p>\n<ul>\n<li>Design and implement clinical research studies.</li>\n<li>Collect and analyze data, and interpret results.</li>\n<li>Prepare study protocols, reports, and publications.</li>\n<li>Ensure compliance with regulatory requirements and ethical standards.</li>\n</ul>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 5,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 8,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 6,
+         "src": "/uploads/2025-09-7-Chemist.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 14,
+         "dark": false,
+         "html": "<h3>Chemist (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 15,
+         "dark": false,
+         "html": "<div>\n<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications Bachelor’s degree or higher in Chemistry or a related field. Strong analytical and problem-solving skills. Roles and Responsibilities</p>\n<ul>\n<li>Conduct chemical analysis and experiments.</li>\n<li>Develop and optimize chemical processes.</li>\n<li>Interpret and report experimental data.</li>\n<li>Maintain laboratory safety and quality standards.</li>\n</ul>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 9,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 7,
+         "src": "/uploads/2025-09-8-Psychiatrist.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 16,
+         "dark": false,
+         "html": "<h3>Psychiatrist (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 17,
+         "dark": false,
+         "html": "<div>\n<div>\n<div><span style=\"color:#ffffff\"><strong>Job description</strong></span></div>\n<div>\n<p>Qualifications Medical degree (MD or DO) with specialization in Psychiatry. Board certification in Psychiatry. Roles and Responsibilities</p>\n<ul>\n<li>Diagnose and treat mental health disorders.</li>\n<li>Conduct psychiatric evaluations and assessments.</li>\n<li>Develop and implement treatment plans, including medication management and therapy.</li>\n</ul>\n</div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

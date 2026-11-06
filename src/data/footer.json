@@ -1,0 +1,208 @@
+{
+ "css": ".site-footer .dv-section-0.dv-section{padding-top:100px;padding-bottom:54px;margin-top:0px;margin-bottom:0px}\n.site-footer .dv-section.dv-section-1,.site-footer .dv-section.dv-section-2{background-size:initial;background-position:left top;background-image:linear-gradient(180deg,rgba(5,9,43,0.3) 0%,rgba(5,9,43,0.3) 100%),url(/uploads/2025-07-it-services-5-nyt-22-png.webp)!important}\n.site-footer .dv-section-1.dv-section{padding-top:1px;padding-bottom:5px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n.site-footer .dv-row-0{background-size:initial;background-position:right 0px top;background-image:url(/uploads/2025-07-it-services-5-nyt-23-png.webp),linear-gradient(94deg,#351ee0 0%,#3f74ef 100%);border-radius:5px 5px 5px 5px;overflow:hidden}\n.site-footer .dv-row-0.dv-row{padding-top:60px!important;padding-right:60px!important;padding-bottom:60px!important;padding-left:60px!important;margin-top:-121px!important;margin-bottom:120px!important;padding-top:60px;padding-right:60px;padding-bottom:60px;padding-left:60px}\n.site-footer .dv-row-0{width:90%;max-width:1290px}\n.site-footer .dv-icon-0,.site-footer .dv-icon-1,.site-footer .dv-icon-2{text-align:center}\n.site-footer .dv-icon-0 .dv-icon-wrap .dv-icon-glyph{font-weight:400!important;color:#FFFFFF;font-size:49px}\n.site-footer .dv-text-0 h3,.site-footer .dv-text-2 h3,.site-footer .dv-text-4 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n.site-footer .dv-text-0,.site-footer .dv-text-2,.site-footer .dv-text-4{padding-top:8px!important;padding-bottom:0px!important;margin-top:8px!important;margin-bottom:-4px!important}\n.site-footer .dv-text-1.dv-text,.site-footer .dv-text-3.dv-text,.site-footer .dv-text-5.dv-text,.site-footer .dv-text-9.dv-text,.site-footer .dv-text-9.dv-text a{color:#FFFFFF!important}\n.site-footer .dv-text-1,.site-footer .dv-text-3,.site-footer .dv-text-5{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:15px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n.site-footer .dv-icon-1 .dv-icon-wrap .dv-icon-glyph,.site-footer .dv-icon-2 .dv-icon-wrap .dv-icon-glyph{font-weight:900!important;color:#FFFFFF;font-size:49px}\n.site-footer .dv-section-2.dv-section{padding-top:20px;padding-bottom:20px;margin-top:5px;margin-bottom:0px;background-color:#05092b!important}\n.site-footer .dv-row-1{max-width:100%}\n.site-footer .dv-image-0 .dv-image-wrap img{max-height:1000px;width:auto}\n.site-footer .dv-image-0{width:100%;text-align:center}\n.site-footer .dv-text-6 h3{font-weight:300;font-style:italic;font-size:18px;color:#FFFFFF!important;line-height:1.4em;text-align:center}\n.site-footer .dv-text-6{border-bottom-color:#636363;margin-top:-7px!important;margin-bottom:12px!important}\n.site-footer .dv-text-7 h3,.site-footer .dv-text-8 h3{font-weight:700;font-size:16px;color:#FFFFFF!important;line-height:1.4em}\n.site-footer .dv-text-7,.site-footer .dv-text-8{border-bottom-width:2px;border-bottom-color:#636363;margin-bottom:12px!important}\n.site-footer .dv-text-9{font-family:'Open Sans',Helvetica,Arial,Lucida,sans-serif}\n.site-footer .dv-menu-0 .mobile_nav .mobile_menu_bar:before{color:#2ea3f2}\n@media only screen and (min-width:981px){.site-footer .dv-row-1{width:84%}}\n@media only screen and (max-width:980px){.site-footer .dv-section-0.dv-section{padding-top:120px;padding-bottom:0px}.site-footer .dv-section-1.dv-section,.site-footer .dv-section-2.dv-section{padding-top:1px;padding-bottom:120px}.site-footer .dv-row-0{background-color:initial}.site-footer .dv-row-0.dv-row{padding-top:80px!important;padding-right:60px!important;padding-bottom:80px!important;padding-left:60px!important;margin-top:-121px!important;margin-bottom:120px!important;padding-top:80px!important;padding-right:60px!important;padding-bottom:80px!important;padding-left:60px!important}.site-footer .dv-icon-0,.site-footer .dv-icon-1,.site-footer .dv-icon-2{margin-left:auto;margin-right:auto}.site-footer .dv-row-1{width:80%}.site-footer .dv-image-0 .dv-image-wrap img{width:auto}.site-footer .dv-text-6{border-bottom-color:#636363}.site-footer .dv-text-7,.site-footer .dv-text-8{border-bottom-width:2px;border-bottom-color:#636363}}\n@media only screen and (max-width:767px){.site-footer .dv-section-0.dv-section{padding-top:90px;padding-bottom:0px}.site-footer .dv-section-1.dv-section,.site-footer .dv-section-2.dv-section{padding-top:1px;padding-bottom:90px}.site-footer .dv-row-0{background-image:linear-gradient(94deg,#351ee0 0%,#3f74ef 100%)}.site-footer .dv-row-0.dv-row{padding-top:60px!important;padding-right:40px!important;padding-bottom:60px!important;padding-left:40px!important;margin-top:-121px!important;margin-bottom:90px!important;padding-top:60px!important;padding-right:40px!important;padding-bottom:60px!important;padding-left:40px!important}.site-footer .dv-icon-0,.site-footer .dv-icon-1,.site-footer .dv-icon-2{margin-left:auto;margin-right:auto}.site-footer .dv-image-0 .dv-image-wrap img{width:auto}.site-footer .dv-text-6{border-bottom-color:#636363}.site-footer .dv-text-7,.site-footer .dv-text-8{border-bottom-width:2px;border-bottom-color:#636363}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 0,
+       "w": "1_3",
+       "mods": [
+        {
+         "type": "icon",
+         "i": 0,
+         "glyph": "e090"
+        },
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h3 style=\"text-align:center\">Phone</h3>"
+        },
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<p style=\"text-align:center\">+1 (872) 227-9172</p>"
+        }
+       ]
+      },
+      {
+       "i": 1,
+       "w": "1_3",
+       "mods": [
+        {
+         "type": "icon",
+         "i": 1,
+         "glyph": "f0e0"
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<h3 style=\"text-align:center\">Email</h3>"
+        },
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<p style=\"text-align:center\"><span style=\"color:#ffffff\"><a style=\"color:#ffffff\" href=\"mailto:hr@neoventrax.com\">hr@neoventrax.com</a></span></p>\n<p></p>"
+        }
+       ]
+      },
+      {
+       "i": 2,
+       "w": "1_3",
+       "mods": [
+        {
+         "type": "icon",
+         "i": 2,
+         "glyph": "f3c5"
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<h3 style=\"text-align:center\">Address</h3>"
+        },
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<div style=\"text-align:center\">2501 Chatham Rd</div>\n<div style=\"text-align:center\">Springfield, IL 62704, USA</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 3,
+       "w": "1_4",
+       "mods": [
+        {
+         "type": "image",
+         "i": 0,
+         "src": "/uploads/2025-09-Neo-Ventrax-2-2.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<h3>Source. Match. Deliver.</h3>"
+        }
+       ]
+      },
+      {
+       "i": 4,
+       "w": "1_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<h3>Follow Us</h3>"
+        },
+        {
+         "type": "social",
+         "i": 0,
+         "links": [
+          {
+           "network": "linkedin",
+           "href": "https://www.linkedin.com/company/neoventrax-inc/"
+          },
+          {
+           "network": "facebook",
+           "href": "https://www.facebook.com/share/1JTeiFU8H9/"
+          },
+          {
+           "network": "instagram",
+           "href": "https://www.instagram.com/xneoventra?igsh=MWV2cDcxZ2xwdDUydQ=="
+          },
+          {
+           "network": "twitter",
+           "href": "https://x.com/XNeoventra?t=Dz0U0S_vXtvi_5U5xUFWHQ&s=09"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "i": 5,
+       "w": "1_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 8,
+         "dark": false,
+         "html": "<h3>Contact Us</h3>"
+        },
+        {
+         "type": "text",
+         "i": 9,
+         "dark": false,
+         "html": "<p>Phone: +1 (872) 227-9172</p>\n<p>Email: <a href=\"mailto:hr@neoventrax.com\">hr@neoventrax.com</a></p>\n<p>Address: 2501 Chatham Rd Springfield, IL 62704, USA</p>"
+        }
+       ]
+      },
+      {
+       "i": 6,
+       "w": "1_4",
+       "mods": [
+        {
+         "type": "map",
+         "i": 0,
+         "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3066.5825334488068!2d-89.68739235000001!3d39.77148054999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887538896b106a3f%3A0xa912a7c49097b355!2s2501%20Chatham%20Rd%2C%20Springfield%2C%20IL%2062704%2C%20USA!5e0!3m2!1sen!2sin!4v1758202604632!5m2!1sen!2sin",
+         "height": 210
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 2,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 7,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "menu",
+         "i": 0
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

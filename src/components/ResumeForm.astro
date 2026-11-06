@@ -1,0 +1,40 @@
+---
+import { contact, formEndpoint } from '../data/nav';
+import Icon from './Icon.astro';
+const action = formEndpoint ?? `mailto:${contact.email}`;
+---
+<form class="form" method="post" action={action} enctype={formEndpoint ? 'multipart/form-data' : 'text/plain'} data-nvx-form>
+  <input type="hidden" name="form" value="CV Upload" />
+  <div class="row">
+    <div class="field"><label for="rf-first">First name</label><input id="rf-first" name="first_name" placeholder="Jane" autocomplete="given-name" /></div>
+    <div class="field"><label for="rf-last">Last name</label><input id="rf-last" name="last_name" placeholder="Doe" autocomplete="family-name" /></div>
+  </div>
+  <div class="field"><label for="rf-email">Email address</label><input id="rf-email" type="email" name="email" placeholder="jane@email.com" required autocomplete="email" /></div>
+  <div class="field"><label for="rf-position">Position applying for</label><input id="rf-position" name="position" placeholder="e.g. Senior Accountant" /></div>
+  <div class="field">
+    <span class="sr-only" id="rf-file-label">Upload your CV / resume</span>
+    <label class="file-drop" aria-labelledby="rf-file-label">
+      <span class="ico"><Icon name="upload" /></span>
+      <span><strong data-file-name>Upload your CV / resume</strong><span>PDF, DOC or DOCX — up to 10 MB</span></span>
+      <input id="rf-file" type="file" name="resume" accept=".pdf,.doc,.docx,.rtf,.txt" />
+    </label>
+  </div>
+  <div class="field"><label for="rf-message">Message <span class="opt">(optional)</span></label><textarea id="rf-message" name="message" placeholder="Anything you’d like us to know — availability, preferred location, salary expectations…"></textarea></div>
+  <p class="status" role="status" aria-live="polite"></p>
+  <button type="submit" class="btn btn-primary">Submit application <Icon name="arrow" /></button>
+  <p class="form-note">We’ll only use your details to match you with relevant opportunities.</p>
+</form>
+
+<script>
+  import { enhanceForms } from '../scripts/forms';
+  enhanceForms();
+  // prefill "position" from ?position= (set by the Apply buttons on job pages)
+  const pos = new URLSearchParams(location.search).get('position');
+  const posInput = document.getElementById('rf-position') as HTMLInputElement | null;
+  if (pos && posInput && !posInput.value) posInput.value = pos;
+  const file = document.getElementById('rf-file') as HTMLInputElement | null;
+  file?.addEventListener('change', () => {
+    const label = document.querySelector('[data-file-name]');
+    if (label) label.textContent = file.files?.[0]?.name ?? 'Upload your CV / resume';
+  });
+</script>

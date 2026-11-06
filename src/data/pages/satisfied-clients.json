@@ -1,0 +1,94 @@
+{
+ "slug": "satisfied-clients",
+ "title": "Satisfied Clients",
+ "description": "",
+ "css": "[data-page=\"satisfied-clients\"] .dv-section.dv-section-0{background-image:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(0,0,0,0.6) 100%),url(/uploads/2025-09-Satisfied-Clients-min.webp)!important}\n[data-page=\"satisfied-clients\"] .dv-section-0.dv-section{padding-top:170px;padding-bottom:170px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"satisfied-clients\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"satisfied-clients\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n[data-page=\"satisfied-clients\"] .dv-section-1.dv-section{padding-top:80px;padding-bottom:80px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"satisfied-clients\"] .dv-row-1.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"satisfied-clients\"] .dv-row-1{width:90%}\n[data-page=\"satisfied-clients\"] .dv-blurb-0.dv-blurb .dv-blurb-title,[data-page=\"satisfied-clients\"] .dv-blurb-0.dv-blurb .dv-blurb-title a,[data-page=\"satisfied-clients\"] .dv-blurb-1.dv-blurb .dv-blurb-title,[data-page=\"satisfied-clients\"] .dv-blurb-1.dv-blurb .dv-blurb-title a{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;text-align:left}\n[data-page=\"satisfied-clients\"] .dv-blurb-0.dv-blurb p,[data-page=\"satisfied-clients\"] .dv-blurb-1.dv-blurb p{line-height:1.2em}\n[data-page=\"satisfied-clients\"] .dv-blurb-0.dv-blurb .dv-blurb-desc,[data-page=\"satisfied-clients\"] .dv-blurb-1.dv-blurb .dv-blurb-desc{text-align:left}\n[data-page=\"satisfied-clients\"] .dv-blurb-0.dv-blurb,[data-page=\"satisfied-clients\"] .dv-blurb-1.dv-blurb{font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;color:rgba(255,255,255,0.7)!important;line-height:1.2em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:45px!important}\n[data-page=\"satisfied-clients\"] .dv-blurb-0 .dv-blurb-image .dv-icon-glyph,[data-page=\"satisfied-clients\"] .dv-blurb-1 .dv-blurb-image .dv-icon-glyph{border-radius:50% 50% 50% 50%;overflow:hidden;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"satisfied-clients\"] .dv-blurb-0.dv-blurb .dv-blurb-title,[data-page=\"satisfied-clients\"] .dv-blurb-1.dv-blurb .dv-blurb-title{margin-bottom:5px;margin-top:5px}\n[data-page=\"satisfied-clients\"] .dv-blurb-0.dv-blurb .dv-blurb-content,[data-page=\"satisfied-clients\"] .dv-blurb-1.dv-blurb .dv-blurb-content{margin:0px}\n[data-page=\"satisfied-clients\"] .dv-blurb-0 .dv-blurb-image .dv-image-wrap,[data-page=\"satisfied-clients\"] .dv-blurb-1 .dv-blurb-image .dv-image-wrap{width:73px}\n[data-page=\"satisfied-clients\"] .dv-text-1.dv-text,[data-page=\"satisfied-clients\"] .dv-text-2.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"satisfied-clients\"] .dv-text-1,[data-page=\"satisfied-clients\"] .dv-text-2{line-height:1.9em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.9em;background-size:initial;background-position:right 50px bottom 10px;background-image:url(/uploads/2025-07-it-services-5-nyt-18-png.webp);background-color:#111536;padding-top:45px!important;padding-right:40px!important;padding-bottom:45px!important;padding-left:40px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"satisfied-clients\"] .dv-text-1:before,[data-page=\"satisfied-clients\"] .dv-text-2:before{position:absolute;top:-13px;left:0;content:\"\";height:15px;width:65px;background-color:#111536;clip-path:polygon(0 0,46% 44%,100% 100%,0 100%)}\n@media only screen and (min-width:981px){[data-page=\"satisfied-clients\"] .dv-row-1{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"satisfied-clients\"] .dv-text-0 h1{font-size:64px}[data-page=\"satisfied-clients\"] .dv-section-1.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"satisfied-clients\"] .dv-row-1{max-width:630px}[data-page=\"satisfied-clients\"] .dv-blurb-1.dv-blurb{margin-top:50px!important;margin-bottom:45px!important}}\n@media only screen and (max-width:767px){[data-page=\"satisfied-clients\"] .dv-text-0 h1{font-size:50px}[data-page=\"satisfied-clients\"] .dv-section-1.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"satisfied-clients\"] .dv-blurb-1.dv-blurb{margin-top:50px!important;margin-bottom:45px!important}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Satisfied Clients</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 2,
+     "equal": false,
+     "cols": [
+      {
+       "i": 1,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "blurb",
+         "i": 0,
+         "dark": false,
+         "pos": "left",
+         "img": "/uploads/2025-07-it-services-5-nyt-8-png.webp",
+         "glyph": null,
+         "tag": "h6",
+         "title": "James Miller",
+         "html": "<p>HR Manager, Hospitality Group</p>"
+        },
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<p>“Finding the right talent in hospitality was always a challenge for us. NeoVentraX simplified the process with their reliable staffing solutions. Within weeks, we had skilled professionals onboard, perfectly matching our requirements. Their commitment to quality hiring has been a game-changer for our operations.”</p>"
+        }
+       ]
+      },
+      {
+       "i": 2,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "blurb",
+         "i": 1,
+         "dark": false,
+         "pos": "left",
+         "img": "/uploads/2025-07-it-services-5-nyt-7-png.webp",
+         "glyph": null,
+         "tag": "h6",
+         "title": "David Chen",
+         "html": "<p>Operations Director, Construction Firm</p>"
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<p>“We struggled to recruit experienced professionals for our large-scale projects. NeoVentraX provided us with highly qualified candidates in record time. Their streamlined process saved us hours of effort and ensured we had the right people in place to keep our projects on track. Truly professional and efficient service!”</p>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}

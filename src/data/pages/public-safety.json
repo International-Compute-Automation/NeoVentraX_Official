@@ -1,0 +1,368 @@
+{
+ "slug": "public-safety",
+ "title": "Public Safety",
+ "description": "",
+ "css": "[data-page=\"public-safety\"] .dv-section.dv-section-0{background-image:linear-gradient(180deg,rgba(0,0,0,0.51) 0%,rgba(0,0,0,0.6) 100%),url(/uploads/2025-09-Public-Safety-scaled.webp)!important}\n[data-page=\"public-safety\"] .dv-section-0.dv-section{padding-top:170px;padding-bottom:170px;margin-top:0px;margin-bottom:0px;background-color:RGBA(255,255,255,0)!important}\n[data-page=\"public-safety\"] .dv-text-0 h1{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-weight:600;font-size:65px;color:#FFFFFF!important;line-height:1.1em;text-align:left}\n[data-page=\"public-safety\"] .dv-text-0{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:22px!important}\n[data-page=\"public-safety\"] .dv-section.dv-section-1{background-size:initial;background-position:left -40px bottom -140px;background-image:url(/uploads/2025-07-it-services-5-nyt-24-png.webp)!important}\n[data-page=\"public-safety\"] .dv-section-1.dv-section{padding-top:30px;padding-bottom:4px;margin-top:0px;margin-bottom:0px}\n[data-page=\"public-safety\"] .dv-row-1.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:36px!important;margin-bottom:0px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"public-safety\"] .dv-row-1{width:90%;max-width:1290px}\n[data-page=\"public-safety\"] .dv-text-1.dv-text{color:#737373!important}\n[data-page=\"public-safety\"] .dv-text-1{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:18px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important}\n[data-page=\"public-safety\"] .dv-section-2.dv-section{padding-top:80px;padding-bottom:80px;margin-top:0px;margin-bottom:0px;background-color:#05092b!important}\n[data-page=\"public-safety\"] .dv-row-2.dv-row,[data-page=\"public-safety\"] .dv-row-3.dv-row,[data-page=\"public-safety\"] .dv-row-4.dv-row,[data-page=\"public-safety\"] .dv-row-5.dv-row,[data-page=\"public-safety\"] .dv-row-6.dv-row,[data-page=\"public-safety\"] .dv-row-7.dv-row{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:40px!important;padding-top:0px;padding-bottom:0px}\n[data-page=\"public-safety\"] .dv-row-2,[data-page=\"public-safety\"] .dv-row-3,[data-page=\"public-safety\"] .dv-row-4,[data-page=\"public-safety\"] .dv-row-5,[data-page=\"public-safety\"] .dv-row-6,[data-page=\"public-safety\"] .dv-row-7{width:90%}\n[data-page=\"public-safety\"] .dv-image-0 .dv-image-wrap,[data-page=\"public-safety\"] .dv-image-1 .dv-image-wrap,[data-page=\"public-safety\"] .dv-image-2 .dv-image-wrap,[data-page=\"public-safety\"] .dv-image-3 .dv-image-wrap,[data-page=\"public-safety\"] .dv-image-4 .dv-image-wrap,[data-page=\"public-safety\"] .dv-image-5 .dv-image-wrap,[data-page=\"public-safety\"] .dv-image-6 .dv-image-wrap,[data-page=\"public-safety\"] .dv-image-7 .dv-image-wrap{border-radius:5px 5px 5px 5px;overflow:hidden}\n[data-page=\"public-safety\"] .dv-image-0,[data-page=\"public-safety\"] .dv-image-1,[data-page=\"public-safety\"] .dv-image-2,[data-page=\"public-safety\"] .dv-image-3,[data-page=\"public-safety\"] .dv-image-4,[data-page=\"public-safety\"] .dv-image-5,[data-page=\"public-safety\"] .dv-image-6,[data-page=\"public-safety\"] .dv-image-7{padding-top:0px;padding-bottom:0px;margin-top:0px!important;margin-bottom:30px!important;text-align:left;margin-left:0}\n[data-page=\"public-safety\"] .dv-text-2 h3,[data-page=\"public-safety\"] .dv-text-4 h3,[data-page=\"public-safety\"] .dv-text-6 h3,[data-page=\"public-safety\"] .dv-text-8 h3,[data-page=\"public-safety\"] .dv-text-10 h3,[data-page=\"public-safety\"] .dv-text-12 h3,[data-page=\"public-safety\"] .dv-text-14 h3,[data-page=\"public-safety\"] .dv-text-16 h3,[data-page=\"public-safety\"] .dv-text-18 h3,[data-page=\"public-safety\"] .dv-text-20 h3,[data-page=\"public-safety\"] .dv-text-22 h3{font-family:'Outfit',Helvetica,Arial,Lucida,sans-serif;font-size:23px;color:#FFFFFF!important;line-height:1.2em;text-align:left}\n[data-page=\"public-safety\"] .dv-text-2,[data-page=\"public-safety\"] .dv-text-4,[data-page=\"public-safety\"] .dv-text-6,[data-page=\"public-safety\"] .dv-text-8,[data-page=\"public-safety\"] .dv-text-10,[data-page=\"public-safety\"] .dv-text-12,[data-page=\"public-safety\"] .dv-text-14,[data-page=\"public-safety\"] .dv-text-16,[data-page=\"public-safety\"] .dv-text-18,[data-page=\"public-safety\"] .dv-text-20,[data-page=\"public-safety\"] .dv-text-22{padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:8px!important}\n[data-page=\"public-safety\"] .dv-text-3.dv-text,[data-page=\"public-safety\"] .dv-text-5.dv-text,[data-page=\"public-safety\"] .dv-text-7.dv-text,[data-page=\"public-safety\"] .dv-text-9.dv-text,[data-page=\"public-safety\"] .dv-text-11.dv-text,[data-page=\"public-safety\"] .dv-text-13.dv-text,[data-page=\"public-safety\"] .dv-text-15.dv-text,[data-page=\"public-safety\"] .dv-text-17.dv-text,[data-page=\"public-safety\"] .dv-text-19.dv-text,[data-page=\"public-safety\"] .dv-text-21.dv-text,[data-page=\"public-safety\"] .dv-text-23.dv-text{color:rgba(255,255,255,0.7)!important}\n[data-page=\"public-safety\"] .dv-text-3,[data-page=\"public-safety\"] .dv-text-5,[data-page=\"public-safety\"] .dv-text-7,[data-page=\"public-safety\"] .dv-text-9,[data-page=\"public-safety\"] .dv-text-11,[data-page=\"public-safety\"] .dv-text-13,[data-page=\"public-safety\"] .dv-text-15,[data-page=\"public-safety\"] .dv-text-17,[data-page=\"public-safety\"] .dv-text-19,[data-page=\"public-safety\"] .dv-text-21,[data-page=\"public-safety\"] .dv-text-23{line-height:1.8em;font-family:'Plus Jakarta Sans',Helvetica,Arial,Lucida,sans-serif;font-size:17px;line-height:1.8em;padding-top:0px!important;padding-bottom:0px!important;margin-top:0px!important;margin-bottom:0px!important}\n[data-page=\"public-safety\"] .dv-column-1{padding-left:35px;margin:auto}\n[data-page=\"public-safety\"] .dv-column-2,[data-page=\"public-safety\"] .dv-column-3,[data-page=\"public-safety\"] .dv-column-4,[data-page=\"public-safety\"] .dv-column-5,[data-page=\"public-safety\"] .dv-column-6,[data-page=\"public-safety\"] .dv-column-7,[data-page=\"public-safety\"] .dv-column-8,[data-page=\"public-safety\"] .dv-column-9,[data-page=\"public-safety\"] .dv-column-10,[data-page=\"public-safety\"] .dv-column-11,[data-page=\"public-safety\"] .dv-column-12{background-color:#111536;border-radius:5px 5px 5px 5px;overflow:hidden;padding-top:37px;padding-right:40px;padding-bottom:40px;padding-left:40px}\n@media only screen and (min-width:981px){[data-page=\"public-safety\"] .dv-row-2,[data-page=\"public-safety\"] .dv-row-3,[data-page=\"public-safety\"] .dv-row-4,[data-page=\"public-safety\"] .dv-row-5,[data-page=\"public-safety\"] .dv-row-6,[data-page=\"public-safety\"] .dv-row-7{max-width:1290px}}\n@media only screen and (max-width:980px){[data-page=\"public-safety\"] .dv-text-0 h1{font-size:64px}[data-page=\"public-safety\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"public-safety\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:120px}[data-page=\"public-safety\"] .dv-section-2.dv-section{padding-top:120px;padding-bottom:120px}[data-page=\"public-safety\"] .dv-row-2.dv-row,[data-page=\"public-safety\"] .dv-row-3.dv-row,[data-page=\"public-safety\"] .dv-row-4.dv-row,[data-page=\"public-safety\"] .dv-row-5.dv-row,[data-page=\"public-safety\"] .dv-row-6.dv-row,[data-page=\"public-safety\"] .dv-row-7.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"public-safety\"] .dv-row-2,[data-page=\"public-safety\"] .dv-row-3,[data-page=\"public-safety\"] .dv-row-4,[data-page=\"public-safety\"] .dv-row-5,[data-page=\"public-safety\"] .dv-row-6,[data-page=\"public-safety\"] .dv-row-7{max-width:410px}[data-page=\"public-safety\"] .dv-image-0 .dv-image-wrap img,[data-page=\"public-safety\"] .dv-image-1 .dv-image-wrap img,[data-page=\"public-safety\"] .dv-image-2 .dv-image-wrap img,[data-page=\"public-safety\"] .dv-image-3 .dv-image-wrap img,[data-page=\"public-safety\"] .dv-image-4 .dv-image-wrap img,[data-page=\"public-safety\"] .dv-image-5 .dv-image-wrap img,[data-page=\"public-safety\"] .dv-image-6 .dv-image-wrap img,[data-page=\"public-safety\"] .dv-image-7 .dv-image-wrap img{width:auto}[data-page=\"public-safety\"] .dv-column-1{padding-top:90px;padding-left:0px}}\n@media only screen and (max-width:767px){[data-page=\"public-safety\"] .dv-text-0 h1{font-size:50px}[data-page=\"public-safety\"] .dv-section.dv-section-1{background-image:initial!important}[data-page=\"public-safety\"] .dv-section-1.dv-section{padding-top:1px;padding-bottom:90px}[data-page=\"public-safety\"] .dv-section-2.dv-section{padding-top:90px;padding-bottom:90px}[data-page=\"public-safety\"] .dv-row-2.dv-row,[data-page=\"public-safety\"] .dv-row-3.dv-row,[data-page=\"public-safety\"] .dv-row-4.dv-row,[data-page=\"public-safety\"] .dv-row-5.dv-row,[data-page=\"public-safety\"] .dv-row-6.dv-row,[data-page=\"public-safety\"] .dv-row-7.dv-row{margin-top:0px!important;margin-bottom:30px!important}[data-page=\"public-safety\"] .dv-image-0 .dv-image-wrap img,[data-page=\"public-safety\"] .dv-image-1 .dv-image-wrap img,[data-page=\"public-safety\"] .dv-image-2 .dv-image-wrap img,[data-page=\"public-safety\"] .dv-image-3 .dv-image-wrap img,[data-page=\"public-safety\"] .dv-image-4 .dv-image-wrap img,[data-page=\"public-safety\"] .dv-image-5 .dv-image-wrap img,[data-page=\"public-safety\"] .dv-image-6 .dv-image-wrap img,[data-page=\"public-safety\"] .dv-image-7 .dv-image-wrap img{width:auto}[data-page=\"public-safety\"] .dv-column-1{padding-top:55px}}",
+ "sections": [
+  {
+   "i": 0,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 0,
+     "gutter": 3,
+     "equal": false,
+     "cols": [
+      {
+       "i": 0,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 0,
+         "dark": false,
+         "html": "<h1 style=\"text-align:center\">Public Safety</h1>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 1,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 1,
+     "gutter": 1,
+     "equal": true,
+     "cols": [
+      {
+       "i": 1,
+       "w": "4_4",
+       "mods": [
+        {
+         "type": "text",
+         "i": 1,
+         "dark": false,
+         "html": "<div>\n<p style=\"text-align:center\">In the Public Safety sector, dedicated professionals work to ensure the security and well-being of communities. Law enforcement officers uphold the law, investigate crimes, and protect citizens from harm. Firefighters bravely respond to emergencies, extinguishing fires, and providing medical assistance. Emergency medical technicians (EMTs) deliver critical care on the front lines, saving lives in challenging situations. Dispatchers coordinate responses, connecting individuals in need with the appropriate assistance. Additionally, analysts gather and analyze data to enhance public safety strategies and response tactics. Careers in this vital field offer opportunities to serve and protect, making communities safer and more resilient.</p>\n</div>\n<div>\n<div>\n<div></div>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "modules": []
+  },
+  {
+   "i": 2,
+   "fullwidth": false,
+   "rows": [
+    {
+     "i": 2,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 2,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 0,
+         "src": "/uploads/2025-09-1-Police-Officer.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 2,
+         "dark": false,
+         "html": "<h3>Police Officer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 3,
+         "dark": false,
+         "html": "<div>\n<div>Job description</div>\n<div>\n<p>Qualifications High school diploma or equivalent (some agencies may require a college degree). Completion of police academy training and certification. Physical fitness and agility. Good moral character and clean criminal record. Valid driver’s license. Roles and Responsibilities</p>\n<ul>\n<li>Enforce laws, maintain public order, and prevent crime.</li>\n<li>Patrol assigned areas, respond to calls for service, and conduct investigations.</li>\n<li>Arrest suspects and gather evidence.</li>\n<li>Provide assistance and support to the community.</li>\n<li>Prepare reports and testify in court.</li>\n<li>Continuously train to maintain skills and knowledge.</li>\n</ul>\n</div>\n</div>\n<div>\n<ul></ul>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 3,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 1,
+         "src": "/uploads/2025-09-2-Firefighter.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 4,
+         "dark": false,
+         "html": "<h3>Firefighter (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 5,
+         "dark": false,
+         "html": "<div>\n<div>Job description</div>\n<div>\n<p>Qualifications High school diploma or equivalent. Completion of firefighter training and certification. Physical fitness and agility. Emergency medical technician (EMT) certification may be required. Valid driver’s license. Roles and Responsibilities</p>\n<ul>\n<li>Respond to fires, medical emergencies, and other incidents.</li>\n<li>Perform rescue operations to save lives and protect property.</li>\n<li>Operate firefighting equipment and tools.</li>\n<li>Conduct fire prevention inspections and public education programs.</li>\n<li>Maintain equipment and facilities. Participate in training drills and exercises.</li>\n</ul>\n</div>\n</div>\n<div>\n<ul></ul>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 4,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 2,
+         "src": "/uploads/2025-09-3-Emergency-Medical-Technician.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 6,
+         "dark": false,
+         "html": "<h3>Emergency Medical Technician (EMT) (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 7,
+         "dark": false,
+         "html": "<div>\n<div>Job description</div>\n<div>\n<p>Qualifications High school diploma or equivalent. Completion of EMT training and certification. CPR certification. Valid driver’s license. Roles and Responsibilities</p>\n<ul>\n<li>Respond to medical emergencies and provide pre-hospital care.</li>\n<li>Assess patients’ conditions and administer appropriate treatments.</li>\n<li>Transport patients to medical facilities.</li>\n<li>Document patient care and maintain accurate records.</li>\n<li>Communicate effectively with other emergency responders and healthcare providers.</li>\n</ul>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 5,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 3,
+         "src": "/uploads/2025-09-4-Paramedic.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 8,
+         "dark": false,
+         "html": "<h3>Paramedic (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 9,
+         "dark": false,
+         "html": "<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Associate’s degree or higher in paramedicine. Paramedic training and certification. CPR certification. Valid driver’s license. Roles and Responsibilities</p>\n<ul>\n<li>Provide advanced life support to patients in medical emergencies.</li>\n<li>Perform advanced medical procedures and administer medications.</li>\n<li>Coordinate with other emergency responders and healthcare providers.</li>\n<li>Manage patient care during transport to medical facilities.</li>\n<li>Maintain equipment and supplies.</li>\n<li>Stay updated on medical protocols and guidelines.</li>\n</ul>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 4,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 6,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 4,
+         "src": "/uploads/2025-09-5-Emergency-Dispatcher.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 10,
+         "dark": false,
+         "html": "<h3>Emergency Dispatcher (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 11,
+         "dark": false,
+         "html": "<div>\n<div>Job description</div>\n<div>\n<p>Qualifications High school diploma or equivalent. Completion of dispatcher training and certification. Strong communication and multitasking skills. Ability to remain calm under pressure. Knowledge of emergency response procedures. Roles and Responsibilities</p>\n<ul>\n<li>Receive and prioritize emergency calls.</li>\n<li>Dispatch appropriate emergency responders to incidents.</li>\n<li>Provide pre-arrival instructions to callers.</li>\n<li>Coordinate communication between responders and agencies.</li>\n<li>Document calls and maintain accurate records. Monitor radio traffic and update responders on situations.</li>\n</ul>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 7,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 5,
+         "src": "/uploads/2025-09-6-Crime-Scene-Investigator.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 12,
+         "dark": false,
+         "html": "<h3>Crime Scene Investigator (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 13,
+         "dark": false,
+         "html": "<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree in forensic science, criminal justice, or related field. Crime scene investigation training and certification. Attention to detail and analytical skills. Knowledge of evidence collection and preservation techniques. Roles and Responsibilities</p>\n<ul>\n<li>Respond to crime scenes to collect and document evidence.</li>\n<li>Photograph and sketch crime scenes.</li>\n<li>Collect and process physical evidence, such as fingerprints and DNA.</li>\n<li>Analyze evidence in laboratory settings.</li>\n<li>Prepare reports and testify in court.</li>\n</ul>\n</div>\n</div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 5,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 8,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 6,
+         "src": "/uploads/2025-09-7-Correctional-Officer.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 14,
+         "dark": false,
+         "html": "<h3>Correctional Officer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 15,
+         "dark": false,
+         "html": "<div>\n<div>Job description</div>\n<div>\n<p>Qualifications High school diploma or equivalent. Completion of correctional officer training. Physical fitness and strength. Good judgment and interpersonal skills. Roles and Responsibilities</p>\n<ul>\n<li>Maintain security and control within correctional facilities.</li>\n<li>Supervise inmates and enforce rules and regulations.</li>\n<li>Conduct searches and inspections.</li>\n<li>Escort inmates within the facility and during transport.</li>\n<li>Provide support and assistance to inmates.</li>\n<li>Respond to emergencies and incidents.</li>\n</ul>\n</div>\n</div>"
+        }
+       ]
+      },
+      {
+       "i": 9,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "image",
+         "i": 7,
+         "src": "/uploads/2025-09-8-Security-Guard.webp",
+         "alt": "",
+         "href": null
+        },
+        {
+         "type": "text",
+         "i": 16,
+         "dark": false,
+         "html": "<h3>Security Guard (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 17,
+         "dark": false,
+         "html": "<div>\n<div>Job description</div>\n<div>\n<p>Qualifications High school diploma or equivalent. Completion of security guard training. Good judgment and observation skills. Physical fitness and ability to stand for long periods. Customer service skills. Roles and Responsibilities</p>\n<ul>\n<li>Patrol assigned areas to prevent and detect security breaches.</li>\n<li>Monitor surveillance cameras and alarms.</li>\n<li>Control access to restricted areas.</li>\n<li>Respond to incidents and emergencies.</li>\n<li>Write reports documenting observations and actions.</li>\n</ul>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 6,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 10,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 18,
+         "dark": false,
+         "html": "<h3>Park Ranger (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 19,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Bachelor’s degree in park management, environmental science, or related field. Knowledge of natural resources and conservation principles. Outdoor skills and physical fitness. First aid and CPR certification. Valid driver’s license. Roles and Responsibilities</p>\n<ul>\n<li>Protect and preserve natural resources and wildlife.</li>\n<li>Enforce park rules and regulations.</li>\n<li>Provide information and assistance to park visitors.</li>\n<li>Conduct patrols and inspections.</li>\n<li>Respond to emergencies and provide first aid.</li>\n<li>Maintain facilities and trails.</li>\n</ul>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 11,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 20,
+         "dark": false,
+         "html": "<h3>Lifeguard (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 21,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications Lifeguard certification. CPR and first aid certification. Physical fitness and swimming ability. Good communication and observation skills. Roles and Responsibilities</p>\n<ul>\n<li>Monitor swimmers and enforce safety rules.</li>\n<li>Perform water rescues and provide first aid.</li>\n<li>Conduct swim lessons and programs.</li>\n<li>Maintain cleanliness and safety of aquatic facilities.</li>\n<li>Respond to emergencies and coordinate with other lifeguards and emergency responders.</li>\n<li>Provide excellent customer service to patrons.</li>\n</ul>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "i": 7,
+     "gutter": 2,
+     "equal": true,
+     "cols": [
+      {
+       "i": 12,
+       "w": "1_2",
+       "mods": [
+        {
+         "type": "text",
+         "i": 22,
+         "dark": false,
+         "html": "<h3>Animal Control Officer (Across USA)</h3>"
+        },
+        {
+         "type": "text",
+         "i": 23,
+         "dark": false,
+         "html": "<div>\n<div>\n<div>\n<div>Job description</div>\n<div>\n<p>Qualifications High school diploma or equivalent. Training in animal control procedures and laws. Knowledge of animal behavior and handling techniques. Good communication and interpersonal skills. Physical fitness and ability to handle animals safely. Roles and Responsibilities</p>\n<ul>\n<li>Respond to calls regarding stray, injured, or aggressive animals.</li>\n<li>Capture and restrain animals using appropriate methods.</li>\n<li>Investigate animal-related complaints and enforce animal control ordinances.</li>\n<li>Educate the public about responsible pet ownership.</li>\n<li>Work with animal shelters and rescue organizations to care for and rehome animals.</li>\n<li>Maintain records and prepare reports.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n<div></div>"
+        }
+       ]
+      },
+      {
+       "i": 13,
+       "w": "1_2",
+       "mods": []
+      }
+     ]
+    }
+   ],
+   "modules": []
+  }
+ ]
+}
