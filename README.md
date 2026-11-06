@@ -48,8 +48,8 @@ Follows the ICA Corp deployment runbook: GitHub Actions → Docker build → rsy
 
 | Env | Branch | Port | PM2 name | Server folder |
 | --- | --- | --- | --- | --- |
-| Dev | `dev` | 3110 | `neoventrax-dev` | `~/neoventrax-dev` |
-| Prod | `main` | 3210 | `neoventrax-prod` | `~/neoventrax-prod` |
+| Dev | `dev` | 4000 | `neoventrax-dev` | `~/neoventrax-dev` |
+| Prod | `main` | 4001 | `neoventrax-prod` | `~/neoventrax-prod` |
 
 - `Dockerfile` builds the site; the `artifact` stage contains only `server.cjs` + `dist/`.
 - `server.cjs` is a zero-dependency static server (trailing-slash redirects, 404 page, cache headers).
