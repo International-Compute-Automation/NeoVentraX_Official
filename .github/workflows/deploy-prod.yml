@@ -1,10 +1,12 @@
 name: Deploy Production
 
+# Production deploys ONLY when approved code lands on main (via a pull request that
+# needs 2 approvals - see the ruleset on main). There is deliberately no manual
+# "Run workflow" button, so nobody can deploy unapproved code or another branch.
 on:
   push:
     branches:
       - main
-  workflow_dispatch:
 
 permissions:
   contents: read
@@ -48,7 +50,12 @@ jobs:
   deploy:
     name: Deploy to Production server
     needs: build
-    if: vars.DEPLOY_ENABLED == 'true'
+    # Never deploy anything that is not the main branch
+    if: vars.DEPLOY_ENABLED == 'true' && github.ref == 'refs/heads/main'
+    # The "production" environment only accepts main and holds the prod SSH secrets
+    environment:
+      name: production
+      url: https://neoventrax.com
     runs-on: ubuntu-24.04
     steps:
       - name: Download artifact
