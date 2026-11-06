@@ -3,7 +3,6 @@
  * that the redesigned templates can style freely.
  */
 import * as cheerio from 'cheerio';
-import { nav } from '../data/nav';
 
 type Raw = { slug: string; title: string; description: string; css: string; sections: any[] };
 
@@ -34,17 +33,27 @@ export type Page = {
 
 const rawPages = import.meta.glob<Raw>('../data/pages/*.json', { eager: true, import: 'default' });
 
-const CATEGORY_BY_LABEL: Record<string, Category> = {
-  'About Us': 'about', 'Find a Job': 'jobs', Employers: 'employers', Employees: 'employees', Services: 'services',
-};
+/**
+ * Old-site pages that are still published as general pages (rendered by src/pages/[slug].astro),
+ * grouped by section. Industries, services and knowledge articles now have their own templates
+ * (src/data/industries.ts, src/pages/services.astro, src/content/insights/).
+ */
+export const GENERAL_PAGES: { slug: string; category: Category; label: string }[] = [
+  { slug: 'why-neoventrax', category: 'about', label: 'About Us' },
+  { slug: 'people', category: 'about', label: 'About Us' },
+  { slug: 'careers', category: 'about', label: 'About Us' },
+  { slug: 'satisfied-clients', category: 'employers', label: 'For Employers' },
+  // knowledge articles — listed on /insights/ (to be moved into the CMS)
+  ...['career-advice', 'career-insights', 'effective-job-search', 'tips-on-submitting-resumes', 'preparing-interview', 'tips-and-resources-for-career-development', 'talent-grooming']
+    .map((slug) => ({ slug, category: 'employees' as Category, label: 'Insights' })),
+];
 
 export function categoryOf(slug: string): { category: Category; label: string } {
   if (slug === 'home') return { category: 'home', label: 'Home' };
   if (slug === 'contact-us') return { category: 'contact', label: 'Contact' };
-  for (const item of nav) {
-    if (item.children?.some((c) => c.href === `/${slug}/`)) return { category: CATEGORY_BY_LABEL[item.label] ?? 'about', label: item.label };
-  }
-  return { category: 'about', label: 'NeoVentraX' };
+  if (slug === 'submit-your-resume') return { category: 'employees', label: 'Job Seekers' };
+  const g = GENERAL_PAGES.find((p) => p.slug === slug);
+  return g ? { category: g.category, label: g.label } : { category: 'about', label: 'NeoVentraX' };
 }
 
 /** Strip WordPress/Divi wrapper noise, inline styles and empty nodes. */
@@ -72,7 +81,7 @@ export function cleanHtml(html: string): string {
 
 export const textOf = (html: string) => cheerio.load(html ?? '').text().replace(/\s+/g, ' ').trim();
 
-function summarize(html: string, max = 170) {
+export function summarize(html: string, max = 170) {
   const t = textOf(html).replace(/^Job description\s*/i, '').replace(/\s*(Key\s+)?Roles?\s+and\s+Responsibilities:?[\s\S]*$/i, '');
   return t.length > max ? t.slice(0, t.lastIndexOf(' ', max)) + '…' : t;
 }
@@ -166,4 +175,4 @@ function normalize(raw: Raw): Page {
 export const pages: Page[] = Object.values(rawPages).filter((r) => r.slug !== 'home').map(normalize);
 export const getPage = (slug: string) => pages.find((p) => p.slug === slug)!;
 export const pagesIn = (category: Category) =>
-  nav.flatMap((n) => n.children ?? []).map((c) => pages.find((p) => `/${p.slug}/` === c.href)).filter((p): p is Page => !!p && p.category === category);
+  GENERAL_PAGES.filter((g) => g.category === category).map((g) => getPage(g.slug)).filter(Boolean);

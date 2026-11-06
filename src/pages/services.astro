@@ -1,0 +1,102 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import CtaBand from '../components/CtaBand.astro';
+import Icon from '../components/Icon.astro';
+import Img from '../components/Img.astro';
+import { services } from '../data/nav';
+
+const details: Record<string, { image: string; best: string; points: string[] }> = {
+  'direct-hire': {
+    image: '/uploads/2025-09-4-Higher-Quality-Candidate-Services.webp',
+    best: 'Best for permanent, business-critical positions.',
+    points: ['Role briefing and market research before sourcing begins', 'Structured screening against skills, experience and qualifications', 'Shortlist of interview-ready candidates', 'Offer and acceptance support'],
+  },
+  'contract-staffing': {
+    image: '/uploads/2025-09-2-Contractual-Freelancers.webp',
+    best: 'Best for projects, peak periods and temporary cover.',
+    points: ['Fast access to pre-screened professionals', 'Flexible assignment lengths', 'Support for single roles or project teams', 'Ongoing coordination for the duration of the assignment'],
+  },
+  'contract-to-hire': {
+    image: '/uploads/2025-09-1-Permanent-Employees.webp',
+    best: 'Best when you want to evaluate fit before a permanent offer.',
+    points: ['Start with a contract period, then convert', 'Reduced hiring risk for new or evolving roles', 'Candidates who are open to long-term employment', 'Smooth transition to permanent hire'],
+  },
+  'executive-search': {
+    image: '/uploads/2025-09-2-Sourcing.webp',
+    best: 'Best for senior leadership and specialized management roles.',
+    points: ['Confidential, research-led search', 'Targeted approach to passive candidates', 'In-depth evaluation of leadership experience', 'Close partnership with your leadership team throughout'],
+  },
+};
+---
+<Base title="Recruitment Services" description="Direct hire recruitment, contract staffing, contract-to-hire and executive search for Non-IT roles across the USA." heroImage="/uploads/2025-09-Services-min-scaled.webp">
+  <PageHero
+    title="Recruitment Services"
+    image="/uploads/2025-09-Services-min-scaled.webp"
+    lead="Flexible and focused recruitment solutions to meet your hiring needs."
+  />
+
+  <section class="section-sm">
+    <div class="container">
+      <ul class="cards">
+        {services.map((s) => (
+          <li>
+            <a href={`#${s.id}`} class="scard">
+              <span class="simg"><Img src={details[s.id].image} alt="" sizes="(max-width: 680px) 92vw, (max-width: 1024px) 45vw, 290px" /></span>
+              <span class="sbody">
+                <span class="stitle"><Icon name={s.icon} />{s.label}</span>
+                <span class="stext">{s.text}</span>
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section-sm bg-soft">
+    <div class="container svc-list">
+      {services.map((s, i) => (
+        <article class="svc card" id={s.id}>
+          <div class="svc-head">
+            <span class="svc-ico"><Icon name={s.icon} /></span>
+            <span class="svc-n">{String(i + 1).padStart(2, '0')}</span>
+          </div>
+          <h2 class="h3">{s.label}</h2>
+          <p class="best">{details[s.id].best}</p>
+          <ul class="points">{details[s.id].points.map((p) => <li><Icon name="check" />{p}</li>)}</ul>
+          <a href="/hire-talent/" class="link-arrow">Discuss your requirements <Icon name="arrow" /></a>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <CtaBand />
+</Base>
+
+<style>
+  .cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
+  .scard { display: flex; flex-direction: column; height: 100%; border-radius: 12px; overflow: hidden; background: #fff; border: 1px solid var(--line); box-shadow: var(--shadow-sm); transition: transform .3s var(--ease), box-shadow .3s var(--ease); }
+  .scard:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+  .simg { display: block; aspect-ratio: 16 / 10; overflow: hidden; background: var(--soft); }
+  .simg :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  .sbody { display: grid; gap: 8px; padding: 18px 18px 20px; }
+  .stitle { display: flex; align-items: center; gap: 10px; font-family: var(--font-head); font-weight: 700; font-size: 18px; color: var(--ink); line-height: 1.25; }
+  .stitle :global(svg) { width: 26px; height: 26px; color: var(--brand); flex: none; stroke-width: 1.7; }
+  .stext { color: var(--muted); font-size: 15px; line-height: 1.55; }
+  .svc-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(16px, 2vw, 28px); }
+  .svc { padding: clamp(24px, 3vw, 34px); display: grid; gap: 12px; align-content: start; border-radius: 12px; scroll-margin-top: calc(var(--header-h) + 24px); }
+  .svc:target { border-color: var(--teal-2); box-shadow: 0 0 0 3px rgba(23, 166, 180, .2); }
+  .svc-head { display: flex; justify-content: space-between; align-items: center; }
+  .svc-ico { width: 52px; height: 52px; border-radius: 12px; display: grid; place-items: center; background: #e6f1f8; color: var(--brand); }
+  .svc-ico :global(svg) { width: 26px; height: 26px; }
+  .svc-n { font-family: var(--font-head); font-weight: 700; font-size: 15px; color: var(--teal); }
+  .best { color: var(--muted); font-size: 15px; font-style: italic; }
+  .points { display: grid; gap: 10px; margin: 4px 0 6px; }
+  .points li { display: flex; gap: 10px; align-items: flex-start; font-size: 15.5px; }
+  .points :global(svg) { width: 20px; height: 20px; padding: 3px; border-radius: 50%; background: #dff3f5; color: var(--teal); flex: none; margin-top: 2px; stroke-width: 3; }
+  @media (max-width: 1024px) { .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 760px) { .svc-list { grid-template-columns: 1fr; } }
+  @media (max-width: 560px) { .cards { grid-template-columns: 1fr; } }
+  @media (hover: none) { .scard:hover { transform: none; } }
+</style>

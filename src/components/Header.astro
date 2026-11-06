@@ -2,35 +2,46 @@
 import { nav } from '../data/nav';
 import Icon from './Icon.astro';
 const path = Astro.url.pathname;
-const active = (href: string, children?: { href: string }[]) => href === path || !!children?.some((c) => c.href === path);
+const active = (href: string, children?: { href: string }[]) =>
+  href === path || (href !== '/' && path.startsWith(href)) || !!children?.some((c) => c.href.split('#')[0] === path);
 ---
 <header class="site-header" id="site-header">
   <div class="container bar">
     <a href="/" class="logo" aria-label="NeoVentraX — home">
       <img src="/uploads/2025-08-Neo-Ventrax-Logo.webp" alt="NeoVentraX" width="196" height="40" fetchpriority="high" />
+      <span class="tagline">US Talent Solutions</span>
     </a>
 
     <nav class="nav" id="primary-nav" aria-label="Primary">
       <ul class="menu">
-        {nav.filter((i) => i.label !== 'Contact Us').map((item) => (
-          <li class:list={['item', { 'has-sub': item.children, mega: item.label === 'Find a Job', active: active(item.href, item.children) }]}>
+        {nav.map((item) => (
+          <li class:list={['item', { 'has-sub': item.children, mega: item.label === 'Industries', active: active(item.href, item.children) }]}>
             {item.children ? (
               <>
                 <button type="button" class="top" aria-expanded="false">
                   {item.label}<Icon name="chevron" class="chev" />
                 </button>
                 <div class="panel">
-                  {item.label === 'Find a Job' && (
-                    <div class="panel-head">
-                      <strong>Browse roles by industry</strong>
-                      <a href="/submit-your-resume/" class="link-arrow">Submit your resume <Icon name="arrow" /></a>
-                    </div>
+                  <div class="panel-main">
+                    <ul class="sub">
+                      {item.children.map((c) => (
+                        <li>
+                          <a href={c.href} aria-current={c.href === path ? 'page' : undefined}>
+                            {c.icon && <span class="sub-ico"><Icon name={c.icon} /></span>}
+                            <span class="sub-txt"><strong>{c.label}</strong>{c.desc && <small>{c.desc}</small>}</span>
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                    <a href={item.href} class="panel-all">View all {item.label.toLowerCase()} <Icon name="arrow" /></a>
+                  </div>
+                  {item.label === 'Industries' && (
+                    <aside class="not-sure">
+                      <span>Not sure?</span>
+                      <p>Tell us about your role and we’ll match you with the right sector specialist.</p>
+                      <a href="/hire-talent/" class="btn btn-teal btn-sm">Start a Search <Icon name="arrow" /></a>
+                    </aside>
                   )}
-                  <ul class="sub">
-                    {item.children.map((c) => (
-                      <li><a href={c.href} aria-current={c.href === path ? 'page' : undefined}>{c.label}</a></li>
-                    ))}
-                  </ul>
                 </div>
               </>
             ) : (
@@ -38,11 +49,11 @@ const active = (href: string, children?: { href: string }[]) => href === path ||
             )}
           </li>
         ))}
-        <li class="item"><a class="top" href="/contact-us/" aria-current={path === '/contact-us/' ? 'page' : undefined}>Contact</a></li>
       </ul>
       <div class="nav-cta">
-        <a href="/submit-your-resume/" class="btn btn-ghost btn-sm">Submit Resume</a>
-        <a href="/posting-clients-jobs-or-request-for-assistance/" class="btn btn-primary btn-sm">Hire Talent</a>
+        <a href="/contact-us/" class="btn btn-ghost btn-sm m-only">Contact Us</a>
+        <a href="/submit-your-resume/" class="btn btn-ghost btn-sm m-only">Submit Resume</a>
+        <a href="/hire-talent/" class="btn btn-teal btn-sm">Hire Talent <Icon name="arrow" /></a>
       </div>
     </nav>
 
@@ -107,66 +118,82 @@ const active = (href: string, children?: { href: string }[]) => href === path ||
 <style>
   .site-header {
     position: sticky; top: 0; z-index: 100; height: var(--header-h);
-    border-bottom: 1px solid transparent; transition: border-color .3s, box-shadow .3s;
+    border-bottom: 1px solid var(--line); transition: box-shadow .3s;
   }
-  /* The frosted-glass blur lives on a pseudo-element: a backdrop-filter on the header itself would
+  /* The background lives on a pseudo-element: a backdrop-filter on the header itself would
      become the containing block for the position:fixed mobile menu and squash it to the header's height. */
   .site-header::before {
     content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none;
-    background: rgba(255, 255, 255, .82); backdrop-filter: saturate(180%) blur(14px); -webkit-backdrop-filter: saturate(180%) blur(14px);
-    transition: background .3s;
+    background: rgba(255, 255, 255, .92); backdrop-filter: saturate(180%) blur(14px); -webkit-backdrop-filter: saturate(180%) blur(14px);
   }
-  .site-header.scrolled { border-color: var(--line); box-shadow: 0 6px 24px -12px rgba(10, 16, 64, .18); }
-  .site-header.scrolled::before, .site-header.open::before { background: rgba(255, 255, 255, .96); }
+  .site-header.scrolled { box-shadow: 0 6px 24px -12px rgba(11, 36, 64, .2); }
+  .site-header.scrolled::before, .site-header.open::before { background: #fff; }
   .bar { width: min(100% - 48px, 1280px); height: 100%; display: flex; align-items: center; gap: 20px; position: relative; }
-  .logo { flex: none; display: flex; }
-  .logo img { height: 40px; width: auto; }
+  .logo { flex: none; display: flex; flex-direction: column; justify-content: center; gap: 4px; padding-right: 24px; border-right: 1px solid var(--line); }
+  .logo img { height: 34px; width: auto; }
+  .tagline { font-family: var(--font-head); font-size: 10.5px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--brand); line-height: 1; }
   .nav { flex: 1; min-width: 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
   .menu { display: flex; align-items: center; gap: 2px; margin-inline: auto; }
   .item { position: relative; }
   .item.mega { position: static; } /* mega panel centres on the header bar, never off-screen */
   .top {
-    display: inline-flex; align-items: center; gap: 4px; padding: 10px 12px; border-radius: 999px; border: 0; background: none; cursor: pointer; white-space: nowrap;
-    font-family: var(--font-head); font-size: 16px; font-weight: 500; color: var(--text); transition: background .2s, color .2s;
+    position: relative; display: inline-flex; align-items: center; gap: 4px; padding: 10px 12px; border: 0; background: none; cursor: pointer; white-space: nowrap;
+    font-family: var(--font-head); font-size: 15.5px; font-weight: 500; color: var(--ink); transition: color .2s;
   }
-  .top:hover, .show > .top { background: var(--soft); color: var(--brand); }
+  .top::after { content: ''; position: absolute; left: 12px; right: 12px; bottom: 2px; height: 3px; border-radius: 2px; background: var(--teal-2); transform: scaleX(0); transition: transform .25s var(--ease); }
+  .top:hover, .show > .top { color: var(--brand); }
+  .active > .top, .top[aria-current] { color: var(--ink); font-weight: 600; }
+  .active > .top::after, .top[aria-current]::after { transform: scaleX(1); }
   .top:focus-visible { outline-offset: 0; }
-  .active > .top, .top[aria-current] { color: var(--brand); }
   .chev { width: 16px; height: 16px; flex: none; transition: transform .25s var(--ease); }
   .show > .top .chev { transform: rotate(180deg); }
   .panel {
-    position: absolute; top: calc(100% + 12px); left: 50%; translate: -50% 0; min-width: 270px; padding: 10px;
-    background: #fff; border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow-lg);
+    position: absolute; top: calc(100% + 12px); left: 50%; translate: -50% 0; min-width: 300px; padding: 10px;
+    background: #fff; border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow-lg);
     opacity: 0; visibility: hidden; transform: translateY(6px); transition: opacity .2s, transform .2s var(--ease), visibility .2s;
   }
   .panel::before { content: ''; position: absolute; inset: -22px 0 auto; height: 22px; } /* hover bridge across the gap */
   .has-sub.show > .panel { opacity: 1; visibility: visible; transform: none; }
   @media (hover: hover) and (min-width: 1101px) {
     .has-sub:hover > .panel { opacity: 1; visibility: visible; transform: none; }
-    .has-sub:hover > .top { background: var(--soft); color: var(--brand); }
+    .has-sub:hover > .top { color: var(--brand); }
     .has-sub:hover > .top .chev { transform: rotate(180deg); }
   }
   .has-sub.suppress > .panel { opacity: 0 !important; visibility: hidden !important; }
   .has-sub.suppress > .top .chev { transform: none !important; }
-  .sub a { display: block; padding: 10px 14px; border-radius: 10px; font-size: 15px; font-weight: 500; color: var(--text); transition: background .15s, color .15s; }
-  .sub a:hover, .sub a[aria-current] { background: var(--soft); color: var(--brand); }
-  .mega .panel { width: min(760px, 100%); padding: 18px; top: calc(100% - 6px); }
-  .mega .sub { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
-  .panel-head { display: flex; justify-content: space-between; align-items: center; padding: 4px 14px 14px; margin-bottom: 8px; border-bottom: 1px solid var(--line); }
-  .panel-head strong { font-family: var(--font-head); color: var(--ink); font-weight: 600; }
-  .panel-head .link-arrow { font-size: 14px; }
+  .sub a { display: flex; align-items: center; gap: 12px; padding: 10px 12px; border-radius: 10px; font-size: 15px; color: var(--text); transition: background .15s, color .15s; }
+  .sub a:hover, .sub a[aria-current] { background: var(--soft); }
+  .sub-ico { width: 38px; height: 38px; border-radius: 10px; display: grid; place-items: center; flex: none; background: #e6f1f8; color: var(--brand); }
+  .sub-ico svg { width: 20px; height: 20px; }
+  .sub-txt { display: grid; gap: 2px; }
+  .sub-txt strong { font-family: var(--font-head); font-weight: 600; color: var(--ink); font-size: 15px; }
+  .sub a:hover strong { color: var(--brand); }
+  .sub-txt small { font-size: 13px; color: var(--muted); line-height: 1.4; }
+  .panel-all { display: flex; align-items: center; gap: 6px; margin: 6px 4px 2px; padding: 10px 8px 4px; border-top: 1px solid var(--line); font-family: var(--font-head); font-weight: 600; font-size: 14px; color: var(--teal); }
+  .panel-all svg { width: 16px; height: 16px; }
+  .mega .panel { width: min(900px, 100%); padding: 0; top: calc(100% - 6px); display: grid; grid-template-columns: 1fr 250px; overflow: hidden; }
+  .mega .panel-main { padding: 16px; }
+  .not-sure { display: flex; flex-direction: column; gap: 12px; padding: 24px 22px; background: var(--soft); border-left: 1px solid var(--line); }
+  .not-sure span { font-family: var(--font-head); font-size: 12.5px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--teal); }
+  .not-sure p { font-size: 15px; color: var(--text); line-height: 1.55; flex: 1; }
+  .not-sure .btn { align-self: stretch; }
+  .mega .sub { display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px; }
+  .mega .sub a { align-items: flex-start; }
   .nav-cta { display: flex; gap: 10px; }
-  .burger { display: none; margin-left: auto; width: 46px; height: 46px; border-radius: 12px; border: 1px solid var(--line); background: #fff; cursor: pointer; place-items: center; color: var(--ink); }
+  .nav-cta .m-only { display: none; }
+  .burger { display: none; margin-left: auto; width: 46px; height: 46px; border-radius: 10px; border: 1px solid var(--line); background: #fff; cursor: pointer; place-items: center; color: var(--ink); }
   .burger svg { width: 22px; height: 22px; }
   .burger .i-close, .open .burger .i-open { display: none; }
   .open .burger .i-close { display: block; }
 
-  @media (max-width: 1340px) {
-    .nav-cta .btn-ghost { display: none; }
-    .top { padding: 10px 10px; font-size: 15px; }
+  @media (max-width: 1280px) {
+    .top { padding: 10px 8px; font-size: 15px; }
+    .top::after { left: 8px; right: 8px; }
+    .logo { padding-right: 16px; }
   }
   @media (max-width: 1100px) {
     .burger { display: grid; }
+    .logo { border-right: 0; }
     .nav {
       position: fixed; inset: var(--header-h) 0 0; background: #fff; flex-direction: column; align-items: stretch; justify-content: flex-start;
       padding: 8px max(24px, env(safe-area-inset-right)) calc(32px + env(safe-area-inset-bottom)) max(24px, env(safe-area-inset-left));
@@ -176,17 +203,19 @@ const active = (href: string, children?: { href: string }[]) => href === path ||
     .open .nav { display: flex; }
     .menu { flex-direction: column; align-items: stretch; margin: 0; gap: 0; }
     .item { border-bottom: 1px solid var(--line); }
-    .top { width: 100%; justify-content: space-between; padding: 16px 4px; font-size: 18px; border-radius: 0; }
-    .top:hover, .show > .top { background: none; }
+    .top { width: 100%; justify-content: space-between; padding: 16px 4px; font-size: 18px; }
+    .top::after { display: none; }
+    .active > .top, .top[aria-current] { color: var(--brand); }
     .panel, .mega .panel { position: static; translate: none; width: auto; min-width: 0; box-shadow: none; border: 0; padding: 0 0 12px; opacity: 1; visibility: visible; transform: none; display: none; }
     .has-sub.show > .panel { display: block; }
-    .panel-head { display: none; }
-    .mega .sub { grid-template-columns: 1fr 1fr; }
-    .sub a { padding: 12px 14px; font-size: 16px; }
+    .not-sure { display: none; }
+    .mega .sub { grid-template-columns: 1fr; }
+    .sub-txt small { display: none; }
+    .sub a { padding: 10px 8px; font-size: 16px; }
     .nav-cta { flex-direction: column; margin-top: 24px; }
-    .nav-cta .btn-ghost { display: inline-flex; }
+    .nav-cta .m-only { display: inline-flex; }
     .nav-cta .btn { padding: 16px; font-size: 16px; }
   }
-  @media (max-width: 480px) { .mega .sub { grid-template-columns: 1fr; } .logo img { height: 34px; } }
+  @media (max-width: 480px) { .logo img { height: 30px; } .tagline { font-size: 9.5px; } }
   :global(html.no-scroll) { overflow: hidden; }
 </style>

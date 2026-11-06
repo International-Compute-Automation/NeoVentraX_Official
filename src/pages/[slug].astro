@@ -6,11 +6,10 @@ import InfoCard from '../components/InfoCard.astro';
 import Related from '../components/Related.astro';
 import CtaBand from '../components/CtaBand.astro';
 import Icon from '../components/Icon.astro';
-import { pages, textOf, type Page } from '../lib/content';
+import { getPage, textOf, GENERAL_PAGES, type Page } from '../lib/content';
 
 export function getStaticPaths() {
-  const DEDICATED = ['contact-us', 'submit-your-resume'];
-  return pages.filter((p) => !DEDICATED.includes(p.slug)).map((page) => ({ params: { slug: page.slug }, props: { page } }));
+  return GENERAL_PAGES.map(({ slug }) => ({ params: { slug }, props: { page: getPage(slug) } }));
 }
 const { page } = Astro.props as { page: Page };
 const isJobs = page.category === 'jobs';
@@ -20,7 +19,7 @@ const description = page.description || textOf(page.intro).slice(0, 155) || unde
 const cols = (n: number) => (n === 1 ? 'grid-1' : n % 3 === 0 && !isJobs ? 'grid-3' : isJobs ? 'grid-3' : 'grid-2');
 ---
 <Base title={page.title} description={description} heroImage={page.heroImage}>
-  <PageHero title={page.title} eyebrow={eyebrow} image={page.heroImage} crumbs={[{ label: page.categoryLabel }]}>
+  <PageHero title={page.title} eyebrow={eyebrow} image={page.heroImage} crumbs={[{ label: page.categoryLabel, href: page.categoryLabel === 'Insights' ? '/insights/' : undefined }]}>
     {isJobs && (
       <div class="hero-actions">
         <a href="#roles" class="btn btn-primary">View roles <Icon name="arrow" /></a>

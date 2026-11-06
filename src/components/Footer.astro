@@ -1,12 +1,13 @@
 ---
-import { contact, socials } from '../data/nav';
+import { contact, socials, services } from '../data/nav';
+import { industries, industryHref } from '../data/industries';
 import Icon from './Icon.astro';
 const year = new Date().getFullYear();
 const cols = [
-  { title: 'Company', links: [['About Company', '/about-company/'], ['Careers', '/careers/'], ['People', '/people/'], ['Contact', '/contact-us/']] },
-  { title: 'For Employers', links: [['Services', '/services/'], ['Why NeoVentraX', '/why-neoventrax/'], ['Request Assistance', '/posting-clients-jobs-or-request-for-assistance/'], ['Satisfied Clients', '/satisfied-clients/'], ['Success Stories', '/success-stories/']] },
-  { title: 'For Job Seekers', links: [['Submit Your Resume', '/submit-your-resume/'], ['Resume Tips', '/tips-on-submitting-resumes/'], ['Effective Job Search', '/effective-job-search/'], ['Interview Preparation', '/preparing-interview/'], ['Career Advice', '/career-advice/']] },
-  { title: 'Services', links: [['Recruitment', '/recruitment-services/'], ['Product Support', '/product-support/'], ['Payroll', '/payroll-services/'], ['Product Development', '/product-development/'], ['Accounting & Bookkeeping', '/accounting-and-bookkeeping/']] },
+  { title: 'Company', links: [['About Us', '/about-company/'], ['Why NeoVentraX', '/why-neoventrax/'], ['Our People', '/people/'], ['Careers', '/careers/'], ['Contact Us', '/contact-us/']] },
+  { title: 'Services', links: [...services.map((x) => [x.label, '/services/#' + x.id]), ['Our Process', '/our-process/']] },
+  { title: 'Industries', links: industries.map((i) => [i.title, industryHref(i.slug)]) },
+  { title: 'Resources', links: [['Insights', '/insights/'], ['Success Stories', '/success-stories/'], ['Satisfied Clients', '/satisfied-clients/'], ['Submit Your Resume', '/submit-your-resume/'], ['Hire Talent', '/hire-talent/']] },
 ];
 ---
 <footer class="footer bg-dark">
@@ -16,7 +17,7 @@ const cols = [
         <img src="/uploads/2025-09-Neo-Ventrax-2-2.webp" alt="NeoVentraX" width="150" height="130" loading="lazy" />
       </a>
       <p class="tag">Source. Match. Deliver.</p>
-      <p class="blurb">Strategic recruitment partnerships for smarter hiring and career growth across 20+ industries.</p>
+      <p class="blurb">Specialized Non-IT recruitment for US businesses — the right talent, the right fit, at the right time.</p>
       <ul class="social">
         {socials.map((s) => (
           <li><a href={s.href} target="_blank" rel="noopener" aria-label={s.label}><Icon name={s.name} /></a></li>
@@ -45,7 +46,7 @@ const cols = [
   .footer { padding-top: clamp(64px, 8vw, 96px); position: relative; overflow: hidden; }
   .footer::before {
     content: ''; position: absolute; inset: 0 0 auto; height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(143, 168, 255, .5), transparent);
+    background: linear-gradient(90deg, transparent, rgba(127, 208, 220, .5), transparent);
   }
   .top { display: grid; grid-template-columns: 1.4fr repeat(4, 1fr); gap: 40px; }
   .flogo img { width: 92px; height: auto; }
@@ -68,7 +69,7 @@ const cols = [
   }
   .contact-row a { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; font-size: 15px; transition: color .2s; }
   .contact-row a:hover { color: #fff; }
-  .contact-row svg { width: 18px; height: 18px; color: #8fa8ff; flex: none; }
+  .contact-row svg { width: 18px; height: 18px; color: #7fd0dc; flex: none; }
   .bottom { display: flex; justify-content: space-between; gap: 16px; padding: 22px 0 28px; font-size: 14px; }
   .totop { display: inline-flex; align-items: center; min-height: 44px; }
   .totop:hover { color: #fff; }

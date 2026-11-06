@@ -1,12 +1,16 @@
 ---
-import Icon from './Icon.astro';
-interface Props { title: string; eyebrow?: string; image?: string; lead?: string; crumbs?: { label: string; href?: string }[] }
-const { title, eyebrow, image, lead, crumbs = [] } = Astro.props;
+import images from '../data/images.json';
+interface Props { title: string; eyebrow?: string; image?: string; lead?: string; crumbs?: { label: string; href?: string }[]; position?: string }
+// `eyebrow` is accepted for backwards compatibility but no longer shown (reference design has none)
+const { title, image, lead, crumbs = [], position = 'center' } = Astro.props;
+const manifest = images as Record<string, { w: number; h: number; srcset?: string }>;
+const meta = image ? manifest[image] : undefined;
 ---
-<section class="phero bg-dark">
-  {image && <img class="phero-bg" src={image} alt="" width="1920" height="900" fetchpriority="high" decoding="async" />}
-  <div class="phero-shade"></div>
-  <div class="grid-pattern"></div>
+<section class="phero">
+  {image && (
+    <img class="phero-bg" src={image} srcset={meta?.srcset} sizes={meta?.srcset ? '(max-width: 760px) 100vw, 60vw' : undefined}
+         alt="" width={meta?.w ?? 1920} height={meta?.h ?? 900} fetchpriority="high" decoding="async" style={`object-position:${position}`} />
+  )}
   <div class="container phero-in">
     <nav aria-label="Breadcrumb">
       <ol class="crumbs">
@@ -15,29 +19,39 @@ const { title, eyebrow, image, lead, crumbs = [] } = Astro.props;
         <li aria-current="page">{title}</li>
       </ol>
     </nav>
-    {eyebrow && <span class="eyebrow">{eyebrow}</span>}
-    <h1 class="h1">{title}</h1>
+    <h1>{title}</h1>
     {lead && <p class="lead">{lead}</p>}
     <slot />
   </div>
 </section>
 
 <style>
-  .phero { position: relative; overflow: hidden; padding: clamp(64px, 9vw, 120px) 0 clamp(56px, 7vw, 96px); isolation: isolate; }
-  .phero-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
-  .phero-shade {
-    position: absolute; inset: 0; z-index: -1;
-    background: linear-gradient(100deg, rgba(6, 10, 43, .96) 0%, rgba(6, 10, 43, .82) 45%, rgba(18, 26, 86, .55) 100%),
-                radial-gradient(60% 90% at 100% 100%, rgba(53, 30, 224, .45), transparent 60%);
+  .phero {
+    position: relative; overflow: hidden; isolation: isolate; color: #fff;
+    padding: clamp(40px, 5vw, 64px) 0 clamp(44px, 5.5vw, 68px);
+    background: linear-gradient(100deg, #0a2340 0%, #0f3156 55%, #154a76 100%);
   }
-  .phero-in { position: relative; display: grid; gap: 18px; justify-items: start; }
-  .phero h1 { max-width: 900px; }
-  .phero .lead { max-width: 680px; }
-  .crumbs { display: flex; flex-wrap: wrap; gap: 8px; font-size: 14px; color: var(--muted-on-dark); margin-bottom: 8px; }
-  .crumbs li + li::before { content: '/'; margin-right: 8px; opacity: .5; }
-  .crumbs a:hover { color: #fff; }
-  .crumbs [aria-current] { color: #fff; }
-  .phero :global(.hero-actions) { display: flex; flex-wrap: wrap; gap: 12px; }
-  @media (max-width: 600px) { .phero-shade { background: linear-gradient(180deg, rgba(6, 10, 43, .9), rgba(6, 10, 43, .82)), radial-gradient(80% 60% at 100% 100%, rgba(53, 30, 224, .45), transparent 60%); } .phero { padding: 44px 0 48px; } .phero-in { gap: 14px; } .crumbs { font-size: 13px; } .phero :global(.hero-actions) { justify-self: stretch; } .phero :global(.hero-actions .btn) { flex: 1 1 150px; } }
+  /* photo fills the right side and fades into the navy (reference banner style) */
+  .phero-bg {
+    position: absolute; top: 0; right: 0; width: 62%; height: 100%; object-fit: cover; z-index: -1;
+    -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, .55) 30%, #000 60%);
+    mask-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, .55) 30%, #000 60%);
+  }
+  .phero::after { content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: linear-gradient(90deg, rgba(10, 35, 64, .35), transparent 60%); }
+  .phero-in { position: relative; display: grid; gap: 12px; justify-items: start; }
+  .phero h1 { color: #fff; font-size: clamp(32px, 3.8vw, 46px); line-height: 1.1; max-width: 640px; }
+  .phero .lead { max-width: 520px; color: #dbe6f1; font-size: clamp(16px, 1.4vw, 19px); line-height: 1.55; }
+  .crumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; color: #fff; margin-bottom: 6px; }
+  .crumbs li + li::before { content: '›'; margin-right: 8px; opacity: .8; }
+  .crumbs a:hover { text-decoration: underline; }
+  .crumbs [aria-current] { font-weight: 500; color: #c9d8e8; }
+  .phero :global(.hero-actions) { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 10px; }
+  @media (max-width: 760px) {
+    .phero-bg { width: 100%; opacity: .32; -webkit-mask-image: none; mask-image: none; }
+    .phero { padding: 36px 0 40px; }
+    .crumbs { font-size: 13px; }
+    .phero :global(.hero-actions) { justify-self: stretch; }
+    .phero :global(.hero-actions .btn) { flex: 1 1 150px; }
+  }
   @media (max-width: 420px) { .phero :global(.hero-actions .btn) { flex-basis: 100%; } }
 </style>

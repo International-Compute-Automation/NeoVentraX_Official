@@ -14,8 +14,8 @@ const {
         <p>{text}</p>
       </div>
       <div class="actions">
-        <a href="/posting-clients-jobs-or-request-for-assistance/" class="btn btn-white">Hire Talent <Icon name="arrow" /></a>
-        <a href="/submit-your-resume/" class="btn btn-ghost on-dark">Submit Resume</a>
+        <a href="/hire-talent/" class="btn btn-teal">Hire Talent <Icon name="arrow" /></a>
+        <a href="/submit-your-resume/" class="btn btn-outline-white">Submit Resume</a>
       </div>
     </div>
   </div>
@@ -23,14 +23,14 @@ const {
 
 <style>
   .band {
-    position: relative; overflow: hidden; border-radius: 28px; padding: clamp(36px, 5vw, 64px);
+    position: relative; overflow: hidden; border-radius: 16px; padding: clamp(36px, 5vw, 64px);
     display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: center;
-    background: url(/uploads/2025-07-it-services-5-nyt-23-png.webp) right center / auto 140% no-repeat, var(--grad);
-    box-shadow: 0 30px 60px -30px rgba(53, 30, 224, .7);
+    background: radial-gradient(60% 120% at 100% 100%, rgba(23, 166, 180, .35), transparent 60%), linear-gradient(100deg, #0b2440 0%, #12385f 60%, #0f6f86 100%);
+    box-shadow: 0 30px 60px -30px rgba(20, 88, 166, .7);
   }
   .band h2 { color: #fff; max-width: 620px; }
   .band p { color: rgba(255, 255, 255, .85); margin-top: 14px; max-width: 560px; font-size: 18px; }
   .actions { display: flex; gap: 12px; flex-wrap: wrap; }
   @media (max-width: 860px) { .band { grid-template-columns: 1fr; } }
-  @media (max-width: 600px) { .band { border-radius: 22px; padding: 32px 22px; background-size: auto 80%; background-position: right bottom; } .band p { font-size: 16px; } .actions .btn { flex: 1 1 160px; } }
+  @media (max-width: 600px) { .band { border-radius: 22px; padding: 32px 22px; } .band p { font-size: 16px; } .actions .btn { flex: 1 1 160px; } }
 </style>

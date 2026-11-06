@@ -1,0 +1,34 @@
+---
+import type { Industry } from '../data/industries';
+import { industryHref } from '../data/industries';
+import Icon from './Icon.astro';
+import Img from './Img.astro';
+interface Props { industry: Industry }
+const { industry: ind } = Astro.props;
+---
+<a href={industryHref(ind.slug)} class="ind-card">
+  <span class="ind-img"><Img src={ind.image} alt="" sizes="(max-width: 680px) 92vw, (max-width: 1024px) 45vw, 380px" /></span>
+  <span class="ind-body">
+    <span class="ind-ico"><Icon name={ind.icon} /></span>
+    <span class="ind-txt">
+      <strong>{ind.title}</strong>
+      <span>{ind.roleLine}</span>
+    </span>
+  </span>
+</a>
+
+<style>
+  .ind-card { display: flex; flex-direction: column; height: 100%; border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 2px 6px rgba(11, 36, 64, .06), 0 12px 28px -18px rgba(11, 36, 64, .35); transition: transform .3s var(--ease), box-shadow .3s var(--ease); }
+  .ind-card:hover { transform: translateY(-4px); box-shadow: 0 4px 10px rgba(11, 36, 64, .08), 0 22px 40px -20px rgba(11, 36, 64, .45); }
+  .ind-img { display: block; aspect-ratio: 16 / 8; overflow: hidden; background: var(--soft); }
+  .ind-img :global(img) { width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--ease); }
+  .ind-card:hover .ind-img :global(img) { transform: scale(1.05); }
+  .ind-body { position: relative; display: flex; gap: 16px; align-items: flex-start; padding: 18px 20px 20px; margin: -18px 10px 0; background: #fff; border-radius: 10px 10px 0 0; flex: 1; }
+  .ind-ico { color: var(--brand); flex: none; padding-top: 2px; }
+  .ind-ico :global(svg) { width: 30px; height: 30px; stroke-width: 1.7; }
+  .ind-txt { display: grid; gap: 6px; }
+  .ind-txt strong { font-family: var(--font-head); font-size: 18px; font-weight: 700; color: var(--ink); line-height: 1.25; }
+  .ind-card:hover .ind-txt strong { color: var(--brand); }
+  .ind-txt span { font-size: 14.5px; color: var(--muted); line-height: 1.5; }
+  @media (hover: none) { .ind-card:hover { transform: none; } }
+</style>

@@ -1,0 +1,109 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import Icon from '../components/Icon.astro';
+import { contact, formEndpoint, services } from '../data/nav';
+import { industries } from '../data/industries';
+
+const action = formEndpoint ?? `mailto:${contact.email}`;
+const benefits = [
+  { icon: 'users', title: 'Targeted Talent Sourcing', text: 'Access qualified and relevant candidates for your roles.' },
+  { icon: 'shield', title: 'Role-Focused Screening', text: 'Evaluate candidates against your specific requirements.' },
+  { icon: 'handshake', title: 'Dedicated Support', text: 'Stay informed throughout the hiring process.' },
+];
+---
+<Base quickActions={false} title="Hire Talent" description="Tell NeoVentraX about your hiring requirement — our recruitment team will get in touch shortly." heroImage="/uploads/2025-09-Posting-Clients-Jobs-or-Request-for-Assistance-min-scaled.webp">
+  <PageHero
+    title="Hire Talent"
+    image="/uploads/2025-09-Posting-Clients-Jobs-or-Request-for-Assistance-min-scaled.webp"
+    lead="Tell us about your hiring requirement. Our recruitment team will get in touch shortly."
+  />
+
+  <section class="section-sm">
+    <div class="container hire">
+      <ul class="benefits">
+        {benefits.map((b) => (
+          <li>
+            <span class="b-ico"><Icon name={b.icon} /></span>
+            <div><h2>{b.title}</h2><p>{b.text}</p></div>
+          </li>
+        ))}
+        <li class="direct">
+          <p>Prefer to talk it through?</p>
+          <a href={contact.phoneHref}><Icon name="phone" />{contact.phone}</a>
+          <a href={`mailto:${contact.email}`}><Icon name="mail" />{contact.email}</a>
+        </li>
+      </ul>
+
+      <form class="form hire-form card" method="post" action={action} enctype={formEndpoint ? 'multipart/form-data' : 'text/plain'} data-nvx-form>
+        <input type="hidden" name="form" value="Hiring Request" />
+        <div class="row">
+          <div class="field"><label for="ht-name">Full Name *</label><input id="ht-name" name="full_name" required autocomplete="name" /></div>
+          <div class="field"><label for="ht-email">Business Email *</label><input id="ht-email" type="email" name="email" required autocomplete="email" /></div>
+        </div>
+        <div class="row">
+          <div class="field"><label for="ht-company">Company Name *</label><input id="ht-company" name="company" required autocomplete="organization" /></div>
+          <div class="field"><label for="ht-site">Company Website</label><input id="ht-site" name="website" type="url" placeholder="https://" autocomplete="url" /></div>
+        </div>
+        <div class="row">
+          <div class="field"><label for="ht-position">Position / Job Title *</label><input id="ht-position" name="position" required /></div>
+          <div class="field">
+            <label for="ht-industry">Industry *</label>
+            <select id="ht-industry" name="industry" required>
+              <option value="" disabled selected>Select an industry</option>
+              {industries.map((i) => <option>{i.title}</option>)}
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="field">
+            <label for="ht-openings">Number of Openings *</label>
+            <select id="ht-openings" name="openings" required>
+              <option value="" disabled selected>Select</option>
+              <option>1</option><option>2–5</option><option>6–10</option><option>11–25</option><option>25+</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="ht-type">Recruitment Type *</label>
+            <select id="ht-type" name="recruitment_type" required>
+              <option value="" disabled selected>Select</option>
+              {services.map((s) => <option>{s.label}</option>)}
+              <option>Not sure yet</option>
+            </select>
+          </div>
+        </div>
+        <div class="field"><label for="ht-req">Additional Requirements</label><textarea id="ht-req" name="requirements" placeholder="Location, experience, certifications, start date, salary range…"></textarea></div>
+        <p class="status" role="status" aria-live="polite"></p>
+        <button type="submit" class="btn btn-teal submit">Submit Hiring Request <Icon name="arrow" /></button>
+      </form>
+    </div>
+  </section>
+</Base>
+
+<script>
+  import { enhanceForms } from '../scripts/forms';
+  enhanceForms();
+</script>
+
+<style>
+  .hire { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(28px, 5vw, 64px); align-items: start; }
+  .benefits { display: grid; gap: 26px; padding-right: clamp(0px, 3vw, 40px); border-right: 1px solid var(--line); }
+  .benefits li { display: flex; gap: 18px; align-items: flex-start; }
+  .b-ico { color: var(--brand); flex: none; }
+  .b-ico :global(svg) { width: 42px; height: 42px; stroke-width: 1.5; }
+  .benefits h2 { font-size: 19px; margin-bottom: 4px; }
+  .benefits p { color: var(--muted); font-size: 15.5px; }
+  .direct { flex-direction: column; gap: 8px !important; padding: 20px; border-radius: 10px; background: var(--soft); }
+  .direct p { color: var(--ink) !important; font-weight: 600; font-family: var(--font-head); }
+  .direct a { display: inline-flex; align-items: center; gap: 10px; min-height: 36px; font-weight: 600; color: var(--brand); word-break: break-word; }
+  .direct :global(svg) { width: 18px; height: 18px; flex: none; }
+  .hire-form { padding: clamp(22px, 3vw, 32px); box-shadow: var(--shadow); border-radius: 12px; }
+  select { width: 100%; font-size: 16px; padding: 14px 16px; border-radius: 12px; border: 1.5px solid var(--line); background: var(--soft); color: var(--text); appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%2355657a' stroke-width='2' viewBox='0 0 24 24'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 14px center; padding-right: 40px; }
+  select:focus { outline: none; border-color: var(--brand-2); background-color: #fff; box-shadow: 0 0 0 4px rgba(31, 127, 209, .15); }
+  .field textarea { min-height: 110px; }
+  .submit { width: 100%; padding: 17px; font-size: 16.5px; }
+  @media (max-width: 980px) { .hire { grid-template-columns: 1fr; } .benefits { border-right: 0; padding-right: 0; order: 2; } }
+</style>
