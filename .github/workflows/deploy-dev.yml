@@ -1,0 +1,97 @@
+name: Deploy Dev
+
+on:
+  push:
+    branches:
+      - dev
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-dev
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build static artifact
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build artifact stage in Docker
+        run: |
+          docker build --target artifact --build-arg PUBLIC_FORM_ENDPOINT="${{ vars.PUBLIC_FORM_ENDPOINT }}" -t neoventrax-dev:${{ github.sha }} .
+
+      - name: Extract artifact from Docker
+        run: |
+          mkdir -p ./artifact
+          docker create --name artifact-container neoventrax-dev:${{ github.sha }} /artifact-placeholder
+          docker cp artifact-container:/. ./artifact/
+          docker rm artifact-container
+          cp deploy/ecosystem.dev.cjs ./artifact/ecosystem.config.cjs
+          test -f ./artifact/server.cjs && test -f ./artifact/dist/index.html
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-artifact-dev
+          path: ./artifact
+          include-hidden-files: true
+          if-no-files-found: error
+
+  deploy:
+    name: Deploy to Dev server
+    needs: build
+    if: vars.DEPLOY_ENABLED == 'true'
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: release-artifact-dev
+          path: ./artifact
+
+      - name: Configure SSH and Cloudflare Access
+        run: |
+          curl -fsSL https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb -o cloudflared.deb
+          sudo dpkg -i cloudflared.deb
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          cat << 'CFG' > ~/.ssh/config
+          Host *
+            ProxyCommand cloudflared access ssh --hostname %h
+            IdentityFile ~/.ssh/id_ed25519
+            StrictHostKeyChecking accept-new
+          CFG
+          chmod 600 ~/.ssh/config
+
+      - name: Deploy release over SSH and reload PM2
+        run: |
+          APP_NAME="neoventrax-dev"
+          TARGET_DIR="/home/${{ secrets.SSH_USER }}/neoventrax-dev"
+          RELEASE_DIR="${TARGET_DIR}/releases/${{ github.sha }}"
+          CURRENT_LINK="${TARGET_DIR}/current"
+          REMOTE="${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}"
+
+          ssh "$REMOTE" "mkdir -p ${RELEASE_DIR}"
+          rsync -avz --delete ./artifact/ "$REMOTE:${RELEASE_DIR}/"
+          ssh "$REMOTE" "
+            set -e
+            ln -sfn ${RELEASE_DIR} ${CURRENT_LINK}
+            cd ${CURRENT_LINK}
+            if pm2 describe ${APP_NAME} > /dev/null 2>&1; then
+              pm2 reload ecosystem.config.cjs --update-env
+            else
+              pm2 start ecosystem.config.cjs
+            fi
+            pm2 save
+            cd ${TARGET_DIR}/releases && ls -1dt */ | tail -n +6 | xargs -r rm -rf
+          "

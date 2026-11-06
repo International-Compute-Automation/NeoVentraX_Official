@@ -41,3 +41,19 @@ To edit text on an inner page, change the matching JSON file in `src/data/pages/
 - Content is visible immediately (no fade-in animations hiding text)
 - Images converted to WebP, lazy-loaded, with responsive sizes; hero image preloaded
 - Fonts self-hosted (no Google Fonts round-trips); shared CSS cached across pages
+
+## Deployment (ICA CI/CD)
+
+Follows the ICA Corp deployment runbook: GitHub Actions → Docker build → rsync over Cloudflare SSH → PM2.
+
+| Env | Branch | Port | PM2 name | Server folder |
+| --- | --- | --- | --- | --- |
+| Dev | `dev` | 3110 | `neoventrax-dev` | `~/neoventrax-dev` |
+| Prod | `main` | 3210 | `neoventrax-prod` | `~/neoventrax-prod` |
+
+- `Dockerfile` builds the site; the `artifact` stage contains only `server.cjs` + `dist/`.
+- `server.cjs` is a zero-dependency static server (trailing-slash redirects, 404 page, cache headers).
+- `deploy/ecosystem.{dev,prod}.cjs` are the PM2 configs (copied into each release as `ecosystem.config.cjs`).
+- `.github/workflows/deploy-{dev,prod}.yml` run on push to `dev` / `main`.
+- Repo settings needed: secrets `SSH_PRIVATE_KEY`, `SSH_HOST`, `SSH_USER`; variables `DEPLOY_ENABLED=true`, `PUBLIC_FORM_ENDPOINT` (optional).
+- Rollback: `ln -sfn ~/neoventrax-prod/releases/<sha> ~/neoventrax-prod/current && pm2 reload neoventrax-prod`
