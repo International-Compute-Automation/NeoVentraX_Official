@@ -148,14 +148,14 @@ const active = (href: string, children?: { href: string }[]) =>
   .chev { width: 16px; height: 16px; flex: none; transition: transform .25s var(--ease); }
   .show > .top .chev { transform: rotate(180deg); }
   .panel {
-    position: absolute; top: calc(100% + 12px); left: 50%; translate: -50% 0; min-width: 300px; padding: 10px;
+    position: absolute; top: calc(100% + 12px); left: 50%; min-width: 300px; padding: 10px;
     background: #fff; border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow-lg);
-    opacity: 0; visibility: hidden; transform: translateY(6px); transition: opacity .2s, transform .2s var(--ease), visibility .2s;
+    opacity: 0; visibility: hidden; transform: translate(-50%, 6px); /* centring lives in transform: the build minifier drops the separate translate property */ transition: opacity .2s, transform .2s var(--ease), visibility .2s;
   }
   .panel::before { content: ''; position: absolute; inset: -22px 0 auto; height: 22px; } /* hover bridge across the gap */
-  .has-sub.show > .panel { opacity: 1; visibility: visible; transform: none; }
+  .has-sub.show > .panel { opacity: 1; visibility: visible; transform: translate(-50%, 0); }
   @media (hover: hover) and (min-width: 1101px) {
-    .has-sub:hover > .panel { opacity: 1; visibility: visible; transform: none; }
+    .has-sub:hover > .panel { opacity: 1; visibility: visible; transform: translate(-50%, 0); }
     .has-sub:hover > .top { color: var(--brand); }
     .has-sub:hover > .top .chev { transform: rotate(180deg); }
   }
@@ -206,8 +206,8 @@ const active = (href: string, children?: { href: string }[]) =>
     .top { width: 100%; justify-content: space-between; padding: 16px 4px; font-size: 18px; }
     .top::after { display: none; }
     .active > .top, .top[aria-current] { color: var(--brand); }
-    .panel, .mega .panel { position: static; translate: none; width: auto; min-width: 0; box-shadow: none; border: 0; padding: 0 0 12px; opacity: 1; visibility: visible; transform: none; display: none; }
-    .has-sub.show > .panel { display: block; }
+    .panel, .mega .panel { position: static; width: auto; min-width: 0; box-shadow: none; border: 0; padding: 0 0 12px; opacity: 1; visibility: visible; transform: none; display: none; }
+    .has-sub.show > .panel { display: block; transform: none; }
     .not-sure { display: none; }
     .mega .sub { grid-template-columns: 1fr; }
     .sub-txt small { display: none; }

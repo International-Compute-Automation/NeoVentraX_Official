@@ -4,8 +4,21 @@
     {
       "name": "astro-dev",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev", "--", "--force"],
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--",
+        "--force"
+      ],
       "port": 4321
+    },
+    {
+      "name": "dist-preview",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "server.cjs"
+      ],
+      "port": 3000
     }
   ]
 }
