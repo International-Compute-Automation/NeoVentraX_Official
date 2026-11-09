@@ -15,8 +15,8 @@ import MobileBar from '../components/MobileBar.astro';
 interface Props { title: string; description?: string; heroImage?: string; quickActions?: boolean }
 const { title, description, heroImage, quickActions = true } = Astro.props;
 const isHome = Astro.url.pathname === '/';
-const fullTitle = isHome ? 'NeoVentraX — Smarter Hiring & Career Growth' : `${title} | NeoVentraX`;
-const desc = description || 'NeoVentraX connects employers with top talent and professionals with career opportunities across 20+ industries — recruitment, staffing, payroll and HR solutions.';
+const fullTitle = isHome ? 'NeoVentraX — Specialized Non-IT Recruitment in the USA' : `${title} | NeoVentraX`;
+const desc = description || 'NeoVentraX is a specialized Non-IT recruitment partner for US businesses — direct hire, contract staffing, contract-to-hire and executive search across seven specialist sectors.';
 const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
 <!doctype html>
@@ -35,7 +35,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={new URL(heroImage ?? '/uploads/2025-09-2-min.webp', Astro.site)} />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="theme-color" content="#060a2b" />
+    <meta name="theme-color" content="#0b2440" />
     <link rel="icon" type="image/webp" href="/uploads/2025-08-cropped-Neo-Ventrax-Logo.webp" />
     <link rel="apple-touch-icon" href="/uploads/2025-08-cropped-Neo-Ventrax-Logo.webp" />
     {heroImage && <link rel="preload" as="image" href={heroImage} fetchpriority="high" />}

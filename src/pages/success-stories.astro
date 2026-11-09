@@ -1,0 +1,111 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import CtaBand from '../components/CtaBand.astro';
+import Icon from '../components/Icon.astro';
+import Img from '../components/Img.astro';
+
+// ⚠️ EXAMPLE CASE STUDIES (from the design reference) — replace with real, approved placements before going live.
+const cases = [
+  {
+    sector: 'Manufacturing', image: '/uploads/2025-09-5-Mechanical-Engineer-Manufacturing-industry-experience.webp',
+    title: 'Hired Skilled CNC Machinists for a Growing Facility',
+    requirement: 'CNC Machinists (3)', challenge: 'Niche machining experience',
+    outcome: 'Successfully hired qualified candidates within the agreed timeframe.',
+  },
+  {
+    sector: 'Supply Chain', image: '/uploads/2025-09-8-Warehouse-Clerk.webp',
+    title: 'Built a Warehouse Team for Expansion',
+    requirement: 'Warehouse Supervisors (2)', challenge: 'Quick turnaround for ramp-up',
+    outcome: 'Qualified supervisors hired to support operational expansion.',
+  },
+  {
+    sector: 'Legal & Compliance', image: '/uploads/2025-09-4-Quality-Control-Quality-Assurance-Engineer-Supervisor.webp',
+    title: 'Recruited a Compliance Manager for a Regulated Manufacturer',
+    requirement: 'Compliance Manager', challenge: 'Regulatory and audit experience',
+    outcome: 'Hired a well-matched candidate with relevant compliance experience.',
+  },
+];
+const testimonials = [
+  { name: 'David Chen', role: 'Operations Director, Construction Firm', avatar: '/uploads/2025-07-it-services-5-nyt-7-png.webp', kind: 'Client',
+    quote: 'We struggled to recruit experienced professionals for our large-scale projects. NeoVentraX provided us with highly qualified candidates in record time and ensured we had the right people in place to keep our projects on track.' },
+  { name: 'James Miller', role: 'HR Manager', avatar: '/uploads/2025-07-it-services-5-nyt-8-png.webp', kind: 'Client',
+    quote: 'NeoVentraX simplified the process with reliable recruitment support. Within weeks, we had skilled professionals onboard, perfectly matching our requirements.' },
+  { name: 'William Harris', role: 'Project Manager', avatar: '/uploads/2025-09-1.webp', kind: 'Candidate',
+    quote: 'NeoVentraX went above and beyond my expectations, guiding me toward an incredible career opportunity. I value their personalized support, making each step perfectly suited to my career path.' },
+];
+---
+<Base title="Success Stories" description="Real recruiting outcomes that help businesses build stronger teams — NeoVentraX success stories and client testimonials." heroImage="/uploads/2025-09-Success-Stories-min-scaled.webp">
+  <PageHero
+    title="Success Stories"
+    image="/uploads/2025-09-Success-Stories-min-scaled.webp"
+    lead="Real recruiting outcomes that help businesses build stronger teams."
+  />
+
+  <section class="section-sm">
+    <div class="container">
+      <ul class="grid grid-3">
+        {cases.map((c) => (
+          <li class="case">
+            <div class="cimg">
+              <Img src={c.image} alt="" sizes="(max-width: 680px) 92vw, (max-width: 1024px) 45vw, 380px" />
+              <span class="tag">{c.sector}</span>
+            </div>
+            <div class="cbody">
+              <h2>{c.title}</h2>
+              <dl>
+                <div><dt><Icon name="clipboard" />Requirement:</dt><dd>{c.requirement}</dd></div>
+                <div><dt><Icon name="target" />Challenge:</dt><dd>{c.challenge}</dd></div>
+                <div><dt><Icon name="check" />Outcome:</dt><dd>{c.outcome}</dd></div>
+              </dl>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section-sm bg-soft">
+    <div class="container">
+      <div class="section-head center">
+        <h2 class="h2 title-rule center">What Clients and Candidates Say</h2>
+      </div>
+      <div class="grid grid-3">
+        {testimonials.map((t) => (
+          <figure class="quote card">
+            <div class="stars" aria-label="5 out of 5 stars">{[1, 2, 3, 4, 5].map(() => <Icon name="star" />)}</div>
+            <blockquote>“{t.quote}”</blockquote>
+            <figcaption>
+              <img src={t.avatar} alt="" width="48" height="48" loading="lazy" />
+              <span><strong>{t.name}</strong>{t.role} · {t.kind}</span>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CtaBand title="Let’s write your success story" text="Tell us about the roles you need to fill — we’ll research the market and bring you qualified, screened candidates." />
+</Base>
+
+<style>
+  .case { display: flex; flex-direction: column; height: 100%; border-radius: 12px; overflow: hidden; background: #fff; border: 1px solid var(--line); box-shadow: var(--shadow-sm); }
+  .cimg { position: relative; aspect-ratio: 16 / 9; background: var(--soft); }
+  .cimg :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  .tag { position: absolute; left: 12px; bottom: 12px; padding: 6px 12px; border-radius: 6px; background: var(--teal); color: #fff; font-size: 13px; font-weight: 600; }
+  .cbody { padding: 20px 22px 24px; display: grid; gap: 14px; }
+  .cbody h2 { font-size: 19px; line-height: 1.3; }
+  dl { display: grid; gap: 10px; }
+  dl div { display: flex; flex-wrap: wrap; gap: 4px 6px; font-size: 14.5px; line-height: 1.5; }
+  dt { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; color: var(--ink); }
+  dt :global(svg) { width: 16px; height: 16px; color: var(--teal); }
+  dd { color: var(--muted); }
+  .quote { padding: 26px; display: grid; gap: 16px; align-content: start; border-radius: 12px; }
+  .stars { display: flex; gap: 3px; color: #f2a516; }
+  .stars :global(svg) { width: 16px; height: 16px; }
+  blockquote { font-size: 15.5px; line-height: 1.7; color: var(--text); }
+  figcaption { display: flex; align-items: center; gap: 12px; padding-top: 16px; border-top: 1px solid var(--line); margin-top: auto; }
+  figcaption img { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; }
+  figcaption span { display: grid; font-size: 13.5px; color: var(--muted); line-height: 1.4; }
+  figcaption strong { color: var(--ink); font-size: 15.5px; font-family: var(--font-head); }
+</style>

@@ -4,6 +4,8 @@ import Icon from './Icon.astro';
 import Img from './Img.astro';
 interface Props { card: Card; industry: string }
 const { card, industry } = Astro.props;
+// only offer "Role details" when the full write-up says more than the summary
+const hasMore = card.html.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().length > card.summary.length + 20;
 const apply = `/submit-your-resume/?position=${encodeURIComponent(card.title)}`;
 ---
 <article class="job card card-hover">
@@ -15,10 +17,10 @@ const apply = `/submit-your-resume/?position=${encodeURIComponent(card.title)}`;
       {card.location && <span class="chip loc"><Icon name="pin" />{card.location}</span>}    </div>
     <h3>{card.title}</h3>
     <p class="sum">{card.summary}</p>
-    <details>
+    {hasMore && <details>
       <summary>Role details <Icon name="chevron" /></summary>
       <div class="prose" set:html={card.html} />
-    </details>
+    </details>}
     <a href={apply} class="btn btn-primary btn-sm apply">Apply now <Icon name="arrow" /></a>
   </div>
 </article>
@@ -39,5 +41,5 @@ const apply = `/submit-your-resume/?position=${encodeURIComponent(card.title)}`;
   summary svg { width: 16px; height: 16px; transition: transform .25s var(--ease); }
   details[open] summary svg { transform: rotate(180deg); }
   details .prose { margin-top: 12px; font-size: 15px; }
-  .apply { align-self: flex-start; }
+  .apply { align-self: flex-start; margin-top: auto; }
 </style>

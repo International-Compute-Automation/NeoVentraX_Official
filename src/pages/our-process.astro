@@ -1,0 +1,81 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import CtaBand from '../components/CtaBand.astro';
+import Icon from '../components/Icon.astro';
+
+const steps = [
+  { icon: 'file', title: 'Understand the Requirement', text: 'Learn about your hiring needs, role expectations and priorities.' },
+  { icon: 'search', title: 'Research & Source', text: 'Identify relevant professionals through targeted market research.' },
+  { icon: 'clipboard', title: 'Screen & Evaluate', text: 'Assess candidates against qualifications, experience and role fit.' },
+  { icon: 'users', title: 'Present Candidates', text: 'Share qualified candidate profiles for your review and feedback.' },
+  { icon: 'handshake', title: 'Coordinate & Support', text: 'Assist with interviews, feedback and the hiring process until closure.' },
+];
+const commitments = [
+  { icon: 'chat', title: 'Regular updates', text: 'Structured progress updates at every stage, so you always know where the search stands.' },
+  { icon: 'target', title: 'Quality over volume', text: 'A focused shortlist of relevant candidates — not a stack of unscreened resumes.' },
+  { icon: 'shield', title: 'Confidential by default', text: 'Discreet handling of your search and your candidates’ information.' },
+];
+---
+<Base title="Our Process" description="How NeoVentraX recruits: understand the requirement, research and source, screen and evaluate, present candidates, and coordinate through to hire." heroImage="/uploads/2025-09-Peoples-min-scaled.webp">
+  <PageHero
+    title="Our Recruitment Process"
+    image="/uploads/2025-09-Peoples-min-scaled.webp"
+    lead="A structured and transparent approach to delivering the right talent."
+  />
+
+  <section class="section-sm">
+    <div class="container">
+      <ol class="flow">
+        {steps.map((s, i) => (
+          <li class="step">
+            <span class="circle"><Icon name={s.icon} /></span>
+            <span class="num">{String(i + 1).padStart(2, '0')}</span>
+            <h2>{s.title}</h2>
+            <p>{s.text}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section-sm bg-soft">
+    <div class="container">
+      <div class="section-head center">
+        <h2 class="h2 title-rule center">Our Commitment Throughout</h2>
+      </div>
+      <ul class="grid grid-3">
+        {commitments.map((c) => (
+          <li class="tile"><span class="ico"><Icon name={c.icon} /></span><div><h3>{c.title}</h3><p>{c.text}</p></div></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <CtaBand title="Ready to start a search?" text="Share your hiring requirements and we’ll get back to you within one business day." />
+</Base>
+
+<style>
+  .flow { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 24px; }
+  .step { position: relative; display: grid; justify-items: center; align-content: start; text-align: center; gap: 6px; }
+  .circle { width: 72px; height: 72px; border-radius: 50%; display: grid; place-items: center; background: var(--teal); color: #fff; box-shadow: 0 0 0 6px #dff3f5; margin-bottom: 10px; }
+  .circle :global(svg) { width: 32px; height: 32px; stroke-width: 1.7; }
+  /* arrow between steps */
+  .step:not(:last-child)::after { content: ''; position: absolute; top: 36px; left: calc(50% + 52px); width: calc(100% - 80px); height: 2px; background: #9fb3c6; }
+  .step:not(:last-child)::before { content: ''; position: absolute; top: 31px; left: calc(150% - 40px); width: 10px; height: 10px; border-top: 2px solid #9fb3c6; border-right: 2px solid #9fb3c6; transform: rotate(45deg); }
+  .num { font-family: var(--font-head); font-weight: 700; font-size: 17px; color: var(--ink); }
+  .step h2 { font-size: 18px; line-height: 1.25; }
+  .step p { color: var(--muted); font-size: 15px; line-height: 1.55; max-width: 220px; }
+  .tile { display: flex; gap: 16px; align-items: flex-start; padding: 24px; border-radius: 10px; background: #fff; border: 1px solid var(--line); }
+  .ico { color: var(--brand); flex: none; }
+  .ico :global(svg) { width: 34px; height: 34px; stroke-width: 1.6; }
+  .tile h3 { font-size: 18px; margin-bottom: 4px; }
+  .tile p { color: var(--muted); font-size: 15px; }
+  @media (max-width: 980px) {
+    .flow { grid-template-columns: 1fr; gap: 0; max-width: 560px; margin-inline: auto; }
+    .step { grid-template-columns: 72px 1fr; justify-items: start; text-align: left; column-gap: 20px; row-gap: 2px; padding-bottom: 28px; }
+    .circle { grid-row: span 3; margin: 0; }
+    .step:not(:last-child)::after { top: 84px; left: 35px; width: 2px; height: calc(100% - 96px); }
+    .step:not(:last-child)::before { display: none; }
+  }
+</style>
