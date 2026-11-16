@@ -1,4 +1,4 @@
-import { industries, industryHref } from './industries';
+import { industryHref, type Industry } from './industries';
 
 export type NavItem = { label: string; href: string; children?: NavItem[]; desc?: string; icon?: string };
 
@@ -10,7 +10,8 @@ export const services = [
   { id: 'executive-search', label: 'Executive Search', icon: 'briefcase', text: 'Targeted search support for senior-level and specialized leadership positions.' },
 ];
 
-export const nav: NavItem[] = [
+/** Main menu; the Industries submenu lists the live sectors (Astro.locals.site.industries). */
+export const buildNav = (industries: Industry[]): NavItem[] => [
   { label: 'Home', href: '/' },
   { label: 'About Us', href: '/about-company/' },
   { label: 'Services', href: '/services/', children: services.map((s) => ({ label: s.label, href: `/services/#${s.id}`, icon: s.icon })) },

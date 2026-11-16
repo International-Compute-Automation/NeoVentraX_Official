@@ -1,6 +1,7 @@
 ---
 import { contact, socials, services } from '../data/nav';
-import { industries, industryHref } from '../data/industries';
+import { industryHref } from '../data/industries';
+const { industries } = Astro.locals.site;
 import Icon from './Icon.astro';
 const year = new Date().getFullYear();
 const cols = [

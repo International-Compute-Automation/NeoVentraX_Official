@@ -1,5 +1,10 @@
+import type { Card } from '../lib/content';
+
 /**
- * The sectors NeoVentraX recruits for. Edit titles, blurbs and role lists here.
+ * The sectors NeoVentraX recruits for.
+ * Source of truth: the Strapi CMS (separate NeoVentraX-CMS project), which writes the published sectors to the
+ * site database; the website server reads them live (src/lib/site-content.ts). The built-in list below is only
+ * used when no site database is configured (and to seed the CMS).
  * `roles` entries either reuse a role write-up from the old site ({ from: [oldPageSlug, titleContains] })
  * or define a new role ({ title, text }).
  */
@@ -16,9 +21,15 @@ export type Industry = {
   levels: { label: string; roles: string[] }[];
   /** detailed role cards (with Apply buttons) */
   roles: RoleRef[];
+  /** ready-made role cards (from the CMS); when present they replace `roles` */
+  roleCards?: Card[];
+  /** sector page title / hero lead / meta description (from the CMS; defaults in industries-page.ts) */
+  pageTitle?: string;
+  heroLead?: string;
+  seoDescription?: string;
 };
 
-export const industries: Industry[] = [
+const builtIn: Industry[] = [
   {
     slug: 'engineering',
     title: 'Engineering',
@@ -216,5 +227,8 @@ export const industries: Industry[] = [
     ],
   },
 ];
+
+/** the built-in list: fallback when no site database is configured, and seed data for the CMS */
+export const builtInIndustries = builtIn;
 
 export const industryHref = (slug: string) => `/industries/${slug}/`;

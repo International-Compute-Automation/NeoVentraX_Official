@@ -1,6 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import sitemap from '@astrojs/sitemap';
+import node from '@astrojs/node';
 
 const ind = (slug) => `/industries/${slug}/`;
 const to = (target, slugs) => Object.fromEntries(slugs.map((s) => [`/${s}`, target]));
@@ -26,7 +26,26 @@ export default defineConfig({
   site: 'https://neoventrax.com',
   trailingSlash: 'always',
   redirects,
-  integrations: [sitemap({ filter: (page) => !Object.keys(redirects).some((r) => page.endsWith(`${r}/`)) })],
+  // Pages are rendered by Astro's own Node server on each request, reading the Industries content
+  // straight from the site database (src/lib/site-content.ts). Run: node dist/server/entry.mjs
+  output: 'server',
+  adapter: node({ mode: 'standalone' }),
   build: { inlineStylesheets: 'auto' },
   prefetch: { prefetchAll: true, defaultStrategy: 'hover' },
+  vite: {
+    plugins: [{
+      // production build only: bundle every dependency into dist/server so the server needs no node_modules.
+      // (In `astro dev` this would push CommonJS packages like pg through Vite's ESM runner → "require is not defined".)
+      name: 'nvx-bundle-deps-for-build',
+      config: (_, { command }) => (command === 'build' ? { ssr: { noExternal: true, external: ['pg-native'] } } : undefined),
+    }, {
+      // `astro dev` only: put .env into process.env, where src/lib/site-content.ts reads SITE_DATABASE_URL at runtime
+      // (Vite exposes .env only as import.meta.env). `npm run start` and PM2 provide the env themselves.
+      name: 'nvx-dev-env',
+      apply: 'serve',
+      config() {
+        try { process.loadEnvFile('.env'); } catch { /* no .env -> built-in content */ }
+      },
+    }],
+  },
 });

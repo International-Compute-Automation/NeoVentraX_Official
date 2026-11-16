@@ -1,5 +1,6 @@
 ---
-import { nav } from '../data/nav';
+import { buildNav } from '../data/nav';
+const nav = buildNav(Astro.locals.site.industries);
 import Icon from './Icon.astro';
 const path = Astro.url.pathname;
 const active = (href: string, children?: { href: string }[]) =>

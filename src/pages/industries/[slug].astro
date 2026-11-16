@@ -4,45 +4,47 @@ import PageHero from '../../components/PageHero.astro';
 import JobCard from '../../components/JobCard.astro';
 import CtaBand from '../../components/CtaBand.astro';
 import Icon from '../../components/Icon.astro';
-import { industries, rolesOf } from '../../lib/industries';
-import { industryHref, type Industry } from '../../data/industries';
+import { rolesOf } from '../../lib/industries';
+import { industryHref } from '../../data/industries';
+import { sectorPage, withSector } from '../../data/industries-page';
 
-export function getStaticPaths() {
-  return industries.map((industry) => ({ params: { slug: industry.slug }, props: { industry } }));
-}
-const { industry } = Astro.props as { industry: Industry };
+// rendered on each request from the live sectors in the site database
+const { industries, industriesPage: pg } = Astro.locals.site;
+const industry = industries.find((i) => i.slug === Astro.params.slug);
+if (!industry) return Astro.rewrite('/404/');
 const roles = rolesOf(industry);
 const others = industries.filter((i) => i.slug !== industry.slug);
 const total = industry.levels.reduce((n, l) => n + l.roles.length, 0);
-const title = industry.slug === 'executive-search' ? 'Executive Search' : `${industry.title} Recruitment`;
+const { title, lead, description } = sectorPage(industry);
+const t = (text: string) => withSector(text, industry.title);
 ---
-<Base title={title} description={`${industry.title} recruitment across the USA — ${industry.roleLine.replace(/\.$/, '')} and more.`} heroImage={industry.image}>
+<Base title={title} description={description} heroImage={industry.image}>
   <PageHero
     title={title}
     image={industry.image}
-    lead={industry.intro[0].split('. ')[0] + '.'}
+    lead={lead}
     crumbs={[{ label: 'Industries', href: '/industries/' }]}
   />
 
   <section class="section-sm">
     <div class="container exp">
       <div class="exp-copy">
-        <h2 class="h2 title-rule">Our Expertise</h2>
+        <h2 class="h2 title-rule">{pg.expertiseHeading}</h2>
         {industry.intro.map((p) => <p>{p}</p>)}
         <div class="exp-cta">
-          <a href="/hire-talent/" class="btn btn-primary">Hire {industry.title} talent <Icon name="arrow" /></a>
-          <a href="/submit-your-resume/" class="link-arrow">Looking for a role? Submit your resume <Icon name="arrow" /></a>
+          <a href="/hire-talent/" class="btn btn-primary">{t(pg.hireButton)} <Icon name="arrow" /></a>
+          <a href="/submit-your-resume/" class="link-arrow">{pg.resumeLink} <Icon name="arrow" /></a>
         </div>
       </div>
       <div class="roles-box">
-        <h2 class="h3">Roles We Recruit For <span>{total} positions</span></h2>
+        <h2 class="h3">{pg.rolesHeading} <span>{total} {pg.positionsLabel}</span></h2>
         {industry.levels.map((l) => (
           <div class="lvl">
             <h3>{l.label}</h3>
             <ul>{l.roles.map((r) => <li><Icon name="check" />{r}</li>)}</ul>
           </div>
         ))}
-        <p class="more">And more — <a href="/hire-talent/">tell us about your role</a>.</p>
+        <p class="more">{pg.moreText} <a href="/hire-talent/">{pg.moreLinkText}</a>.</p>
       </div>
     </div>
   </section>
@@ -50,9 +52,9 @@ const title = industry.slug === 'executive-search' ? 'Executive Search' : `${ind
   <section class="section-sm bg-soft" id="roles">
     <div class="container">
       <div class="section-head">
-        <span class="eyebrow">Featured roles</span>
-        <h2 class="h2">In-demand {industry.title} positions</h2>
-        <p class="lead">Interested in one of these positions? Apply with your resume and we’ll match you with suitable openings.</p>
+        <span class="eyebrow">{pg.featuredEyebrow}</span>
+        <h2 class="h2">{t(pg.featuredHeading)}</h2>
+        <p class="lead">{pg.featuredLead}</p>
       </div>
       <div class="grid grid-3">
         {roles.map((c) => <JobCard card={c} industry={industry.title} />)}
@@ -62,14 +64,14 @@ const title = industry.slug === 'executive-search' ? 'Executive Search' : `${ind
 
   <section class="section-sm">
     <div class="container">
-      <h2 class="h3 rt">Other sectors we serve</h2>
+      <h2 class="h3 rt">{pg.otherSectorsHeading}</h2>
       <ul class="rel">
         {others.map((i) => <li><a href={industryHref(i.slug)}><Icon name={i.icon} />{i.title}</a></li>)}
       </ul>
     </div>
   </section>
 
-  <CtaBand title={`Hiring in ${industry.title}?`} text="Tell us about the role — we’ll research the market and bring you qualified, screened candidates." />
+  <CtaBand title={t(pg.sectorCtaTitle)} text={pg.sectorCtaText} />
 </Base>
 
 <style>

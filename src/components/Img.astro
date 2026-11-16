@@ -1,9 +1,9 @@
 ---
-import manifest from '../data/images.json';
+import { imageMeta } from '../lib/site-content';
 
 interface Props { src: string; alt?: string; eager?: boolean; class?: string; sizes?: string; [attr: string]: unknown }
 const { src, alt = '', eager = false, class: cls, sizes = '(max-width: 980px) 90vw, 50vw', ...rest } = Astro.props;
-const meta = (manifest as Record<string, { src: string; w: number; h: number; srcset?: string }>)[src];
+const meta = imageMeta(Astro.locals.site, src);
 ---
 <img {...rest}
   src={src}

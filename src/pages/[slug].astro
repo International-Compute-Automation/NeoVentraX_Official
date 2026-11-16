@@ -6,12 +6,11 @@ import InfoCard from '../components/InfoCard.astro';
 import Related from '../components/Related.astro';
 import CtaBand from '../components/CtaBand.astro';
 import Icon from '../components/Icon.astro';
-import { getPage, textOf, GENERAL_PAGES, type Page } from '../lib/content';
+import { getPage, textOf, GENERAL_PAGES } from '../lib/content';
 
-export function getStaticPaths() {
-  return GENERAL_PAGES.map(({ slug }) => ({ params: { slug }, props: { page: getPage(slug) } }));
-}
-const { page } = Astro.props as { page: Page };
+// rendered on each request (the menu and footer show the live sectors); only the general pages exist here
+if (!GENERAL_PAGES.some((g) => g.slug === Astro.params.slug)) return Astro.rewrite('/404/');
+const page = getPage(Astro.params.slug!);
 const isJobs = page.category === 'jobs';
 const roleCount = page.groups.reduce((n, g) => n + g.cards.length, 0);
 const eyebrow = isJobs ? `${roleCount} roles · Across USA` : page.categoryLabel;

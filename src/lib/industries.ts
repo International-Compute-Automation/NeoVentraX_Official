@@ -1,8 +1,9 @@
-import { industries, type Industry } from '../data/industries';
+import type { Industry } from '../data/industries';
 import { getPage, summarize, type Card } from './content';
 
 /** Resolve an industry's role list into cards (reusing role write-ups from the old site where available). */
 export function rolesOf(ind: Industry): Card[] {
+  if (ind.roleCards) return ind.roleCards;
   const cards: Card[] = [];
   for (const ref of ind.roles) {
     if ('title' in ref) {
@@ -24,4 +25,3 @@ export function rolesOf(ind: Industry): Card[] {
   return cards;
 }
 
-export { industries };

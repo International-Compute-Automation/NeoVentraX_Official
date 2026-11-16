@@ -14,9 +14,10 @@
     },
     {
       "name": "dist-preview",
-      "runtimeExecutable": "node",
+      "runtimeExecutable": "npm",
       "runtimeArgs": [
-        "server.cjs"
+        "run",
+        "start"
       ],
       "port": 3000
     }

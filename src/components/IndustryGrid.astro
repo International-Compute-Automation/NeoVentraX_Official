@@ -1,14 +1,14 @@
 ---
 import IndustryCard from './IndustryCard.astro';
 import Icon from './Icon.astro';
-import { industries } from '../data/industries';
+const { industries, industriesPage: pg } = Astro.locals.site;
 ---
 <ul class="ind-grid">
   {industries.map((i) => <li><IndustryCard industry={i} /></li>)}
   <li class="not-sure">
-    <span class="ns-label">Not sure?</span>
-    <p>Tell us about your role and we’ll match you with the right sector specialist.</p>
-    <a href="/hire-talent/" class="btn btn-teal">Start a Search <Icon name="arrow" /></a>
+    <span class="ns-label">{pg.notSureLabel}</span>
+    <p>{pg.notSureText}</p>
+    <a href="/hire-talent/" class="btn btn-teal">{pg.notSureButton} <Icon name="arrow" /></a>
   </li>
 </ul>
 
