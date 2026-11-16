@@ -1,23 +1,27 @@
 # NeoVentraX — Astro site
 
-A fast static rebuild of https://neoventrax.com (42 pages) with Astro.
+The https://neoventrax.com website, built with Astro and served by Astro's own Node server.
 
 ## Run it
 
 ```bash
 npm install
-npm run dev        # http://localhost:4321
-npm run build      # static site in ./dist
-npm run preview    # serve ./dist locally
+cp .env.example .env   # fill in what you need (see below)
+npm run dev            # http://localhost:4321
+npm run build          # production build in ./dist
+npm run start          # run the production build (reads .env), http://localhost:4321 or $PORT
 ```
-
-Deploy `dist/` to any static host (Netlify, Vercel, Cloudflare Pages, or plain hosting).
 
 ## Forms
 
-The Contact and Submit-Your-Resume forms need somewhere to send data. Copy `.env.example` to `.env`
-and set `PUBLIC_FORM_ENDPOINT` to a form backend URL (e.g. Formspree, Web3Forms, Basin, or your own API).
-Without it, forms fall back to opening the visitor's email client addressed to hr@neoventrax.com.
+The Contact, Submit-Your-Resume and Hire-Talent forms post to the site's own endpoint
+`/api/forms/` (`src/pages/api/forms.ts`). It checks the submission (required fields, email,
+resume: PDF/Word/RTF/TXT up to 5 MB, a hidden anti-spam field, max 5 per visitor per 10 minutes)
+and emails it to `FORM_MAIL_TO`, with the resume attached and Reply-To set to the visitor.
+
+Set `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS` (and optionally `FORM_MAIL_TO`, `FORM_MAIL_FROM`)
+in `.env`, or on the server in `~/neoventrax-dev/shared/.env` and `~/neoventrax-prod/shared/.env`.
+Without them the forms answer "temporarily unavailable" and nothing is sent.
 
 ## Structure
 
@@ -51,9 +55,9 @@ Follows the ICA Corp deployment runbook: GitHub Actions → Docker build → rsy
 | Dev | `dev` | 4000 | `neoventrax-dev` | `~/neoventrax-dev` |
 | Prod | `main` | 4001 | `neoventrax-prod` | `~/neoventrax-prod` |
 
-- `Dockerfile` builds the site; the `artifact` stage contains only `server.cjs` + `dist/`.
-- `server.cjs` is a zero-dependency static server (trailing-slash redirects, 404 page, cache headers).
+- `Dockerfile` builds the site; the `artifact` stage contains only `dist/` (Astro Node server with all dependencies bundled in).
+- PM2 runs `dist/server/entry.mjs` on Node 22; `deploy/pm2-shared.cjs` loads `~/<app>/shared/.env`.
 - `deploy/ecosystem.{dev,prod}.cjs` are the PM2 configs (copied into each release as `ecosystem.config.cjs`).
 - `.github/workflows/deploy-{dev,prod}.yml` run on push to `dev` / `main`.
-- Repo settings needed: secrets `SSH_PRIVATE_KEY`, `SSH_HOST`, `SSH_USER`; variables `DEPLOY_ENABLED=true`, `PUBLIC_FORM_ENDPOINT` (optional).
+- Repo settings needed: secrets `SSH_PRIVATE_KEY`, `SSH_HOST`, `SSH_USER`; variable `DEPLOY_ENABLED=true`. Server secrets (database, SMTP) go in `~/<app>/shared/.env`.
 - Rollback: `ln -sfn ~/neoventrax-prod/releases/<sha> ~/neoventrax-prod/current && pm2 reload neoventrax-prod`

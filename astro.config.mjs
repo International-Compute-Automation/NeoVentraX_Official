@@ -1,6 +1,8 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import node from '@astrojs/node';
+import { existsSync, readFileSync } from 'node:fs';
+import { parseEnv } from 'node:util';
 
 const ind = (slug) => `/industries/${slug}/`;
 const to = (target, slugs) => Object.fromEntries(slugs.map((s) => [`/${s}`, target]));
@@ -44,7 +46,8 @@ export default defineConfig({
       name: 'nvx-dev-env',
       apply: 'serve',
       config() {
-        try { process.loadEnvFile('.env'); } catch { /* no .env -> built-in content */ }
+        // re-read on every dev restart (Astro restarts when .env changes) and overwrite old values
+        if (existsSync('.env')) Object.assign(process.env, parseEnv(readFileSync('.env', 'utf8')));
       },
     }],
   },

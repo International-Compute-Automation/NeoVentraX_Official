@@ -26,7 +26,7 @@ jobs:
 
       - name: Build artifact stage in Docker
         run: |
-          docker build --target artifact --build-arg PUBLIC_FORM_ENDPOINT="${{ vars.PUBLIC_FORM_ENDPOINT }}" -t neoventrax-dev:${{ github.sha }} .
+          docker build --target artifact -t neoventrax-dev:${{ github.sha }} .
 
       - name: Extract artifact from Docker
         run: |

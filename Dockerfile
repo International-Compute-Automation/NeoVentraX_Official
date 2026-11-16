@@ -9,9 +9,6 @@ FROM node:24-bookworm-slim AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-# Form endpoint is baked in at build time (Astro PUBLIC_ variable)
-ARG PUBLIC_FORM_ENDPOINT=""
-ENV PUBLIC_FORM_ENDPOINT=$PUBLIC_FORM_ENDPOINT
 ENV ASTRO_TELEMETRY_DISABLED=1
 ENV NODE_ENV=production
 RUN npm run build
