@@ -1,10 +1,10 @@
 ---
-import { contact, formEndpoint } from '../data/nav';
+import { formEndpoint } from '../data/nav';
 import Icon from './Icon.astro';
-const action = formEndpoint ?? `mailto:${contact.email}`;
 ---
-<form class="form" method="post" action={action} enctype={formEndpoint ? 'multipart/form-data' : 'text/plain'} data-nvx-form>
+<form class="form" method="post" action={formEndpoint} enctype="multipart/form-data" data-nvx-form>
   <input type="hidden" name="form" value="CV Upload" />
+  <input type="text" name="nickname" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
   <div class="row">
     <div class="field"><label for="rf-first">First name</label><input id="rf-first" name="first_name" placeholder="Jane" autocomplete="given-name" /></div>
     <div class="field"><label for="rf-last">Last name</label><input id="rf-last" name="last_name" placeholder="Doe" autocomplete="family-name" /></div>

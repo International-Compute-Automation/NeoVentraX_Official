@@ -1,10 +1,9 @@
 ---
-import images from '../data/images.json';
+import { imageMeta } from '../lib/site-content';
 interface Props { title: string; eyebrow?: string; image?: string; lead?: string; crumbs?: { label: string; href?: string }[]; position?: string }
 // `eyebrow` is accepted for backwards compatibility but no longer shown (reference design has none)
 const { title, image, lead, crumbs = [], position = 'center' } = Astro.props;
-const manifest = images as Record<string, { w: number; h: number; srcset?: string }>;
-const meta = image ? manifest[image] : undefined;
+const meta = image ? imageMeta(Astro.locals.site, image) : undefined;
 ---
 <section class="phero">
   {image && (

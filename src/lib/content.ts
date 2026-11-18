@@ -17,7 +17,7 @@ export type Card = {
   avatar?: string;       // testimonial avatar
 };
 export type Group = { heading?: string; lead?: string; cards: Card[] };
-export type Category = 'about' | 'jobs' | 'employers' | 'employees' | 'services' | 'contact' | 'home';
+export type Category = 'about' | 'employers' | 'employees';
 export type Page = {
   slug: string;
   title: string;
@@ -27,8 +27,6 @@ export type Page = {
   heroImage?: string;
   intro: string;         // cleaned html
   groups: Group[];
-  hasForm?: 'contact' | 'resume';
-  map?: string;
 };
 
 const rawPages = import.meta.glob<Raw>('../data/pages/*.json', { eager: true, import: 'default' });
@@ -48,9 +46,7 @@ export const GENERAL_PAGES: { slug: string; category: Category; label: string }[
     .map((slug) => ({ slug, category: 'employees' as Category, label: 'Insights' })),
 ];
 
-export function categoryOf(slug: string): { category: Category; label: string } {
-  if (slug === 'home') return { category: 'home', label: 'Home' };
-  if (slug === 'contact-us') return { category: 'contact', label: 'Contact' };
+function categoryOf(slug: string): { category: Category; label: string } {
   if (slug === 'submit-your-resume') return { category: 'employees', label: 'Job Seekers' };
   const g = GENERAL_PAGES.find((p) => p.slug === slug);
   return g ? { category: g.category, label: g.label } : { category: 'about', label: 'NeoVentraX' };
@@ -133,13 +129,9 @@ function normalize(raw: Raw): Page {
   const pushGroup = (g: Group) => { page.groups.push(g); group = g; };
 
   for (const s of rest) {
-    for (const m of s.modules ?? []) if (m.type === 'map') page.map = m.src;
     for (const r of s.rows) {
-      const allMods = r.cols.flatMap((c: any) => c.mods);
-      const form = allMods.find((m: any) => m.type === 'form');
-      if (form) { page.hasForm = form.form; continue; }
-      const map = allMods.find((m: any) => m.type === 'map');
-      if (map) { page.map = map.src; continue; }
+      // the old site's embedded forms and maps are rebuilt in the page templates
+      if (r.cols.some((c: any) => c.mods.some((m: any) => m.type === 'form' || m.type === 'map'))) continue;
 
       if (r.cols.length === 1) {
         const mods = r.cols[0].mods;
@@ -172,7 +164,7 @@ function normalize(raw: Raw): Page {
   return page;
 }
 
-export const pages: Page[] = Object.values(rawPages).filter((r) => r.slug !== 'home').map(normalize);
+export const pages: Page[] = Object.values(rawPages).map(normalize);
 export const getPage = (slug: string) => pages.find((p) => p.slug === slug)!;
 export const pagesIn = (category: Category) =>
   GENERAL_PAGES.filter((g) => g.category === category).map((g) => getPage(g.slug)).filter(Boolean);

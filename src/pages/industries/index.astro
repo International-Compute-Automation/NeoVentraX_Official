@@ -3,17 +3,18 @@ import Base from '../../layouts/Base.astro';
 import PageHero from '../../components/PageHero.astro';
 import IndustryGrid from '../../components/IndustryGrid.astro';
 import CtaBand from '../../components/CtaBand.astro';
+const pg = Astro.locals.site.industriesPage;
 ---
-<Base title="Industries" description="Specialized Non-IT recruitment across seven sectors: engineering, legal & compliance, taxation & finance, manufacturing, supply chain, human resources and executive search." heroImage="/uploads/2025-09-Manufacturing-min-scaled.webp">
+<Base title={pg.seoTitle} description={pg.seoDescription} heroImage={pg.heroImage}>
   <PageHero
-    title="Industries We Serve"
-    image="/uploads/2025-09-Manufacturing-min-scaled.webp"
-    lead="Talent solutions across key Non-IT sectors in the United States."
+    title={pg.heroTitle}
+    image={pg.heroImage}
+    lead={pg.heroLead}
   />
   <section class="section-sm bg-soft">
     <div class="container">
       <IndustryGrid />
     </div>
   </section>
-  <CtaBand />
+  <CtaBand title={pg.listingCtaTitle} text={pg.listingCtaText} />
 </Base>

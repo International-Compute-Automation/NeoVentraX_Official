@@ -3,9 +3,8 @@ import Base from '../layouts/Base.astro';
 import PageHero from '../components/PageHero.astro';
 import Icon from '../components/Icon.astro';
 import { contact, formEndpoint, services } from '../data/nav';
-import { industries } from '../data/industries';
+const { industries } = Astro.locals.site;
 
-const action = formEndpoint ?? `mailto:${contact.email}`;
 const benefits = [
   { icon: 'users', title: 'Targeted Talent Sourcing', text: 'Access qualified and relevant candidates for your roles.' },
   { icon: 'shield', title: 'Role-Focused Screening', text: 'Evaluate candidates against your specific requirements.' },
@@ -35,8 +34,9 @@ const benefits = [
         </li>
       </ul>
 
-      <form class="form hire-form card" method="post" action={action} enctype={formEndpoint ? 'multipart/form-data' : 'text/plain'} data-nvx-form>
+      <form class="form hire-form card" method="post" action={formEndpoint} enctype="multipart/form-data" data-nvx-form>
         <input type="hidden" name="form" value="Hiring Request" />
+        <input type="text" name="nickname" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
         <div class="row">
           <div class="field"><label for="ht-name">Full Name *</label><input id="ht-name" name="full_name" required autocomplete="name" /></div>
           <div class="field"><label for="ht-email">Business Email *</label><input id="ht-email" type="email" name="email" required autocomplete="email" /></div>

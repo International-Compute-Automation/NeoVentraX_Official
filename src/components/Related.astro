@@ -4,8 +4,8 @@ import { pagesIn } from '../lib/content';
 import Icon from './Icon.astro';
 interface Props { page: Page }
 const { page } = Astro.props;
-const others = page.category === 'contact' || page.category === 'home' ? [] : pagesIn(page.category).filter((p) => p.slug !== page.slug);
-const title = page.category === 'jobs' ? 'Explore other industries' : `More from ${page.categoryLabel}`;
+const others = pagesIn(page.category).filter((p) => p.slug !== page.slug);
+const title = `More from ${page.categoryLabel}`;
 ---
 {others.length > 0 && (
   <section class="section-sm bg-soft">

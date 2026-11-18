@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   build:
-    name: Build static artifact
+    name: Build site artifact
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout repository
@@ -28,7 +28,7 @@ jobs:
 
       - name: Build artifact stage in Docker
         run: |
-          docker build --target artifact --build-arg PUBLIC_FORM_ENDPOINT="${{ vars.PUBLIC_FORM_ENDPOINT }}" -t neoventrax-prod:${{ github.sha }} .
+          docker build --target artifact -t neoventrax-prod:${{ github.sha }} .
 
       - name: Extract artifact from Docker
         run: |
@@ -37,7 +37,8 @@ jobs:
           docker cp artifact-container:/. ./artifact/
           docker rm artifact-container
           cp deploy/ecosystem.prod.cjs ./artifact/ecosystem.config.cjs
-          test -f ./artifact/server.cjs && test -f ./artifact/dist/index.html
+          cp deploy/pm2-shared.cjs ./artifact/pm2-shared.cjs
+          test -f ./artifact/dist/server/entry.mjs && test -d ./artifact/dist/client
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
@@ -94,8 +95,11 @@ jobs:
             set -e
             ln -sfn ${RELEASE_DIR} ${CURRENT_LINK}
             cd ${CURRENT_LINK}
-            if pm2 describe ${APP_NAME} > /dev/null 2>&1; then
+            # pm2 reload keeps the old start file, so re-create the app once if it still runs something else
+            if pm2 describe ${APP_NAME} 2>/dev/null | grep -q \"script path.*dist/server/entry.mjs\"; then
               pm2 reload ecosystem.config.cjs --update-env
+            elif pm2 describe ${APP_NAME} > /dev/null 2>&1; then
+              pm2 delete ${APP_NAME} && pm2 start ecosystem.config.cjs
             else
               pm2 start ecosystem.config.cjs
             fi
