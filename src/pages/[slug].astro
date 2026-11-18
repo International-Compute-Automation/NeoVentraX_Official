@@ -1,36 +1,24 @@
 ---
 import Base from '../layouts/Base.astro';
 import PageHero from '../components/PageHero.astro';
-import JobCard from '../components/JobCard.astro';
 import InfoCard from '../components/InfoCard.astro';
 import Related from '../components/Related.astro';
 import CtaBand from '../components/CtaBand.astro';
-import Icon from '../components/Icon.astro';
 import { getPage, textOf, GENERAL_PAGES } from '../lib/content';
 
 // rendered on each request (the menu and footer show the live sectors); only the general pages exist here
 if (!GENERAL_PAGES.some((g) => g.slug === Astro.params.slug)) return Astro.rewrite('/404/');
 const page = getPage(Astro.params.slug!);
-const isJobs = page.category === 'jobs';
-const roleCount = page.groups.reduce((n, g) => n + g.cards.length, 0);
-const eyebrow = isJobs ? `${roleCount} roles · Across USA` : page.categoryLabel;
 const description = page.description || textOf(page.intro).slice(0, 155) || undefined;
-const cols = (n: number) => (n === 1 ? 'grid-1' : n % 3 === 0 && !isJobs ? 'grid-3' : isJobs ? 'grid-3' : 'grid-2');
+const cols = (n: number) => (n === 1 ? 'grid-1' : n % 3 === 0 ? 'grid-3' : 'grid-2');
 ---
 <Base title={page.title} description={description} heroImage={page.heroImage}>
-  <PageHero title={page.title} eyebrow={eyebrow} image={page.heroImage} crumbs={[{ label: page.categoryLabel, href: page.categoryLabel === 'Insights' ? '/insights/' : undefined }]}>
-    {isJobs && (
-      <div class="hero-actions">
-        <a href="#roles" class="btn btn-primary">View roles <Icon name="arrow" /></a>
-        <a href="/submit-your-resume/" class="btn btn-ghost">Submit your resume</a>
-      </div>
-    )}
-  </PageHero>
+  <PageHero title={page.title} eyebrow={page.categoryLabel} image={page.heroImage} crumbs={[{ label: page.categoryLabel, href: page.categoryLabel === 'Insights' ? '/insights/' : undefined }]} />
 
   {page.intro && (
     <section class="section-sm intro-sec">
       <div class="container intro">
-        <span class="eyebrow">{isJobs ? 'About the industry' : 'Overview'}</span>
+        <span class="eyebrow">Overview</span>
         <div class="intro-body">
           <div class="prose lead-prose" data-clamp set:html={page.intro} />
           <button type="button" class="more-btn" hidden aria-expanded="false">Read more</button>
@@ -40,19 +28,17 @@ const cols = (n: number) => (n === 1 ? 'grid-1' : n % 3 === 0 && !isJobs ? 'grid
   )}
 
   {page.groups.map((g, gi) => (
-    <section class:list={['section-sm', { 'bg-soft': isJobs || gi % 2 === 1 }]} id={gi === 0 ? 'roles' : undefined}>
+    <section class:list={['section-sm', { 'bg-soft': gi % 2 === 1 }]}>
       <div class="container">
-        {(g.heading || g.lead || (isJobs && gi === 0)) && (
+        {(g.heading || g.lead) && (
           <div class="section-head">
-            {isJobs && gi === 0 && !g.heading && <span class="eyebrow">Open role types</span>}
             {g.heading && <h2 class="h2">{g.heading}</h2>}
-            {isJobs && gi === 0 && !g.heading && <h2 class="h2">Roles we recruit for in {page.title}</h2>}
             {g.lead && <div class="prose lead-prose" set:html={g.lead} />}
           </div>
         )}
         {g.cards.length > 0 && (
           <div class:list={['grid', cols(g.cards.length)]}>
-            {g.cards.map((c, i) => isJobs ? <JobCard card={c} industry={page.title} /> : <InfoCard card={c} index={i} wide={g.cards.length === 1} />)}
+            {g.cards.map((c, i) => <InfoCard card={c} index={i} wide={g.cards.length === 1} />)}
           </div>
         )}
       </div>
@@ -60,10 +46,7 @@ const cols = (n: number) => (n === 1 ? 'grid-1' : n % 3 === 0 && !isJobs ? 'grid
   ))}
 
   <Related page={page} />
-  <CtaBand
-    title={isJobs ? `Looking for a role in ${page.title}?` : undefined}
-    text={isJobs ? 'Send us your resume and we’ll match you with opportunities that fit your skills and goals.' : undefined}
-  />
+  <CtaBand />
 </Base>
 
 <script>
@@ -89,7 +72,6 @@ const cols = (n: number) => (n === 1 ? 'grid-1' : n % 3 === 0 && !isJobs ? 'grid
 </script>
 
 <style>
-  .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 10px; }
   .intro-sec { padding-bottom: 0; }
   .intro { display: grid; grid-template-columns: 220px 1fr; gap: 32px; padding-bottom: clamp(48px, 6vw, 80px); }
   .lead-prose { font-size: clamp(17px, 1.4vw, 19px); line-height: 1.75; max-width: 860px; }

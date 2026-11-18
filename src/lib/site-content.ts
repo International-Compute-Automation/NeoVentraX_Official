@@ -45,7 +45,12 @@ let checking: Promise<SiteContent> | undefined;
 function db() {
   const url = process.env.SITE_DATABASE_URL;
   if (!url) return undefined;
-  pool ??= new pg.Pool({ connectionString: url, max: 4, idleTimeoutMillis: 30_000, connectionTimeoutMillis: 3_000 });
+  if (!pool) {
+    pool = new pg.Pool({ connectionString: url, max: 4, idleTimeoutMillis: 30_000, connectionTimeoutMillis: 3_000 });
+    // When the database stops it closes our idle connections. Without this handler Node treats that
+    // as an unhandled error and the whole website exits; with it we keep serving the last content.
+    pool.on('error', (err) => console.error(`[site-content] database connection lost: ${err.message}`));
+  }
   return pool;
 }
 
