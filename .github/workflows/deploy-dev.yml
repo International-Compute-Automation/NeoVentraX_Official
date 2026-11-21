@@ -17,6 +17,7 @@ jobs:
   build:
     name: Build site artifact
     runs-on: ubuntu-24.04
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -31,12 +32,21 @@ jobs:
       - name: Extract artifact from Docker
         run: |
           mkdir -p ./artifact
-          docker create --name artifact-container neoventrax-dev:${{ github.sha }} /artifact-placeholder
+
+          docker create \
+            --name artifact-container \
+            neoventrax-dev:${{ github.sha }} \
+            /artifact-placeholder
+
           docker cp artifact-container:/. ./artifact/
+
           docker rm artifact-container
+
           cp deploy/ecosystem.dev.cjs ./artifact/ecosystem.config.cjs
           cp deploy/pm2-shared.cjs ./artifact/pm2-shared.cjs
-          test -f ./artifact/dist/server/entry.mjs && test -d ./artifact/dist/client
+
+          test -f ./artifact/dist/server/entry.mjs
+          test -d ./artifact/dist/client
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
@@ -47,10 +57,11 @@ jobs:
           if-no-files-found: error
 
   deploy:
-    name: Deploy to Dev server
+    name: Deploy to Neo Dev server
     needs: build
     if: vars.DEPLOY_ENABLED == 'true'
     runs-on: ubuntu-24.04
+
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v4
@@ -58,44 +69,63 @@ jobs:
           name: release-artifact-dev
           path: ./artifact
 
-      - name: Configure SSH and Cloudflare Access
+      - name: Configure SSH and Cloudflare
+        env:
+          SSH_KEY: ${{ secrets.NEO_SSH_PRIVATE_KEY }}
         run: |
-          curl -fsSL https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb -o cloudflared.deb
+          set -euo pipefail
+
+          curl -fsSL \
+            https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb \
+            -o cloudflared.deb
+
           sudo dpkg -i cloudflared.deb
+
           mkdir -p ~/.ssh
           chmod 700 ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
-          cat << 'CFG' > ~/.ssh/config
+
+          cat > ~/.ssh/config <<'EOF'
           Host *
             ProxyCommand cloudflared access ssh --hostname %h
             IdentityFile ~/.ssh/id_ed25519
+            IdentitiesOnly yes
             StrictHostKeyChecking accept-new
-          CFG
+          EOF
+
           chmod 600 ~/.ssh/config
 
-      - name: Deploy release over SSH and reload PM2
+      - name: Deploy Dev website
+        env:
+          SSH_USER: ${{ secrets.NEO_SSH_USER }}
+          SSH_HOST: ${{ secrets.NEO_SSH_HOST }}
         run: |
-          APP_NAME="neoventrax-dev"
-          TARGET_DIR="/home/${{ secrets.SSH_USER }}/neoventrax-dev"
-          RELEASE_DIR="${TARGET_DIR}/releases/${{ github.sha }}"
-          CURRENT_LINK="${TARGET_DIR}/current"
-          REMOTE="${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}"
+          set -euo pipefail
 
-          ssh "$REMOTE" "mkdir -p ${RELEASE_DIR}"
-          rsync -avz --delete ./artifact/ "$REMOTE:${RELEASE_DIR}/"
+          REMOTE="${SSH_USER}@${SSH_HOST}"
+
+          BASE="/opt/neoventrax/web-deploy/dev"
+          RELEASE="${BASE}/releases/${GITHUB_SHA}"
+
+          echo "Deploying Dev website to neo..."
+
+          ssh "$REMOTE" "mkdir -p '$RELEASE'"
+
+          rsync -az --delete \
+            ./artifact/ \
+            "$REMOTE:$RELEASE/"
+
           ssh "$REMOTE" "
             set -e
-            ln -sfn ${RELEASE_DIR} ${CURRENT_LINK}
-            cd ${CURRENT_LINK}
-            # pm2 reload keeps the old start file, so re-create the app once if it still runs something else
-            if pm2 describe ${APP_NAME} 2>/dev/null | grep -q \"script path.*dist/server/entry.mjs\"; then
-              pm2 reload ecosystem.config.cjs --update-env
-            elif pm2 describe ${APP_NAME} > /dev/null 2>&1; then
-              pm2 delete ${APP_NAME} && pm2 start ecosystem.config.cjs
-            else
-              pm2 start ecosystem.config.cjs
-            fi
-            pm2 save
-            cd ${TARGET_DIR}/releases && ls -1dt */ | tail -n +6 | xargs -r rm -rf
+
+            test -f '$RELEASE/dist/server/entry.mjs'
+            test -d '$RELEASE/dist/client'
+
+            ln -sfnT '$RELEASE' '$BASE/current'
+
+            sudo -n /usr/local/sbin/nvx-web-activate dev
           "
+
+          echo "Dev deployment completed successfully."
